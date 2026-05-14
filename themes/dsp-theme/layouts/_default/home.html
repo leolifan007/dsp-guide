@@ -1,85 +1,83 @@
 {{ define "main" }}
 <div class="home-page">
   <section class="hero-section">
-    <div class="hero-bg" style="background-image:url('/images/hero-bg.jpg');"></div>
+    <div class="hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}');"></div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
       <div class="hero-badge">Dyson Sphere Program</div>
-      <h1>DSP Guide <span class="hero-tagline">â€” No Fluff, Just Fixes</span></h1>
+      <h1>DSP Guide <span class="hero-tagline">¡ª No Fluff, Just Fixes</span></h1>
       <p class="hero-sub">Real answers to the problems that actually stop your factory.<br>Written by players, for players.</p>
       <div class="hero-cta">
-        <a href="/ils-setup-guide/" class="btn-primary">Start with ILS Setup â†’</a>
-        <a href="/power-fix-guide/" class="btn-secondary">Power Troubleshooting</a>
+        <a href="{{ `ils-setup-guide/` | relURL }}" class="btn-primary">Start with ILS Setup ¡ú</a>
+        <a href="{{ `power-fix-guide/` | relURL }}" class="btn-secondary">Power Troubleshooting</a>
       </div>
     </div>
   </section>
 
   <div class="home-content">
     <section class="featured-guides">
-      <h2 class="section-title"><span class="title-accent">ğŸ“–</span> Latest Guides</h2>
+      <h2 class="section-title"><span class="title-accent">??</span> Latest Guides</h2>
       <div class="guide-grid">
-        {{ range .Pages }}
-        {{ if ne .RelPermalink "/" }}
+        {{ range where .Pages "RelPermalink" "ne" "/" }}
         <a href="{{ .RelPermalink }}" class="guide-card">
           <div class="card-icon">
-            {{ if strings.Contains .RelPermalink "ils" }}ğŸ—ï¸
-            {{ else if strings.Contains .RelPermalink "power" }}âš¡
-            {{ else if strings.Contains .RelPermalink "titanium" }}ğŸª¨
-            {{ else if strings.Contains .RelPermalink "green" }}ğŸ§ª
-            {{ else }}ğŸ“š{{ end }}
+            {{ if strings.Contains .RelPermalink "ils" }}???
+            {{ else if strings.Contains .RelPermalink "power" }}?
+            {{ else if strings.Contains .RelPermalink "titanium" }}??
+            {{ else if strings.Contains .RelPermalink "green" }}??
+            {{ else }}??{{ end }}
           </div>
           <div class="card-body">
             <h3>{{ .Title }}</h3>
             {{ with .Description }}<p>{{ . }}</p>{{ end }}
-            <span class="card-read">Read Guide â†’</span>
+            <span class="card-read">Read Guide ¡ú</span>
             <span class="card-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
           </div>
         </a>
-        {{ end }}
         {{ end }}
       </div>
     </section>
 
     <section class="topic-clusters">
-      <h2 class="section-title"><span class="title-accent">ğŸ¯</span> By Topic</h2>
+      <h2 class="section-title"><span class="title-accent">??</span> By Topic</h2>
       <div class="topic-grid">
-        <a href="/ils-setup-guide/" class="topic-card">
-          <div class="topic-icon-box">ğŸš€</div>
+        <a href="{{ `ils-setup-guide/` | relURL }}" class="topic-card">
+          <div class="topic-icon-box">??</div>
           <div class="topic-body">
             <h3>Interstellar Logistics</h3>
             <p>ILS setup, Supply/Demand, Warpers, vessel routing</p>
-            <span class="topic-count">2 guides â†’</span>
+            <span class="topic-count">2 guides ¡ú</span>
           </div>
         </a>
-        <a href="/power-fix-guide/" class="topic-card">
-          <div class="topic-icon-box">âš¡</div>
+        <a href="{{ `power-fix-guide/` | relURL }}" class="topic-card">
+          <div class="topic-icon-box">?</div>
           <div class="topic-body">
             <h3>Power & Energy</h3>
             <p>Grid management, cascade recovery, solar belts, fusion</p>
-            <span class="topic-count">1 guide â†’</span>
+            <span class="topic-count">1 guide ¡ú</span>
           </div>
         </a>
-        <a href="/titanium-transport-guide/" class="topic-card">
-          <div class="topic-icon-box">ğŸª¨</div>
+        <a href="{{ `titanium-transport-guide/` | relURL }}" class="topic-card">
+          <div class="topic-icon-box">??</div>
           <div class="topic-body">
             <h3>Resources & Mining</h3>
             <p>Titanium, Silicon, cross-planet transport, automation</p>
-            <span class="topic-count">1 guide â†’</span>
+            <span class="topic-count">1 guide ¡ú</span>
           </div>
         </a>
-        <a href="/green-science-warper-guide/" class="topic-card">
-          <div class="topic-icon-box">ğŸ§ª</div>
+        <a href="{{ `green-science-warper-guide/` | relURL }}" class="topic-card">
+          <div class="topic-icon-box">??</div>
           <div class="topic-body">
             <h3>Science & Production</h3>
             <p>Green Science, Warpers, production ratios, tech tree</p>
-            <span class="topic-count">1 guide â†’</span>
+            <span class="topic-count">1 guide ¡ú</span>
           </div>
         </a>
       </div>
     </section>
 
     <section class="newsletter-cta">
-      <p><strong>New guides dropping weekly.</strong> Bookmark the page â€” no email list, no spam, just DSP.</p>
+      <p><strong>New guides dropping weekly.</strong> Bookmark the page ¡ª no email list, no spam, just DSP.</p>
     </section>
   </div>
 </div>

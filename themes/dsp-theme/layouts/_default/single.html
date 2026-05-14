@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="single-page">
   <div class="article-hero-full">
-    <div class="article-hero-bg" style="background-image:url('/images/hero-bg.jpg')"></div>
+    <div class="article-hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}')"></div>
     <div class="article-hero-fade"></div>
     <div class="article-hero-text">
       <h1>{{ .Title }}</h1>
@@ -14,10 +14,8 @@
   <div class="article-layout">
     <aside class="floating-toc" id="floatingToc"></aside>
     <main class="article-body">
-      {{ .Content }}
+      {{ .Content | replaceRE `src="/images/` `src="/dsp-guide/images/` }}
     </main>
   </div>
-
-  
 </div>
 {{ end }}
