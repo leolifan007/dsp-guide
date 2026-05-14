@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Dark rounded square background -->
+  <rect x="0" y="0" width="100" height="100" rx="12" fill="#2a2f3d"/>
+  <!-- Outer hexagonal outline (game style) -->
+  <polygon points="50,12 76,31 76,69 50,88 24,69 24,31" fill="#1e3a1e" stroke="#3aaa3a" stroke-width="2"/>
+  <!-- Inner hexagon -->
+  <polygon points="50,22 66,35 66,65 50,78 34,65 34,35" fill="#2a5a2a"/>
+  <!-- Core green matrix cube -->
+  <polygon points="50,32 62,42 62,58 50,68 38,58 38,42" fill="#3aaa3a"/>
+  <!-- Inner glow layer -->
+  <polygon points="50,38 58,44 58,56 50,62 42,56 42,44" fill="#5acc5a"/>
+  <!-- Center brightest core - the bright green data element -->
+  <rect x="45" y="46" width="10" height="8" rx="2" fill="#80e880" opacity="0.9"/>
+  <!-- Scanning line effect -->
+  <line x1="34" y1="50" x2="66" y2="50" stroke="#60d860" stroke-width="1" opacity="0.4"/>
+  <!-- Data dots around inner hex -->
+  <circle cx="36" cy="42" r="2" fill="#5acc5a" opacity="0.6"/>
+  <circle cx="64" cy="58" r="2" fill="#5acc5a" opacity="0.6"/>
+  <circle cx="38" cy="58" r="1.5" fill="#5acc5a" opacity="0.4"/>
+  <circle cx="62" cy="42" r="1.5" fill="#5acc5a" opacity="0.4"/>
+</svg>

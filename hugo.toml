@@ -1,0 +1,19 @@
+baseURL = 'http://localhost:1313/'
+theme = 'dsp-theme'
+title = 'Dyson Sphere Program Guide'
+publishDir = 'public'
+enableRobotsTXT = true
+buildFuture = true
+buildDrafts = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = 'Dyson Sphere Program guide: beginner tips, factory automation, logistics, power systems, and pro strategies.'
+  keywords = 'Dyson Sphere Program guide, DSP guide, DSP tips, factory automation game, space factory guide'
+  steam_url = 'https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/'
+  google_adsense_id = 'ca-pub-7551387157478980'
+  google_analytics_id = ''

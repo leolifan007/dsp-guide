@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1a2e"/>
+      <stop offset="100%" stop-color="#0a0f1a"/>
+    </linearGradient>
+    <filter id="glowBlue">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glowRed">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="400" rx="10" fill="url(#bgGrad2)" stroke="#1a2a4a" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="300" y="28" text-anchor="middle" fill="#60a5fa" font-size="14" font-weight="700" font-family="sans-serif">ILS Warper Slot Setup</text>
+  <text x="300" y="46" text-anchor="middle" fill="#6b7c93" font-size="11" font-family="sans-serif">No warpers = Vessels sit still. Here's what to do.</text>
+
+  <!-- === ILS Panel Render === -->
+  <rect x="50" y="60" width="300" height="310" rx="8" fill="#0d1624" stroke="#1a2a4a" stroke-width="1.5"/>
+  <rect x="50" y="60" width="300" height="32" rx="8" fill="#162040"/>
+  <rect x="50" y="80" width="300" height="12" fill="#162040"/>
+  <text x="200" y="81" text-anchor="middle" fill="#60a5fa" font-size="12" font-weight="700" font-family="sans-serif">Interstellar Logistics Station</text>
+
+  <!-- Slot 1 (Supply) -->
+  <rect x="66" y="102" width="268" height="44" rx="5" fill="#0a1628" stroke="#1a3a2a" stroke-width="1"/>
+  <text x="76" y="120" fill="#8b95ad" font-size="9" font-family="sans-serif">Slot 1</text>
+  <rect x="130" y="108" width="70" height="18" rx="3" fill="#166534"/>
+  <text x="165" y="121" text-anchor="middle" fill="#fff" font-size="9" font-weight="600" font-family="sans-serif">Supply</text>
+  <text x="210" y="121" fill="#4ade80" font-size="10" font-family="sans-serif">Iron Ingot</text>
+  <text x="320" y="121" fill="#8b95ad" font-size="10" text-anchor="end" font-family="sans-serif">3,620</text>
+
+  <!-- Slot 2 (Supply) -->
+  <rect x="66" y="152" width="268" height="44" rx="5" fill="#0a1628" stroke="#1a3a2a" stroke-width="1"/>
+  <text x="76" y="170" fill="#8b95ad" font-size="9" font-family="sans-serif">Slot 2</text>
+  <rect x="130" y="158" width="70" height="18" rx="3" fill="#166534"/>
+  <text x="165" y="171" text-anchor="middle" fill="#fff" font-size="9" font-weight="600" font-family="sans-serif">Supply</text>
+  <text x="210" y="171" fill="#4ade80" font-size="10" font-family="sans-serif">Copper Ingot</text>
+  <text x="320" y="171" fill="#8b95ad" font-size="10" text-anchor="end" font-family="sans-serif">2,180</text>
+
+  <!-- Slot 3 (Demand) -->
+  <rect x="66" y="202" width="268" height="44" rx="5" fill="#0a1628" stroke="#3a1a2a" stroke-width="1"/>
+  <text x="76" y="220" fill="#8b95ad" font-size="9" font-family="sans-serif">Slot 3</text>
+  <rect x="130" y="208" width="74" height="18" rx="3" fill="#7f1d1d"/>
+  <text x="167" y="221" text-anchor="middle" fill="#fff" font-size="9" font-weight="600" font-family="sans-serif">Demand</text>
+  <text x="214" y="221" fill="#f87171" font-size="10" font-family="sans-serif">Processors</text>
+  <text x="320" y="221" fill="#8b95ad" font-size="10" text-anchor="end" font-family="sans-serif">0</text>
+
+  <!-- ⚠️ Slot 4 (HIDDEN GEM - WARPER SLOT) -->
+  <rect x="66" y="252" width="268" height="44" rx="5" fill="rgba(251,191,36,0.06)" stroke="#fbbf24" stroke-width="2"/>
+  <rect x="66" y="252" width="268" height="44" rx="5" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,3" filter="url(#glowBlue)"/>
+
+  <text x="76" y="270" fill="#fbbf24" font-size="9" font-weight="700" font-family="sans-serif">Slot 4 ← ⭐ THE ONE</text>
+  <rect x="200" y="258" width="56" height="18" rx="3" fill="#92400e"/>
+  <text x="228" y="271" text-anchor="middle" fill="#fbbf24" font-size="9" font-weight="700" font-family="sans-serif">Supply</text>
+  <text x="264" y="271" fill="#fbbf24" font-size="10" font-weight="700" font-family="sans-serif">Space Warper</text>
+  <text x="320" y="271" fill="#fbbf24" font-size="10" text-anchor="end" font-weight="700" font-family="sans-serif">50</text>
+  <text x="76" y="288" fill="#8b95ad" font-size="8" font-family="sans-serif">Vessels burn 1 warper per trip. Empty warper slot = no flights.</text>
+
+  <!-- Vessel Status -->
+  <rect x="66" y="306" width="268" height="28" rx="5" fill="#0a1220" stroke="#1a2a3a" stroke-width="0.5"/>
+  <text x="76" y="324" fill="#8b95ad" font-size="10" font-family="sans-serif">Vessels: 2/10 en route</text>
+  <text x="320" y="324" fill="#4ade80" font-size="10" text-anchor="end" font-weight="600" font-family="sans-serif">✅ Active</text>
+
+  <!-- === Right Side: Explanation === -->
+  <rect x="370" y="60" width="210" height="310" rx="8" fill="#0d1624" stroke="#1a2a4a" stroke-width="1"/>
+
+  <text x="475" y="82" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="700" font-family="sans-serif">⚠️ The Catch</text>
+
+  <text x="382" y="108" fill="#8b95ad" font-size="10" font-family="sans-serif">DSP doesn't tell you this:</text>
+
+  <rect x="382" y="120" width="186" height="36" rx="4" fill="rgba(251,191,36,0.06)" stroke="#92400e" stroke-width="0.5"/>
+  <text x="392" y="138" fill="#fbbf24" font-size="10" font-weight="600" font-family="sans-serif">Every interstellar flight</text>
+  <text x="392" y="152" fill="#fbbf24" font-size="10" font-weight="600" font-family="sans-serif">burns 1 Space Warper.</text>
+
+  <text x="382" y="180" fill="#8b95ad" font-size="10" font-family="sans-serif">The warper slot is NOT marked</text>
+  <text x="382" y="196" fill="#8b95ad" font-size="10" font-family="sans-serif">as special. It's just Slot 4.</text>
+  <text x="382" y="212" fill="#8b95ad" font-size="10" font-family="sans-serif">Leave it empty = vessels stare.</text>
+
+  <rect x="382" y="230" width="186" height="36" rx="4" fill="rgba(34,197,94,0.06)" stroke="#166534" stroke-width="0.5"/>
+  <text x="392" y="248" fill="#4ade80" font-size="10" font-weight="600" font-family="sans-serif">1 warper = 200 items shipped</text>
+  <text x="392" y="262" fill="#8b95ad" font-size="9" font-family="sans-serif">One stack (50) lasts ages.</text>
+
+  <!-- 3-step fix -->
+  <text x="382" y="295" fill="#60a5fa" font-size="11" font-weight="700" font-family="sans-serif">3-Step Fix</text>
+
+  <text x="382" y="316" fill="#8b95ad" font-size="10" font-family="sans-serif">① Craft Space Warpers</text>
+  <text x="382" y="334" fill="#8b95ad" font-size="10" font-family="sans-serif">② Put in ILS Slot 4 → Supply</text>
+  <text x="382" y="352" fill="#8b95ad" font-size="10" font-family="sans-serif">③ Keep 50+ stocked</text>
+
+  <!-- Bottom tip -->
+  <rect x="50" y="377" width="500" height="18" rx="4" fill="rgba(96,165,250,0.06)" stroke="#60a5fa" stroke-width="0.5"/>
+  <text x="300" y="390" text-anchor="middle" fill="#60a5fa" font-size="9" font-weight="600" font-family="sans-serif">🔄 Pro tip: On your starter planet, set an ILS to supply warpers to every new outpost ILS automatically.</text>
+</svg>
