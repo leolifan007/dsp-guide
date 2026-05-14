@@ -1,6 +1,5 @@
 {{ define "main" }}
 <div class="home-page">
-  <!-- Full-bleed Hero -->
   <section class="hero-section">
     <div class="hero-bg" style="background-image:url('/images/hero-bg.jpg');"></div>
     <div class="hero-overlay"></div>
@@ -27,7 +26,7 @@
             {{ else if strings.Contains .RelPermalink "power" }}⚡
             {{ else if strings.Contains .RelPermalink "titanium" }}🪨
             {{ else if strings.Contains .RelPermalink "green" }}🧪
-            {{ else }}📄{{ end }}
+            {{ else }}📚{{ end }}
           </div>
           <div class="card-body">
             <h3>{{ .Title }}</h3>
