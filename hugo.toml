@@ -10,6 +10,16 @@ buildDrafts = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+    [markup.goldmark.extensions]
+      typographer = false
+      linkify = false
+      footnote = false
+      table = false
+      strikethrough = false
+      taskList = false
+      definitionList = false
 
 [params]
   description = 'Dyson Sphere Program guide: beginner tips, factory automation, logistics, power systems, and pro strategies.'
@@ -17,4 +27,3 @@ buildDrafts = false
   steam_url = 'https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/'
   google_adsense_id = 'ca-pub-7551387157478980'
   google_analytics_id = ''
-
