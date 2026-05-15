@@ -230,7 +230,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 /* ===== BOX-WRAP (Checklist) ===== */
 .box-wrap {
   border: 1px solid var(--border-dim);
-  border-radius: 8px; padding: 16px;
+  border-radius: 8px; padding: 14px;
   margin: 16px 0; background: var(--bg-card);
 }
 .box-title {
@@ -285,7 +285,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 /* ===== GAME-CARD (Production Line cards in box-grid) ===== */
 .box-grid {
   display: grid; grid-template-columns: 1fr 1fr 1fr;
-  gap: 12px; margin: 12px 0;
+  gap: 8px; margin: 10px 0;
 }
 .box-sub {
   font-size: .65rem; color: var(--text-dim);
@@ -293,17 +293,16 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 }
 .game-card {
   border: 1px solid var(--border-dim);
-  border-radius: 6px; padding: 12px;
+  border-radius: 6px; padding: 10px;
   background: rgba(8,12,20,.4);
 }
 .game-card-title {
-  font-size: .65rem; font-weight: 700;
-  color: var(--text-secondary); margin-bottom: 8px;
-  text-transform: uppercase; letter-spacing: .5px;
-  font-family: 'Rajdhani', sans-serif;
+  font-size: .78rem; font-weight: 700;
+  color: #8a9bb5; margin-bottom: 6px;
+  text-transform: uppercase; letter-spacing: .3px;
 }
 .game-card-stat {
-  font-size: .55rem; color: var(--text-dim);
+  font-size: .65rem; color: #5a6a8a; line-height: 1.4;
   margin-top: 6px; text-align: center;
   font-family: 'JetBrains Mono', monospace;
 }
@@ -315,82 +314,4 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 }
 @media (max-width: 700px) {
   .box-grid { grid-template-columns: 1fr; }
-}
-
-
-/* ===== FORCE OVERRIDES: Ensure latest fixes win over older definitions ===== */
-
-/* H2: always visible amber-left-border + dark bg */
-
-
-/* Game slot icons: force 48px */
-.game-img {
-  width: 48px !important;
-  height: 48px !important;
-  max-width: none !important;
-  object-fit: contain !important;
-}
-
-/* Box grid: force 3-column desktop layout */
-.box-grid {
-  display: grid !important;
-  grid-template-columns: 1fr 1fr 1fr !important;
-  gap: 12px !important;
-  margin: 12px 0 !important;
-}
-
-.game-card {
-  background: #0e1726 !important;
-  border: 1px solid #1a2a3e !important;
-  border-radius: 8px !important;
-  padding: 12px !important;
-}
-
-.game-card-title {
-  font-weight: 700 !important;
-  font-size: 0.85rem !important;
-  margin-bottom: 8px !important;
-  color: #8a9bb5 !important;
-}
-
-.game-card-stat {
-  font-size: 0.78rem !important;
-  color: #5a6a8a !important;
-  line-height: 1.5 !important;
-}
-
-/* Box-split: two column layout */
-.box-split {
-  display: grid !important;
-  grid-template-columns: 1fr 1fr !important;
-  gap: 16px !important;
-}
-
-/* Section box: amber left border */
-.section-box {
-  border-left: 3px solid #f59e0b !important;
-  padding: 16px 20px !important;
-  margin: 20px 0 !important;
-  background: rgba(15,23,35,0.6) !important;
-  border-radius: 0 8px 8px 0 !important;
-}
-
-/* Floating TOC always visible */
-.floating-toc {
-  display: block !important;
-  width: 200px !important;
-  flex-shrink: 0 !important;
-  position: sticky !important;
-  top: 72px !important;
-  max-height: calc(100vh - 100px) !important;
-  overflow-y: auto !important;
-}
-
-/* Article layout always flex-row on desktop */
-@media (min-width: 901px) {
-  .article-layout {
-    display: flex !important;
-    flex-direction: row !important;
-    gap: 24px !important;
-  }
 }
