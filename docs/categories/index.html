@@ -38,6 +38,9 @@
     <p><strong>DSP Guide</strong> - Unofficial community guides for Dyson Sphere Program.</p>
     <p>(C) 2026 DSP Guide - Game assets belong to Youthcat Studio / Gamera Games</p>
   </footer>
-<script src="/dsp-guide/js/main.js"></script>
+<script>
+(function(){try{var t=document.getElementById('floatingToc');if(!t)return;var b=document.querySelector('.article-body');if(!b)return;var h=b.querySelectorAll('h2');if(!h.length){t.innerHTML='<div class="toc-title">On This Page</div>';return}var r='<div class="toc-title">On This Page</div>';for(var i=0;i<h.length;i++){var e=h[i];var d=e.id||e.textContent.trim().toLowerCase().replace(/[\s]+/g,'-').replace(/[^a-z0-9\-]/g,'');e.id=d;var t2=e.textContent.replace(/[
+]+/g,' ').trim();if(!t2)continue;r+='<a href="#'+d.replace(/"/g,'')+'" class="toc-link">'+t2.replace(/"/g,'&quot;')+'</a>'}t.innerHTML=r;var L=t.querySelectorAll('.toc-link');function U(){var s=window.scrollY+120,ai=-1;for(var i=0;i<h.length;i++){var rect=h[i].getBoundingClientRect();if(rect.top+window.scrollY<=s)ai=i}for(var j=0;j<L.length;j++)L[j].classList.toggle('active',j===ai)}window.addEventListener('scroll',U);U();for(var k=0;k<L.length;k++){(function(l){l.addEventListener('click',function(e){e.preventDefault();var d=l.getAttribute('href').slice(1);var t=document.getElementById(d);if(t)t.scrollIntoView({behavior:'smooth',block:'start'})})})(L[k])}}catch(e){console.error('TOC:',e)}})();
+</script>
 </body>
 </html>
