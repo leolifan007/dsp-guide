@@ -281,3 +281,38 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   .article-body { max-width: 100%; }
   .guide-grid { grid-template-columns: 1fr; }
 }
+
+/* ===== GAME-CARD (Production Line cards in box-grid) ===== */
+.box-grid {
+  display: grid; grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px; margin: 12px 0;
+}
+.box-sub {
+  font-size: .65rem; color: var(--text-dim);
+  margin-bottom: 10px; font-family: 'Rajdhani', sans-serif;
+}
+.game-card {
+  border: 1px solid var(--border-dim);
+  border-radius: 6px; padding: 12px;
+  background: rgba(8,12,20,.4);
+}
+.game-card-title {
+  font-size: .65rem; font-weight: 700;
+  color: var(--text-secondary); margin-bottom: 8px;
+  text-transform: uppercase; letter-spacing: .5px;
+  font-family: 'Rajdhani', sans-serif;
+}
+.game-card-stat {
+  font-size: .55rem; color: var(--text-dim);
+  margin-top: 6px; text-align: center;
+  font-family: 'JetBrains Mono', monospace;
+}
+.box-summary {
+  margin-top: 12px; padding: 8px 12px;
+  border-top: 1px solid var(--border-dim);
+  font-size: .65rem; color: var(--text-dim);
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .box-grid { grid-template-columns: 1fr; }
+}
