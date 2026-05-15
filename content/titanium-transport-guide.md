@@ -16,7 +16,7 @@ date: "2026-05-14"
   <strong>TL;DR:</strong> Fly to the planet next door. Mine the shiny blue rocks. Fly back with a full inventory. Build your first ILS to automate it. Done.
 
 
-{{< section >}} Step 1: Find Your Titanium Planet{{< /section >}}
+{{< section "Step 1: Find Your Titanium Planet" >}}
 <p>Open your star map (M key). Look at the other planets in your starting system. One of them will have titanium veins. In the default cluster, your starter planet orbits the sun with two more planets — the one closer to the sun usually has titanium. Sometimes both do.</p>
 <p><strong>Can't find any titanium at all in your system?</strong> Check the big rocks on your starter planet. Some of the tall boulders drop titanium when mined. Not enough for a factory, but enough to build your first logistics tower.</p>
 
@@ -25,7 +25,7 @@ date: "2026-05-14"
   It's a hard rule. If you spent 2 hours searching your home planet — stop. You're not missing anything. Go to space.
 
 
-{{< section >}} Step 2: Fly to That Planet{{< /section >}}
+{{< section "Step 2: Fly to That Planet" >}}
 <p>Before you leave:</p>
 <ul>
 <li>Equip at least <strong>100 coal</strong> and <strong>50 wood</strong> in your inventory (for emergency energy during the flight)</li>
@@ -39,7 +39,7 @@ date: "2026-05-14"
   <strong>First flight tip:</strong> Conserve energy during takeoff. Don't hold SHIFT until you're fully out of the atmosphere. Running out of juice at 500m altitude is embarrassing and fixable only by reloading your save.
 
 
-{{< section >}}️ Step 3-5: The Full Titanium Workflow{{< /section >}}
+{{< section "️ Step 3-5: The Full Titanium Workflow" >}}
 
 <p>Land on the titanium planet. You'll see blue-ish rock veins. Drop miners. Collect <strong>Silicon</strong> too.</p>
 
@@ -73,7 +73,7 @@ date: "2026-05-14"
 </ul>
 
 <p><strong>The payoff:</strong> Once this loop starts, titanium is infinite. Every time you add another miner, your home factory gets more ore automatically.</p>
-{{< section >}} Quick Reference{{< /section >}}
+{{< section "Quick Reference" >}}
 <table>
   <thead>
       <tr>
@@ -109,6 +109,6 @@ date: "2026-05-14"
    <strong>Need more power for all this?</strong> → <a href="/en/power-fix-guide/">Power keeps dying? Fix here →</a>
 
 
-{{< section >}} The Truth About Titanium{{< /section >}}
+{{< section "The Truth About Titanium" >}}
 <p>DSP doesn't want you sitting on one planet forever. The game's whole point is expansion — building factories on multiple worlds and connecting them. Titanium is the game's way of teaching you that.</p>
 <p>One manual trip is all it takes. After that, logistics handles everything.</p>

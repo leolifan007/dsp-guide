@@ -17,7 +17,7 @@ date: "2026-05-14"
   <strong>The fix:</strong> Disconnect non-essential buildings. Feed thermal plants manually. Then build more solar.
 
 
-{{< section >}}⚡ What Just Happened (The Cascade){{< /section >}}
+{{< section "⚡ What Just Happened (The Cascade)" >}}
 <p>DSP has a nasty feedback loop that first-timers always run into:</p>
 <ol>
 <li>Your factory hits max power draw</li>
@@ -35,7 +35,7 @@ date: "2026-05-14"
   It's a "my fuel delivery chain just collapsed" problem. Adding more thermal plants while the cascade is running will make it worse because they drain even more power trying to start up.
 
 
-{{< section >}} Emergency Restart Protocol{{< /section >}}
+{{< section "Emergency Restart Protocol" >}}
 <p>You're in the middle of it. Factory's dead. Here's the restart:</p>
 
 <img src="/images/power-cascade-restart.svg" alt="Power cascade emergency restart protocol showing 4 steps to bring your dead DSP factory back online" class="schema-diagram" loading="lazy" width="600" height="500">
@@ -46,7 +46,7 @@ date: "2026-05-14"
   <strong>Pro tip from the subreddit:</strong> "I keep a stash of 500 coal in a chest next to my thermal plants just for emergencies. Saved me 3 times already."
 
 
-{{< section >}}☀️ The Permanent Fix: Solar Belt{{< /section >}}
+{{< section "☀️ The Permanent Fix: Solar Belt" >}}
 <p>The cascade happens because thermal plants depend on fuel delivery. Scrolls slow → fuel doesn't arrive → death. The solution: <strong>solar panels around the equator</strong>.</p>
 <p>You need to research Solar Panels (pretty cheap). Then:</p>
 <ol>
@@ -61,10 +61,10 @@ date: "2026-05-14"
   <strong>Why this works:</strong> Solar panels on the equator of a tidally locked planet always get sunlight. On normal planets, build one full lap and you'll always have some panels in sun. It's not peak efficiency — it's "set and forget" stability.
 
 
-{{< section >}} The Mid-Game Answer: Fusion{{< /section >}}
+{{< section "The Mid-Game Answer: Fusion" >}}
 <p>By the time you hit Yellow Science, you'll need more power than solar can provide. Switch to <strong>Deuterium Fuel Rods</strong> and fusion plants. One fusion power plant = ~40 MW with a steady fuel line.</p>
 <p>Don't wait until you're drowning to make this switch. The moment you research Fusion, build one plant + a production line for fuel rods. Your solar belt will still help, but fusion becomes your backbone.</p>
-{{< section >}} Quick Reference{{< /section >}}
+{{< section "Quick Reference" >}}
 <table>
   <thead>
       <tr>

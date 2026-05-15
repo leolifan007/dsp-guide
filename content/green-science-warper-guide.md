@@ -10,27 +10,17 @@ And you think: **"Yeah no. I'll do it later."**
 
 I get it. Every DSP player hits this wall. But here's the thing — Green Matrix unlocks Space Warpers. And Warpers turn your factory from a solar-system-only operation into a galactic empire. You want that.
 
-<div class="callout">
-<strong>TL;DR</strong> — Green Matrix needs 3 things:<br>
-<strong>Processors  Casimir Crystals  EM Turbines.</strong><br>
-Scale your existing Processor line. Build a Casimir plant. That's most of the work done.
-</div>
+{{< callout >}}
+**TL;DR** — Green Matrix needs 3 things: **Processors + Casimir Crystals + EM Turbines.** Scale your existing Processor line. Build a Casimir plant. That's most of the work done.
+{{< /callout >}}
 
 ---
 
-## The Three Things You Need
+{{< section "The Three Things You Need" >}}
 
 **Green Matrix = Processors + Casimir Crystals + EM Turbines**
 
-<div class="game-row">
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/processor.png" class="game-img"><span class="game-name">Processor</span></div>
-<span class="game-plus">+</span>
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/casimir-crystal.png" class="game-img"><span class="game-name">Casimir</span></div>
-<span class="game-plus">+</span>
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/mag-turbine.png" class="game-img"><span class="game-name">EM Turbine</span></div>
-<span class="game-plus">→</span>
-<div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/g-matrix.png" class="game-img"><span class="game-name">Green Matrix</span></div>
-</div>
+{{< recipe "processor:1x + casimir:1x + em-turbine:1x = green-matrix:1x" >}}
 
 ---
 
@@ -40,13 +30,7 @@ If you're at Yellow Science, you already have a processor line. You just need mo
 
 **Don't build a new factory.** Just expand your existing one. Slap down more assemblers on your current circuit board + silicon line.
 
-<div class="game-row">
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/circuit-board.png" class="game-img"><span class="game-name">Circuit Brd</span></div>
-<span class="game-plus">+</span>
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/silicium-high-purity.png" class="game-img"><span class="game-name">Silicon</span></div>
-<span class="game-plus">→</span>
-<div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/processor.png" class="game-img"><span class="game-name">Processor</span></div>
-</div>
+{{< recipe "circuit:1x + silicon:1x = processor:1x" >}}
 
 ---
 
@@ -54,27 +38,19 @@ If you're at Yellow Science, you already have a processor line. You just need mo
 
 Casimir Crystals need three ingredients:
 
-<div class="game-row">
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/hydrogen.png" class="game-img"><span class="game-name">H₂</span></div>
-<span class="game-plus">+</span>
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/graphene.png" class="game-img"><span class="game-name">Graphene</span></div>
-<span class="game-plus">+</span>
-<div class="game-slot"><span class="game-qty">2x</span><img src="/images/dsp-icons/titanium-plate.png" class="game-img"><span class="game-name">Ti Plate</span></div>
-<span class="game-plus">→</span>
-<div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/casimir-crystal.png" class="game-img"><span class="game-name">Casimir</span></div>
-</div>
+{{< recipe "hydrogen:1x + graphene:1x + titanium:2x = casimir:1x" >}}
 
 **The hydrogen is the real constraint.** You need a steady stream — way more than your refineries produce.
 
 **The fix:** Find a gas giant in your system.
 
-![Orbital Collectors for Hydrogen](/images/orbital-collector-h2.svg)
+{{< diagram "orbital-collector-h2.svg" "Orbital Collectors for Hydrogen" "700" >}}
 
 Build an **Orbital Collector** on it. Each collector pulls **0.35 hydrogen/second** forever. Drop 10 collectors around a gas giant and you'll never worry about hydrogen again.
 
-<div class="pro-tip">
-<strong> Pro Tip</strong> — Drop 20 collectors around your nearest gas giant. Not 10. You'll thank yourself later when purple science needs ridiculous amounts of hydrogen too.
-</div>
+{{< callout tip >}}
+**Pro Tip** — Drop 20 collectors around your nearest gas giant. Not 10. You'll thank yourself later when purple science needs ridiculous amounts of hydrogen too.
+{{< /callout >}}
 
 ---
 
@@ -82,41 +58,23 @@ Build an **Orbital Collector** on it. Each collector pulls **0.35 hydrogen/secon
 
 These are just electric motors + magnetic coils:
 
-<div class="game-row">
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/electric-motor.png" class="game-img"><span class="game-name">Motor</span></div>
-<span class="game-plus">+</span>
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/magnetism-wire.png" class="game-img"><span class="game-name">M. Coil</span></div>
-<span class="game-plus">→</span>
-<div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/mag-turbine.png" class="game-img"><span class="game-name">EM Turbine</span></div>
-</div>
+{{< recipe "motor:1x + coil:1x = em-turbine:1x" >}}
 
 If you've been automating motors at all, you already have most of this. Build a few more assemblers. Done.
 
-<div class="callout">
-<strong>Why are you scared of green?</strong> Reddit users ask this all the time. The truth: it's not harder than yellow. Yellow asks you to handle:
-
-<div class="game-row">
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/refined-oil.png" class="game-img"><span class="game-name">Oil</span></div>
-<span class="game-plus">+</span>
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/hydrogen.png" class="game-img"><span class="game-name">H₂</span></div>
-<span class="game-plus">+</span>
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/graphite.png" class="game-img"><span class="game-name">Graphite</span></div>
-<span class="game-plus">+</span>
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/titanium-plate.png" class="game-img"><span class="game-name">Ti</span></div>
-</div> <span class="game-plus">+</span> <div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/hydrogen.png" class="game-img"><span class="game-name">H₂</span></div> <span class="game-plus">+</span> <div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/graphite.png" class="game-img"><span class="game-name">Graphite</span></div> <span class="game-plus">+</span> <div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/titanium-plate.png" class="game-img"><span class="game-name">Ti</span></div></div>
-
-Green is just "more of the same but with processors." You've got this.
-</div>
+{{< callout >}}
+**Why are you scared of green?** The truth: it's not harder than yellow. Yellow asks you to handle oil, hydrogen, graphite, and titanium all at once across multiple planets. Green is just "more of the same but with processors." You've got this.
+{{< /callout >}}
 
 ---
 
-## The Warpers Payoff
+{{< section "The Warpers Payoff" >}}
 
 Once Green Matrix is running, your research unlocks: **Space Warper**.
 
 **Space Warper = your vessels can fly to other star systems.** Your factory goes from one system to unlimited.
 
-![Warper Payoff](/images/warper-payoff.svg)
+{{< diagram "warper-payoff.svg" "Warper interstellar travel benefit" "700" >}}
 
 Each warper costs **1 Green Matrix**. Each vessel trip costs **1 warper**. One warper moves **200 items**. That's insanely efficient.
 
@@ -124,13 +82,11 @@ Each warper costs **1 Green Matrix**. Each vessel trip costs **1 warper**. One w
 
 Now every ILS in your network can grab warpers and start shipping across the galaxy.
 
-<div class="pro-tip">
-<strong> One gotcha:</strong> ILS ships won't pick up warpers unless you set a slot to Supply for warpers. They don't auto-grab them from inventory. You have to explicitly tell the ILS: "hey, this slot has warpers, take them."
-</div>
+{{< callout tip >}}
+**One gotcha:** ILS ships won't pick up warpers unless you set a slot to Supply for warpers. They don't auto-grab them from inventory. You have to explicitly tell the ILS: "hey, this slot has warpers, take them."
+{{< /callout >}}
 
-
-
-## Quick Ratio: 1 Green Matrix/Second
+{{< section "Quick Ratio: 1 Green Matrix/Second" >}}
 
 <div class="box-wrap">
 <div class="box-title">1/SEC GREEN MATRIX — PRODUCTION LINE</div>
@@ -140,33 +96,25 @@ Now every ILS in your network can grab warpers and start shipping across the gal
 
 <div class="game-card">
 <div class="game-card-title">Step 1: <span style="color:#60a5fa;">Processors</span></div>
-<div class="game-row">
-<div class="game-slot"><span class="game-qty">2x</span><img src="/images/dsp-icons/circuit-board.png" class="game-img"><span class="game-name">Circuit Brd</span></div> <span class="game-plus">+</span> <div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/silicium-high-purity.png" class="game-img"><span class="game-name">Silicon</span></div> <span class="game-plus">→</span> <div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/processor.png" class="game-img"><span class="game-name">Processor</span></div>
-</div>
+{{< recipe "circuit:2x + silicon:1x = processor:1x" >}}
 <div class="game-card-stat">18 assemblers · 4/sec</div>
 </div>
 
 <div class="game-card">
 <div class="game-card-title">Step 2: <span style="color:#34d399;">Casimir Crystals</span></div>
-<div class="game-row">
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/hydrogen.png" class="game-img"><span class="game-name">H₂</span></div> <span class="game-plus">+</span> <div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/graphene.png" class="game-img"><span class="game-name">Graphene</span></div> <span class="game-plus">+</span> <div class="game-slot"><span class="game-qty">2x</span><img src="/images/dsp-icons/titanium-plate.png" class="game-img"><span class="game-name">Ti Plate</span></div> <span class="game-plus">→</span> <div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/casimir-crystal.png" class="game-img"><span class="game-name">Casimir</span></div>
-</div>
+{{< recipe "hydrogen:1x + graphene:1x + titanium:2x = casimir:1x" >}}
 <div class="game-card-stat">20 collectors · 10 chem · 12 assm</div>
 </div>
 
 <div class="game-card">
-<div class="game-card-title">Step 3: <span style="color:#a78bfa;">EM Turbines</span> + <span style="color:#fbbf24;">Final</span></div>
-<div class="game-row">
-<div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/electric-motor.png" class="game-img"><span class="game-name">Motor</span></div> <span class="game-plus">+</span> <div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/magnetism-wire.png" class="game-img"><span class="game-name">M. Coil</span></div> <span class="game-plus">→</span> <div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/mag-turbine.png" class="game-img"><span class="game-name">Turbine</span></div>
-</div>
+<div class="game-card-title">Step 3: <span style="color:#a78bfa;">EM Turbines</span></div>
+{{< recipe "motor:1x + coil:1x = em-turbine:1x" >}}
 <div class="game-card-stat">10 motors · 8 coils · 6 turbines · 3 labs</div>
 </div>
 
 </div>
 
-<div class="box-summary">
-<span style="color:#fbbf24;">⚡ ~8 MW power</span> · <span style="color:#9ca3af;">Mk.II belts recommended</span> · <span style="color:#9ca3af;">~15 min build time</span>
-</div>
+<div class="box-summary">⚡ ~8 MW power · Mk.II belts recommended · ~15 min build time</div>
 </div>
 
 <div class="box-wrap" style="margin-top:16px;">
@@ -176,32 +124,31 @@ Now every ILS in your network can grab warpers and start shipping across the gal
 
 <div>
 <div class="checklist-group-title">INGREDIENTS / SEC</div>
-<div class="game-row">
-<div class="game-slot"><span class="game-qty">4.5x</span><img src="/images/dsp-icons/processor.png" class="game-img"><span class="game-name">Processor</span></div> <span class="game-plus">+</span> <div class="game-slot"><span class="game-qty">3.5x</span><img src="/images/dsp-icons/casimir-crystal.png" class="game-img"><span class="game-name">Casimir</span></div> <span class="game-plus">+</span> <div class="game-slot"><span class="game-qty">2.8x</span><img src="/images/dsp-icons/mag-turbine.png" class="game-img"><span class="game-name">EM Turbine</span></div> <span class="game-plus">→</span> <div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/g-matrix.png" class="game-img"><span class="game-name">Green Matrix</span></div>
-</div>
+{{< recipe "processor:4.5x + casimir:3.5x + em-turbine:2.8x = green-matrix:1x" >}}
 <div style="color:#5a6a8a;font-size:.6rem;margin-top:8px;font-family:'JetBrains Mono',monospace;">~52 Mk.I assemblers total</div>
 </div>
 
 <div>
 <div class="checklist-group-title">POWER &amp; LOGISTICS</div>
-<div class="check-item"><span class="check-icon">✓</span>~8 MW total (solar ring + 4 wind)</div>
-<div class="check-item"><span class="check-icon">✓</span>ILS set to Supply / Demand</div>
-<div class="check-item"><span class="check-icon">✓</span>Warpers added to ILS slot (manual)</div>
-<div class="check-item"><span class="check-icon">✓</span>Mk.II belts or higher on main bus</div>
-<div class="check-item"><span class="check-icon">✓</span>20 orbital collectors on gas giant</div>
+<div class="check-item">~8 MW total (solar ring + 4 wind)</div>
+<div class="check-item">ILS set to Supply / Demand</div>
+<div class="check-item">Warpers added to ILS slot (manual)</div>
+<div class="check-item">Mk.II belts or higher on main bus</div>
+<div class="check-item">20 orbital collectors on gas giant</div>
 </div>
 
 </div>
 </div>
 
 That's a 1/sec build. Enough to research everything through Green Science at a reasonable pace.
-## What You Get
 
-<img src="/images/what-you-get-green-science.svg" alt="What Green Science unlocks" class="schema-diagram" loading="lazy" width="760" height="320">
+{{< section "What You Get" >}}
+
+{{< diagram "what-you-get-green-science.svg" "What Green Science unlocks" >}}
 
 ---
 
-## Bottom Line
+{{< section "Bottom Line" >}}
 
 Green Matrix is a mental hurdle, not a difficult one. Start with your processor line. Build orbital collectors for hydrogen. Add Casimir production. Then watch warpers roll off the line and your factory goes interstellar.
 

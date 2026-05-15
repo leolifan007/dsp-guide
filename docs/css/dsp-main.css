@@ -373,3 +373,53 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 @media (max-width: 700px) {
   .box-grid { grid-template-columns: 1fr; }
 }
+
+
+/* ===== SHORTCODE COMPONENT SYSTEM ===== */
+
+/* Section header — amber left border + dark bg */
+.section-head h2 {
+  background: rgba(10,25,50,0.95);
+  border-left: 5px solid #f59e0b;
+  padding: 14px 20px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #e0e8f0;
+  margin: 28px 0 14px;
+}
+
+/* Checklist rows */
+.check-row {
+  padding: 0;
+}
+.check-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(14,23,38,0.8);
+  border: 1px solid rgba(45,74,107,0.3);
+  border-radius: 6px;
+  padding: 6px 12px;
+  min-height: 36px;
+}
+.check-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+.check-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .75rem;
+  color: #8a9bb5;
+  white-space: nowrap;
+}
+.check-desc {
+  font-size: .72rem;
+  color: #e0e8f0;
+  margin-left: 4px;
+}
+@media (max-width: 600px) {
+  .check-item { flex-wrap: wrap; gap: 4px; }
+  .check-icon { width: 28px; height: 28px; }
+}

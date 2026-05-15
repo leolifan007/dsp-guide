@@ -1,0 +1,48 @@
+{{- /*
+  Recipe Row Component — self-closing
+  Usage: {{< recipe "processor:1x + casimir:1x + em-turbine:1x = green-matrix:1x" >}}
+  Parses: name:qty + name:qty = name:qty
+*/ -}}
+
+{{- $input := .Get 0 | default "" | replaceRE "\\n" "" | trim " " -}}
+{{- $parts := split $input " = " -}}
+{{- $ings := split (index $parts 0) " + " -}}
+{{- $resultRaw := "" -}}
+{{- if gt (len $parts) 1 }}{{ $resultRaw = index $parts 1 }}{{ end -}}
+
+<div class="game-row">
+{{- range $i, $item := $ings -}}
+  {{- $item = trim $item " " -}}
+  {{- $pair := split $item ":" -}}
+  {{- $name := index $pair 0 | lower -}}
+  {{- $qty := "" -}}{{ if gt (len $pair) 1 }}{{ $qty = index $pair 1 }}{{ end -}}
+  
+  {{- if gt $i 0 }}<span class="game-plus">+</span>{{ end -}}
+  
+  {{- $file := index $.Site.Data.materials $name -}}
+  {{- if not $file }}{{ $file = printf "%s.png" $name }}{{ end -}}
+  
+  <div class="game-slot">
+    {{- with $qty }}<span class="game-qty">{{ . }}</span>{{ end -}}
+    <img src="/images/dsp-icons/{{ $file }}" alt="{{ $name }}" class="game-img" loading="lazy">
+    <span class="game-name">{{ $name | humanize | truncate 12 "" }}</span>
+  </div>
+{{- end -}}
+
+{{- if $resultRaw -}}
+  {{- $resultRaw = trim $resultRaw " " -}}
+  {{- $pair := split $resultRaw ":" -}}
+  {{- $rName := index $pair 0 | lower -}}
+  {{- $rQty := "" -}}{{ if gt (len $pair) 1 }}{{ $rQty = index $pair 1 }}{{ end -}}
+  
+  {{- $rFile := index $.Site.Data.materials $rName -}}
+  {{- if not $rFile }}{{ $rFile = printf "%s.png" $rName }}{{ end -}}
+  
+  <span class="game-plus">→</span>
+  <div class="game-slot result">
+    {{- with $rQty }}<span class="game-qty">{{ . }}</span>{{ end -}}
+    <img src="/images/dsp-icons/{{ $rFile }}" alt="{{ $rName }}" class="game-img" loading="lazy">
+    <span class="game-name">{{ $rName | humanize | truncate 12 "" }}</span>
+  </div>
+{{- end -}}
+</div>

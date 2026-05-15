@@ -17,7 +17,7 @@ date: "2026-05-14"
   2. Your vessels need Space Warpers to fly. Put some in the slot.
 
 
-{{< section >}} Supply vs Demand — The 1-Minute Show{{< /section >}}
+{{< section "Supply vs Demand — The 1-Minute Show" >}}
 
 <p>Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn't know these make the difference between a dead ILS and a humming factory.</p>
 
@@ -27,7 +27,7 @@ date: "2026-05-14"
 <strong>Demand</strong> → &ldquo;I don't have this. Bring it.&rdquo;</p>
 <p>The classic mistake: you set both planets to Supply. Or both to Demand. Nothing moves — the game's waiting for a match that doesn't exist.</p>
 <p><strong>Fix it:</strong> Planet A (factory) = Supply. Planet B (where you need it) = Demand. Done.</p>
-{{< section >}} Warpers — The Hidden Requirement{{< /section >}}
+{{< section "Warpers — The Hidden Requirement" >}}
 <p>This one catches everyone. Interstellar vessels don't fly for free. Each trip burns one Space Warper.</p>
 
 <img src="/images/ils-warper-slot.svg" alt="ILS Warper slot setup showing Slot 4 must be set to Supply with Space Warpers or vessels won't fly" class="schema-diagram" loading="lazy" width="600" height="400">
@@ -45,11 +45,11 @@ date: "2026-05-14"
   <strong>⚡ One warper = 200 items shipped.</strong> The math works out fine. Just don't run out.
 
 
-{{< section >}}️ The Vessel Range Slider{{< /section >}}
+{{< section "️ The Vessel Range Slider" >}}
 <p>There's a slider in the ILS panel labeled &ldquo;Vessel Range.&rdquo; Default is 60 AU (max). If you accidentally nudged it down, your vessels can't reach the next planet.</p>
 <p><strong>Fix:</strong> Drag it back to 60. Takes half a second.</p>
 <img src="/images/ils-how-it-works.svg" alt="ILS workflow diagram showing Planet A sending items via vessels to Planet B through logistics station" class="schema-diagram" loading="lazy" width="800" height="500">
-{{< section >}}✅ Quick Checklist{{< /section >}}
+{{< section "✅ Quick Checklist" >}}
 <table>
   <thead>
       <tr>
@@ -91,6 +91,6 @@ date: "2026-05-14"
    <strong>Still stuck on power?</strong> → <a href="/en/power-fix-guide/">Power keeps tripping? Fix it here →</a>
 
 
-{{< section >}} Why DSP Makes This Confusing{{< /section >}}
+{{< section "Why DSP Makes This Confusing" >}}
 <p>The game unlocks the ILS and gives you a tooltip with power specs, slot counts, and vessel capacity. Useful info. What it doesn't tell you: the logistics logic. How Supply vs Demand works. That vessels need fuel.</p>
 <p>One fix and you'll never get stuck again. Every new planet, same setup. Supply, Demand, Warpers. Done.</p>
