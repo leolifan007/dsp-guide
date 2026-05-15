@@ -316,3 +316,88 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 @media (max-width: 700px) {
   .box-grid { grid-template-columns: 1fr; }
 }
+
+
+/* ===== FORCE OVERRIDES: Ensure latest fixes win over older definitions ===== */
+
+/* H2: always visible amber-left-border + dark bg */
+.article-body h2 {
+  background: #111d33 !important;
+  border-left: 4px solid #f59e0b !important;
+  padding: 12px 18px !important;
+  margin: 32px 0 16px !important;
+  border-radius: 4px !important;
+  font-size: 1.05rem !important;
+}
+
+/* Game slot icons: force 48px */
+.game-img {
+  width: 48px !important;
+  height: 48px !important;
+  max-width: none !important;
+  object-fit: contain !important;
+}
+
+/* Box grid: force 3-column desktop layout */
+.box-grid {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr !important;
+  gap: 12px !important;
+  margin: 12px 0 !important;
+}
+
+.game-card {
+  background: #0e1726 !important;
+  border: 1px solid #1a2a3e !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+}
+
+.game-card-title {
+  font-weight: 700 !important;
+  font-size: 0.85rem !important;
+  margin-bottom: 8px !important;
+  color: #8a9bb5 !important;
+}
+
+.game-card-stat {
+  font-size: 0.78rem !important;
+  color: #5a6a8a !important;
+  line-height: 1.5 !important;
+}
+
+/* Box-split: two column layout */
+.box-split {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 16px !important;
+}
+
+/* Section box: amber left border */
+.section-box {
+  border-left: 3px solid #f59e0b !important;
+  padding: 16px 20px !important;
+  margin: 20px 0 !important;
+  background: rgba(15,23,35,0.6) !important;
+  border-radius: 0 8px 8px 0 !important;
+}
+
+/* Floating TOC always visible */
+.floating-toc {
+  display: block !important;
+  width: 200px !important;
+  flex-shrink: 0 !important;
+  position: sticky !important;
+  top: 72px !important;
+  max-height: calc(100vh - 100px) !important;
+  overflow-y: auto !important;
+}
+
+/* Article layout always flex-row on desktop */
+@media (min-width: 901px) {
+  .article-layout {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 24px !important;
+  }
+}
