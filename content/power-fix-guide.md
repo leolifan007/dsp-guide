@@ -15,7 +15,7 @@ date: "2026-05-14"
   <strong>TL;DR — The cascade:</strong><br>
   Factory drains power → sorters slow down → thermal plants don't get fuel → production drops → more power loss → everything dies.<br>
   <strong>The fix:</strong> Disconnect non-essential buildings. Feed thermal plants manually. Then build more solar.
-
+</div>
 
 {{< section "⚡ What Just Happened (The Cascade)" >}}
 <p>DSP has a nasty feedback loop that first-timers always run into:</p>
@@ -33,7 +33,7 @@ date: "2026-05-14"
 <div class="callout callout-warning">
   <strong>⚠️ This is NOT a "I need more power" problem.</strong><br>
   It's a "my fuel delivery chain just collapsed" problem. Adding more thermal plants while the cascade is running will make it worse because they drain even more power trying to start up.
-
+</div>
 
 {{< section "Emergency Restart Protocol" >}}
 <p>You're in the middle of it. Factory's dead. Here's the restart:</p>
@@ -44,7 +44,7 @@ date: "2026-05-14"
 
 <div class="pro-tip">
   <strong>Pro tip from the subreddit:</strong> "I keep a stash of 500 coal in a chest next to my thermal plants just for emergencies. Saved me 3 times already."
-
+</div>
 
 {{< section "☀️ The Permanent Fix: Solar Belt" >}}
 <p>The cascade happens because thermal plants depend on fuel delivery. Scrolls slow → fuel doesn't arrive → death. The solution: <strong>solar panels around the equator</strong>.</p>
@@ -59,7 +59,7 @@ date: "2026-05-14"
 
 <div class="pro-tip">
   <strong>Why this works:</strong> Solar panels on the equator of a tidally locked planet always get sunlight. On normal planets, build one full lap and you'll always have some panels in sun. It's not peak efficiency — it's "set and forget" stability.
-
+</div>
 
 {{< section "The Mid-Game Answer: Fusion" >}}
 <p>By the time you hit Yellow Science, you'll need more power than solar can provide. Switch to <strong>Deuterium Fuel Rods</strong> and fusion plants. One fusion power plant = ~40 MW with a steady fuel line.</p>
@@ -94,7 +94,7 @@ date: "2026-05-14"
 
 <div class="cta-box">
    <strong>Can't find titanium to make yellow science?</strong> → <a href="/en/titanium-transport-guide/">Stuck on titanium? Guide here →</a>
-
+</div>
 
 <h2 id="bottom-line">Bottom Line</h2>
 <p>The cascade is terrifying the first time it happens. After that, you'll see it coming from a mile away. The second your sorters slow down and your power bar is 95%+ full: stop expanding and build solar. Don't push your luck.</p>

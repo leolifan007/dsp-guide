@@ -14,7 +14,7 @@ date: "2026-05-14"
 
 <div class="pro-tip">
   <strong>TL;DR:</strong> Fly to the planet next door. Mine the shiny blue rocks. Fly back with a full inventory. Build your first ILS to automate it. Done.
-
+</div>
 
 {{< section "Step 1: Find Your Titanium Planet" >}}
 <p>Open your star map (M key). Look at the other planets in your starting system. One of them will have titanium veins. In the default cluster, your starter planet orbits the sun with two more planets — the one closer to the sun usually has titanium. Sometimes both do.</p>
@@ -23,7 +23,7 @@ date: "2026-05-14"
 <div class="callout callout-warning">
   <strong>⚠️ Starter planets NEVER have titanium veins.</strong><br>
   It's a hard rule. If you spent 2 hours searching your home planet — stop. You're not missing anything. Go to space.
-
+</div>
 
 {{< section "Step 2: Fly to That Planet" >}}
 <p>Before you leave:</p>
@@ -37,7 +37,7 @@ date: "2026-05-14"
 
 <div class="pro-tip">
   <strong>First flight tip:</strong> Conserve energy during takeoff. Don't hold SHIFT until you're fully out of the atmosphere. Running out of juice at 500m altitude is embarrassing and fixable only by reloading your save.
-
+</div>
 
 {{< section "️ Step 3-5: The Full Titanium Workflow" >}}
 
@@ -55,8 +55,7 @@ date: "2026-05-14"
 <div class="callout callout-warning">
   <strong>⚠️ ILS won't work without warpers.</strong><br>
   You need Green Science unlocked first. If you're not there yet, keep doing manual flights until you can research warpers. Each manual trip buys you a little more time.
-
-
+</div>
 
 <p><strong>Once you have Green Science, automate the loop:</strong></p>
 
@@ -107,7 +106,7 @@ date: "2026-05-14"
 
 <div class="cta-box">
    <strong>Need more power for all this?</strong> → <a href="/en/power-fix-guide/">Power keeps dying? Fix here →</a>
-
+</div>
 
 {{< section "The Truth About Titanium" >}}
 <p>DSP doesn't want you sitting on one planet forever. The game's whole point is expansion — building factories on multiple worlds and connecting them. Titanium is the game's way of teaching you that.</p>

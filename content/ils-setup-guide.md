@@ -15,7 +15,7 @@ date: "2026-05-14"
   <strong>TL;DR — Two things to check:</strong><br>
   1. One planet must be Supply, the other Demand (not both Supply)<br>
   2. Your vessels need Space Warpers to fly. Put some in the slot.
-
+</div>
 
 {{< section "Supply vs Demand — The 1-Minute Show" >}}
 
@@ -43,7 +43,7 @@ date: "2026-05-14"
 
 <div class="callout callout-warning">
   <strong>⚡ One warper = 200 items shipped.</strong> The math works out fine. Just don't run out.
-
+</div>
 
 {{< section "️ The Vessel Range Slider" >}}
 <p>There's a slider in the ILS panel labeled &ldquo;Vessel Range.&rdquo; Default is 60 AU (max). If you accidentally nudged it down, your vessels can't reach the next planet.</p>
@@ -89,7 +89,7 @@ date: "2026-05-14"
 
 <div class="cta-box">
    <strong>Still stuck on power?</strong> → <a href="/en/power-fix-guide/">Power keeps tripping? Fix it here →</a>
-
+</div>
 
 {{< section "Why DSP Makes This Confusing" >}}
 <p>The game unlocks the ILS and gives you a tooltip with power specs, slot counts, and vessel capacity. Useful info. What it doesn't tell you: the logistics logic. How Supply vs Demand works. That vessels need fuel.</p>
