@@ -138,11 +138,11 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   max-width: 780px;
 }
 .article-body h2 {
-  font-size: 1rem; font-weight: 700; color: var(--text-primary);
-  padding: 10px 16px; margin: 28px 0 14px;
-  background: rgba(15,23,35,.8);
-  border-left: 3px solid var(--accent-amber);
-  border-radius: 0 4px 4px 0;
+  font-size: 1rem; font-weight: 700; color: #e8edf5;
+  padding: 14px 20px; margin: 32px 0 18px;
+  background: rgba(10,25,50,0.95);
+  border-left: 5px solid #f59e0b;
+  border-radius: 0 6px 6px 0;
 }
 .article-body p { margin-bottom: 12px; color: var(--text-secondary); }
 .article-body strong { color: var(--text-primary); font-weight: 600; }
@@ -321,14 +321,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 /* ===== FORCE OVERRIDES: Ensure latest fixes win over older definitions ===== */
 
 /* H2: always visible amber-left-border + dark bg */
-.article-body h2 {
-  background: #111d33 !important;
-  border-left: 4px solid #f59e0b !important;
-  padding: 12px 18px !important;
-  margin: 32px 0 16px !important;
-  border-radius: 4px !important;
-  font-size: 1.05rem !important;
-}
+
 
 /* Game slot icons: force 48px */
 .game-img {
