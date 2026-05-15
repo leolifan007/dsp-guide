@@ -93,7 +93,7 @@ date: "2026-05-14"
 </table>
 
 <div class="cta-box">
-   <strong>Can't find titanium to make yellow science?</strong> → <a href="/en/titanium-transport-guide/">Stuck on titanium? Guide here →</a>
+   <strong>Can't find titanium to make yellow science?</strong> → <a href="/titanium-transport-guide/">Stuck on titanium? Guide here →</a>
 </div>
 
 <h2 id="bottom-line">Bottom Line</h2>

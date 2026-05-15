@@ -105,7 +105,7 @@ date: "2026-05-14"
 </table>
 
 <div class="cta-box">
-   <strong>Need more power for all this?</strong> → <a href="/en/power-fix-guide/">Power keeps dying? Fix here →</a>
+   <strong>Need more power for all this?</strong> → <a href="/power-fix-guide/">Power keeps dying? Fix here →</a>
 </div>
 
 {{< section "The Truth About Titanium" >}}

@@ -88,7 +88,7 @@ date: "2026-05-14"
 </table>
 
 <div class="cta-box">
-   <strong>Still stuck on power?</strong> → <a href="/en/power-fix-guide/">Power keeps tripping? Fix it here →</a>
+   <strong>Still stuck on power?</strong> → <a href="/power-fix-guide/">Power keeps tripping? Fix it here →</a>
 </div>
 
 {{< section "Why DSP Makes This Confusing" >}}
