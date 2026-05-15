@@ -1,4 +1,4 @@
-baseURL = 'https://leolifan007.github.io/dsp-guide/'
+baseURL = 'https://dsp-guide.com/'
 theme = 'dsp-theme'
 title = 'Dyson Sphere Program Guide'
 publishDir = 'public'
