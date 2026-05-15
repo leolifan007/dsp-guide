@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
   // Generate TOC from h2s
   var tocContainer = document.getElementById('floatingToc');
   if (!tocContainer) return;
@@ -6,7 +6,7 @@
   var headingSelector = '.article-body h2';
   var headings = document.querySelectorAll(headingSelector);
   if (headings.length === 0) {
-    tocContainer.innerHTML = '';
+    tocContainer.innerHTML = '<div class="toc-title">On This Page</div>';
     return;
   }
 
@@ -16,12 +16,15 @@
     var id = h.id || h.textContent.trim().toLowerCase().replace(/[\s]+/g, '-').replace(/[^a-z0-9\-]/g, '');
     h.id = id;
     var text = h.textContent.trim();
-    html += '<a href="#' + id + '" class="toc-link"><span>' + text.replace(/^[^a-zA-Z0-9\s\-]+/, '').trim() + '</span></a>';
+    if (!text) continue;
+    html += '<a href="#' + id.replace(/"/g, '') + '" class="toc-link">' + text.replace(/"/g, '&quot;') + '</a>';
   }
   tocContainer.innerHTML = html;
 
   // Scroll spy
   var links = tocContainer.querySelectorAll('.toc-link');
+  if (!links.length) return;
+
   function updateActive() {
     var scrollY = window.scrollY + 120;
     var activeIdx = -1;
