@@ -135,5 +135,6 @@
 
 ]+/g,' ').trim();if(!t2)continue;r+='<a href="#'+d.replace(/"/g,'')+'" class="toc-link">'+t2.replace(/"/g,'"')+'</a>'}t.innerHTML=r;var L=t.querySelectorAll('.toc-link');function U(){var s=window.scrollY+120,ai=-1;for(var i=0;i<h.length;i++){var rect=h[i].getBoundingClientRect();if(rect.top+window.scrollY<=s)ai=i}for(var j=0;j<L.length;j++)L[j].classList.toggle('active',j===ai)}window.addEventListener('scroll',U);U();for(var k=0;k<L.length;k++){(function(l){l.addEventListener('click',function(e){e.preventDefault();var d=l.getAttribute('href').slice(1);var t=document.getElementById(d);if(t)t.scrollIntoView({behavior:'smooth',block:'start'})})})(L[k])}}catch(e){console.error('TOC:',e)}})();
 </script>
+<script src="/dsp-guide/js/main.js"></script>
 </body>
 </html>
