@@ -128,7 +128,7 @@ Now every ILS in your network can grab warpers and start shipping across the gal
 <strong> One gotcha:</strong> ILS ships won't pick up warpers unless you set a slot to Supply for warpers. They don't auto-grab them from inventory. You have to explicitly tell the ILS: "hey, this slot has warpers, take them."
 </div>
 
----
+
 
 ## Quick Ratio: 1 Green Matrix/Second
 
