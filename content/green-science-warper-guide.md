@@ -20,7 +20,7 @@ I get it. Every DSP player hits this wall. But here's the thing — Green Matrix
 
 **Green Matrix = Processors + Casimir Crystals + EM Turbines**
 
-{{< recipe "processor:1x + casimir:1x + em-turbine:1x = green-matrix:1x" >}}
+{{< recipe name1="processor" qty1="1x" name2="casimir" qty2="1x" name3="em-turbine" qty3="1x" result="green-matrix" rqty="1x" >}}
 
 ---
 
@@ -30,7 +30,7 @@ If you're at Yellow Science, you already have a processor line. You just need mo
 
 **Don't build a new factory.** Just expand your existing one. Slap down more assemblers on your current circuit board + silicon line.
 
-{{< recipe "circuit:1x + silicon:1x = processor:1x" >}}
+{{< recipe name1="circuit" qty1="1x" name2="silicon" qty2="1x" result="processor" rqty="1x" >}}
 
 ---
 
@@ -38,7 +38,7 @@ If you're at Yellow Science, you already have a processor line. You just need mo
 
 Casimir Crystals need three ingredients:
 
-{{< recipe "hydrogen:1x + graphene:1x + titanium:2x = casimir:1x" >}}
+{{< recipe name1="hydrogen" qty1="1x" name2="graphene" qty2="1x" name3="titanium" qty3="2x" result="casimir" rqty="1x" >}}
 
 **The hydrogen is the real constraint.** You need a steady stream — way more than your refineries produce.
 
@@ -58,7 +58,7 @@ Build an **Orbital Collector** on it. Each collector pulls **0.35 hydrogen/secon
 
 These are just electric motors + magnetic coils:
 
-{{< recipe "motor:1x + coil:1x = em-turbine:1x" >}}
+{{< recipe name1="motor" qty1="1x" name2="coil" qty2="1x" result="em-turbine" rqty="1x" >}}
 
 If you've been automating motors at all, you already have most of this. Build a few more assemblers. Done.
 
@@ -96,19 +96,19 @@ Now every ILS in your network can grab warpers and start shipping across the gal
 
 <div class="game-card">
 <div class="game-card-title">Step 1: <span style="color:#60a5fa;">Processors</span></div>
-{{< recipe "circuit:2x + silicon:1x = processor:1x" >}}
+{{< recipe name1="circuit" qty1="2x" name2="silicon" qty2="1x" result="processor" rqty="1x" >}}
 <div class="game-card-stat">18 assemblers · 4/sec</div>
 </div>
 
 <div class="game-card">
 <div class="game-card-title">Step 2: <span style="color:#34d399;">Casimir Crystals</span></div>
-{{< recipe "hydrogen:1x + graphene:1x + titanium:2x = casimir:1x" >}}
+{{< recipe name1="hydrogen" qty1="1x" name2="graphene" qty2="1x" name3="titanium" qty3="2x" result="casimir" rqty="1x" >}}
 <div class="game-card-stat">20 collectors · 10 chem · 12 assm</div>
 </div>
 
 <div class="game-card">
 <div class="game-card-title">Step 3: <span style="color:#a78bfa;">EM Turbines</span></div>
-{{< recipe "motor:1x + coil:1x = em-turbine:1x" >}}
+{{< recipe name1="motor" qty1="1x" name2="coil" qty2="1x" result="em-turbine" rqty="1x" >}}
 <div class="game-card-stat">10 motors · 8 coils · 6 turbines · 3 labs</div>
 </div>
 
@@ -124,7 +124,7 @@ Now every ILS in your network can grab warpers and start shipping across the gal
 
 <div>
 <div class="checklist-group-title">INGREDIENTS / SEC</div>
-{{< recipe "processor:4.5x + casimir:3.5x + em-turbine:2.8x = green-matrix:1x" >}}
+{{< recipe name1="processor" qty1="4.5x" name2="casimir" qty2="3.5x" name3="em-turbine" qty3="2.8x" result="green-matrix" rqty="1x" >}}
 <div style="color:#5a6a8a;font-size:.6rem;margin-top:8px;font-family:'JetBrains Mono',monospace;">~52 Mk.I assemblers total</div>
 </div>
 

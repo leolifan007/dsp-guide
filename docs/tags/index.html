@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tags | Dyson Sphere Program Guide</title>
+  <base href="https://leolifan007.github.io/dsp-guide/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
 <body>
 <div class="site-header">
   <a href="/dsp-guide/" class="site-logo">
-    <span class="logo-icon">&#9670;</span> DSP Guide
+    <span class="logo-icon">◆</span> DSP Guide
   </a>
   <div class="nav-links">
     <a href="/dsp-guide/ils-setup-guide/" class="nav-btn">ILS Setup</a>
@@ -41,7 +42,7 @@
 <script>
 (function(){try{var t=document.getElementById('floatingToc');if(!t)return;var b=document.querySelector('.article-body');if(!b)return;var h=b.querySelectorAll('h2');if(!h.length){t.innerHTML='<div class="toc-title">On This Page</div>';return}var r='<div class="toc-title">On This Page</div>';for(var i=0;i<h.length;i++){var e=h[i];var d=e.id||e.textContent.trim().toLowerCase().replace(/[\s]+/g,'-').replace(/[^a-z0-9\-]/g,'');e.id=d;var t2=e.textContent.replace(/[
 
-]+/g,' ').trim();if(!t2)continue;r+='<a href="#'+d.replace(/"/g,'')+'" class="toc-link">'+t2.replace(/"/g,'&quot;')+'</a>'}t.innerHTML=r;var L=t.querySelectorAll('.toc-link');function U(){var s=window.scrollY+120,ai=-1;for(var i=0;i<h.length;i++){var rect=h[i].getBoundingClientRect();if(rect.top+window.scrollY<=s)ai=i}for(var j=0;j<L.length;j++)L[j].classList.toggle('active',j===ai)}window.addEventListener('scroll',U);U();for(var k=0;k<L.length;k++){(function(l){l.addEventListener('click',function(e){e.preventDefault();var d=l.getAttribute('href').slice(1);var t=document.getElementById(d);if(t)t.scrollIntoView({behavior:'smooth',block:'start'})})})(L[k])}}catch(e){console.error('TOC:',e)}})();
+]+/g,' ').trim();if(!t2)continue;r+='<a href="#'+d.replace(/"/g,'')+'" class="toc-link">'+t2.replace(/"/g,'"')+'</a>'}t.innerHTML=r;var L=t.querySelectorAll('.toc-link');function U(){var s=window.scrollY+120,ai=-1;for(var i=0;i<h.length;i++){var rect=h[i].getBoundingClientRect();if(rect.top+window.scrollY<=s)ai=i}for(var j=0;j<L.length;j++)L[j].classList.toggle('active',j===ai)}window.addEventListener('scroll',U);U();for(var k=0;k<L.length;k++){(function(l){l.addEventListener('click',function(e){e.preventDefault();var d=l.getAttribute('href').slice(1);var t=document.getElementById(d);if(t)t.scrollIntoView({behavior:'smooth',block:'start'})})})(L[k])}}catch(e){console.error('TOC:',e)}})();
 </script>
 <script src="/dsp-guide/js/main.js"></script>
 </body>
