@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="600" height="420">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0f1a2e"/>
+      <stop offset="100%" stop-color="#0a0f1a"/>
+    </linearGradient>
+    <linearGradient id="supplyGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a3a2a"/>
+      <stop offset="100%" stop-color="#0f2818"/>
+    </linearGradient>
+    <linearGradient id="demandGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a1a2a"/>
+      <stop offset="100%" stop-color="#281018"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="420" rx="10" fill="url(#bgGrad)" stroke="#1a2a4a" stroke-width="1"/>
+
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" fill="#60a5fa" font-size="14" font-weight="700" font-family="sans-serif">ILS Mode: Supply vs Demand</text>
+
+  <!-- === Supply Side (Left) === -->
+  <rect x="24" y="50" width="260" height="340" rx="8" fill="url(#supplyGrad)" stroke="#2a6a3a" stroke-width="1.5"/>
+  
+  <!-- Supply Header -->
+  <rect x="24" y="50" width="260" height="36" rx="8" fill="#1a4a2a"/>
+  <rect x="24" y="70" width="260" height="16" fill="#1a4a2a"/>
+  <text x="154" y="73" text-anchor="middle" fill="#4ade80" font-size="14" font-weight="700" font-family="sans-serif">⬆ SUPPLY MODE</text>
+  <text x="154" y="100" text-anchor="middle" fill="#6b7c93" font-size="11" font-family="sans-serif">Ships items FROM this station</text>
+
+  <!-- Supply settings -->
+  <rect x="40" y="116" width="228" height="32" rx="4" fill="#0a1a12" stroke="#2a6a3a" stroke-width="0.8"/>
+  <text x="52" y="136" fill="#8b95ad" font-size="10" font-family="sans-serif">Orbital Collector</text>
+  <text x="210" y="136" fill="#4ade80" font-size="10" font-weight="600" font-family="sans-serif" text-anchor="end">7,200 / 10,000</text>
+
+  <!-- Supply arrow right -->
+  <line x1="260" y1="180" x2="340" y2="180" stroke="#4ade80" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <text x="300" y="175" text-anchor="middle" fill="#4ade80" font-size="9" font-family="sans-serif">SHIPS OUT</text>
+
+  <text x="52" y="168" fill="#8b95ad" font-size="10" font-family="sans-serif">Max Route:  3</text>
+  <text x="200" y="168" fill="#8b95ad" font-size="10" font-family="sans-serif">Range:   60 ly</text>
+
+  <!-- Slots visualization -->
+  <text x="50" y="200" fill="#6b7c93" font-size="10" font-family="sans-serif">SLOTS IN USE</text>
+  <rect x="50" y="210" width="220" height="24" rx="4" fill="#0d2216" stroke="#2a6a3a" stroke-width="0.5"/>
+  <rect x="52" y="212" width="54" height="20" rx="3" fill="#166534"/>
+  <text x="79" y="226" text-anchor="middle" fill="#fff" font-size="9" font-family="sans-serif">Hydrogen</text>
+  <rect x="110" y="212" width="54" height="20" rx="3" fill="#166534"/>
+  <text x="137" y="226" text-anchor="middle" fill="#fff" font-size="9" font-family="sans-serif">Deuterium</text>
+  <rect x="168" y="212" width="54" height="20" rx="3" fill="#166534"/>
+  <text x="195" y="226" text-anchor="middle" fill="#fff" font-size="9" font-family="sans-serif">Graphene</text>
+  <rect x="226" y="212" width="42" height="20" rx="3" fill="#2a5a3a" stroke="#3a7a4a" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="247" y="225" text-anchor="middle" fill="#6b7c93" font-size="8" font-family="sans-serif">+3</text>
+
+  <!-- Ship animation -->
+  <rect x="72" y="250" width="160" height="36" rx="6" fill="#0d2216" stroke="#2a6a3a" stroke-width="0.5"/>
+  <text x="80" y="268" fill="#6b7c93" font-size="9" font-family="sans-serif">Ship en route →</text>
+  <text x="80" y="280" fill="#4ade80" font-size="9" font-weight="600" font-family="sans-serif">Hydrogen</text>
+  <text x="190" y="280" fill="#6b7c93" font-size="9" font-family="sans-serif" text-anchor="end">E: 1m 24s</text>
+
+  <!-- Supply tips -->
+  <text x="50" y="310" fill="#fbbf24" font-size="10" font-weight="600" font-family="sans-serif">💡 Tips</text>
+  <text x="50" y="328" fill="#8b95ad" font-size="9" font-family="sans-serif">• Set all 5 slots even if not full</text>
+  <text x="50" y="344" fill="#8b95ad" font-size="9" font-family="sans-serif">• Max Route = active vessels</text>
+  <text x="50" y="360" fill="#8b95ad" font-size="9" font-family="sans-serif">• Always check Warper slot! ⚠️</text>
+
+  <!-- === Demand Side (Right) === -->
+  <rect x="316" y="50" width="260" height="340" rx="8" fill="url(#demandGrad)" stroke="#6a2a3a" stroke-width="1.5"/>
+
+  <!-- Demand Header -->
+  <rect x="316" y="50" width="260" height="36" rx="8" fill="#4a1a2a"/>
+  <rect x="316" y="70" width="260" height="16" fill="#4a1a2a"/>
+  <text x="446" y="73" text-anchor="middle" fill="#f87171" font-size="14" font-weight="700" font-family="sans-serif">⬇ DEMAND MODE</text>
+  <text x="446" y="100" text-anchor="middle" fill="#6b7c93" font-size="11" font-family="sans-serif">Requests items INTO this station</text>
+
+  <!-- Demand settings -->
+  <rect x="332" y="116" width="228" height="32" rx="4" fill="#1a0a12" stroke="#6a2a3a" stroke-width="0.8"/>
+  <text x="344" y="136" fill="#8b95ad" font-size="10" font-family="sans-serif">Planet A · Smelting Hub</text>
+  <text x="510" y="136" fill="#f87171" font-size="10" font-weight="600" font-family="sans-serif" text-anchor="end">200 / 1,000</text>
+
+  <!-- Demand arrow left -->
+  <line x1="340" y1="180" x2="260" y2="180" stroke="#f87171" stroke-width="2"/>
+  <text x="300" y="175" text-anchor="middle" fill="#f87171" font-size="9" font-family="sans-serif">RECEIVES</text>
+
+  <text x="344" y="168" fill="#8b95ad" font-size="10" font-family="sans-serif">Max Route:  2</text>
+  <text x="492" y="168" fill="#8b95ad" font-size="10" font-family="sans-serif">Range:   ∞</text>
+
+  <!-- Slots -->
+  <text x="342" y="200" fill="#6b7c93" font-size="10" font-family="sans-serif">SLOTS IN USE</text>
+  <rect x="342" y="210" width="220" height="24" rx="4" fill="#160d12" stroke="#6a2a3a" stroke-width="0.5"/>
+  <rect x="344" y="212" width="54" height="20" rx="3" fill="#7f1d1d"/>
+  <text x="371" y="226" text-anchor="middle" fill="#fff" font-size="9" font-family="sans-serif">Iron Ore</text>
+  <rect x="402" y="212" width="54" height="20" rx="3" fill="#7f1d1d"/>
+  <text x="429" y="226" text-anchor="middle" fill="#fff" font-size="9" font-family="sans-serif">Copper</text>
+  <rect x="460" y="212" width="54" height="20" rx="3" fill="#7f1d1d"/>
+  <text x="487" y="226" text-anchor="middle" fill="#fff" font-size="9" font-family="sans-serif">Stone</text>
+  <rect x="518" y="212" width="42" height="20" rx="3" fill="#3a1a2a" stroke="#6a2a3a" stroke-width="0.5" stroke-dasharray="3,2"/>
+  <text x="539" y="225" text-anchor="middle" fill="#6b7c93" font-size="8" font-family="sans-serif">+2</text>
+
+  <!-- Ship receiving -->
+  <rect x="364" y="250" width="160" height="36" rx="6" fill="#160d12" stroke="#6a2a3a" stroke-width="0.5"/>
+  <text x="372" y="268" fill="#6b7c93" font-size="9" font-family="sans-serif">← Ship arriving from</text>
+  <text x="372" y="280" fill="#f87171" font-size="9" font-weight="600" font-family="sans-serif">Iron Ore</text>
+  <text x="484" y="280" fill="#6b7c93" font-size="9" font-family="sans-serif" text-anchor="end">N: 180 ly</text>
+
+  <!-- Demand tips -->
+  <text x="342" y="310" fill="#fbbf24" font-size="10" font-weight="600" font-family="sans-serif">💡 Tips</text>
+  <text x="342" y="328" fill="#8b95ad" font-size="9" font-family="sans-serif">• Remove slot if production outpaces input</text>
+  <text x="342" y="344" fill="#8b95ad" font-size="9" font-family="sans-serif">• Min. ship load = cargo bay size</text>
+  <text x="342" y="360" fill="#8b95ad" font-size="9" font-family="sans-serif">• ∞ range = can request from any star</text>
+
+  <!-- === Bottom: Comparison callout === -->
+  <rect x="24" y="396" width="552" height="20" rx="4" fill="rgba(251,191,36,0.08)" stroke="#fbbf24" stroke-width="0.5"/>
+  <text x="300" y="410" text-anchor="middle" fill="#fbbf24" font-size="9" font-weight="600" font-family="sans-serif">⚡ Same station can have SUPPLY and DEMAND slots — they don't conflict!</text>
+</svg>
