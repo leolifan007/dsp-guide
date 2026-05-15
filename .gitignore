@@ -1,0 +1,25 @@
+# Hugo build output
+/public/
+/resources/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary scripts (not part of the project)
+analyze_green.py
+analyze_green2.py
+check_domains.ps1
+verify_divs.py
