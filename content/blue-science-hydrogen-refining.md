@@ -1,11 +1,11 @@
 ﻿---
 title: "Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)"
-description: "Blue Science keeps stopping? Its always Hydrogen. Set up stable Refinery chains, fix backup issues, and keep Blue Matrix flowing without babysitting."
-date: "2026-05-17"
+description: "Blue Science keeps stopping? It is always Hydrogen. Set up stable Refinery chains, fix Hydrogen backup issues, and keep Blue Matrix flowing without babysitting."
+date: "2026-05-18"
 ---
 
 <p>You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.</p>
-<p>Blue Science is the first wall in DSP that isnt just "build more miners." It introduces Refined Oil, Hydrogen byproducts, and the frustrating "one output backed up, whole chain dead" problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.</p>
+<p>Blue Science is the first wall in DSP that is not just "build more miners." It introduces Refined Oil, Hydrogen byproducts, and the frustrating "one output backed up, whole chain dead" problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.</p>
 
 <div class="pro-tip">
   <strong>TL;DR Three things to get right:</strong><br>
@@ -18,6 +18,8 @@ date: "2026-05-17"
 
 <p>Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.</p>
 <p>That is the core mechanic you have not faced yet. And it is why half the community posts about "help my factory stopped" are about this specific chain.</p>
+
+<img src="/images/blue-science-refinery-split.svg" alt="Crude Oil Refinery split diagram showing production tree from Oil Extractor through Refinery to Refined Oil and Hydrogen byproducts" class="schema-diagram" loading="lazy" width="700" height="420">
 
 {{< section "Step 1: Oil Extraction Setup" >}}
 
@@ -64,7 +66,7 @@ date: "2026-05-17"
 <ul>
   <li><strong>Diamond</strong> from Refined Oil + Graphite (Chemical Plant)</li>
   <li><strong>Crystal Silicon</strong> from Refined Oil + Silicon Ore (Chemical Plant)</li>
-  <li><strong>Titanium Ingot</strong> from Titanium Ore (Smelter) - <a href="/titanium-transport-guide/">need Titanium?</a></li>
+  <li><strong>Titanium Ingot</strong> from Titanium Ore (Smelter) &mdash; <a href="/titanium-transport-guide/">need Titanium?</a></li>
 </ul>
 
 <h3>Target Build: 30 Blue Matrix/min</h3>
@@ -77,6 +79,8 @@ date: "2026-05-17"
 </ul>
 
 <p>Crude Oil belt feeds Refineries. Refinery output splits: Refined Oil goes to Diamond and Crystal Silicon plants, Hydrogen goes to a buffer tank. From the buffer tank, Hydrogen feeds either a Thermal Plant or X-Ray Cracker. Matrix Labs get all three ingredients via separate belts.</p>
+
+<img src="/images/blue-science-flow.svg" alt="Blue Matrix production chain diagram showing full flow from Oil Extraction to Blue Matrix assembly with build ratios" class="schema-diagram" loading="lazy" width="800" height="520">
 
 {{< section "Step 3: The Hydrogen Problem" >}}
 
