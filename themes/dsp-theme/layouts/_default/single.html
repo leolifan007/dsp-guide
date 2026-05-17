@@ -1,4 +1,4 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 <div class="single-page">
   <div class="article-hero-full">
     <div class="article-hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}')"></div>
@@ -14,7 +14,7 @@
   <div class="article-layout">
     <aside class="floating-toc" id="floatingToc"></aside>
     <main class="article-body">
-      {{ .Content | safeHTML | replaceRE `&lt;` `<` | replaceRE `&gt;` `>` | replaceRE `&#34;` `"` | replaceRE `&#39;` `'` | replaceRE `src="/images/` `src="/dsp-guide/images/` }}
+      {{ .Content | safeHTML | replaceRE `&lt;` `<` | replaceRE `&gt;` `>` | replaceRE `&#34;` `"` | replaceRE `&#39;` `'` | replaceRE `src="/images/` `src="/images/` }}
     </main>
   </div>
 </div>
