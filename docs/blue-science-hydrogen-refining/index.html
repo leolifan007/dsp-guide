@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide) | Dyson Sphere Program Guide</title>
+  <base href="https://dsp-guide.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/dsp-main.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RDJSH9J2M9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RDJSH9J2M9');
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7551387157478980" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="site-header">
+  <a href="/" class="site-logo">
+    <span class="logo-icon">&#9670;</span> DSP Guide
+  </a>
+  <div class="nav-links">
+    <a href="/ils-setup-guide/" class="nav-btn">ILS Setup</a>
+    <a href="/power-fix-guide/" class="nav-btn">Power Fix</a>
+    <a href="/titanium-transport-guide/" class="nav-btn">Titanium</a>
+    <a href="/green-science-warper-guide/" class="nav-btn">Green Science</a>
+  </div>
+</div>
+
+  <div class="page-wrap">
+    
+<div class="single-page">
+  <div class="article-hero-full">
+    <div class="article-hero-bg" style="background-image:url('/images/hero-bg.jpg')"></div>
+    <div class="article-hero-fade"></div>
+    <div class="article-hero-text">
+      <h1>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</h1>
+      <div class="article-meta">
+        <span class="meta-date">Updated: May 17, 2026</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-layout">
+    <aside class="floating-toc" id="floatingToc"></aside>
+    <main class="article-body">
+      &lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;
+&lt;p&gt;Blue Science is the first wall in DSP that isnt just &#34;build more miners.&#34; It introduces Refined Oil, Hydrogen byproducts, and the frustrating &#34;one output backed up, whole chain dead&#34; problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;
+&lt;div class=&#34;pro-tip&#34;&gt;
+  &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;
+  1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;
+  2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;
+  3. Titanium Ingots are required for Blue Matrix; set that up first
+&lt;/div&gt;
+&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;
+&lt;p&gt;That is the core mechanic you have not faced yet. And it is why half the community posts about &#34;help my factory stopped&#34; are about this specific chain.&lt;/p&gt;
+&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Step 1: Oil Extraction Setup&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Find an Oil Seep on your starter planet or a nearby ocean world. Each Seep supports 4 to 6 Oil Extractors at roughly 60 Crude Oil per minute per extractor at full utilization. Route all Crude Oil to your Refinery area on a single belt.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Extractors&lt;/th&gt;
+      &lt;th&gt;Crude Oil/min&lt;/th&gt;
+      &lt;th&gt;Supports Blue/min&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;~240&lt;/td&gt;
+      &lt;td&gt;~30 Blue&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;~360&lt;/td&gt;
+      &lt;td&gt;~45 Blue&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;~480&lt;/td&gt;
+      &lt;td&gt;~60 Blue&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Overproduce Crude Oil. Refineries only pull what they need and the belt buffer smooths out dips when extractors run on low power.&lt;/p&gt;
+&lt;div class=&#34;callout callout-warning&#34;&gt;
+  &lt;strong&gt;Oil tip:&lt;/strong&gt; Do not belt Crude Oil across oceans from a distant planet. Ship it via ILS or use a Planetary Logistics Station. Long belts waste resources better spent on your factory core.
+&lt;/div&gt;
+&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Step 2: The Refinery Chain&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;One Refinery processing Crude Oil produces roughly 30 Refined Oil and 20 Hydrogen per minute. Both outputs feed different parts of Blue Science.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Blue Matrix ingredients:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Diamond&lt;/strong&gt; from Refined Oil &#43; Graphite (Chemical Plant)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Crystal Silicon&lt;/strong&gt; from Refined Oil &#43; Silicon Ore (Chemical Plant)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Titanium Ingot&lt;/strong&gt; from Titanium Ore (Smelter) - &lt;a href=&#34;/titanium-transport-guide/&#34;&gt;need Titanium?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Target Build: 30 Blue Matrix/min&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;3 Refineries (Crude Oil processing)&lt;/li&gt;
+  &lt;li&gt;2 Chemical Plants (Diamonds)&lt;/li&gt;
+  &lt;li&gt;2 Chemical Plants (Crystal Silicon)&lt;/li&gt;
+  &lt;li&gt;6 Matrix Labs (Blue Science assembly)&lt;/li&gt;
+  &lt;li&gt;1 X-Ray Cracking Chemical Plant (Hydrogen sink)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Crude Oil belt feeds Refineries. Refinery output splits: Refined Oil goes to Diamond and Crystal Silicon plants, Hydrogen goes to a buffer tank. From the buffer tank, Hydrogen feeds either a Thermal Plant or X-Ray Cracker. Matrix Labs get all three ingredients via separate belts.&lt;/p&gt;
+&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Step 3: The Hydrogen Problem&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Here is where it breaks. Your Refineries produce Hydrogen. If Hydrogen has nowhere to go, the Refineries stall. If Refineries stall, no Refined Oil. No Refined Oil means no Blue Science. You come back ten minutes later and your labs are idle.&lt;/p&gt;
+&lt;p&gt;Three ways to handle it, ordered by reliability:&lt;/p&gt;
+&lt;h3&gt;Option A: Burn It (Beginner)&lt;/h3&gt;
+&lt;p&gt;Route excess Hydrogen into Thermal Power Stations. Each burns Hydrogen at 2.4 MW. Build 2 to 3 in a row, connect them to your grid, and set Hydrogen as priority fuel. They only kick in when there is surplus, acting as an automatic buffer.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt; Dead simple, zero belt logic needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt; Wastes free power potential. Fine for 30/min Blue.&lt;/p&gt;
+&lt;h3&gt;Option B: Feed Red Science (Efficient)&lt;/h3&gt;
+&lt;p&gt;If you are producing Red Science, hydrogen goes directly into Red Matrix production. Even if not expanding Red, storing Hydrogen in Liquid Storage Tanks gives you a buffer that feeds into your existing science line.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pros:&lt;/strong&gt; Productive use of a waste stream.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cons:&lt;/strong&gt; Need Liquid Storage Tanks researched and built.&lt;/p&gt;
+&lt;h3&gt;Option C: X-Ray Cracking Loop (Optimal)&lt;/h3&gt;
+&lt;p&gt;Run X-Ray Cracking on excess Refined Oil and Hydrogen. This converts both into Energetic Graphite while net-consuming Hydrogen. It is the cleanest long-term solution because it eliminates the backup at the source.&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Recipe&lt;/th&gt;
+      &lt;th&gt;Input&lt;/th&gt;
+      &lt;th&gt;Output&lt;/th&gt;
+      &lt;th&gt;Time&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Crude Oil Refining&lt;/td&gt;
+      &lt;td&gt;Crude Oil x2&lt;/td&gt;
+      &lt;td&gt;Refined Oil x1 &#43; Hydrogen x1&lt;/td&gt;
+      &lt;td&gt;4s&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Diamond&lt;/td&gt;
+      &lt;td&gt;Refined Oil x1 &#43; Graphite x1&lt;/td&gt;
+      &lt;td&gt;Diamond x1&lt;/td&gt;
+      &lt;td&gt;2s&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Crystal Silicon&lt;/td&gt;
+      &lt;td&gt;Refined Oil x1 &#43; Silicon Ore x1&lt;/td&gt;
+      &lt;td&gt;Crystal Silicon x1&lt;/td&gt;
+      &lt;td&gt;2s&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;strong&gt;X-Ray Cracking&lt;/strong&gt;&lt;/td&gt;
+      &lt;td&gt;Refined Oil x1 &#43; Hydrogen x2&lt;/td&gt;
+      &lt;td&gt;Energetic Graphite x1 &#43; Hydrogen x1&lt;/td&gt;
+      &lt;td&gt;4s&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;callout callout-warning&#34;&gt;
+  &lt;strong&gt;X-Ray math:&lt;/strong&gt; Input 2 Hydrogen, output 1 Hydrogen; net loss of 1 Hydrogen per cycle. Run one Cracker per 3 Refineries and your line stays stable.
+&lt;/div&gt;
+&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Step 4: Assemble the Matrix Line&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;With Diamonds and Crystal Silicon stable, build your Matrix Labs. Blue Matrix needs all three inputs on separate belts feeding each lab:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Belt 1:&lt;/strong&gt; Diamonds&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Belt 2:&lt;/strong&gt; Crystal Silicon&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Belt 3:&lt;/strong&gt; Titanium Ingots&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Space labs 2 tiles apart in rows of 6 to 8. Run three input belts parallel and use Sorters to pull from each belt into each lab.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Critical:&lt;/strong&gt; Your Titanium Ingot belt needs a dedicated supply line. If it runs dry, Matrix Labs stop even when Diamonds and Silicon are flowing. Do not share the Titanium belt with other consumers.&lt;/p&gt;
+&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Quick Reference&lt;/h2&gt;&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Component&lt;/th&gt;
+      &lt;th&gt;30 Blue/min&lt;/th&gt;
+      &lt;th&gt;60 Blue/min&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Oil Extractor&lt;/td&gt;
+      &lt;td&gt;4-6&lt;/td&gt;
+      &lt;td&gt;8-10&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Refinery&lt;/td&gt;
+      &lt;td&gt;3&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chemical Plant (Diamond)&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Chemical Plant (Crystal Silicon)&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;X-Ray Cracking&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Matrix Lab&lt;/td&gt;
+      &lt;td&gt;6&lt;/td&gt;
+      &lt;td&gt;12&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Liquid Storage Tank&lt;/td&gt;
+      &lt;td&gt;1-2&lt;/td&gt;
+      &lt;td&gt;2-3&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;cta-box&#34;&gt;
+  &lt;strong&gt;ILS giving you trouble?&lt;/strong&gt; &lt;a href=&#34;/ils-setup-guide/&#34;&gt;Fix Supply vs Demand here&lt;/a&gt;
+&lt;/div&gt;
+&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Bottom Line&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Blue Science is not hard once you understand the byproduct mechanic. Get Oil Extractors on a Seep, feed Crude Oil to Refineries, split Refined Oil into Diamonds and Crystal Silicon, and always give Hydrogen an exit. The Hydrogen buffer tank is non-negotiable; skip it and your line stops within minutes.&lt;/p&gt;
+&lt;p&gt;Once Blue Matrix is stable, you are ready for Purple Science and the mid-game push toward Warpers and interstellar logistics.&lt;/p&gt;
+&lt;div class=&#34;cta-box&#34;&gt;
+  &lt;strong&gt;More DSP Guides:&lt;/strong&gt;&lt;br&gt;
+  &lt;a href=&#34;/titanium-transport-guide/&#34;&gt;Titanium Transport&lt;/a&gt; &amp;mdash; &lt;a href=&#34;/ils-setup-guide/&#34;&gt;ILS Not Moving Items?&lt;/a&gt; &amp;mdash; &lt;a href=&#34;/power-fix-guide/&#34;&gt;Power Keep Tripping?&lt;/a&gt;
+&lt;/div&gt;
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/">Guides</a>
+      <a href="/tags/">Topics</a>
+    </div>
+    <p><strong>DSP Guide</strong> - Unofficial community guides for Dyson Sphere Program.</p>
+    <p>(C) 2026 DSP Guide - Game assets belong to Youthcat Studio / Gamera Games</p>
+  </footer>
+<script src="/js/main.js"></script>
+</body>
+</html>
