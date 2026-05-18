@@ -66,9 +66,9 @@
   <line x1="280" y1="50" x2="280" y2="270" stroke="#66BB6A" stroke-width="1.5" stroke-dasharray="6 4"/>
   <text x="280" y="45" text-anchor="middle" fill="#66BB6A" font-size="10.7" font-family="monospace">MIN SAILS</text>
   <!-- Legend box -->
-  <rect x="500" y="180" width="200" height="75" rx="4" fill="rgba(13,17,23,0.9)" stroke="#455A64" stroke-width="1"/>
-  <text x="600" y="198" text-anchor="middle" fill="#ECEFF1" font-size="12" font-family="monospace" font-weight="bold">KEY</text>
-  <circle cx="535" cy="215" r="4" fill="#EF5350"/><text x="565" y="218" fill="#EF9A9A" font-size="10.7" font-family="monospace">Below threshold</text>
-  <circle cx="535" cy="232" r="4" fill="#66BB6A"/><text x="565" y="235" fill="#A5D6A7" font-size="10.7" font-family="monospace">Working range</text>
-  <line x1="530" y1="248" x2="545" y2="248" stroke="#29B6F6" stroke-width="2"/><text x="570" y="251" fill="#29B6F6" font-size="10.7" font-family="monospace">Output curve</text>
+  <rect x="420" y="175" width="265" height="105" rx="4" fill="rgba(13,17,23,0.9)" stroke="#455A64" stroke-width="1"/>
+  <text x="552" y="195" text-anchor="middle" fill="#ECEFF1" font-size="12" font-family="monospace" font-weight="bold">KEY</text>
+  <circle cx="435" cy="220" r="5" fill="#EF5350"/><text x="450" y="223" fill="#EF9A9A" font-size="11" font-family="monospace">Below threshold</text>
+  <circle cx="435" cy="245" r="5" fill="#66BB6A"/><text x="450" y="248" fill="#A5D6A7" font-size="11" font-family="monospace">Working range</text>
+  <line x1="430" y1="270" x2="445" y2="270" stroke="#29B6F6" stroke-width="2"/><text x="450" y="273" fill="#29B6F6" font-size="11" font-family="monospace">Output curve</text>
 </svg>
