@@ -16,6 +16,34 @@
       <description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;&#xA;&lt;p&gt;Blue Science is the first wall in DSP that is not just &#34;build more miners.&#34; It introduces Refined Oil, Hydrogen byproducts, and the frustrating &#34;one output backed up, whole chain dead&#34; problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xA;  &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;&#xA;  1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;&#xA;  2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;&#xA;  3. Titanium Ingots are required for Blue Matrix; set that up first&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>DSP Fire Ice &amp; Deuterium: Cold Planet Refining Guide</title>
+      <link>https://dsp-guide.com/fire-ice-deuterium/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/fire-ice-deuterium/</guid>
+      <description>&lt;!-- section:intro --&gt;&#xA;&lt;h1 id=&#34;fire-ice--deuterium-the-cold-chain-nobody-warns-you-about&#34;&gt;Fire Ice &amp;amp; Deuterium: The Cold Chain Nobody Warns You About&lt;/h1&gt;&#xA;&lt;p&gt;You&#39;ve found a lava world or an ice giant. The stars call it a Fire Ice planet — and it&#39;s full of something that doesn&#39;t exist on temperate worlds: &lt;strong&gt;Deuterium&lt;/strong&gt;. Deuterium is your path to advanced fuels, high-output Rocket Fuel, and the Yellow Science chain. But getting it out of the ground and into your factory requires understanding a completely different logistics problem.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Oil &amp; Plastics: Full Refining Chain Guide</title>
+      <link>https://dsp-guide.com/oil-plastics-refining/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/oil-plastics-refining/</guid>
+      <description>&lt;!-- section:intro --&gt;&#xA;&lt;h1 id=&#34;oil--plastics-the-refining-chain-that-makes-or-breaks-your-mid-game&#34;&gt;Oil &amp;amp; Plastics: The Refining Chain That Makes or Breaks Your Mid-Game&lt;/h1&gt;&#xA;&lt;p&gt;Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up and stalling your entire chain — is a system that catches almost everyone off guard.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title>
+      <link>https://dsp-guide.com/quantum-chips-proliferator/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/quantum-chips-proliferator/</guid>
+      <description>&lt;!-- section:intro --&gt;&#xA;&lt;h1 id=&#34;quantum-chips--proliferator-the-multiplier-nobody-tells-you-about&#34;&gt;Quantum Chips &amp;amp; Proliferator: The Multiplier Nobody Tells You About&lt;/h1&gt;&#xA;&lt;p&gt;Every factory has a ceiling. At some point you&#39;re running 40 assemblers on your Circuit Board chain and wondering if there&#39;s a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;. It&#39;s a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Solar Sails &amp; Ray Receivers: Complete Endgame Power Guide</title>
+      <link>https://dsp-guide.com/solar-sails-ray-receivers/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/solar-sails-ray-receivers/</guid>
+      <description>&lt;!-- section:intro --&gt;&#xA;&lt;h1 id=&#34;solar-sails--ray-receivers-the-only-power-that-scales-to-the-stars&#34;&gt;Solar Sails &amp;amp; Ray Receivers: The Only Power That Scales to the Stars&lt;/h1&gt;&#xA;&lt;p&gt;You&#39;ve got a handful of coal power plants. Maybe you&#39;ve built a wind farm or twelve. You&#39;re researching toward the stars — literally — and then it hits you: the Dyson sphere isn&#39;t just the goal, it&#39;s the power solution. To get there, you need Solar Sails and Ray Receivers working in tandem. One launches into orbit and reflects stellar radiation. The other catches that energy and converts it into usable power for your planet.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Can&#39;t Find Titanium in DSP? Here&#39;s How to Get It (And Bring It Home)</title>
       <link>https://dsp-guide.com/titanium-transport-guide/</link>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>

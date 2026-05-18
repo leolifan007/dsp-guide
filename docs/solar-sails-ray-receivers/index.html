@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DSP Solar Sails & Ray Receivers: Complete Endgame Power Guide | Dyson Sphere Program Guide</title>
+  <base href="https://dsp-guide.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/dsp-main.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RDJSH9J2M9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-RDJSH9J2M9');
+</script>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7551387157478980" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class="site-header">
+  <a href="/" class="site-logo">
+    <span class="logo-icon">&#9670;</span> DSP Guide
+  </a>
+  <div class="nav-links">
+    <a href="/ils-setup-guide/" class="nav-btn">ILS Setup</a>
+    <a href="/power-fix-guide/" class="nav-btn">Power Fix</a>
+    <a href="/titanium-transport-guide/" class="nav-btn">Titanium</a>
+    <a href="/green-science-warper-guide/" class="nav-btn">Green Science</a>
+  </div>
+</div>
+
+  <div class="page-wrap">
+    
+<div class="single-page">
+  <div class="article-hero-full">
+    <div class="article-hero-bg" style="background-image:url('/images/hero-bg.jpg')"></div>
+    <div class="article-hero-fade"></div>
+    <div class="article-hero-text">
+      <h1>DSP Solar Sails & Ray Receivers: Complete Endgame Power Guide</h1>
+      <div class="article-meta">
+        <span class="meta-date">Updated: May 18, 2026</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-layout">
+    <aside class="floating-toc" id="floatingToc"></aside>
+    <main class="article-body">
+      <!-- section:intro -->
+<h1 id=&#34;solar-sails--ray-receivers-the-only-power-that-scales-to-the-stars&#34;>Solar Sails &amp; Ray Receivers: The Only Power That Scales to the Stars</h1>
+<p>You've got a handful of coal power plants. Maybe you've built a wind farm or twelve. You're researching toward the stars — literally — and then it hits you: the Dyson sphere isn't just the goal, it's the power solution. To get there, you need Solar Sails and Ray Receivers working in tandem. One launches into orbit and reflects stellar radiation. The other catches that energy and converts it into usable power for your planet.</p>
+<p>This guide walks you through how both systems actually work, how to deploy your first stable sail orbit, scale up Ray Receiver arrays, and keep the whole thing running without your grid blacking out mid-expansion.</p>
+<blockquote>
+<p><strong>Important note:</strong> Game balance numbers below reflect DSP v0.10 (current Early Access). Check <a href=&#34;https://dyson-calculator.com/&#34;>dyson-calculator.com</a> for live production ratios.</p>
+</blockquote>
+<!-- recipe:Ray Receiver Recipe -->
+<!-- callout:Power Warning -->
+<h2 id=&#34;tldr&#34;>TL;DR</h2>
+<ul>
+<li><strong>Solar Sails</strong> launch from Vertical Launchers and orbit the local star — no fuel required</li>
+<li><strong>Ray Receivers</strong> must be placed on a planet in the same star system to collect sail radiation and convert it to power</li>
+<li>A stable orbit needs roughly <strong>6–10 sails</strong> minimum; sail degradation over time means you need a replenishment schedule</li>
+<li>Ray Receivers output <strong>~14.4 MW each</strong> at full capacity (photon mode), or feed <strong>Photonic Cells</strong> into Solar Fusion</li>
+<li>Scale up by adding <strong>more sails &#43; more Ray Receivers</strong> — one receiver saturates quickly</li>
+<li>The endgame power solution: multiple Ray Receiver arrays on multiple planets, powered by a full solar sail shell</li>
+</ul>
+<!-- callout:Prerequisites -->
+<h2 id=&#34;what-are-solar-sails-and-ray-receivers&#34;>What Are Solar Sails and Ray Receivers?</h2>
+<p>These are two distinct buildings that form a paired system.</p>
+<p><strong>Solar Sail</strong> is a small, passive object that orbits your star. It has no inventory, no fuel cost, and no power draw. Its only job is to reflect stellar radiation outward. Sail it: one launched = one in orbit. They'll accumulate at orbital height and slowly degrade — you'll need to replenish them.</p>
+<p><strong>Ray Receiver</strong> is a planetary building. Placed on any planet in the same system as your sails, it absorbs the reflected radiation from orbiting sails and converts it into energy. In <strong>Energy mode</strong>, it feeds your grid. In <strong>Photon mode</strong>, it outputs <strong>Photonic Cells</strong> — the raw material for Solar Fusion and later research chains.</p>
+<p>The two buildings are not optional. Sail without receivers and you're just lighting up empty space. Receivers without sails: zero input, zero output.</p>
+<!-- section:step1 -->
+<h2 id=&#34;step-1-unlock-and-build-vertical-launchers&#34;>Step 1: Unlock and Build Vertical Launchers</h2>
+<p>Before anything enters orbit, you need the <strong>Vertical Launcher</strong> — a building unlocked at the <strong>Photon Network</strong> technology tier. You also need the <strong>Solar Sail</strong> component in your inventory (crafted from <strong>Graphene</strong> — 2 per sail).</p>
+<p><strong>What you'll need to make one Solar Sail:</strong></p>
+<ul>
+<li>2 Graphene</li>
+<li>Graphene comes from: Coal &#43; Oil in a Refining chain, or from Fire Ice</li>
+</ul>
+<p><strong>Launcher placement:</strong> Vertical Launchers are placed on any planet's surface, aimed at the local star. They don't need line-of-sight to the star — the sail trajectory is calculated automatically. One Launcher can fire sails continuously as long as you have them in its buffer.</p>
+<p><strong>Launcher specs (v0.10):</strong></p>
+<ul>
+<li>Sail launch rate: 1 sail per 0.5 seconds</li>
+<li>Buffer capacity: 30 sails</li>
+<li>Launch range: entire star system</li>
+<li>Power draw: 240 kW during launch</li>
+</ul>
+<p>Keep a stack of Solar Sails in the launcher's inventory. Set up a logistics network — an <strong>Interstellar Logistics Station (ILS)</strong> nearby is ideal — to auto-replenish the sail buffer.</p>
+<!-- section:step2 -->
+<h2 id=&#34;step-2-launch-your-first-sail-orbit&#34;>Step 2: Launch Your First Sail Orbit</h2>
+<p>This is where most players fumble their first attempt.</p>
+<p>The key concept: <strong>orbit is not automatic</strong>. Sail launches go out, but they need to be <em>collected</em> and <em>launched in a stable pattern</em> to maintain a coherent shell. Here's what actually works.</p>
+<h3 id=&#34;the-manual-approach-for-your-first-test&#34;>The Manual Approach (for your first test)</h3>
+<ol>
+<li>Place a <strong>Vertical Launcher</strong> on your home planet</li>
+<li>Manually load 6–10 Solar Sails into the launcher</li>
+<li>Click the launcher and set it to <strong>Auto-Launch</strong></li>
+<li>Watch the orbital view — sails will appear as small blue dots circling the star</li>
+<li>Place a <strong>Ray Receiver</strong> on the same planet (or another planet in-system)</li>
+<li>The receiver will start collecting from whatever sails are in orbit</li>
+</ol>
+<p>The receiver won't instantly saturate — there's a lag as sails accumulate. Expect the first meaningful power output after ~30–60 seconds of continuous launch.</p>
+<p><img src=&#34;/images/solar-sails-diagram.svg&#34; alt=&#34;Solar Sail &amp; Ray Receiver System&#34;></p>
+<h3 id=&#34;the-stable-orbit-threshold&#34;>The Stable Orbit Threshold</h3>
+<p>A "working" sail network for one Ray Receiver needs roughly <strong>6–10 sails</strong> in orbit. Below that threshold, the receiver idles. Above it, output climbs until it hits its per-receiver cap.</p>
+<p>More sails = more reflected radiation = higher receiver output. There's no hard cap on sail count — but sail degradation means orbits thin out over time if you're not replenishing.</p>
+<!-- section:step3 -->
+<h2 id=&#34;step-3-build-and-scale-ray-receivers&#34;>Step 3: Build and Scale Ray Receivers</h2>
+<p>Ray Receivers are the power collection layer. A single receiver is never enough for late-game grids — you'll need an array.</p>
+<h3 id=&#34;receiver-placement-rules&#34;>Receiver Placement Rules</h3>
+<ul>
+<li>Must be placed on a <strong>planet</strong> — not in space</li>
+<li>Must be in the <strong>same star system</strong> as your active sail orbit</li>
+<li>No line-of-sight requirement — radiation travels through space regardless of planet positions</li>
+<li>Receivers can be planet-wide; they don't interfere with each other</li>
+</ul>
+<h3 id=&#34;energy-vs-photon-mode&#34;>Energy vs. Photon Mode</h3>
+<p>Right-click a placed Ray Receiver to toggle between two modes:</p>
+<p><strong>Energy Mode</strong> feeds <strong>14.4 MW</strong> directly into your power grid (at full capacity). This is your primary power source once coal becomes insufficient.</p>
+<p><strong>Photon Mode</strong> outputs <strong>Photonic Cells</strong> at a rate of 1 per ~1.44 seconds. Photonic Cells feed into:</p>
+<ul>
+<li>Solar Fusion (produces Hydrogen and Deuterium without fire ice)</li>
+<li>Adv. Refining chains</li>
+<li>Quantum Chip production (endgame)</li>
+</ul>
+<p>For most players: run receivers in <strong>Energy mode</strong> as your primary power. Switch a few to <strong>Photon mode</strong> when you need Photonic Cells for production chains.</p>
+<h3 id=&#34;scaling-the-array&#34;>Scaling the Array</h3>
+<p>One Ray Receiver saturates at its output cap. To scale:</p>
+<ul>
+<li>Add more receivers on the same planet or nearby planets</li>
+<li>Each additional receiver draws from the same shared sail network</li>
+<li>More sails in orbit → higher aggregate collection rate → more receivers can operate at full output</li>
+</ul>
+<p><strong>The ratio to aim for:</strong> roughly 1 Ray Receiver per 6–8 Solar Sails in orbit. Overshoot on sails — it's better to have more radiation than the receivers can absorb than to starve them.</p>
+<!-- section:step4 -->
+<h2 id=&#34;step-4-automation--never-run-out-of-sails&#34;>Step 4: Automation — Never Run Out of Sails</h2>
+<p>Manual sail loading is a beginner trap. Here's how to automate the whole system.</p>
+<h3 id=&#34;the-ils--launcher-loop&#34;>The ILS &#43; Launcher Loop</h3>
+<ol>
+<li>Place an <strong>ILS</strong> near your Vertical Launcher</li>
+<li>Set the ILS to <strong>supply</strong> Solar Sails (import from your logistics network)</li>
+<li>Set the Launcher to <strong>Auto-Launch</strong> and keep its buffer stocked from the ILS</li>
+</ol>
+<p>The ILS pulls Solar Sails from wherever they're being produced (your graphene factory) and delivers them to the launcher. The launcher fires them into orbit automatically. You never touch it again.</p>
+<h3 id=&#34;sail-replenishment-logic&#34;>Sail Replenishment Logic</h3>
+<p>Sails degrade over time. They'll exit orbit and burn up — the exact degradation rate depends on your star type and sail configuration. Budget for roughly <strong>10–15% replenishment per minute</strong> as a rough working estimate.</p>
+<p>The practical fix: keep your sail production running continuously. If your launcher's auto-replenishment is active and your graphene supply is steady, degraded sails are naturally replaced.</p>
+<h3 id=&#34;backup-power&#34;>Backup Power</h3>
+<p>Ray Receivers, like all buildings, shut down if your grid power hits zero. If a sail shortage causes a receiver blackout, your grid loses power, which can cascade into production shutdowns. <strong>Always maintain a small coal or thermal backup</strong> for grid stability while transitioning to solar.</p>
+<!-- section:step5 -->
+<h2 id=&#34;step-5-late-game-solar-sail-shells&#34;>Step 5: Late-Game Solar Sail Shells</h2>
+<p>The name of the endgame is the <strong>Dyson sphere</strong> — a full shell of Solar Sails surrounding your star. Getting there requires building out a dense sail network that your Ray Receivers can tap into.</p>
+<p>The concept: instead of a handful of sails, you're launching thousands — enough to form a continuous shell. This is what enables truly massive power generation, the kind that fuels endgame production chains like Quantum Chips and Universe Matrix.</p>
+<p>Late-game sail shell tips:</p>
+<ul>
+<li>Build <strong>multiple Vertical Launchers</strong> on multiple planets — one launcher can't supply a full shell alone</li>
+<li>Use <strong>Planetary Logistics</strong> to distribute sail production across multiple factories</li>
+<li>Ray Receivers on <strong>inner planets</strong> (closer to the star) collect more efficiently than outer planets</li>
+<li>Consider <strong>ray receiver density</strong> — more receivers per system means you can absorb more of the shell's output</li>
+</ul>
+<p>This is where your ILS network (see our <a href=&#34;/ils-setup-guide/&#34;>ILS Setup Guide</a>) becomes critical. A well-configured interstellar logistics network is the backbone of late-game sail automation.</p>
+<p>For powering through the transition, our <a href=&#34;/power-fix-guide/&#34;>Power Fix Guide</a> covers managing grid stability as you scale up from coal to solar.</p>
+<!-- quick-ref -->
+<h2 id=&#34;quick-reference&#34;>Quick Reference</h2>
+<p>| Building | Mode | Output |
+|---|---|---|
+| Ray Receiver | Energy | 14.4 MW (at full sail network) |
+| Ray Receiver | Photon | ~1 Photonic Cell / 1.44s |
+| Vertical Launcher | — | 1 Sail / 0.5s, 30-sail buffer |
+| Solar Sail | Orbital | Reflects stellar radiation (passive) |</p>
+<p><strong>Recipe: Solar Sail</strong></p>
+<ul>
+<li>Graphene x2 per sail</li>
+</ul>
+<p><strong>Recipe: Graphene</strong> (from Coal &#43; Oil Refining)</p>
+<ul>
+<li>Coal x1 &#43; Oil x1 → Graphene x2 &#43; Hydrogen x1</li>
+</ul>
+<p><strong>Key unlocks:</strong> Photon Network tech → Vertical Launcher &#43; Ray Receiver</p>
+<!-- bottom-line -->
+<h2 id=&#34;bottom-line&#34;>Bottom Line</h2>
+<p>Solar Sails and Ray Receivers are the bridge between planetary power and stellar-scale energy. Launch your first sails, get a single Ray Receiver running in Energy mode, then automate the replenishment loop with an ILS. From there, scale by adding more sails and more receivers — and switch a few receivers to Photon mode when you need Photonic Cells for late-game production.</p>
+<p>The endgame sail shell is a different beast — but everything you need for it is covered by mastering the basics first.</p>
+
+    </main>
+  </div>
+</div>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/">Guides</a>
+      <a href="/tags/">Topics</a>
+    </div>
+    <p><strong>DSP Guide</strong> - Unofficial community guides for Dyson Sphere Program.</p>
+    <p>(C) 2026 DSP Guide - Game assets belong to Youthcat Studio / Gamera Games</p>
+  </footer>
+<script src="/js/main.js"></script>
+</body>
+</html>
