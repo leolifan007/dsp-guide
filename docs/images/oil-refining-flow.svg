@@ -28,79 +28,79 @@
   <!-- Background -->
   <rect width="800" height="420" fill="#0d1117"/>
   <!-- Title -->
-  <text x="400" y="28" text-anchor="middle" fill="#ECEFF1" font-size="14" font-family="monospace" font-weight="bold">OIL REFINING CHAIN - HYDROGEN MANAGEMENT</text>
+  <text x="400" y="28" text-anchor="middle" fill="#ECEFF1" font-size="18.7" font-family="monospace" font-weight="bold">OIL REFINING CHAIN - HYDROGEN MANAGEMENT</text>
   <!-- ROW 1: Oil Extraction -->
   <rect x="60" y="50" width="100" height="55" rx="6" fill="#1B5E20" stroke="#43A047" stroke-width="1.5"/>
-  <text x="110" y="72" text-anchor="middle" fill="#C8E6C9" font-size="9" font-family="monospace" font-weight="bold">OIL EXTRACTOR</text>
-  <text x="110" y="87" text-anchor="middle" fill="#A5D6A7" font-size="8" font-family="monospace">1 Crude Oil/s</text>
-  <text x="110" y="98" text-anchor="middle" fill="#66BB6A" font-size="7" font-family="monospace">x3-5 extractors</text>
+  <text x="110" y="72" text-anchor="middle" fill="#C8E6C9" font-size="12" font-family="monospace" font-weight="bold">OIL EXTRACTOR</text>
+  <text x="110" y="87" text-anchor="middle" fill="#A5D6A7" font-size="10.7" font-family="monospace">1 Crude Oil/s</text>
+  <text x="110" y="98" text-anchor="middle" fill="#66BB6A" font-size="9.3" font-family="monospace">x3-5 extractors</text>
   <!-- Belt to refinery -->
   <line x1="160" y1="77" x2="220" y2="77" stroke="#8D6E63" stroke-width="2.5" marker-end="url(#arrOil)"/>
   <!-- ROW 1: Refinery (Standard) -->
   <rect x="220" y="45" width="150" height="65" rx="6" fill="url(#oilGrad)" stroke="#8D6E63" stroke-width="1.5"/>
-  <text x="295" y="65" text-anchor="middle" fill="#FFCCBC" font-size="9" font-family="monospace" font-weight="bold">REFINERY (Standard)</text>
-  <text x="295" y="80" text-anchor="middle" fill="#A1887F" font-size="8" font-family="monospace">Crude Oil 1/s</text>
-  <text x="295" y="95" text-anchor="middle" fill="#D7CCC8" font-size="7" font-family="monospace">-&gt; Refined Oil 1/s + H2 0.5/s</text>
+  <text x="295" y="65" text-anchor="middle" fill="#FFCCBC" font-size="12" font-family="monospace" font-weight="bold">REFINERY (Standard)</text>
+  <text x="295" y="80" text-anchor="middle" fill="#A1887F" font-size="10.7" font-family="monospace">Crude Oil 1/s</text>
+  <text x="295" y="95" text-anchor="middle" fill="#D7CCC8" font-size="9.3" font-family="monospace">-&gt; Refined Oil 1/s + H2 0.5/s</text>
   <!-- H2 output arrow -->
   <line x1="370" y1="77" x2="420" y2="77" stroke="#29B6F6" stroke-width="2" marker-end="url(#arrH2)"/>
-  <text x="395" y="70" fill="#29B6F6" font-size="7" font-family="monospace">H2</text>
+  <text x="395" y="70" fill="#29B6F6" font-size="9.3" font-family="monospace">H2</text>
   <!-- ROW 1: H2 Tank -->
   <rect x="420" y="50" width="80" height="55" rx="6" fill="url(#h2Grad)" stroke="#29B6F6" stroke-width="1.5"/>
-  <text x="460" y="72" text-anchor="middle" fill="#E1F5FE" font-size="9" font-family="monospace" font-weight="bold">H2 TANK</text>
-  <text x="460" y="87" text-anchor="middle" fill="#B3E5FC" font-size="8" font-family="monospace">Buffer</text>
-  <text x="460" y="98" text-anchor="middle" fill="#81D4FA" font-size="7" font-family="monospace">Prevent backup</text>
+  <text x="460" y="72" text-anchor="middle" fill="#E1F5FE" font-size="12" font-family="monospace" font-weight="bold">H2 TANK</text>
+  <text x="460" y="87" text-anchor="middle" fill="#B3E5FC" font-size="10.7" font-family="monospace">Buffer</text>
+  <text x="460" y="98" text-anchor="middle" fill="#81D4FA" font-size="9.3" font-family="monospace">Prevent backup</text>
   <!-- H2 to Fuel Plants -->
   <line x1="500" y1="77" x2="550" y2="77" stroke="#29B6F6" stroke-width="2" marker-end="url(#arrH2)"/>
   <!-- ROW 1: Fuel Plants -->
   <rect x="550" y="50" width="130" height="55" rx="6" fill="#01579B" stroke="#29B6F6" stroke-width="1.5"/>
-  <text x="615" y="72" text-anchor="middle" fill="#B3E5FC" font-size="9" font-family="monospace" font-weight="bold">H2 FUEL PLANTS</text>
-  <text x="615" y="87" text-anchor="middle" fill="#81D4FA" font-size="8" font-family="monospace">H2 -&gt; 1.08 MW each</text>
-  <text x="615" y="98" text-anchor="middle" fill="#4FC3F7" font-size="7" font-family="monospace">Consumes byproduct</text>
+  <text x="615" y="72" text-anchor="middle" fill="#B3E5FC" font-size="12" font-family="monospace" font-weight="bold">H2 FUEL PLANTS</text>
+  <text x="615" y="87" text-anchor="middle" fill="#81D4FA" font-size="10.7" font-family="monospace">H2 -&gt; 1.08 MW each</text>
+  <text x="615" y="98" text-anchor="middle" fill="#4FC3F7" font-size="9.3" font-family="monospace">Consumes byproduct</text>
   <!-- Power output -->
   <line x1="680" y1="77" x2="720" y2="77" stroke="#FFD54F" stroke-width="2"/>
-  <text x="740" y="80" fill="#FFD54F" font-size="8" font-family="monospace"> GRID</text>
+  <text x="740" y="80" fill="#FFD54F" font-size="10.7" font-family="monospace"> GRID</text>
   <!-- ROW 2: Refined Oil -&gt; Plastics -->
   <line x1="295" y1="110" x2="295" y2="150" stroke="#8D6E63" stroke-width="2" marker-end="url(#arrOil)"/>
-  <text x="305" y="135" fill="#8D6E63" font-size="7" font-family="monospace">Ref. Oil</text>
+  <text x="305" y="135" fill="#8D6E63" font-size="9.3" font-family="monospace">Ref. Oil</text>
   <!-- ROW 2: Plastics Refinery -->
   <rect x="220" y="150" width="150" height="65" rx="6" fill="url(#plastGrad)" stroke="#66BB6A" stroke-width="1.5"/>
-  <text x="295" y="170" text-anchor="middle" fill="#E8F5E9" font-size="9" font-family="monospace" font-weight="bold">REFINERY (Plastics)</text>
-  <text x="295" y="185" text-anchor="middle" fill="#C8E6C9" font-size="8" font-family="monospace">Ref. Oil + Coal</text>
-  <text x="295" y="200" text-anchor="middle" fill="#A5D6A7" font-size="7" font-family="monospace">-&gt; Plastics 1 / 1.5s</text>
+  <text x="295" y="170" text-anchor="middle" fill="#E8F5E9" font-size="12" font-family="monospace" font-weight="bold">REFINERY (Plastics)</text>
+  <text x="295" y="185" text-anchor="middle" fill="#C8E6C9" font-size="10.7" font-family="monospace">Ref. Oil + Coal</text>
+  <text x="295" y="200" text-anchor="middle" fill="#A5D6A7" font-size="9.3" font-family="monospace">-&gt; Plastics 1 / 1.5s</text>
   <!-- Coal input -->
   <rect x="120" y="165" width="80" height="35" rx="4" fill="#37474F" stroke="#90A4AE" stroke-width="1"/>
-  <text x="160" y="182" text-anchor="middle" fill="#ECEFF1" font-size="8" font-family="monospace">COAL</text>
-  <text x="160" y="193" text-anchor="middle" fill="#B0BEC5" font-size="7" font-family="monospace">from mines</text>
+  <text x="160" y="182" text-anchor="middle" fill="#ECEFF1" font-size="10.7" font-family="monospace">COAL</text>
+  <text x="160" y="193" text-anchor="middle" fill="#B0BEC5" font-size="9.3" font-family="monospace">from mines</text>
   <line x1="200" y1="182" x2="220" y2="182" stroke="#90A4AE" stroke-width="1.5"/>
   <!-- Plastics output -->
   <line x1="370" y1="182" x2="420" y2="182" stroke="#66BB6A" stroke-width="2" marker-end="url(#arrPlast)"/>
   <!-- ROW 2: Plastics -->
   <rect x="420" y="155" width="110" height="55" rx="6" fill="#2E7D32" stroke="#66BB6A" stroke-width="1.5"/>
-  <text x="475" y="175" text-anchor="middle" fill="#C8E6C9" font-size="10" font-family="monospace" font-weight="bold">PLASTICS</text>
-  <text x="475" y="190" text-anchor="middle" fill="#A5D6A7" font-size="8" font-family="monospace">-&gt; Circuit Boards</text>
-  <text x="475" y="202" text-anchor="middle" fill="#A5D6A7" font-size="7" font-family="monospace">-&gt; Thrusters</text>
+  <text x="475" y="175" text-anchor="middle" fill="#C8E6C9" font-size="13.3" font-family="monospace" font-weight="bold">PLASTICS</text>
+  <text x="475" y="190" text-anchor="middle" fill="#A5D6A7" font-size="10.7" font-family="monospace">-&gt; Circuit Boards</text>
+  <text x="475" y="202" text-anchor="middle" fill="#A5D6A7" font-size="9.3" font-family="monospace">-&gt; Thrusters</text>
   <!-- ROW 3: Graphene Chain -->
   <line x1="460" y1="105" x2="460" y2="260" stroke="#29B6F6" stroke-width="2"/>
   <line x1="460" y1="260" x2="520" y2="260" stroke="#29B6F6" stroke-width="2" marker-end="url(#arrH2)"/>
   <!-- ROW 3: Graphene Refinery -->
   <rect x="520" y="225" width="150" height="65" rx="6" fill="#F57F17" stroke="#FFB300" stroke-width="1.5"/>
-  <text x="595" y="245" text-anchor="middle" fill="#FFF8E1" font-size="9" font-family="monospace" font-weight="bold">REFINERY (Graphene)</text>
-  <text x="595" y="260" text-anchor="middle" fill="#FFE082" font-size="8" font-family="monospace">Coal + Ref. Oil</text>
-  <text x="595" y="275" text-anchor="middle" fill="#FFCA28" font-size="7" font-family="monospace">-&gt; Graphene x2 + H2</text>
+  <text x="595" y="245" text-anchor="middle" fill="#FFF8E1" font-size="12" font-family="monospace" font-weight="bold">REFINERY (Graphene)</text>
+  <text x="595" y="260" text-anchor="middle" fill="#FFE082" font-size="10.7" font-family="monospace">Coal + Ref. Oil</text>
+  <text x="595" y="275" text-anchor="middle" fill="#FFCA28" font-size="9.3" font-family="monospace">-&gt; Graphene x2 + H2</text>
   <!-- Coal to Graphene -->
   <line x1="160" y1="200" x2="160" y2="257" stroke="#90A4AE" stroke-width="1.5"/>
   <line x1="160" y1="257" x2="520" y2="257" stroke="#90A4AE" stroke-width="1.5" marker-end="url(#arrOil)"/>
   <!-- Graphene output -->
   <line x1="670" y1="257" x2="700" y2="257" stroke="#F57F17" stroke-width="2"/>
-  <text x="720" y="260" fill="#F57F17" font-size="8" font-family="monospace">-&gt; SAILS</text>
+  <text x="720" y="260" fill="#F57F17" font-size="10.7" font-family="monospace">-&gt; SAILS</text>
   <!-- ROW 4: Rocket Fuel -->
   <line x1="295" y1="215" x2="295" y2="340" stroke="#8D6E63" stroke-width="2" marker-end="url(#arrOil)"/>
-  <text x="305" y="280" fill="#8D6E63" font-size="7" font-family="monospace">Ref. Oil</text>
+  <text x="305" y="280" fill="#8D6E63" font-size="9.3" font-family="monospace">Ref. Oil</text>
   <!-- ROW 4: Rocket Fuel Refinery -->
   <rect x="220" y="330" width="150" height="65" rx="6" fill="#BF360C" stroke="#FF7043" stroke-width="1.5"/>
-  <text x="295" y="350" text-anchor="middle" fill="#FFCCBC" font-size="9" font-family="monospace" font-weight="bold">REFINERY (Rocket)</text>
-  <text x="295" y="365" text-anchor="middle" fill="#FFAB91" font-size="8" font-family="monospace">Ref. Oil x2 + Coal</text>
-  <text x="295" y="380" text-anchor="middle" fill="#FF8A65" font-size="7" font-family="monospace">-&gt; Rocket Fuel 1 / 3s</text>
+  <text x="295" y="350" text-anchor="middle" fill="#FFCCBC" font-size="12" font-family="monospace" font-weight="bold">REFINERY (Rocket)</text>
+  <text x="295" y="365" text-anchor="middle" fill="#FFAB91" font-size="10.7" font-family="monospace">Ref. Oil x2 + Coal</text>
+  <text x="295" y="380" text-anchor="middle" fill="#FF8A65" font-size="9.3" font-family="monospace">-&gt; Rocket Fuel 1 / 3s</text>
   <!-- Coal to Rocket Fuel -->
   <line x1="160" y1="257" x2="160" y2="362" stroke="#90A4AE" stroke-width="1.5"/>
   <line x1="160" y1="362" x2="220" y2="362" stroke="#90A4AE" stroke-width="1.5"/>
@@ -108,13 +108,13 @@
   <line x1="370" y1="362" x2="420" y2="362" stroke="#FF7043" stroke-width="2" marker-end="url(#arrFuel)"/>
   <!-- ROW 4: Rocket Fuel -->
   <rect x="420" y="335" width="110" height="55" rx="6" fill="#D84315" stroke="#FF7043" stroke-width="1.5"/>
-  <text x="475" y="355" text-anchor="middle" fill="#FFCCBC" font-size="10" font-family="monospace" font-weight="bold">ROCKET FUEL</text>
-  <text x="475" y="370" text-anchor="middle" fill="#FFAB91" font-size="8" font-family="monospace">High-energy grid</text>
-  <text x="475" y="382" text-anchor="middle" fill="#FF8A65" font-size="7" font-family="monospace">Yellow Science</text>
+  <text x="475" y="355" text-anchor="middle" fill="#FFCCBC" font-size="13.3" font-family="monospace" font-weight="bold">ROCKET FUEL</text>
+  <text x="475" y="370" text-anchor="middle" fill="#FFAB91" font-size="10.7" font-family="monospace">High-energy grid</text>
+  <text x="475" y="382" text-anchor="middle" fill="#FF8A65" font-size="9.3" font-family="monospace">Yellow Science</text>
   <!-- Legend -->
   <rect x="600" y="330" width="180" height="75" rx="4" fill="rgba(13,17,23,0.9)" stroke="#455A64" stroke-width="1"/>
-  <text x="610" y="350" fill="#ECEFF1" font-size="9" font-family="monospace" font-weight="bold">KEY FLOW</text>
-  <line x1="610" y1="363" x2="640" y2="363" stroke="#29B6F6" stroke-width="2"/><text x="645" y="366" fill="#29B6F6" font-size="8" font-family="monospace">Hydrogen (H2)</text>
-  <line x1="610" y1="378" x2="640" y2="378" stroke="#8D6E63" stroke-width="2"/><text x="645" y="381" fill="#8D6E63" font-size="8" font-family="monospace">Refined Oil</text>
-  <line x1="610" y1="393" x2="640" y2="393" stroke="#FF7043" stroke-width="2"/><text x="645" y="396" fill="#FF7043" font-size="8" font-family="monospace">Rocket Fuel</text>
+  <text x="610" y="350" fill="#ECEFF1" font-size="12" font-family="monospace" font-weight="bold">KEY FLOW</text>
+  <line x1="610" y1="363" x2="640" y2="363" stroke="#29B6F6" stroke-width="2"/><text x="645" y="366" fill="#29B6F6" font-size="10.7" font-family="monospace">Hydrogen (H2)</text>
+  <line x1="610" y1="378" x2="640" y2="378" stroke="#8D6E63" stroke-width="2"/><text x="645" y="381" fill="#8D6E63" font-size="10.7" font-family="monospace">Refined Oil</text>
+  <line x1="610" y1="393" x2="640" y2="393" stroke="#FF7043" stroke-width="2"/><text x="645" y="396" fill="#FF7043" font-size="10.7" font-family="monospace">Rocket Fuel</text>
 </svg>

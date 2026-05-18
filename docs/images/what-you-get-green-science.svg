@@ -19,7 +19,7 @@
   <rect x="0" y="0" width="760" height="320" rx="12" fill="url(#bg2)" opacity="0.5"/>
 
   <!-- Title -->
-  <text x="380" y="32" text-anchor="middle" font-family="Orbitron,sans-serif" font-size="14" font-weight="700" fill="#22c55e" letter-spacing="1.5">WHAT YOU GET - GREEN SCIENCE</text>
+  <text x="380" y="32" text-anchor="middle" font-family="Orbitron,sans-serif" font-size="18.7" font-weight="700" fill="#22c55e" letter-spacing="1.5">WHAT YOU GET - GREEN SCIENCE</text>
   <line x1="120" y1="42" x2="640" y2="42" stroke="rgba(34,197,94,0.15)" stroke-width="1"/>
 
   <!-- === Item 1: Space Warpers === -->
@@ -27,61 +27,61 @@
   <rect x="40" y="56" width="3" height="54" rx="1.5" fill="#22c55e"/>
 
   <circle cx="84" cy="83" r="16" fill="rgba(34,197,94,0.12)"/>
-  <text x="84" y="82" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="11" fill="#22c55e">W</text>
+  <text x="84" y="82" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="14.7" fill="#22c55e">W</text>
   <circle cx="84" cy="83" r="16" fill="none" stroke="#22c55e" stroke-width="1.5" opacity="0.3" stroke-dasharray="3,2"/>
 
-  <text x="112" y="78" font-family="Rajdhani,sans-serif" font-size="15" font-weight="600" fill="#e8edf5">Space Warpers</text>
-  <text x="112" y="97" font-family="Rajdhani,sans-serif" font-size="12" fill="#8899aa">Enable interstellar vessel travel</text>
+  <text x="112" y="78" font-family="Rajdhani,sans-serif" font-size="20" font-weight="600" fill="#e8edf5">Space Warpers</text>
+  <text x="112" y="97" font-family="Rajdhani,sans-serif" font-size="16" fill="#8899aa">Enable interstellar vessel travel</text>
 
   <!-- === Item 2: Logistics Carrier Engine Lv.3 === -->
   <rect x="390" y="56" width="330" height="54" rx="8" fill="url(#g-purp)"/>
   <rect x="390" y="56" width="3" height="54" rx="1.5" fill="#a855f7"/>
 
   <circle cx="434" cy="83" r="16" fill="rgba(168,85,247,0.12)"/>
-  <text x="434" y="82" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="11" fill="#a855f7">L3</text>
+  <text x="434" y="82" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="14.7" fill="#a855f7">L3</text>
 
-  <text x="462" y="78" font-family="Rajdhani,sans-serif" font-size="15" font-weight="600" fill="#e8edf5">Logistics Carrier Lv.3</text>
-  <text x="462" y="97" font-family="Rajdhani,sans-serif" font-size="12" fill="#8899aa">Faster vessel travel speed</text>
+  <text x="462" y="78" font-family="Rajdhani,sans-serif" font-size="20" font-weight="600" fill="#e8edf5">Logistics Carrier Lv.3</text>
+  <text x="462" y="97" font-family="Rajdhani,sans-serif" font-size="16" fill="#8899aa">Faster vessel travel speed</text>
 
   <!-- === Item 3: Drive Engine Lv.4 === -->
   <rect x="40" y="122" width="330" height="54" rx="8" fill="url(#g-purp)"/>
   <rect x="40" y="122" width="3" height="54" rx="1.5" fill="#a855f7"/>
 
   <circle cx="84" cy="149" r="16" fill="rgba(168,85,247,0.12)"/>
-  <text x="84" y="148" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="11" fill="#a855f7">D4</text>
+  <text x="84" y="148" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="14.7" fill="#a855f7">D4</text>
 
-  <text x="112" y="144" font-family="Rajdhani,sans-serif" font-size="15" font-weight="600" fill="#e8edf5">Drive Engine Lv.4</text>
-  <text x="112" y="163" font-family="Rajdhani,sans-serif" font-size="12" fill="#8899aa">Faster personal mecha travel</text>
+  <text x="112" y="144" font-family="Rajdhani,sans-serif" font-size="20" font-weight="600" fill="#e8edf5">Drive Engine Lv.4</text>
+  <text x="112" y="163" font-family="Rajdhani,sans-serif" font-size="16" fill="#8899aa">Faster personal mecha travel</text>
 
   <!-- === Item 4: Advanced Mining Machine === -->
   <rect x="390" y="122" width="330" height="54" rx="8" fill="url(#g-green)"/>
   <rect x="390" y="122" width="3" height="54" rx="1.5" fill="#22c55e"/>
 
   <circle cx="434" cy="149" r="16" fill="rgba(34,197,94,0.12)"/>
-  <text x="434" y="148" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="11" fill="#22c55e">M</text>
+  <text x="434" y="148" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="14.7" fill="#22c55e">M</text>
 
-  <text x="462" y="144" font-family="Rajdhani,sans-serif" font-size="15" font-weight="600" fill="#e8edf5">Advanced Mining Machine</text>
-  <text x="462" y="163" font-family="Rajdhani,sans-serif" font-size="12" fill="#8899aa">Massive multi-vein miners (huge upgrade)</text>
+  <text x="462" y="144" font-family="Rajdhani,sans-serif" font-size="20" font-weight="600" fill="#e8edf5">Advanced Mining Machine</text>
+  <text x="462" y="163" font-family="Rajdhani,sans-serif" font-size="16" fill="#8899aa">Massive multi-vein miners (huge upgrade)</text>
 
   <!-- === Item 5: Plane Smelter === -->
   <rect x="215" y="190" width="330" height="54" rx="8" fill="url(#g-green)"/>
   <rect x="215" y="190" width="3" height="54" rx="1.5" fill="#22c55e"/>
 
   <circle cx="259" cy="217" r="16" fill="rgba(34,197,94,0.12)"/>
-  <text x="259" y="216" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="11" fill="#22c55e">P</text>
+  <text x="259" y="216" text-anchor="middle" font-family="JetBrains Mono,monospace" font-size="14.7" fill="#22c55e">P</text>
 
-  <text x="287" y="212" font-family="Rajdhani,sans-serif" font-size="15" font-weight="600" fill="#e8edf5">Plane Smelter</text>
-  <text x="287" y="231" font-family="Rajdhani,sans-serif" font-size="12" fill="#8899aa">Smelts 5 items simultaneously</text>
+  <text x="287" y="212" font-family="Rajdhani,sans-serif" font-size="20" font-weight="600" fill="#e8edf5">Plane Smelter</text>
+  <text x="287" y="231" font-family="Rajdhani,sans-serif" font-size="16" fill="#8899aa">Smelts 5 items simultaneously</text>
 
   <!-- === Summary accent === -->
   <line x1="160" y1="262" x2="600" y2="262" stroke="rgba(34,197,94,0.08)" stroke-width="1"/>
 
   <!-- Research Path Arrow -->
-  <text x="380" y="282" text-anchor="middle" font-family="Rajdhani,sans-serif" font-size="11" fill="#556677">Green Science -&gt; Gravity Matrix -&gt; Space Warpers -&gt; Interstellar Factory</text>
+  <text x="380" y="282" text-anchor="middle" font-family="Rajdhani,sans-serif" font-size="14.7" fill="#556677">Green Science -&gt; Gravity Matrix -&gt; Space Warpers -&gt; Interstellar Factory</text>
 
   <path d="M330,294 L380,302 L430,294" fill="none" stroke="rgba(34,197,94,0.3)" stroke-width="1.5" marker-end="url(#arrow)"/>
   <circle cx="380" cy="300" r="2" fill="#22c55e"/>
 
-  <text x="380" y="310" text-anchor="middle" font-family="Orbitron,sans-serif" font-size="9" fill="#22c55e" opacity="0.5"> UNLOCK PROGRESSION </text>
+  <text x="380" y="310" text-anchor="middle" font-family="Orbitron,sans-serif" font-size="12" fill="#22c55e" opacity="0.5"> UNLOCK PROGRESSION </text>
 
 </svg>
