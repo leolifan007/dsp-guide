@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
   <defs>
     <marker id="arrH2" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
       <path d="M0,0 L7,3.5 L0,7 Z" fill="#29B6F6"/>
@@ -52,7 +52,7 @@
   <!-- H2 to Fuel Plants -->
   <line x1="500" y1="77" x2="550" y2="77" stroke="#29B6F6" stroke-width="2" marker-end="url(#arrH2)"/>
   <!-- ROW 1: Fuel Plants -->
-  <rect x="550" y="50" width="130" height="55" rx="6" fill="#01579B" stroke="#29B6F6" stroke-width="1.5"/>
+  <rect x="546" y="50" width="142" height="55" rx="6" fill="#01579B" stroke="#29B6F6" stroke-width="1.5"/>
   <text x="615" y="72" text-anchor="middle" fill="#B3E5FC" font-size="12" font-family="monospace" font-weight="bold">H2 FUEL PLANTS</text>
   <text x="615" y="87" text-anchor="middle" fill="#81D4FA" font-size="10.7" font-family="monospace">H2 -&gt; 1.08 MW each</text>
   <text x="615" y="98" text-anchor="middle" fill="#4FC3F7" font-size="9.3" font-family="monospace">Consumes byproduct</text>
