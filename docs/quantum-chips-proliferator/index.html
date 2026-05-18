@@ -51,58 +51,52 @@
   <div class="article-layout">
     <aside class="floating-toc" id="floatingToc"></aside>
     <main class="article-body">
-      <!-- section:intro -->
-<h1 id=&#34;quantum-chips--proliferator-the-multiplier-nobody-tells-you-about&#34;>Quantum Chips &amp; Proliferator: The Multiplier Nobody Tells You About</h1>
-<p>Every factory has a ceiling. At some point you're running 40 assemblers on your Circuit Board chain and wondering if there's a better way. In DSP v0.10, there is: <strong>Proliferator</strong>. It's a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.</p>
+      <p>Every factory has a ceiling. At some point you're running 40 assemblers on your Circuit Board chain and wondering if there's a better way. In DSP v0.10, there is: <strong>Proliferator</strong>.</p>
+<p>It's a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.</p>
 <p>This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.</p>
 <blockquote>
-<p><strong>Disclaimer:</strong> Production ratios below reflect DSP v0.10 (Early Access). Check <a href=&#34;https://dyson-calculator.com/&#34;>dyson-calculator.com</a> for the most up-to-date recipe data, as v0.10 balances change frequently.</p>
+<p><strong>Disclaimer:</strong> Production ratios below reflect DSP v0.10 (Early Access). Check <a href=&#34;https://dyson-calculator.com/&#34;>dyson-calculator.com</a> for the most up-to-date recipe data.</p>
 </blockquote>
-<!-- callout:Important -->
-<h2 id=&#34;tldr&#34;>TL;DR</h2>
-<ul>
-<li><strong>Quantum Chips</strong> are the key component for endgame structures — Quantum Networks, Adv. Electronics, and high-tier production</li>
-<li><strong>Proliferator</strong> is a spray resource that increases recipe output by percentage tiers when applied to belts or assemblers</li>
-<li><strong>Proliferator Hub Mk.I</strong> sprays Proliferator Mk.I onto passing belts — cheap and simple</li>
-<li>Proliferator has <strong>multiple tiers</strong> (Mk.I → Mk.II → Mk.III), each adding more output bonus</li>
-<li>Apply Proliferator to <strong>high-volume, expensive chains</strong> — Circuit Boards, Quantum Chips, and Green Science first</li>
-<li>The Proliferator cost is always less than the output gain — it's pure factory efficiency</li>
-</ul>
-<!-- section:step1 -->
-<h2 id=&#34;step-1-understanding-quantum-chips&#34;>Step 1: Understanding Quantum Chips</h2>
+<hr>
+<div class=&#34;pro-tip&#34;><strong>TL;DR</strong> — Quantum Chips are endgame components for high-tier structures. Proliferator is a spray resource that increases recipe output by &#43;20% / &#43;40% / &#43;60% tiers. Apply it to high-volume expensive chains (Circuit Boards, Quantum Chips) first. The cost is always less than the output gain — it's pure factory efficiency.</div>
+
+<hr>
+<div class=&#34;section-head&#34;><h2>Understanding Quantum Chips</h2></div>
+
 <p>Quantum Chips sit at the top of the component tree. They require materials from across the late-game resource spectrum — you're not just smelting iron ore anymore.</p>
 <h3 id=&#34;what-quantum-chips-are-used-for&#34;>What Quantum Chips Are Used For</h3>
 <ul>
-<li><strong>Quantum Network</strong> — the structure that enables galaxy-spanning logistics without warpers</li>
-<li><strong>Adv. Electronics</strong> — the component tree for the highest-tier buildings</li>
-<li><strong>Universe Matrix</strong> — the final research item that drives Dyson sphere construction</li>
+<li><strong>Quantum Network</strong> — galaxy-spanning logistics without warpers</li>
+<li><strong>Adv. Electronics</strong> — highest-tier building components</li>
+<li><strong>Universe Matrix</strong> — final research item for Dyson sphere construction</li>
 </ul>
-<p>Getting a stable Quantum Chip supply is the milestone that separates mid-game problem-solving from endgame empire-building.</p>
+<p>Getting a stable Quantum Chip supply is the milestone that separates mid-game from endgame empire-building.</p>
 <h3 id=&#34;the-production-chain&#34;>The Production Chain</h3>
-<p>The full chain depends on your current research tree, but the core materials typically include:</p>
-<ol>
-<li><strong>Copper Ingots</strong> — standard smelting</li>
-<li><strong>Circuit Boards</strong> — Plastics &#43; Iron Ingots (see our <a href=&#34;/oil-plastics-refining/&#34;>Oil &amp; Plastics Guide</a>)</li>
-<li><strong>Microcrystalline Components</strong> — advanced component tier</li>
-<li><strong>Quantum Chips</strong> — final assembler product</li>
-</ol>
-<p>Each step has its own assembler, belt, and ratio requirements. Using dyson-calculator.com's production planner is strongly recommended before you build — a single miscalculated belt bottleneck will stall the entire chain.</p>
-<!-- section:step2 -->
-<h2 id=&#34;step-2-the-proliferator-system-explained&#34;>Step 2: The Proliferator System Explained</h2>
+<p>The core materials include:</p>
+<div class=&#34;game-row&#34;><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>2x</span><img src=&#34;/images/dsp-icons/copper-plate.png&#34; alt=&#34;copper&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Copper</span></div><span class=&#34;game-plus&#34;>&#43;</span><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/silicium-high-purity.png&#34; alt=&#34;silicon&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Silicon</span></div><span class=&#34;game-plus&#34;>&rarr;</span><div class=&#34;game-slot result&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/quantum-chip.svg&#34; alt=&#34;quantum-chip&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Quantum chip</span></div></div>
+<p><strong>Intermediate steps:</strong></p>
+<div class=&#34;game-row&#34;><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>2x</span><img src=&#34;/images/dsp-icons/plastics.svg&#34; alt=&#34;plastics&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Plastics</span></div><span class=&#34;game-plus&#34;>&#43;</span><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>2x</span><img src=&#34;/images/dsp-icons/iron-plate.png&#34; alt=&#34;iron&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Iron</span></div><span class=&#34;game-plus&#34;>&rarr;</span><div class=&#34;game-slot result&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/circuit-board.png&#34; alt=&#34;circuit&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Circuit</span></div></div>
+<p>Each step has its own assembler, belt, and ratio requirements. Using dyson-calculator.com's production planner is strongly recommended before building — a single miscalculated belt bottleneck will stall the entire chain.</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>The Proliferator System Explained</h2></div>
+
 <p>Proliferator is one of DSP's most impactful quality-of-life mechanics. Think of it as a production multiplier you can apply anywhere.</p>
 <h3 id=&#34;how-it-works&#34;>How It Works</h3>
-<p>You produce Proliferator (in Mk.I, II, and III tiers). You then use a <strong>Proliferator Hub</strong> to spray it onto belts carrying intermediate or final products. When an item with Proliferator applied enters an assembler:</p>
+<p>You produce Proliferator (in Mk.I, II, and III tiers). You use a <strong>Proliferator Hub</strong> to spray it onto belts carrying intermediate or final products.</p>
+<p>When an item with Proliferator enters an assembler:</p>
 <ul>
 <li>The assembler's <strong>output increases by the Proliferator tier's percentage</strong></li>
 <li>The Proliferator is consumed in the process</li>
 </ul>
 <h3 id=&#34;proliferator-tiers-and-output-bonuses&#34;>Proliferator Tiers and Output Bonuses</h3>
-<p>| Tier | Output Bonus | Source |
+<p>| Tier | Output Bonus | Production |
 |---|---|---|
 | Mk.I | &#43;20% | Crafted from low-tier materials |
 | Mk.II | &#43;40% | Crafted with Mk.I as ingredient |
 | Mk.III | &#43;60% | Crafted with Mk.II as ingredient |</p>
-<p>The cost of producing Proliferator is always lower than the output gain from the bonus. In pure throughput terms, applying Mk.I to a chain that produces 100 items/s gives you 120 items/s for the cost of producing Mk.I spray — which itself costs far less than building a second assembler.</p>
+<img src=&#34;/images/proliferator-tiers.svg&#34; alt=&#34;Proliferator tier bonuses and upgrade path&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;650&#34;>
+
+<p>The cost of producing Proliferator is always lower than the output gain from the bonus. In pure throughput terms, applying Mk.I to a chain that produces 100 items/s gives you 120 items/s for the cost of producing Mk.I spray — which costs far less than building a second assembler.</p>
 <h3 id=&#34;when-to-use-proliferator&#34;>When to Use Proliferator</h3>
 <p>Apply it to chains where:</p>
 <ul>
@@ -110,16 +104,16 @@
 <li><strong>Volume is high</strong> — you need lots of units per second</li>
 <li><strong>Belt saturation is an issue</strong> — if you're maxing out belts, multiplying output matters</li>
 </ul>
-<p>Prioritize: Quantum Chips → Green/Purple Science packs → Circuit Boards → basic component chains.</p>
-<!-- section:step3 -->
-<h2 id=&#34;step-3-setting-up-proliferator-hubs&#34;>Step 3: Setting Up Proliferator Hubs</h2>
-<p><strong>Proliferator Hub Mk.I</strong> is the building. You supply it with Proliferator Mk.I and it sprays it onto the belt passing underneath.</p>
+<p><strong>Prioritize:</strong> Quantum Chips → Green/Purple Science packs → Circuit Boards → basic component chains.</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>Setting Up Proliferator Hubs</h2></div>
+
+<p><strong>Proliferator Hub Mk.I</strong> is the building. You supply it with Proliferator Mk.I and it sprays onto the belt passing underneath.</p>
 <h3 id=&#34;placement-rules&#34;>Placement Rules</h3>
 <ul>
 <li>One Hub covers one belt line</li>
 <li>The belt must pass directly beneath the Hub</li>
-<li>Each Hub has a spray radius covering the belt width — items in adjacent lanes also get sprayed</li>
-<li>Multiple Hubs on the same line is wasteful — one per belt is enough (unless you need Mk.II/III spray)</li>
+<li>Multiple Hubs on the same line is wasteful — one per belt is enough</li>
 </ul>
 <h3 id=&#34;mki-hub-setup&#34;>Mk.I Hub Setup</h3>
 <ol>
@@ -127,42 +121,48 @@
 <li>Connect a belt feed of Proliferator Mk.I to the Hub's input</li>
 <li>Done — the Hub sprays continuously as items pass</li>
 </ol>
-<p>For higher tiers, upgrade to Mk.II or Mk.III Hubs — or chain Hubs by having a Mk.I belt pass through a Mk.II Hub. Yes, you can apply multiple tiers of Proliferator to the same item, and bonuses stack.</p>
+<p>For higher tiers, upgrade to Mk.II or Mk.III Hubs — or chain Hubs by having a Mk.I belt pass through a Mk.II Hub.</p>
+<div class=&#34;pro-tip&#34;><strong>Pro Tip:</strong> Yes, you can apply multiple tiers of Proliferator to the same item, and bonuses stack.</div>
+
 <h3 id=&#34;mkii-and-mkiii-production&#34;>Mk.II and Mk.III Production</h3>
-<p>Higher-tier Proliferator requires lower-tier Proliferator as an ingredient. Mk.II Hub spray costs Proliferator Mk.II, which is crafted from Mk.I. The cascade means you need to produce Mk.I in volume to scale up to Mk.III.</p>
-<p>Production tip: set up a dedicated small Proliferator factory. It's a small factory that feeds your whole operation — worth building once and automating cleanly.</p>
-<!-- section:step4 -->
-<h2 id=&#34;step-4-applying-proliferator-to-the-quantum-chip-chain&#34;>Step 4: Applying Proliferator to the Quantum Chip Chain</h2>
+<p>Higher-tier Proliferator requires lower-tier as an ingredient. Mk.II costs Proliferator Mk.I plus craft materials.</p>
+<p>Production tip: set up a dedicated small Proliferator factory. It feeds your whole operation — worth building once and automating cleanly.</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>Applying Proliferator to Quantum Chips</h2></div>
+
 <p>Here's where the math gets interesting.</p>
 <p>Without Proliferator: your Quantum Chip assembler runs at base speed, consuming intermediate materials at a fixed rate.</p>
 <p>With Mk.I Proliferator applied to the Circuit Board belt feeding Quantum Chips:</p>
 <ul>
 <li>Your Chip output goes up 20%</li>
-<li>Your assembler still consumes at its normal rate per output — but now that rate generates 20% more per unit of material</li>
+<li>Your assembler still consumes at its normal rate — but now generates 20% more per unit of material</li>
 </ul>
-<p>The practical effect: you get 20% more Quantum Chips from the same factory footprint. No new assemblers, no new belts — just a Hub and a Proliferator supply.</p>
+<img src=&#34;/images/proliferator-quantum-chips.svg&#34; alt=&#34;Proliferator application to Quantum Chip production&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;700&#34;>
+
 <h3 id=&#34;the-layered-approach&#34;>The Layered Approach</h3>
 <p>For maximum efficiency:</p>
 <ol>
-<li>Apply Mk.I Proliferator to the Circuit Board input belt (biggest volume bottleneck)</li>
-<li>Apply Mk.II Proliferator to the Quantum Chip assembler's direct inputs</li>
-<li>Apply Mk.III Proliferator to the final output if you're belt-limited at the top</li>
+<li>Apply Mk.I to the Circuit Board input belt (biggest volume bottleneck)</li>
+<li>Apply Mk.II to the Quantum Chip assembler's direct inputs</li>
+<li>Apply Mk.III to the final output if you're belt-limited at the top</li>
 </ol>
-<p>This layering — each tier applied at its optimal point in the chain — can triple the effective output of your Quantum Chip factory compared to a zero-Proliferator baseline.</p>
+<p>This layering can triple the effective output of your Quantum Chip factory compared to a zero-Proliferator baseline.</p>
 <h3 id=&#34;verification-check-output-at-each-stage&#34;>Verification: Check Output at Each Stage</h3>
-<p>Watch the belt counter at each assembler input. Once the belt saturates at 100%, any further Proliferator bonus on that stage has no effect — you're bottlenecked by belt speed. In that case, upgrade the belt before adding more Proliferator.</p>
-<!-- section:step5 -->
-<h2 id=&#34;step-5-common-mistakes&#34;>Step 5: Common Mistakes</h2>
+<p>Watch the belt counter at each assembler input. Once the belt saturates at 100%, any further Proliferator bonus has no effect — you're bottlenecked by belt speed. Upgrade the belt before adding more Proliferator.</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>Common Mistakes</h2></div>
+
 <h3 id=&#34;mistake-1-applying-proliferator-to-everything-at-once&#34;>Mistake 1: Applying Proliferator to Everything at Once</h3>
-<p>Don't. Start with one chain — your highest-volume bottleneck — and verify the output increase with your belt counters. Then expand.</p>
+<p>Don't. Start with one chain — your highest-volume bottleneck — and verify the output increase with belt counters. Then expand.</p>
 <h3 id=&#34;mistake-2-neglecting-proliferator-supply&#34;>Mistake 2: Neglecting Proliferator Supply</h3>
-<p>A Hub with no Proliferator input is just decoration. Build a dedicated Proliferator production line and ensure it never runs dry. A small Mk.I factory running continuously can supply a large Proliferator network.</p>
+<p>A Hub with no Proliferator input is just decoration. Build a dedicated Proliferator production line and ensure it never runs dry.</p>
 <h3 id=&#34;mistake-3-forgetting-belt-upgrades&#34;>Mistake 3: Forgetting Belt Upgrades</h3>
-<p>Proliferator doesn't change belt speed. If your belt is maxed at 60/min and you add Mk.I Proliferator (&#43;20%), your output becomes 72/min — but you won't see it unless you upgrade to a faster belt. Proliferator and belt upgrades are complementary, not substitutes.</p>
-<h3 id=&#34;mistake-4-mixing-proliferator-tiers-confuses-the-chain&#34;>Mistake 4: Mixing Proliferator Tiers Confuses the Chain</h3>
-<p>Be intentional about where each tier goes. Don't put Mk.I on the output belt and Mk.III on the input belt of the same assembler without tracking what's actually happening. Use the dyson-calculator.com planner to model the chain before building.</p>
-<!-- quick-ref -->
-<h2 id=&#34;quick-reference&#34;>Quick Reference</h2>
+<p>Proliferator doesn't change belt speed. If your belt is maxed at 60/min and you add Mk.I (&#43;20%), your output becomes 72/min — but you won't see it unless you upgrade to a faster belt.</p>
+<h3 id=&#34;mistake-4-mixing-tiers-without-tracking&#34;>Mistake 4: Mixing Tiers Without Tracking</h3>
+<p>Be intentional about where each tier goes. Use dyson-calculator.com to model the chain before building.</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>Quick Reference</h2></div>
+
 <p>| Proliferator | Bonus | Production |
 |---|---|---|
 | Mk.I | &#43;20% output | Low-tier craft |
@@ -170,9 +170,11 @@
 | Mk.III | &#43;60% output | Mk.II &#43; craft materials |</p>
 <p><strong>Best first targets:</strong> Circuit Boards → Quantum Chips → Green Science</p>
 <p><strong>Always upgrade belts before expecting Proliferator gains to show.</strong></p>
-<!-- bottom-line -->
-<h2 id=&#34;bottom-line&#34;>Bottom Line</h2>
-<p>Proliferator is the answer to the question every DSP player eventually asks: "How do I get more without building more?" The answer is spray. Build your Proliferator production line, drop Hubs on your highest-volume belts, and watch the counters climb. Start with Mk.I — it's cheap, effective, and the ROI is immediate. By the time you're running Mk.III in your endgame chains, your Quantum Chip output will be 60% higher than a non-Proliferated factory of the same size.</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>Bottom Line</h2></div>
+
+<p>Proliferator is the answer to "How do I get more without building more?" The answer is spray. Build your Proliferator production line, drop Hubs on your highest-volume belts, and watch the counters climb.</p>
+<p>Start with Mk.I — it's cheap, effective, and the ROI is immediate. By the time you're running Mk.III in your endgame chains, your Quantum Chip output will be 60% higher than a non-Proliferated factory of the same size.</p>
 <p>For production calculators covering Quantum Chips and all intermediate ratios, visit <a href=&#34;https://dyson-calculator.com/&#34;>dyson-calculator.com</a>.</p>
 
     </main>

@@ -1,4 +1,4 @@
-/* ===== DSP Guide — CSS v6 (Screenshot-Verified) ===== */
+﻿/* ===== DSP Guide 鈥?CSS v6 (Screenshot-Verified) ===== */
 /* Reset & Variables */
 :root {
   --bg-deep: #080c14;
@@ -86,6 +86,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   gap: 16px; padding: 24px; max-width: var(--max-width); margin: 0 auto;
 }
 .guide-card {
+  position: relative;
   background: var(--bg-card); border: 1px solid var(--border-dim);
   border-radius: 8px; padding: 16px; transition: all .2s ease;
   text-decoration: none; display: block;
@@ -170,9 +171,9 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   margin-bottom: 10px; padding: 0 10px;
   font-family: 'Orbitron', sans-serif;
 }
-/* TOC link styles handled by .toc-link below — no separate .floating-toc a needed */
+/* TOC link styles handled by .toc-link below 鈥?no separate .floating-toc a needed */
 
-/* ===== GAME-SLOT (Inventory Cards) — v6 FIX: constrain width ===== */
+/* ===== GAME-SLOT (Inventory Cards) 鈥?v6 FIX: constrain width ===== */
 .game-row {
   display: flex; align-items: center;
   justify-content: center; flex-wrap: nowrap;
@@ -341,7 +342,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 
 /* ===== SHORTCODE COMPONENT SYSTEM ===== */
 
-/* Section header — amber left border + dark bg */
+/* Section header 鈥?amber left border + dark bg */
 .section-head h2 {
   background: rgba(10,25,50,0.95);
   border-left: 5px solid #f59e0b;
@@ -610,4 +611,21 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 }
 .site-disclaimer a:hover {
   color: var(--text-primary);
+}
+
+/* ===== NEW BADGE ===== */
+.new-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: var(--accent-amber);
+  color: #000;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  z-index: 2;
 }

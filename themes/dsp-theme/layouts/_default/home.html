@@ -22,6 +22,7 @@
       <div class="guide-grid">
         {{ range where .Pages "RelPermalink" "ne" "/" }}
         <a href="{{ .RelPermalink }}" class="guide-card">
+          {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
           <div class="card-body">
             <h3>{{ .Title }}</h3>
             {{ with .Description }}<p>{{ . }}</p>{{ end }}

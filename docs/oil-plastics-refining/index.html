@@ -51,154 +51,117 @@
   <div class="article-layout">
     <aside class="floating-toc" id="floatingToc"></aside>
     <main class="article-body">
-      <!-- section:intro -->
-<h1 id=&#34;oil--plastics-the-refining-chain-that-makes-or-breaks-your-mid-game&#34;>Oil &amp; Plastics: The Refining Chain That Makes or Breaks Your Mid-Game</h1>
-<p>Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up and stalling your entire chain — is a system that catches almost everyone off guard.</p>
+      <p>Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up — is a system that catches almost everyone off guard.</p>
 <p>This guide covers the complete Oil Refining chain from extraction to end products, with working production ratios, the critical <strong>hydrogen byproduct problem</strong>, and how to automate it without tearing your hair out.</p>
-<!-- recipe:Refinery Recipe -->
-<!-- recipe:Hydrogen Cracking Recipe -->
-<!-- callout:Important -->
-<h2 id=&#34;tldr&#34;>TL;DR</h2>
-<ul>
-<li><strong>Refineries</strong> convert Crude Oil into <strong>Refined Oil</strong>, Hydrogen, and (at scale) Graphite</li>
-<li>Three product chains matter: <strong>Refined Oil → Plastics</strong>, <strong>Refined Oil → Rocket Fuel</strong>, <strong>Hydrogen &#43; Coal → Graphene</strong></li>
-<li>Hydrogen is the main byproduct — it backs up fast and stalls refineries if you don't use it</li>
-<li>Use <strong>Hydrogen Fuel Plants</strong> or route hydrogen into <strong>Graphene production</strong> to keep the chain flowing</li>
-<li>Scale up by adding refineries in parallel — not by speeding up one refinery</li>
-<li>Key ratios to memorize: 1 Refinery : ~3.5 Oil Extractors (at 1:1 basic ratio), but always balance to your actual demand</li>
-</ul>
-<!-- callout:Prerequisites -->
-<h2 id=&#34;how-oil-extraction-works&#34;>How Oil Extraction Works</h2>
-<p>Before refining, you need crude oil on the surface. Deploy an <strong>Oil Extractor</strong> on a tile with crude oil nodes. Extractors pull oil at a rate of 1 unit per second per extractor — subject to the node's richness.</p>
+<hr>
+<div class=&#34;pro-tip&#34;><strong>TL;DR</strong> — Refineries convert Crude Oil into Refined Oil, Hydrogen, and (at scale) Graphite. Three product chains matter: <strong>Refined Oil → Plastics</strong>, <strong>Refined Oil → Rocket Fuel</strong>, <strong>Hydrogen &#43; Coal → Graphene</strong>. Hydrogen backs up fast and stalls refineries — route it to Fuel Plants or Graphene production to keep the chain flowing.</div>
+
+<hr>
+<div class=&#34;section-head&#34;><h2>How Oil Extraction Works</h2></div>
+
+<p>Before refining, you need crude oil on the surface. Deploy an <strong>Oil Extractor</strong> on a tile with crude oil nodes.</p>
 <p><strong>Extractor specs (v0.10):</strong></p>
 <ul>
 <li>1 Oil per second per extractor</li>
 <li>No power draw (passive once placed)</li>
 <li>Must connect to a <strong>Tank</strong> or directly to refineries via belts</li>
 </ul>
-<p>Oil Extractors need a nearby <strong>Tank</strong> or direct belt feed. The common mistake: building extractors, connecting a single belt to one refinery, and wondering why production crawls. You need volume — multiple extractors feeding a central refinery bank.</p>
+<div class=&#34;callout&#34;><strong>Common mistake:</strong> Building extractors, connecting a single belt to one refinery, and wondering why production crawls. You need volume — multiple extractors feeding a central refinery bank.</div>
+
 <blockquote>
 <p><strong>Finding oil:</strong> You won't find sea planets early. Explore with your Vessel or use the galaxy map to scout — oil seas are on wet or oceanic planets. See our <a href=&#34;/titanium-transport-guide/&#34;>Titanium Transport Guide</a> for how to set up interplanetary mining outposts.</p>
 </blockquote>
-<!-- section:step1 -->
-<h2 id=&#34;step-1-the-three-refining-recipes&#34;>Step 1: The Three Refining Recipes</h2>
-<p>Right-click a placed Refinery to choose its recipe. Each recipe produces different outputs and consumes oil at different rates.</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>Step 1: The Three Refining Recipes</h2></div>
+
+<p>Right-click a placed Refinery to choose its recipe. Each recipe produces different outputs.</p>
 <h3 id=&#34;recipe-1-refined-oil-standard&#34;>Recipe 1: Refined Oil (Standard)</h3>
-<ul>
-<li><strong>Input:</strong> Crude Oil x1 / s</li>
-<li><strong>Output:</strong> Refined Oil x1 / s &#43; Hydrogen x0.5 / s</li>
-<li><strong>Use for:</strong> Plastics, Rocket Fuel chains</li>
-<li><strong>Problem:</strong> Hydrogen byproduct — accumulates and backs up if unused</li>
-</ul>
+<div class=&#34;game-row&#34;><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/crude-oil.svg&#34; alt=&#34;crude-oil&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Crude oil</span></div><span class=&#34;game-plus&#34;>&rarr;</span><div class=&#34;game-slot result&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/refined-oil.png&#34; alt=&#34;refined-oil&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Refined oil</span></div></div>
+<p><strong>Plus byproduct:</strong> Hydrogen x0.5/s</p>
 <p>This is your default recipe. Set it and forget it — as long as your hydrogen is being consumed downstream.</p>
-<h3 id=&#34;recipe-2-heavy-oil-residual-byproduct-focus&#34;>Recipe 2: Heavy Oil Residual (Byproduct Focus)</h3>
-<ul>
-<li><strong>Input:</strong> Crude Oil x1 / s</li>
-<li><strong>Output:</strong> Refined Oil x0.5 / s &#43; Hydrogen x1 / s</li>
-<li><strong>Use for:</strong> Hydrogen-intensive chains (Graphene production, Blue Science)</li>
-<li><strong>Trade-off:</strong> Half the refined oil output — use only when hydrogen demand is your bottleneck</li>
-</ul>
-<p>Switch to this when you're running short on hydrogen for your Blue Science chains (see our <a href=&#34;/blue-science-hydrogen-refining/&#34;>Blue Science Guide</a>).</p>
-<h3 id=&#34;recipe-3-mineral-water--only-available-with-certain-research&#34;>Recipe 3: Mineral Water — only available with certain research</h3>
-<p>Used in advanced chains — not covered here.</p>
-<!-- section:step2 -->
-<h2 id=&#34;step-2-solving-the-hydrogen-bottleneck&#34;>Step 2: Solving the Hydrogen Bottleneck</h2>
+<h3 id=&#34;recipe-2-heavy-oil-residual-hydrogen-focus&#34;>Recipe 2: Heavy Oil Residual (Hydrogen Focus)</h3>
+<div class=&#34;game-row&#34;><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/crude-oil.svg&#34; alt=&#34;crude-oil&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Crude oil</span></div><span class=&#34;game-plus&#34;>&rarr;</span><div class=&#34;game-slot result&#34;><span class=&#34;game-qty&#34;>0.5x</span><img src=&#34;/images/dsp-icons/refined-oil.png&#34; alt=&#34;refined-oil&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Refined oil</span></div></div>
+<p><strong>Plus byproduct:</strong> Hydrogen x1/s</p>
+<p>Use this when you're running short on hydrogen for Blue Science chains (see our <a href=&#34;/blue-science-hydrogen-refining/&#34;>Blue Science Guide</a>).</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>Step 2: Solving the Hydrogen Bottleneck</h2></div>
+
 <p>This is where most players lose hours.</p>
-<p>Hydrogen backs up into the refinery. When a refinery's output belt is full, it stops. When it stops, you lose refined oil production even if the rest of your factory is fine. The fix isn't one trick — it's a system.</p>
-<h3 id=&#34;use-hydrogen-fuel-plants&#34;>Use Hydrogen Fuel Plants</h3>
-<p>Place <strong>Hydrogen Fuel Plants</strong> as consumers of your hydrogen output. Each Fuel Plant burns hydrogen to generate power — turning a problematic byproduct into grid energy.</p>
-<p>Set up a dedicated hydrogen bus:</p>
-<ol>
-<li>Tank → refineries (hydrogen output) → Hydrogen Fuel Plants</li>
-</ol>
-<p>The Fuel Plants will draw hydrogen continuously, keeping refinery outputs clear.</p>
-<p><strong>Fuel Plant specs (v0.10):</strong></p>
-<ul>
-<li>Input: Hydrogen x1 / s</li>
-<li>Output: 1.08 MW of power</li>
-<li>Burns hydrogen — no other input needed</li>
-</ul>
+<p>Hydrogen backs up into the refinery. When a refinery's output belt is full, it stops. When it stops, you lose refined oil production even if the rest of your factory is fine.</p>
+<h3 id=&#34;solution-1-hydrogen-fuel-plants&#34;>Solution 1: Hydrogen Fuel Plants</h3>
+<p>Place <strong>Hydrogen Fuel Plants</strong> as consumers of your hydrogen output. Each Fuel Plant burns hydrogen to generate power.</p>
+<div class=&#34;game-row&#34;><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/hydrogen.png&#34; alt=&#34;hydrogen&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Hydrogen</span></div><span class=&#34;game-plus&#34;>&rarr;</span><div class=&#34;game-slot result&#34;><span class=&#34;game-qty&#34;>1.08 MW</span><img src=&#34;/images/dsp-icons/power.svg&#34; alt=&#34;power&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Power</span></div></div>
+<p>Set up a dedicated hydrogen bus: Tank → refineries (hydrogen output) → Hydrogen Fuel Plants.</p>
 <p>A bank of 10 Hydrogen Fuel Plants can consume enough hydrogen to run a mid-sized refinery array and produce meaningful power on top.</p>
-<h3 id=&#34;route-hydrogen-to-graphene&#34;>Route Hydrogen to Graphene</h3>
-<p>The better long-term solution: use hydrogen in your <strong>Graphene production</strong> chain. Graphene goes into:</p>
-<ul>
-<li>Solar Sails (our <a href=&#34;/solar-sails-ray-receivers/&#34;>Solar Sails Guide</a>)</li>
-<li>Blue Science research requirements</li>
-</ul>
-<p>Graphene recipe (from Coal &#43; Oil):</p>
-<ul>
-<li>Coal x1 &#43; Refined Oil x1 → Graphene x2 &#43; Hydrogen x1</li>
-</ul>
-<p>That hydrogen output is itself the fuel for the fuel plants. It's a cycle — and once it's balanced, it runs cleanly.</p>
+<h3 id=&#34;solution-2-route-hydrogen-to-graphene&#34;>Solution 2: Route Hydrogen to Graphene</h3>
+<p>The better long-term solution: use hydrogen in your <strong>Graphene production</strong> chain. Graphene goes into Solar Sails and Blue Science.</p>
+<div class=&#34;game-row&#34;><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/coal.svg&#34; alt=&#34;coal&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Coal</span></div><span class=&#34;game-plus&#34;>&#43;</span><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/refined-oil.png&#34; alt=&#34;refined-oil&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Refined oil</span></div><span class=&#34;game-plus&#34;>&rarr;</span><div class=&#34;game-slot result&#34;><span class=&#34;game-qty&#34;>2x</span><img src=&#34;/images/dsp-icons/graphene.png&#34; alt=&#34;graphene&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Graphene</span></div></div>
+<p><strong>Plus byproduct:</strong> Hydrogen x1</p>
+<p>That hydrogen output is itself the fuel for the fuel plants. It's a cycle — and once balanced, it runs cleanly.</p>
+<img src=&#34;/images/oil-refining-flow.svg&#34; alt=&#34;Complete oil refining chain with hydrogen management&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;750&#34;>
+
 <h3 id=&#34;the-hydrogen-tank-buffer&#34;>The Hydrogen Tank Buffer</h3>
-<p>Always keep a <strong>Tank</strong> on your hydrogen output line. A buffer of hydrogen lets your refineries keep running during demand spikes. Set it up as a pressure-release valve — if the tank fills, your fuel plants are running. If the tank drains, the refineries are outrunning your demand.</p>
-<!-- section:step3 -->
-<h2 id=&#34;step-3-plastics--the-core-end-product&#34;>Step 3: Plastics — The Core End Product</h2>
-<p>Plastics are used everywhere in mid and late-game: Circuit Boards, Thrusters, and the Red Science chain.</p>
+<p>Always keep a <strong>Tank</strong> on your hydrogen output line. A buffer lets your refineries keep running during demand spikes. If the tank fills, your fuel plants are running. If the tank drains, the refineries are outrunning your demand.</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>Step 3: Plastics Production</h2></div>
+
+<p>Plastics are used everywhere in mid and late-game: Circuit Boards, Thrusters, and Red Science.</p>
 <p><strong>Plastics recipe:</strong></p>
-<ul>
-<li>Refined Oil x1 &#43; Coal x1 → Plastics x1 per 1.5 seconds (in Refinery)</li>
-</ul>
-<p>One Refinery running Plastics recipe needs a belt supply of Refined Oil and Coal. At full throughput (roughly 1 belt of each), one Plastics Refinery covers the needs of a modest mid-game factory.</p>
-<p>Scale Plastics by adding more refinery units — not by pushing a single refinery faster.<code>n</code>n<img src=&#34;/images/oil-refining-flow.svg&#34; alt=&#34;Oil Refining Chain Flow&#34;></p>
+<div class=&#34;game-row&#34;><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/refined-oil.png&#34; alt=&#34;refined-oil&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Refined oil</span></div><span class=&#34;game-plus&#34;>&#43;</span><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/coal.svg&#34; alt=&#34;coal&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Coal</span></div><span class=&#34;game-plus&#34;>&rarr;</span><div class=&#34;game-slot result&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/plastics.svg&#34; alt=&#34;plastics&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Plastics</span></div></div>
+<p>One Refinery running Plastics recipe needs a belt supply of Refined Oil and Coal. At full throughput, one Plastics Refinery covers the needs of a modest mid-game factory.</p>
+<p>Scale Plastics by adding more refinery units — not by pushing a single refinery faster.</p>
 <h3 id=&#34;plastics-to-circuit-boards&#34;>Plastics to Circuit Boards</h3>
 <p>Circuit Boards are the bridge from raw materials to advanced components:</p>
-<ul>
-<li>Plastics x2 &#43; Iron Ingots x2 → Circuit Boards x1 per 2 seconds</li>
-</ul>
+<div class=&#34;game-row&#34;><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>2x</span><img src=&#34;/images/dsp-icons/plastics.svg&#34; alt=&#34;plastics&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Plastics</span></div><span class=&#34;game-plus&#34;>&#43;</span><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>2x</span><img src=&#34;/images/dsp-icons/iron-plate.png&#34; alt=&#34;iron&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Iron</span></div><span class=&#34;game-plus&#34;>&rarr;</span><div class=&#34;game-slot result&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/circuit-board.png&#34; alt=&#34;circuit&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Circuit</span></div></div>
 <p>Circuit Boards feed into:</p>
 <ul>
 <li>Thrusters (logistics)</li>
 <li>Red / Yellow Science Packs</li>
 <li>Quantum Chips (endgame)</li>
 </ul>
-<p>For full production ratios and ratios calculators, see <a href=&#34;https://dyson-calculator.com/&#34;>dyson-calculator.com</a>.</p>
-<!-- section:step4 -->
-<h2 id=&#34;step-4-rocket-fuel--when-you-need-the-big-burns&#34;>Step 4: Rocket Fuel — When You Need the Big Burns</h2>
-<p>Rocket Fuel is the endgame energy carrier and the key input for:</p>
-<ul>
-<li>Accumulator production</li>
-<li>Yellow Science (particle broadband)</li>
-<li>Direct power generation in Fuel Plants</li>
-</ul>
-<p><strong>Rocket Fuel recipe (Refinery):</strong></p>
-<ul>
-<li>Refined Oil x2 &#43; Coal x1 → Rocket Fuel x1 per 3 seconds</li>
-</ul>
-<p>The bottleneck here is <em>volume</em>. One Rocket Fuel Refinery consumes 2 units of Refined Oil per second — roughly double what a single oil extractor provides. You'll need a substantial refinery bank for significant Rocket Fuel output.</p>
-<p>Scale: aim for 2–3 Refineries dedicated to Rocket Fuel for every 5–6 oil extractors you have running.</p>
+<p>For full production ratios, see <a href=&#34;https://dyson-calculator.com/&#34;>dyson-calculator.com</a>.</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>Step 4: Rocket Fuel</h2></div>
+
+<p>Rocket Fuel is the endgame energy carrier and key input for Accumulator production and Yellow Science.</p>
+<p><strong>Rocket Fuel recipe:</strong></p>
+<div class=&#34;game-row&#34;><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>2x</span><img src=&#34;/images/dsp-icons/refined-oil.png&#34; alt=&#34;refined-oil&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Refined oil</span></div><span class=&#34;game-plus&#34;>&#43;</span><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/coal.svg&#34; alt=&#34;coal&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Coal</span></div><span class=&#34;game-plus&#34;>&rarr;</span><div class=&#34;game-slot result&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/rocket-fuel.svg&#34; alt=&#34;rocket-fuel&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Rocket fuel</span></div></div>
+<p>The bottleneck is <em>volume</em>. One Rocket Fuel Refinery consumes 2 units of Refined Oil per second — roughly double what a single oil extractor provides.</p>
+<p><strong>Scale:</strong> Aim for 2–3 Refineries dedicated to Rocket Fuel for every 5–6 oil extractors.</p>
 <h3 id=&#34;fuel-plant-power-on-rocket-fuel&#34;>Fuel Plant Power on Rocket Fuel</h3>
-<p>Yes, Rocket Fuel can also be burned in Fuel Plants — at higher energy density than hydrogen:</p>
-<ul>
-<li>Rocket Fuel x1 → significantly more power than hydrogen equivalent</li>
-</ul>
+<p>Rocket Fuel can also be burned in Fuel Plants — at higher energy density than hydrogen:</p>
+<div class=&#34;game-row&#34;><div class=&#34;game-slot&#34;><span class=&#34;game-qty&#34;>1x</span><img src=&#34;/images/dsp-icons/rocket-fuel.svg&#34; alt=&#34;rocket-fuel&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Rocket fuel</span></div><span class=&#34;game-plus&#34;>&rarr;</span><div class=&#34;game-slot result&#34;><span class=&#34;game-qty&#34;>high MW</span><img src=&#34;/images/dsp-icons/power.svg&#34; alt=&#34;power&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;><span class=&#34;game-name&#34;>Power</span></div></div>
 <p>If your power grid is stable on hydrogen fuel, Rocket Fuel is your grid's "top tier" fuel for late-game surges.</p>
-<!-- section:step5 -->
-<h2 id=&#34;step-5-automate-the-full-refinery-bank&#34;>Step 5: Automate the Full Refinery Bank</h2>
-<p>Here's the layout that actually works without belt spaghetti.</p>
+<hr>
+<div class=&#34;section-head&#34;><h2>Automate the Full Refinery Bank</h2></div>
+
+<p>Here's the layout that works without belt spaghetti.</p>
 <ol>
-<li><strong>Oil extractors</strong> on a dedicated patch → direct belt to a <strong>central refinery bay</strong></li>
-<li><strong>Refineries</strong> in the refinery bay, each set to appropriate recipe</li>
-<li><strong>Tanks</strong> on hydrogen output lines — serve as both buffer and pressure valve</li>
+<li><strong>Oil extractors</strong> on a dedicated patch → belt to central refinery bay</li>
+<li><strong>Refineries</strong> in the bay, each set to appropriate recipe</li>
+<li><strong>Tanks</strong> on hydrogen output lines — buffer and pressure valve</li>
 <li><strong>Hydrogen Fuel Plants</strong> fed from tank → stabilize hydrogen demand</li>
-<li><strong>Plastics Refineries</strong> on a separate output line fed by refined oil bus</li>
-<li><strong>ILS</strong> at the refinery outpost to export Plastics and import Coal as needed</li>
+<li><strong>Plastics Refineries</strong> on separate output line fed by refined oil bus</li>
+<li><strong>ILS</strong> at the refinery outpost to export Plastics and import Coal</li>
 </ol>
-<p>Keep your refining isolated on its own planet or dedicated area. Refineries are heavy consumers — the moment you mix them into your main production bus, balancing becomes painful.</p>
-<!-- quick-ref -->
-<h2 id=&#34;quick-reference&#34;>Quick Reference</h2>
+<div class=&#34;pro-tip&#34;><strong>Pro Tip:</strong> Keep refining isolated on its own planet or dedicated area. Refineries are heavy consumers — mixing them into your main production bus makes balancing painful.</div>
+
+<hr>
+<div class=&#34;section-head&#34;><h2>Quick Reference</h2></div>
+
 <p>| Recipe | Input | Output | Notes |
 |---|---|---|---|
 | Refined Oil | Crude Oil x1/s | Refined Oil x1/s &#43; H2 x0.5/s | Standard; watch hydrogen |
-| Heavy Oil Residual | Crude Oil x1/s | Refined Oil x0.5/s &#43; H2 x1/s | H2-focused; lower oil output |
-| Plastics | Refined Oil x1 &#43; Coal x1 | Plastics x1 / 1.5s | Central mid-game component |
-| Rocket Fuel | Refined Oil x2 &#43; Coal x1 | Rocket Fuel x1 / 3s | High-volume; endgame fuel |
-| Graphene | Coal x1 &#43; Refined Oil x1 | Graphene x2 &#43; H2 x1 | Sail component; H2 cycle |</p>
+| Heavy Oil Residual | Crude Oil x1/s | Refined Oil x0.5/s &#43; H2 x1/s | H2-focused |
+| Plastics | Refined Oil &#43; Coal | Plastics x1 / 1.5s | Mid-game component |
+| Rocket Fuel | Refined Oil x2 &#43; Coal x1 | Rocket Fuel x1 / 3s | Endgame fuel |
+| Graphene | Coal &#43; Refined Oil | Graphene x2 &#43; H2 x1 | Sail component |</p>
 <p><strong>Extractor → Refinery ratio:</strong> 1 extractor feeds ~1 refinery comfortably. Scale with multiples.</p>
-<!-- bottom-line -->
-<h2 id=&#34;bottom-line&#34;>Bottom Line</h2>
+<hr>
+<div class=&#34;section-head&#34;><h2>Bottom Line</h2></div>
+
 <p>Oil isn't complicated — it's just demanding. One Refinery bank solving for hydrogen keeps everything downstream clean. Run hydrogen into Fuel Plants, use the refined oil for Plastics, and scale with parallel refineries rather than faster ones. The moment your refinery tanks are backed up, check your hydrogen consumer count first. More often than not, that's the bottleneck.</p>
-<p>For getting oil resources off-world, see our <a href=&#34;/titanium-transport-guide/&#34;>Titanium Transport Guide</a> — the logistics setup covered there applies directly to oil outpost chains.</p>
+<p>For getting oil resources off-world, see our <a href=&#34;/titanium-transport-guide/&#34;>Titanium Transport Guide</a>.</p>
 
     </main>
   </div>

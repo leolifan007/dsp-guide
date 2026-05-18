@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="iceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#81D4FA"/>
+      <stop offset="50%" stop-color="#29B6F6"/>
+      <stop offset="100%" stop-color="#01579B"/>
+    </linearGradient>
+  </defs>
+  <polygon points="32,4 56,20 56,44 32,60 8,44 8,20" fill="url(#iceGrad)" stroke="#B3E5FC" stroke-width="1.5"/>
+  <polygon points="32,4 56,20 32,32 8,20" fill="#E1F5FE" opacity="0.5"/>
+  <path d="M20 28 L32 32 L44 28" stroke="#FFF" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M20 36 L32 40 L44 36" stroke="#FFF" stroke-width="1.5" fill="none" opacity="0.6"/>
+</svg>
