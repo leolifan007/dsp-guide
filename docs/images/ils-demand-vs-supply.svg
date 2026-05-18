@@ -31,7 +31,7 @@
   <rect x="24" y="50" width="260" height="36" rx="8" fill="#1a4a2a"/>
   <rect x="24" y="70" width="260" height="16" fill="#1a4a2a"/>
   <text x="154" y="73" text-anchor="middle" fill="#4ade80" font-size="18.7" font-weight="700" font-family="sans-serif">^ SUPPLY MODE</text>
-  <text x="154" y="100" text-anchor="middle" fill="#6b7c93" font-size="14.7" font-family="sans-serif">Ships items FROM this station</text>
+  <text x="154" y="100" text-anchor="middle" fill="#6b7c93" font-size="14.7" font-family="sans-serif">Ships items FROM station</text>
 
   <!-- Supply settings -->
   <rect x="40" y="116" width="228" height="32" rx="4" fill="#0a1a12" stroke="#2a6a3a" stroke-width="0.8"/>
@@ -49,11 +49,11 @@
   <text x="50" y="200" fill="#6b7c93" font-size="13.3" font-family="sans-serif">SLOTS IN USE</text>
   <rect x="50" y="210" width="220" height="24" rx="4" fill="#0d2216" stroke="#2a6a3a" stroke-width="0.5"/>
   <rect x="52" y="212" width="54" height="20" rx="3" fill="#166534"/>
-  <text x="79" y="226" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">Hydrogen</text>
+  <text x="79" y="226" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">H2</text>
   <rect x="110" y="212" width="54" height="20" rx="3" fill="#166534"/>
-  <text x="137" y="226" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">Deuterium</text>
+  <text x="137" y="226" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">D2</text>
   <rect x="168" y="212" width="54" height="20" rx="3" fill="#166534"/>
-  <text x="195" y="226" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">Graphene</text>
+  <text x="195" y="226" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">GRA</text>
   <rect x="226" y="212" width="42" height="20" rx="3" fill="#2a5a3a" stroke="#3a7a4a" stroke-width="0.5" stroke-dasharray="3,2"/>
   <text x="247" y="225" text-anchor="middle" fill="#6b7c93" font-size="10.7" font-family="sans-serif">+3</text>
 
@@ -76,7 +76,7 @@
   <rect x="316" y="50" width="260" height="36" rx="8" fill="#4a1a2a"/>
   <rect x="316" y="70" width="260" height="16" fill="#4a1a2a"/>
   <text x="446" y="73" text-anchor="middle" fill="#f87171" font-size="18.7" font-weight="700" font-family="sans-serif">v DEMAND MODE</text>
-  <text x="446" y="100" text-anchor="middle" fill="#6b7c93" font-size="14.7" font-family="sans-serif">Requests items INTO this station</text>
+  <text x="446" y="100" text-anchor="middle" fill="#6b7c93" font-size="14.7" font-family="sans-serif">Requests items INTO station</text>
 
   <!-- Demand settings -->
   <rect x="332" y="116" width="228" height="32" rx="4" fill="#1a0a12" stroke="#6a2a3a" stroke-width="0.8"/>
@@ -94,7 +94,7 @@
   <text x="342" y="200" fill="#6b7c93" font-size="13.3" font-family="sans-serif">SLOTS IN USE</text>
   <rect x="342" y="210" width="220" height="24" rx="4" fill="#160d12" stroke="#6a2a3a" stroke-width="0.5"/>
   <rect x="344" y="212" width="54" height="20" rx="3" fill="#7f1d1d"/>
-  <text x="371" y="226" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">Iron Ore</text>
+  <text x="371" y="226" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">Fe Ore</text>
   <rect x="402" y="212" width="54" height="20" rx="3" fill="#7f1d1d"/>
   <text x="429" y="226" text-anchor="middle" fill="#fff" font-size="12" font-family="sans-serif">Copper</text>
   <rect x="460" y="212" width="54" height="20" rx="3" fill="#7f1d1d"/>

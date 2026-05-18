@@ -63,5 +63,6 @@
 
   <!-- Bottom tip -->
   <rect x="20" y="470" width="560" height="24" rx="4" fill="rgba(251,191,36,0.06)" stroke="#92400e" stroke-width="0.5"/>
-  <text x="300" y="486" text-anchor="middle" fill="#fbbf24" font-size="13.3" font-weight="600" font-family="sans-serif"> Prevention tip: Keep a dedicated panel of 12 thermal generators on a separate grid running coal. Never let the cascade kill your main bus again.</text>
+  <text x="300" y="483" text-anchor="middle" fill="#fbbf24" font-size="13.3" font-weight="600" font-family="sans-serif"> Prevention tip: 12 thermal gens on separate coal grid.</text>
+  <text x="300" y="498" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="500" font-family="sans-serif">Never let the cascade kill your main bus again.</text>
 </svg>

@@ -30,7 +30,7 @@
   <!-- Input: Crude Oil -->
   <rect x="50" y="50" width="160" height="60" rx="6" fill="url(#oilGrad)" stroke="#4a7a3a" stroke-width="1.5"/>
   <text x="130" y="78" text-anchor="middle" fill="#4ade80" font-size="16" font-weight="700" font-family="sans-serif">CRUDE OIL</text>
-  <text x="130" y="96" text-anchor="middle" fill="#6b7c93" font-size="13.3" font-family="sans-serif">~60/min per Extractor</text>
+  <text x="130" y="96" text-anchor="middle" fill="#6b7c93" font-size="13.3" font-family="sans-serif">~60/min/Extractor</text>
 
   <!-- Arrow Crude Oil -&gt; Refinery -->
   <line x1="210" y1="80" x2="270" y2="80" stroke="#60a5fa" stroke-width="2" marker-end="url(#arrowBlue)"/>
@@ -71,12 +71,12 @@
   <!-- Diamond -->
   <rect x="65" y="218" width="120" height="44" rx="4" fill="#1a2a1a" stroke="#f59e0b" stroke-width="1"/>
   <text x="125" y="237" text-anchor="middle" fill="#fbbf24" font-size="13.3" font-weight="600" font-family="sans-serif">DIAMOND</text>
-  <text x="125" y="253" text-anchor="middle" fill="#6b7c93" font-size="10.7" font-family="sans-serif">+ Graphite in Chem Plant</text>
+  <text x="125" y="253" text-anchor="middle" fill="#6b7c93" font-size="10.7" font-family="sans-serif">+ Graphite(Chem)</text>
 
   <!-- Crystal Silicon -->
   <rect x="195" y="218" width="120" height="44" rx="4" fill="#1a2a1a" stroke="#f59e0b" stroke-width="1"/>
-  <text x="255" y="237" text-anchor="middle" fill="#fbbf24" font-size="13.3" font-weight="600" font-family="sans-serif">CRYSTAL SILICON</text>
-  <text x="255" y="253" text-anchor="middle" fill="#6b7c93" font-size="10.7" font-family="sans-serif">+ Silicon Ore in Chem Plant</text>
+  <text x="255" y="237" text-anchor="middle" fill="#fbbf24" font-size="13.3" font-weight="600" font-family="sans-serif">XTL SILICON</text>
+  <text x="255" y="253" text-anchor="middle" fill="#6b7c93" font-size="10.7" font-family="sans-serif">+ Silicon(Chem)</text>
 
   <!-- Hydrogen -&gt; Sinks -->
   <rect x="370" y="185" width="280" height="90" rx="6" fill="#1a0f2a" stroke="#8a5aae" stroke-width="1"/>

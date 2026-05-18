@@ -87,7 +87,7 @@
   <text x="775" y="220" text-anchor="middle" fill="#6b7c93" font-size="14.7">Output</text>
   <text x="775" y="242" text-anchor="middle" fill="#22c55e" font-size="26.7" font-weight="800">1/sec</text>
   <text x="775" y="262" text-anchor="middle" fill="#8b95ad" font-size="14.7">-&gt; Labs</text>
-  <text x="775" y="278" text-anchor="middle" fill="#6b7c93" font-size="13.3">Consumed as Gravity Matrix</text>
+  <text x="775" y="278" text-anchor="middle" fill="#6b7c93" font-size="13.3">Consumed as Gravity</text>
 
   <!-- Bottom summary bar -->
   <rect x="30" y="298" width="840" height="2" rx="1" fill="#8b95ad" opacity="0.15"/>

@@ -28,7 +28,7 @@
   <text x="235" y="98" fill="#FFD54F" font-size="9.3" font-family="monospace">+craft</text>
   <!-- Mk.II -->
   <rect x="250" y="55" width="180" height="100" rx="8" fill="url(#mk2Grad)" stroke="#64B5F6" stroke-width="2"/>
-  <text x="340" y="82" text-anchor="middle" fill="#E3F2FD" font-size="16" font-family="monospace" font-weight="bold">PROLIFERATOR Mk.II</text>
+  <text x="340" y="82" text-anchor="middle" fill="#E3F2FD" font-size="16" font-family="monospace" font-weight="bold">PROLIF. Mk.II</text>
   <text x="340" y="105" text-anchor="middle" fill="#BBDEFB" font-size="29.3" font-family="monospace" font-weight="bold">+40%</text>
   <text x="340" y="125" text-anchor="middle" fill="#90CAF9" font-size="12" font-family="monospace">Output Bonus</text>
   <text x="340" y="145" text-anchor="middle" fill="#64B5F6" font-size="10.7" font-family="monospace">Mk.I ingredient</text>
@@ -37,7 +37,7 @@
   <text x="445" y="98" fill="#FFD54F" font-size="9.3" font-family="monospace">+craft</text>
   <!-- Mk.III -->
   <rect x="460" y="55" width="180" height="100" rx="8" fill="url(#mk3Grad)" stroke="#CE93D8" stroke-width="2"/>
-  <text x="550" y="82" text-anchor="middle" fill="#F3E5F5" font-size="16" font-family="monospace" font-weight="bold">PROLIFERATOR Mk.III</text>
+  <text x="550" y="82" text-anchor="middle" fill="#F3E5F5" font-size="16" font-family="monospace" font-weight="bold">PROLIF. Mk.III</text>
   <text x="550" y="105" text-anchor="middle" fill="#E1BEE7" font-size="29.3" font-family="monospace" font-weight="bold">+60%</text>
   <text x="550" y="125" text-anchor="middle" fill="#CE93D8" font-size="12" font-family="monospace">Output Bonus</text>
   <text x="550" y="145" text-anchor="middle" fill="#AB47BC" font-size="10.7" font-family="monospace">Mk.II ingredient</text>

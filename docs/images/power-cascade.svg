@@ -35,7 +35,7 @@
   <text x="130" y="148" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">*no warning from the game*</text>
 
   <!-- Arrow 1-&gt;2 -->
-  <line x1="235" y1="105" x2="290" y2="105" stroke="#d4a020" stroke-width="2" marker-end="url(#arrowYell)"/>
+  <line x1="250" y1="105" x2="305" y2="105" stroke="#d4a020" stroke-width="2" marker-end="url(#arrowYell)"/>
 
   <!-- Step 2 -->
   <rect x="295" y="60" width="200" height="90" rx="6" fill="#2a2a44" stroke="#d4a020" stroke-width="1.5" filter="url(#shadow)"/>
@@ -46,12 +46,12 @@
   <text x="395" y="148" font-family="Arial,sans-serif" font-size="10.7" fill="#666" text-anchor="middle">the cascade begins...</text>
 
   <!-- Arrow 2-&gt;3 -->
-  <line x1="500" y1="105" x2="555" y2="105" stroke="#c44a4a" stroke-width="2" marker-end="url(#arrowRed)"/>
+  <line x1="530" y1="105" x2="565" y2="105" stroke="#c44a4a" stroke-width="2" marker-end="url(#arrowRed)"/>
 
   <!-- Step 3 -->
   <rect x="560" y="60" width="200" height="90" rx="6" fill="#3a2020" stroke="#c0392b" stroke-width="2" filter="url(#shadow)"/>
   <text x="660" y="85" font-family="Arial,sans-serif" font-size="16" fill="#e74c3c" text-anchor="middle" font-weight="bold">3. Generators die</text>
-  <text x="660" y="105" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">Thermal plants run out of fuel</text>
+  <text x="660" y="105" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">Thermal plants need fuel</text>
   <text x="660" y="118" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">Grid loses more capacity</text>
   <text x="660" y="131" font-family="Arial,sans-serif" font-size="12" fill="#f88" text-anchor="middle">MORE sorters slow down</text>
   <text x="660" y="148" font-family="Arial,sans-serif" font-size="10.7" fill="#666" text-anchor="middle">positive feedback loop </text>
@@ -69,13 +69,13 @@
 
   <!-- Result: Death -->
   <rect x="230" y="175" width="330" height="35" rx="6" fill="url(#redGrad)" opacity="0.85"/>
-  <text x="395" y="198" font-family="Arial,sans-serif" font-size="18.7" fill="#fff" text-anchor="middle" font-weight="bold"> CASCADE -&gt; ALL POWER = ZERO -&gt; FACTORY DEAD</text>
+  <text x="395" y="198" font-family="Arial,sans-serif" font-size="18.7" fill="#fff" text-anchor="middle" font-weight="bold">CASCADE = FACTORY DEATH</text>
 
   <!-- SOLUTIONS -->
   <text x="400" y="248" font-family="Arial,sans-serif" font-size="17.3" fill="#6bc46b" text-anchor="middle" font-weight="bold">HOW TO STOP IT</text>
 
   <rect x="30" y="265" width="220" height="115" rx="6" fill="#1e2a1e" stroke="#27ae60" stroke-width="1.5"/>
-  <text x="140" y="290" font-family="Arial,sans-serif" font-size="16" fill="#2ecc71" text-anchor="middle" font-weight="bold"> Emergency (Grid is DEAD)</text>
+  <text x="140" y="290" font-family="Arial,sans-serif" font-size="16" fill="#2ecc71" text-anchor="middle" font-weight="bold">Emergency (Grid DEAD)</text>
   <text x="50" y="310" font-family="Arial,sans-serif" font-size="12" fill="#ccc">1. Delete power poles to non-essentials</text>
   <text x="50" y="325" font-family="Arial,sans-serif" font-size="12" fill="#ccc">2. Hand-feed coal into thermal plants</text>
   <text x="50" y="340" font-family="Arial,sans-serif" font-size="12" fill="#ccc">3. Let grid stabilize</text>
@@ -83,7 +83,7 @@
   <text x="50" y="370" font-family="Arial,sans-serif" font-size="10.7" fill="#888">Takes 2 minutes, saves the factory</text>
 
   <rect x="285" y="265" width="220" height="115" rx="6" fill="#1e2a1e" stroke="#27ae60" stroke-width="1.5"/>
-  <text x="395" y="290" font-family="Arial,sans-serif" font-size="16" fill="#2ecc71" text-anchor="middle" font-weight="bold"> Prevention (Grid is ALIVE)</text>
+  <text x="395" y="290" font-family="Arial,sans-serif" font-size="16" fill="#2ecc71" text-anchor="middle" font-weight="bold">Prevention (Active)</text>
   <text x="305" y="310" font-family="Arial,sans-serif" font-size="12" fill="#ccc">1. Research Solar Panel</text>
   <text x="305" y="325" font-family="Arial,sans-serif" font-size="12" fill="#ccc">2. Build 3x solar belt around equator</text>
   <text x="305" y="340" font-family="Arial,sans-serif" font-size="12" fill="#ccc">3. 15-20 MW of stable power</text>
@@ -91,7 +91,7 @@
   <text x="305" y="370" font-family="Arial,sans-serif" font-size="10.7" fill="#888">x Thermal: 'set and forget'</text>
 
   <rect x="540" y="265" width="220" height="115" rx="6" fill="#1e2a1e" stroke="#27ae60" stroke-width="1.5"/>
-  <text x="650" y="290" font-family="Arial,sans-serif" font-size="16" fill="#2ecc71" text-anchor="middle" font-weight="bold"> Mid-Game (After Yellow)</text>
+  <text x="650" y="290" font-family="Arial,sans-serif" font-size="16" fill="#2ecc71" text-anchor="middle" font-weight="bold">Mid-Game (Yellow+)</text>
   <text x="560" y="310" font-family="Arial,sans-serif" font-size="12" fill="#ccc">1. Research Deuterium Fuel</text>
   <text x="560" y="325" font-family="Arial,sans-serif" font-size="12" fill="#ccc">2. Build 1 Fusion Power Plant</text>
   <text x="560" y="340" font-family="Arial,sans-serif" font-size="12" fill="#ccc">3. ~40 MW per plant, no cascade</text>

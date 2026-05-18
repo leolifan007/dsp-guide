@@ -24,7 +24,7 @@
   <!-- Step 1: Green Matrix -->
   <rect x="20" y="48" width="130" height="64" rx="8" fill="#111827" stroke="#22c55e" stroke-width="1.5" stroke-opacity=".5"/>
   <text x="85" y="72" font-family="monospace" font-size="12" fill="#22c55e" text-anchor="middle"> Green Matrix</text>
-  <text x="85" y="90" font-family="sans-serif" font-size="10.7" fill="#94a3b8" text-anchor="middle">3 ingredients combined</text>
+  <text x="85" y="90" font-family="sans-serif" font-size="10.7" fill="#94a3b8" text-anchor="middle">3 ingredients</text>
   <text x="85" y="104" font-family="sans-serif" font-size="10.7" fill="#64748b" text-anchor="middle">in Research Lab</text>
 
   <!-- Arrow -->
@@ -33,7 +33,7 @@
   <!-- Step 2: Warper Production -->
   <rect x="190" y="48" width="130" height="64" rx="8" fill="#111827" stroke="#06b6d4" stroke-width="1.5" stroke-opacity=".5"/>
   <text x="255" y="72" font-family="monospace" font-size="12" fill="#06b6d4" text-anchor="middle"> Space Warper</text>
-  <text x="255" y="90" font-family="sans-serif" font-size="10.7" fill="#94a3b8" text-anchor="middle">1 Green Matrix = 1 Warper</text>
+  <text x="255" y="90" font-family="sans-serif" font-size="10.7" fill="#94a3b8" text-anchor="middle">1 GM = 1 Warper</text>
   <text x="255" y="104" font-family="sans-serif" font-size="10.7" fill="#64748b" text-anchor="middle">in Assembler M2/M3</text>
 
   <!-- Arrow -->
@@ -43,7 +43,7 @@
   <rect x="360" y="48" width="130" height="64" rx="8" fill="#111827" stroke="#3b82f6" stroke-width="1.5" stroke-opacity=".5"/>
   <text x="425" y="72" font-family="monospace" font-size="12" fill="#3b82f6" text-anchor="middle"> ILS (Supply)</text>
   <text x="425" y="90" font-family="sans-serif" font-size="10.7" fill="#94a3b8" text-anchor="middle">Set slot to Supply</text>
-  <text x="425" y="104" font-family="sans-serif" font-size="10.7" fill="#64748b" text-anchor="middle">Vessels pick up warpers</text>
+  <text x="425" y="104" font-family="sans-serif" font-size="10.7" fill="#64748b" text-anchor="middle">Vessels load warpers</text>
 
   <!-- Arrow -->
   <text x="505" y="82" font-family="sans-serif" font-size="21.3" fill="#475569">-&gt;</text>
