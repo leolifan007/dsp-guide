@@ -34,12 +34,12 @@
   <rect width="800" height="500" fill="url(#bgGrad)" rx="8"/>
   
   <!-- Title -->
-  <text x="400" y="30" font-family="Arial,sans-serif" font-size="14" fill="#aac" text-anchor="middle" font-weight="bold">HOW ILS WORKS — THE TWO THINGS YOU MUST CONFIGURE</text>
+  <text x="400" y="30" font-family="Arial,sans-serif" font-size="14" fill="#aac" text-anchor="middle" font-weight="bold">HOW ILS WORKS - THE TWO THINGS YOU MUST CONFIGURE</text>
   <line x1="50" y1="40" x2="750" y2="40" stroke="#334" stroke-width="1"/>
 
   <!-- === ILS Station === -->
   <rect x="80" y="60" width="200" height="120" rx="8" fill="#2a2a44" stroke="#6a8aff" stroke-width="2" filter="url(#shadow)"/>
-  <text x="180" y="85" font-family="Arial,sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">🏭 ILS Station</text>
+  <text x="180" y="85" font-family="Arial,sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold"> ILS Station</text>
   <text x="180" y="105" font-family="Arial,sans-serif" font-size="11" fill="#88b" text-anchor="middle">Interstellar Logistics</text>
   
   <!-- Slots visual -->
@@ -60,7 +60,7 @@
   <text x="120" y="280" font-family="Arial,sans-serif" font-size="10" fill="#8fa" text-anchor="middle">Processor Units</text>
   <text x="120" y="300" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">(output: 60/min)</text>
 
-  <!-- Left arrow: Assemblers → ILS -->
+  <!-- Left arrow: Assemblers -&gt; ILS -->
   <line x1="190" y1="260" x2="270" y2="130" stroke="#4a9e4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowGreen)"/>
   <text x="210" y="205" font-family="Arial,sans-serif" font-size="9" fill="#4a9e4a" transform="rotate(-50,210,205)">Belts deliver items</text>
 
@@ -71,30 +71,30 @@
   <text x="670" y="280" font-family="Arial,sans-serif" font-size="10" fill="#faa" text-anchor="middle">Processor Units</text>
   <text x="670" y="300" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">(demand: 45/min)</text>
 
-  <!-- Right arrow: ILS → Planet B -->
+  <!-- Right arrow: ILS -&gt; Planet B -->
   <line x1="510" y1="130" x2="600" y2="260" stroke="#c44a4a" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowRed)"/>
   <text x="555" y="205" font-family="Arial,sans-serif" font-size="9" fill="#c44a4a" transform="rotate(50,555,205)">Belts deliver items</text>
 
   <!-- === Center: The ILS critical path === -->
   <rect x="300" y="60" width="200" height="120" rx="8" fill="#2a2a44" stroke="#d4944a" stroke-width="2" filter="url(#shadow)"/>
-  <text x="400" y="85" font-family="Arial,sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold">🚀 The ILS Itself</text>
-  <text x="400" y="105" font-family="Arial,sans-serif" font-size="11" fill="#d4944a" text-anchor="middle">⚠️ Ships DON'T fly for free!</text>
+  <text x="400" y="85" font-family="Arial,sans-serif" font-size="13" fill="#fff" text-anchor="middle" font-weight="bold"> The ILS Itself</text>
+  <text x="400" y="105" font-family="Arial,sans-serif" font-size="11" fill="#d4944a" text-anchor="middle">[!] Ships DON'T fly for free!</text>
 
   <!-- ILS settings -->
   <rect x="315" y="115" width="170" height="55" rx="5" fill="#3a3040"/>
-  <text x="330" y="133" font-family="Arial,sans-serif" font-size="10" fill="#ff8">🚁 Drones (Planet A only)</text>
-  <text x="330" y="150" font-family="Arial,sans-serif" font-size="10" fill="#ff8">🛰 Vessels (Planet A → B)</text>
-  <text x="330" y="167" font-family="Arial,sans-serif" font-size="10" fill="#f88">⚡ Need Power + Warpers</text>
+  <text x="330" y="133" font-family="Arial,sans-serif" font-size="10" fill="#ff8"> Drones (Planet A only)</text>
+  <text x="330" y="150" font-family="Arial,sans-serif" font-size="10" fill="#ff8"> Vessels (Planet A -&gt; B)</text>
+  <text x="330" y="167" font-family="Arial,sans-serif" font-size="10" fill="#f88"> Need Power + Warpers</text>
 
   <!-- === Bottom: The two critical settings === -->
   <rect x="100" y="360" width="600" height="120" rx="8" fill="#1e1e32" stroke="#d4944a" stroke-width="1.5"/>
-  <text x="400" y="385" font-family="Arial,sans-serif" font-size="13" fill="#ff8" text-anchor="middle" font-weight="bold">⚠️ THE TWO SETTINGS MOST PLAYERS GET WRONG</text>
+  <text x="400" y="385" font-family="Arial,sans-serif" font-size="13" fill="#ff8" text-anchor="middle" font-weight="bold">[!] THE TWO SETTINGS MOST PLAYERS GET WRONG</text>
 
   <!-- Setting 1 -->
   <rect x="120" y="395" width="270" height="70" rx="6" fill="#3a3040" stroke="#d4944a" stroke-width="1"/>
   <text x="130" y="415" font-family="Arial,sans-serif" font-size="11" fill="#ff8" font-weight="bold">1. Supply/Demand Direction</text>
-  <text x="130" y="433" font-family="Arial,sans-serif" font-size="10" fill="#ddd">Supply Slot → "I HAVE items, send them out"</text>
-  <text x="130" y="450" font-family="Arial,sans-serif" font-size="10" fill="#ddd">Demand Slot → "I NEED items, bring them in"</text>
+  <text x="130" y="433" font-family="Arial,sans-serif" font-size="10" fill="#ddd">Supply Slot -&gt; "I HAVE items, send them out"</text>
+  <text x="130" y="450" font-family="Arial,sans-serif" font-size="10" fill="#ddd">Demand Slot -&gt; "I NEED items, bring them in"</text>
   <text x="130" y="465" font-family="Arial,sans-serif" font-size="9" fill="#f88">Most common mistake: setting BOTH as Supply</text>
 
   <!-- Setting 2 -->
@@ -102,6 +102,6 @@
   <text x="420" y="415" font-family="Arial,sans-serif" font-size="11" fill="#ff8" font-weight="bold">2. Logistics Vessel Warpers</text>
   <text x="420" y="433" font-family="Arial,sans-serif" font-size="10" fill="#ddd">Interstellar vessels need Warpers</text>
   <text x="420" y="450" font-family="Arial,sans-serif" font-size="10" fill="#ddd">Set "Warpers" slot as Supply with 50+</text>
-  <text x="420" y="465" font-family="Arial,sans-serif" font-size="9" fill="#f88">If no warpers → vessels sit idle → you wonder why</text>
+  <text x="420" y="465" font-family="Arial,sans-serif" font-size="9" fill="#f88">If no warpers -&gt; vessels sit idle -&gt; you wonder why</text>
 
 </svg>

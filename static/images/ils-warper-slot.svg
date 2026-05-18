@@ -51,11 +51,11 @@
   <text x="214" y="221" fill="#f87171" font-size="10" font-family="sans-serif">Processors</text>
   <text x="320" y="221" fill="#8b95ad" font-size="10" text-anchor="end" font-family="sans-serif">0</text>
 
-  <!-- ⚠️ Slot 4 (HIDDEN GEM - WARPER SLOT) -->
+  <!-- [!] Slot 4 (HIDDEN GEM - WARPER SLOT) -->
   <rect x="66" y="252" width="268" height="44" rx="5" fill="rgba(251,191,36,0.06)" stroke="#fbbf24" stroke-width="2"/>
   <rect x="66" y="252" width="268" height="44" rx="5" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="6,3" filter="url(#glowBlue)"/>
 
-  <text x="76" y="270" fill="#fbbf24" font-size="9" font-weight="700" font-family="sans-serif">Slot 4 ← ⭐ THE ONE</text>
+  <text x="76" y="270" fill="#fbbf24" font-size="9" font-weight="700" font-family="sans-serif">Slot 4   THE ONE</text>
   <rect x="200" y="258" width="56" height="18" rx="3" fill="#92400e"/>
   <text x="228" y="271" text-anchor="middle" fill="#fbbf24" font-size="9" font-weight="700" font-family="sans-serif">Supply</text>
   <text x="264" y="271" fill="#fbbf24" font-size="10" font-weight="700" font-family="sans-serif">Space Warper</text>
@@ -65,12 +65,12 @@
   <!-- Vessel Status -->
   <rect x="66" y="306" width="268" height="28" rx="5" fill="#0a1220" stroke="#1a2a3a" stroke-width="0.5"/>
   <text x="76" y="324" fill="#8b95ad" font-size="10" font-family="sans-serif">Vessels: 2/10 en route</text>
-  <text x="320" y="324" fill="#4ade80" font-size="10" text-anchor="end" font-weight="600" font-family="sans-serif">✅ Active</text>
+  <text x="320" y="324" fill="#4ade80" font-size="10" text-anchor="end" font-weight="600" font-family="sans-serif"> Active</text>
 
   <!-- === Right Side: Explanation === -->
   <rect x="370" y="60" width="210" height="310" rx="8" fill="#0d1624" stroke="#1a2a4a" stroke-width="1"/>
 
-  <text x="475" y="82" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="700" font-family="sans-serif">⚠️ The Catch</text>
+  <text x="475" y="82" text-anchor="middle" fill="#fbbf24" font-size="12" font-weight="700" font-family="sans-serif">[!] The Catch</text>
 
   <text x="382" y="108" fill="#8b95ad" font-size="10" font-family="sans-serif">DSP doesn't tell you this:</text>
 
@@ -89,11 +89,11 @@
   <!-- 3-step fix -->
   <text x="382" y="295" fill="#60a5fa" font-size="11" font-weight="700" font-family="sans-serif">3-Step Fix</text>
 
-  <text x="382" y="316" fill="#8b95ad" font-size="10" font-family="sans-serif">① Craft Space Warpers</text>
-  <text x="382" y="334" fill="#8b95ad" font-size="10" font-family="sans-serif">② Put in ILS Slot 4 → Supply</text>
-  <text x="382" y="352" fill="#8b95ad" font-size="10" font-family="sans-serif">③ Keep 50+ stocked</text>
+  <text x="382" y="316" fill="#8b95ad" font-size="10" font-family="sans-serif"> Craft Space Warpers</text>
+  <text x="382" y="334" fill="#8b95ad" font-size="10" font-family="sans-serif"> Put in ILS Slot 4 -&gt; Supply</text>
+  <text x="382" y="352" fill="#8b95ad" font-size="10" font-family="sans-serif"> Keep 50+ stocked</text>
 
   <!-- Bottom tip -->
   <rect x="50" y="377" width="500" height="18" rx="4" fill="rgba(96,165,250,0.06)" stroke="#60a5fa" stroke-width="0.5"/>
-  <text x="300" y="390" text-anchor="middle" fill="#60a5fa" font-size="9" font-weight="600" font-family="sans-serif">🔄 Pro tip: On your starter planet, set an ILS to supply warpers to every new outpost ILS automatically.</text>
+  <text x="300" y="390" text-anchor="middle" fill="#60a5fa" font-size="9" font-weight="600" font-family="sans-serif"> Pro tip: On your starter planet, set an ILS to supply warpers to every new outpost ILS automatically.</text>
 </svg>

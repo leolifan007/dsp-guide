@@ -21,10 +21,10 @@
   <!-- Background -->
   <rect width="750" height="350" fill="#0d1117"/>
   <!-- Title -->
-  <text x="375" y="25" text-anchor="middle" fill="#ECEFF1" font-size="13" font-family="monospace" font-weight="bold">FIRE ICE → DEUTERIUM PRODUCTION CHAIN</text>
+  <text x="375" y="25" text-anchor="middle" fill="#ECEFF1" font-size="13" font-family="monospace" font-weight="bold">FIRE ICE -&gt; DEUTERIUM PRODUCTION CHAIN</text>
   <!-- Planet indicator -->
   <rect x="30" y="45" width="140" height="30" rx="4" fill="rgba(3,169,244,0.15)" stroke="#29B6F6" stroke-width="1" stroke-dasharray="4 2"/>
-  <text x="100" y="64" text-anchor="middle" fill="#29B6F6" font-size="9" font-family="monospace">❄ COLD / VOLCANIC PLANET</text>
+  <text x="100" y="64" text-anchor="middle" fill="#29B6F6" font-size="9" font-family="monospace"> COLD / VOLCANIC PLANET</text>
   <!-- Step 1: Fire Ice Extractor -->
   <rect x="60" y="90" width="130" height="70" rx="6" fill="url(#iceGrad)" stroke="#4FC3F7" stroke-width="1.5"/>
   <text x="125" y="115" text-anchor="middle" fill="#E1F5FE" font-size="10" font-family="monospace" font-weight="bold">FIRE ICE</text>
@@ -46,7 +46,7 @@
   <text x="335" y="115" text-anchor="middle" fill="#F3E5F5" font-size="10" font-family="monospace" font-weight="bold">DEUTERIUM</text>
   <text x="335" y="130" text-anchor="middle" fill="#E1BEE7" font-size="8" font-family="monospace">FRACTIONATOR</text>
   <text x="335" y="148" text-anchor="middle" fill="#CE93D8" font-size="7" font-family="monospace">Fire Ice 1 + Water 2</text>
-  <text x="335" y="162" text-anchor="middle" fill="#BA68C8" font-size="7" font-family="monospace">→ Deuterium x0.5</text>
+  <text x="335" y="162" text-anchor="middle" fill="#BA68C8" font-size="7" font-family="monospace">-&gt; Deuterium x0.5</text>
   <!-- Arrow to Tank -->
   <line x1="420" y1="125" x2="470" y2="125" stroke="#AB47BC" stroke-width="2.5" marker-end="url(#arrDeut)"/>
   <text x="445" y="118" fill="#AB47BC" font-size="7" font-family="monospace">Deut.</text>
@@ -62,7 +62,7 @@
   <text x="675" y="108" text-anchor="middle" fill="#E3F2FD" font-size="10" font-family="monospace" font-weight="bold">ILS</text>
   <text x="675" y="123" text-anchor="middle" fill="#90CAF9" font-size="8" font-family="monospace">EXPORT</text>
   <text x="675" y="138" text-anchor="middle" fill="#64B5F6" font-size="7" font-family="monospace">To main factory</text>
-  <text x="675" y="152" text-anchor="middle" fill="#42A5F5" font-size="7" font-family="monospace">Deuterium → Rocket Fuel</text>
+  <text x="675" y="152" text-anchor="middle" fill="#42A5F5" font-size="7" font-family="monospace">Deuterium -&gt; Rocket Fuel</text>
   <!-- Output chain: Rocket Fuel -->
   <line x1="675" y1="165" x2="675" y2="200" stroke="#FF7043" stroke-width="2"/>
   <rect x="610" y="200" width="130" height="50" rx="6" fill="#BF360C" stroke="#FF7043" stroke-width="1.5"/>
@@ -70,7 +70,7 @@
   <text x="675" y="237" text-anchor="middle" fill="#FFAB91" font-size="7" font-family="monospace">Deuterium x2 + Coal</text>
   <!-- Water warning box -->
   <rect x="250" y="195" width="170" height="70" rx="4" fill="rgba(239,83,80,0.12)" stroke="#EF5350" stroke-width="1" stroke-dasharray="3 2"/>
-  <text x="335" y="215" text-anchor="middle" fill="#EF5350" font-size="9" font-family="monospace" font-weight="bold">⚠ WATER CONSTRAINT</text>
+  <text x="335" y="215" text-anchor="middle" fill="#EF5350" font-size="9" font-family="monospace" font-weight="bold">[!] WATER CONSTRAINT</text>
   <text x="335" y="230" text-anchor="middle" fill="#EF9A9A" font-size="8" font-family="monospace">2 Water per 0.5 Deuterium</text>
   <text x="335" y="245" text-anchor="middle" fill="#EF9A9A" font-size="7" font-family="monospace">Plan water supply BEFORE scaling</text>
   <!-- Yellow Science link -->
