@@ -14,7 +14,7 @@
   <div class="article-layout">
     <aside class="floating-toc" id="floatingToc"></aside>
     <main class="article-body">
-      {{ .Content | safeHTML | replaceRE `&lt;` `<` | replaceRE `&gt;` `>` | replaceRE `&#34;` `"` | replaceRE `&#39;` `'` | replaceRE `src="/images/` `src="/images/` }}
+      {{ .Content | safeHTML }}
     </main>
   </div>
 </div>
