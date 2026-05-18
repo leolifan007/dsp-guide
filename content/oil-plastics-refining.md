@@ -1,6 +1,6 @@
 ﻿---
 title: "DSP Oil & Plastics: Full Refining Chain Guide"
-description: "Master the Oil Refining chain in Dyson Sphere Program. From Crude Oil extraction to Plastics and Rocket Fuel 鈥?complete production ratios, byproduct management, and automation setup."
+description: "Master the Oil Refining chain in Dyson Sphere Program. From Crude Oil extraction to Plastics and Rocket Fuel — complete production ratios, byproduct management, and automation setup."
 date: 2026-05-18
 publishedAt: 2026-05-18T21:56:00+08:00
 lastmod: 2026-05-18
@@ -13,14 +13,14 @@ slug: oil-plastics-refining
 draft: false
 ---
 
-Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful 鈥?Plastics, Rocket Fuel, or even just keeping your refineries from backing up 鈥?is a system that catches almost everyone off guard.
+Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up — is a system that catches almost everyone off guard.
 
 This guide covers the complete Oil Refining chain from extraction to end products, with working production ratios, the critical **hydrogen byproduct problem**, and how to automate it without tearing your hair out.
 
 ---
 
 {{< callout >}}
-**TL;DR** 鈥?Refineries convert Crude Oil into Refined Oil, Hydrogen, and (at scale) Graphite. Three product chains matter: **Refined Oil 鈫?Plastics**, **Refined Oil 鈫?Rocket Fuel**, **Hydrogen + Coal 鈫?Graphene**. Hydrogen backs up fast and stalls refineries 鈥?route it to Fuel Plants or Graphene production to keep the chain flowing.
+**TL;DR** — Refineries convert Crude Oil into Refined Oil, Hydrogen, and (at scale) Graphite. Three product chains matter: **Refined Oil → Plastics**, **Refined Oil → Rocket Fuel**, **Hydrogen + Coal → Graphene**. Hydrogen backs up fast and stalls refineries — route it to Fuel Plants or Graphene production to keep the chain flowing.
 {{< /callout >}}
 
 ---
