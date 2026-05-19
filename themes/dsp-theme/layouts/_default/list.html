@@ -1,9 +1,15 @@
 {{ define "main" }}
 <div class="taxonomy-page">
-  <div class="taxonomy-header">
-    <div class="taxonomy-breadcrumb"><a href="/">Home</a> / <span>{{ .Title }}</span></div>
-    <h1>{{ .Title }}</h1>
-    {{ with .Content }}<p class="taxonomy-desc">{{ . | plainify | truncate 200 }}</p>{{ end }}
+  <div class="article-hero-full">
+    <div class="article-hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}')"></div>
+    <div class="article-hero-fade"></div>
+    <div class="article-hero-text">
+      <h1>{{ .Title }}</h1>
+      <div class="taxonomy-meta">
+        {{ with .Content }}<p class="taxonomy-desc">{{ . | plainify | truncate 200 }}</p>{{ end }}
+        <div class="taxonomy-breadcrumb"><a href="/">Home</a> / <span>{{ .Title }}</span></div>
+      </div>
+    </div>
   </div>
 
   <div class="taxonomy-body">
