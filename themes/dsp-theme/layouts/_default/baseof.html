@@ -10,20 +10,32 @@
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ `css/dsp-main.css` | relURL }}">
 
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+// Default consent: denied — wait for user choice
+gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'analytics_storage': 'denied',
+  'wait_for_update': 500
+});
+</script>
+
 {{- with .Site.Params.google_analytics_id }}
-<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) — respects consent mode -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', '{{ . }}');
+  gtag('config', '{{ . }}', {
+    'allow_google_signals': false,
+    'allow_ad_personalization_signals': false
+  });
 </script>
 {{ end }}
 
-{{- with .Site.Params.google_adsense_id }}
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}" crossorigin="anonymous"></script>
-{{ end }}
+<!-- AdSense loaded dynamically after consent via cookie-consent.js -->
 </head>
 <body>
 <div class="site-header">
@@ -43,6 +55,20 @@
     <p><strong>DSP Guide</strong> - Unofficial community guides for Dyson Sphere Program.</p>
     <p>(C) 2026 DSP Guide - Game assets belong to Youthcat Studio / Gamera Games</p>
   </footer>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookieBanner" class="cookie-banner" style="display:none;">
+    <p class="cookie-banner-text">
+      This site uses cookies from Google for analytics and advertising.
+      <a href="{{ `privacy/` | relURL }}">Learn more</a>
+    </p>
+    <div class="cookie-banner-actions">
+      <button id="cookieReject" class="cookie-btn cookie-btn-reject">Reject</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn-accept">Accept All</button>
+    </div>
+  </div>
+
 <script src="{{ `js/main.js` | relURL }}"></script>
+<script src="{{ `js/cookie-consent.js` | relURL }}"></script>
 </body>
 </html>

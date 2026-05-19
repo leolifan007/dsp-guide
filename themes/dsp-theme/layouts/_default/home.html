@@ -17,7 +17,7 @@
   </section>
 
   <div class="home-content">
-    {{ $pages := where .Site.RegularPages "RelPermalink" "ne" "/" }}
+    {{ $pages := where (where .Site.RegularPages "RelPermalink" "ne" "/") "RelPermalink" "ne" "/privacy/" }}
     <section class="featured-guides">
       <h2 class="section-title">🔥 Hot Guides</h2>
       <div class="guide-grid">
