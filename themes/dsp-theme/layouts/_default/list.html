@@ -1,23 +1,25 @@
 {{ define "main" }}
 <div class="taxonomy-page">
-  <div class="article-hero-full">
-    <div class="article-hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}')"></div>
-    <div class="article-hero-fade"></div>
-    <div class="article-hero-text">
-      <h1>{{ .Title }}</h1>
-      {{ with .Content }}<p class="taxonomy-desc">{{ . | plainify | truncate 200 }}</p>{{ end }}
-    </div>
+  <div class="taxonomy-header">
+    <div class="taxonomy-breadcrumb"><a href="/">Home</a> / <span>{{ .Title }}</span></div>
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<p class="taxonomy-desc">{{ . | plainify | truncate 200 }}</p>{{ end }}
   </div>
+
   <div class="taxonomy-body">
-    <div class="guide-grid">
+    {{ $count := len .Pages }}
+    <p class="taxonomy-count">{{ $count }} guide{{ if ne $count 1 }}s{{ end }}</p>
+    <div class="taxonomy-guides">
       {{ range .Pages }}
-      <a href="{{ .RelPermalink }}" class="guide-card">
+      <a href="{{ .RelPermalink }}" class="taxonomy-guide-item">
         {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
-        <div class="card-body">
+        <div class="taxonomy-guide-body">
           <h3>{{ .Title }}</h3>
           {{ with .Description }}<p>{{ . }}</p>{{ end }}
-          <span class="card-read">Read Guide</span>
-          <span class="card-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+          <div class="taxonomy-guide-meta">
+            <span class="tgi-read">Read Guide</span>
+            <span class="tgi-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+          </div>
         </div>
       </a>
       {{ end }}

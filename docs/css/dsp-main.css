@@ -742,39 +742,104 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 
 /* ===== TAXONOMY PAGES ===== */
 .taxonomy-page { width: 100%; }
-.taxonomy-hero {
-  position: relative;
-  width: 100%;
-  padding: 100px 24px 40px;
-  text-align: center;
-  background: linear-gradient(160deg, #0a1628 0%, #0d1f3c 40%, #1a0e2e 100%);
-  margin-bottom: 32px;
-}
-.taxonomy-hero::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 60%, var(--bg-deep) 100%);
-  pointer-events: none;
-}
-.taxonomy-hero-inner {
-  position: relative;
-  z-index: 2;
+
+.taxonomy-header {
   max-width: var(--max-width);
   margin: 0 auto;
+  padding: 28px 24px 8px;
 }
-.taxonomy-hero h1 {
-  font-size: 1.5rem;
+.taxonomy-breadcrumb {
+  font-size: .72rem;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+}
+.taxonomy-breadcrumb a {
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+.taxonomy-breadcrumb a:hover {
+  color: var(--accent-cyan);
+}
+.taxonomy-breadcrumb span {
+  color: var(--text-secondary);
+}
+.taxonomy-header h1 {
+  font-size: 1.6rem;
+  font-weight: 700;
   background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .taxonomy-body {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 24px 60px;
+}
+.taxonomy-count {
+  font-size: .78rem;
+  color: var(--text-dim);
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-dim);
+}
+
+/* ══ 分类页列表项：非卡片，更像 page 内的条目 ══ */
+.taxonomy-guides {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+.taxonomy-guide-item {
+  display: block;
+  position: relative;
+  padding: 16px 0;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid rgba(255,255,255,.04);
+  transition: all .15s ease;
+}
+.taxonomy-guide-item:last-child {
+  border-bottom: none;
+}
+.taxonomy-guide-item:hover {
+  padding-left: 8px;
+  border-left: 3px solid var(--accent-cyan);
+  padding-left: 12px;
+}
+.taxonomy-guide-item h3 {
+  font-size: .95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+  transition: color .15s;
+}
+.taxonomy-guide-item:hover h3 {
+  color: var(--accent-cyan);
+}
+.taxonomy-guide-item p {
+  font-size: .78rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+.taxonomy-guide-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.tgi-read {
+  font-size: .72rem;
+  font-weight: 600;
+  color: var(--accent-blue);
+}
+.taxonomy-guide-item:hover .tgi-read {
+  color: var(--accent-cyan);
+}
+.tgi-date {
+  font-size: .62rem;
+  color: var(--text-dim);
 }
 
 /* ===== TAGS GRID (Topics /tags/) ===== */

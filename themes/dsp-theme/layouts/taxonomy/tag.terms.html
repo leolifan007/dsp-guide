@@ -1,10 +1,9 @@
 {{ define "main" }}
 <div class="taxonomy-page">
-  <div class="taxonomy-hero">
-    <div class="taxonomy-hero-inner">
-      <h1>{{ .Title }}</h1>
-      <p class="taxonomy-desc">Browse guides by specific game concept. Click any topic to see all related guides.</p>
-    </div>
+  <div class="taxonomy-header">
+    <div class="taxonomy-breadcrumb"><a href="/">Home</a> / <span>{{ .Title }}</span></div>
+    <h1>{{ .Title }}</h1>
+    <p class="taxonomy-desc">Browse guides by specific game concept. Click any topic to see all related guides.</p>
   </div>
   <div class="taxonomy-body">
     <div class="tags-grid">
