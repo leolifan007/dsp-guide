@@ -20,7 +20,8 @@
     <section class="featured-guides">
       <h2 class="section-title">Latest Guides</h2>
       <div class="guide-grid">
-        {{ range first 6 (where (where .Site.RegularPages "RelPermalink" "ne" "/") "Draft" false) }}
+        {{ $pages := where (where .Site.RegularPages "Draft" false) "RelPermalink" "ne" "/" }}
+        {{ range first 6 $pages }}
         <a href="{{ .RelPermalink }}" class="guide-card">
           {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
           {{ if .Params.publishedAt }}
