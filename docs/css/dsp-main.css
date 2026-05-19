@@ -1,4 +1,4 @@
-﻿/* ===== DSP Guide 鈥?CSS v6 (Screenshot-Verified) ===== */
+/* ===== DSP Guide 鈥?CSS v6 (Screenshot-Verified) ===== */
 /* Reset & Variables */
 :root {
   --bg-deep: #080c14;
@@ -44,7 +44,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   font-family: 'Orbitron', sans-serif;
   font-size: 1.25rem;
   font-weight: 900;
-  color: var(--accent-cyan);
+  color: var(--accent-amber);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -54,11 +54,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   transition: color 0.2s;
 }
 .site-title:hover {
-  color: var(--accent-amber);
-}
-  font-size: 1.1rem;
-  background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  color: var(--accent-cyan);
 }
 .nav-links { display: flex; align-items: center; gap: 0; }
 .nav-btn {
@@ -772,7 +768,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   color: var(--text-dim);
   margin-bottom: 16px;
   padding-bottom: 12px;
-  border-bottom: 1px solid var(--border-dim);
+  border-bottom: 1px solid rgba(245,158,11,.15);
 }
 
 /* ══ 分类页列表项：非卡片，更像 page 内的条目 ══ */
@@ -795,7 +791,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 }
 .taxonomy-guide-item:hover {
   padding-left: 8px;
-  border-left: 3px solid var(--accent-cyan);
+  border-left: 3px solid var(--accent-amber);
   padding-left: 12px;
 }
 .taxonomy-guide-item h3 {
@@ -806,7 +802,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   transition: color .15s;
 }
 .taxonomy-guide-item:hover h3 {
-  color: var(--accent-cyan);
+  color: var(--accent-amber);
 }
 .taxonomy-guide-item p {
   font-size: .78rem;
@@ -822,10 +818,10 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 .tgi-read {
   font-size: .72rem;
   font-weight: 600;
-  color: var(--accent-blue);
+  color: var(--text-secondary);
 }
 .taxonomy-guide-item:hover .tgi-read {
-  color: var(--accent-cyan);
+  color: var(--accent-amber);
 }
 .tgi-date {
   font-size: .62rem;
