@@ -1,7 +1,7 @@
 baseURL = 'https://dsp-guide.com/'
 theme = 'dsp-theme'
 title = 'Dyson Sphere Program Guide'
-publishDir = 'public'
+publishDir = 'docs'
 enableRobotsTXT = true
 buildFuture = true
 buildDrafts = false
