@@ -23,3 +23,5 @@ analyze_green.py
 analyze_green2.py
 check_domains.ps1
 verify_divs.py
+publish-article.ps1
+_fix_entities.js
