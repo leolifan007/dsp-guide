@@ -1,19 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blue-Science on Dyson Sphere Program Guide</title>
-    <link>https://dsp-guide.com/tags/blue-science/</link>
-    <description>Recent content in Blue-Science on Dyson Sphere Program Guide</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dsp-guide.com/tags/blue-science/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</title>
-      <link>https://dsp-guide.com/blue-science-hydrogen-refining/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/blue-science-hydrogen-refining/</guid>
-      <description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;&#xA;&lt;p&gt;Blue Science is the first wall in DSP that is not just &#34;build more miners.&#34; It introduces Refined Oil, Hydrogen byproducts, and the frustrating &#34;one output backed up, whole chain dead&#34; problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xA;  &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;&#xA;  1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;&#xA;  2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;&#xA;  3. Titanium Ingots are required for Blue Matrix; set that up first&#xA;&lt;/div&gt;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blue-Science on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/blue-science/</link><description>Recent content in Blue-Science on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 18 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dsp-guide.com/tags/blue-science/index.xml" rel="self" type="application/rss+xml"/><item><title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</title><link>https://dsp-guide.com/blue-science-hydrogen-refining/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/blue-science-hydrogen-refining/</guid><description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;
+&lt;p&gt;Blue Science is the first wall in DSP that is not just "build more miners." It introduces Refined Oil, Hydrogen byproducts, and the frustrating "one output backed up, whole chain dead" problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;
+ &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;
+ 1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;
+ 2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;
+ 3. Titanium Ingots are required for Blue Matrix; set that up first
+&lt;/div&gt;
+&lt;div class="section-head"&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description></item></channel></rss>
