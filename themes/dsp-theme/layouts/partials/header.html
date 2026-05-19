@@ -1,5 +1,9 @@
 <a href="/" class="site-title">DSP Guide</a>
-<nav>
-  <a href="/">Guides</a>
-  <a href="/tags/">Topics</a>
+<nav class="main-nav" id="mainNav">
+  <a href="/" class="nav-link">Guides</a>
+  {{ range site.Params.nav_categories }}
+  <a href="/categories/{{ . | urlize }}/" class="nav-link">{{ . }}</a>
+  {{ end }}
+  <a href="/tags/" class="nav-link">Topics</a>
+  <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">☰</button>
 </nav>

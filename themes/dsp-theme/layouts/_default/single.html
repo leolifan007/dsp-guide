@@ -17,5 +17,25 @@
       {{ .Content | safeHTML }}
     </main>
   </div>
+
+  {{ with index .Params.categories 0 }}
+  <section class="more-in-category">
+    <div class="more-inner">
+      <h2 class="section-title">More in {{ . }}</h2>
+      <div class="guide-grid">
+        {{ range (where site.RegularPages ".Params.categories" .) }}
+          {{ if ne .Permalink $.Permalink }}
+          <a href="{{ .RelPermalink }}" class="guide-card">
+            <div class="card-body">
+              <h3>{{ .Title }}</h3>
+              {{ with .Description }}<p>{{ . }}</p>{{ end }}
+            </div>
+          </a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
 </div>
 {{ end }}

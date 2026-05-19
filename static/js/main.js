@@ -51,3 +51,22 @@
     })(links[k]);
   }
 })();
+
+// Hamburger menu toggle
+(function() {
+  var btn = document.getElementById('navHamburger');
+  var nav = document.getElementById('mainNav');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function() {
+    nav.classList.toggle('open');
+  });
+  // Close on link click (mobile)
+  var links = nav.querySelectorAll('.nav-link');
+  for (var i = 0; i < links.length; i++) {
+    (function(link) {
+      link.addEventListener('click', function() {
+        nav.classList.remove('open');
+      });
+    })(links[i]);
+  }
+})();
