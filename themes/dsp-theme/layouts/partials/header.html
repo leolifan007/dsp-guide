@@ -2,7 +2,7 @@
 <nav class="main-nav" id="mainNav">
   <a href="/" class="nav-link">Home</a>
   {{ range site.Params.nav_categories }}
-  {{ $slug := . | lower | replace "&" "--" | replace " " "-" }}
+  {{ $slug := . | lower | replaceRE "\\s*&\\s*" "--" | replaceRE "\\s+" "-" }}
   <a href="/categories/{{ $slug }}/" class="nav-link">{{ . }}</a>
   {{ end }}
   <a href="/tags/" class="nav-link">Topics</a>
