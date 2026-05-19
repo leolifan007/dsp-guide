@@ -17,22 +17,21 @@
   </section>
 
   <div class="home-content">
-    <section class="featured-guides">
-      <h2 class="section-title">Latest Guides</h2>
-      <div class="guide-grid">
+    <section class="featured-guides hot-guides">
+      <h2 class="section-title">🔥 Hot Guides</h2>
+      <div class="guide-grid hot-grid">
         {{ $pages := where (where .Site.RegularPages "Draft" false) "RelPermalink" "ne" "/" }}
         {{ range first 6 $pages }}
-        <a href="{{ .RelPermalink }}" class="guide-card">
+        <a href="{{ .RelPermalink }}" class="guide-card hot-card">
           {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
           {{ if .Params.publishedAt }}
             {{ $pubTime := time .Params.publishedAt }}
             {{ if lt now.Unix $pubTime.Unix }}<span class="upcoming-badge">UPCOMING</span>{{ end }}
           {{ end }}
-          <div class="card-body">
-            <h3>{{ .Title }}</h3>
-            {{ with .Description }}<p>{{ . }}</p>{{ end }}
-            <span class="card-read">Read Guide</span>
-            <span class="card-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+          <div class="card-body hot-card-body">
+            <h3>{{ if lt (len .Title) 40 }}{{ .Title }}{{ else }}{{ slicestr .Title 0 37 }}...{{ end }}</h3>
+            <p class="card-desc-short">{{ if .Description }}{{ if lt (len .Description) 80 }}{{ .Description }}{{ else }}{{ slicestr .Description 0 77 }}...{{ end }}{{ end }}</p>
+            <span class="card-read">Read →</span>
           </div>
         </a>
         {{ end }}
