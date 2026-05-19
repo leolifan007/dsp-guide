@@ -2,6 +2,8 @@
 title: "DSP Quantum Chips & Proliferator: Advanced Production Guide"
 description: "Build Quantum Chips and master the Proliferator mechanic in Dyson Sphere Program. Production chains, Proliferator spray tiers, and how to maximize output from your endgame factory."
 date: 2026-05-18
+publishedAt: 2026-05-19T10:59:00+08:00
+lastmod: 2026-05-19
 type: post
 tags: [quantum-chips, proliferator, endgame, production, v0.10]
 topics: [endgame, production]
@@ -186,3 +188,10 @@ Proliferator is the answer to "How do I get more without building more?" The ans
 Start with Mk.I — it's cheap, effective, and the ROI is immediate. By the time you're running Mk.III in your endgame chains, your Quantum Chip output will be 60% higher than a non-Proliferated factory of the same size.
 
 For production calculators covering Quantum Chips and all intermediate ratios, visit [dyson-calculator.com](https://dyson-calculator.com/).
+
+### External Resources
+
+- [Dyson Sphere Program Wiki](https://dyson-sphere-program.fandom.com/wiki/Dyson_Sphere_Program_Wiki)
+- [DSP Calculator](https://dyson-calculator.com/)
+- [DSP Reddit Community](https://www.reddit.com/r/Dyson_Sphere_Program/)
+- [Official Steam Store Page](https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/)
