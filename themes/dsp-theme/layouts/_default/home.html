@@ -20,9 +20,13 @@
     <section class="featured-guides">
       <h2 class="section-title">Latest Guides</h2>
       <div class="guide-grid">
-        {{ range where .Pages "RelPermalink" "ne" "/" }}
+        {{ range first 6 (where (where .Site.RegularPages "RelPermalink" "ne" "/") "Draft" false) }}
         <a href="{{ .RelPermalink }}" class="guide-card">
           {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
+          {{ if .Params.publishedAt }}
+            {{ $pubTime := time .Params.publishedAt }}
+            {{ if lt now.Unix $pubTime.Unix }}<span class="upcoming-badge">UPCOMING</span>{{ end }}
+          {{ end }}
           <div class="card-body">
             <h3>{{ .Title }}</h3>
             {{ with .Description }}<p>{{ . }}</p>{{ end }}
