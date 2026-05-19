@@ -432,7 +432,20 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 .article-body > .section-head + * {
   /* content after section head grouped visually */
 }
-.article-body > p, .article-body > ul, .article-body > ol,
+/* ══ 纯文本元素：无卡片，只留间距 ══ */
+.article-body > p, .article-body > ul, .article-body > ol {
+  margin: 0 0 12px;
+}
+
+.article-body ul, .article-body ol {
+  padding-left: 1.5em;
+}
+
+.article-body li {
+  margin-bottom: 6px;
+}
+
+/* ══ 需视觉分组的元素：保留卡片背景/边框 ══ */
 .article-body > .game-row,
 .article-body > .callout, .article-body > .pro-tip,
 .article-body > .box-wrap, .article-body > .content-box,
