@@ -2,6 +2,8 @@
 title: "Can't Find Titanium in DSP? Here's How to Get It (And Bring It Home)"
 description: "Your starter planet has zero titanium. Here's how to find it, mine it, fly it home, and automate the loop with ILS."
 date: "2026-05-14"
+categories: [Resources & Mining]
+tags: [titanium, transport, resources, early-game]
 ---
 
 

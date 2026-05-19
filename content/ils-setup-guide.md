@@ -2,6 +2,8 @@
 title: "ILS Not Moving Items? Here's the 30-Second Fix (DSP Guide)"
 description: "ILS not moving items? Here's why and exactly how to fix Supply vs Demand, Warper slots, and vessel range in 30 seconds."
 date: "2026-05-14"
+categories: [Logistics & Transport]
+tags: [ILS, logistics, warpers, mid-game]
 ---
 
 

@@ -2,6 +2,8 @@
 title: "Green Science and Warpers: Stop Being Scared of Green Matrix (DSP Guide)"
 description: "Step-by-step guide to Green Science in Dyson Sphere Program: what to build, how to get Casimir Crystals, and how to start making Warpers."
 date: "2026-05-14"
+categories: [Science & Production]
+tags: [green-science, warpers, casimir-crystals, mid-game]
 ---
 
 You've got Yellow Science running. Titanium flowing. Everything is… fine. Then you look at Green Matrix. Three ingredients. Processors. Casimir Crystals. Electromagnetic Turbines.

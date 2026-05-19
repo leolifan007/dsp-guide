@@ -2,6 +2,8 @@
 title: "Why Your DSP Power Grid Keeps Crashing (And How to Fix It)"
 description: "Your DSP factory just blacked out? Here's the cascade explained and the emergency restart protocol to bring everything back online."
 date: "2026-05-14"
+categories: [Power & Energy]
+tags: [power, power-grid, mid-game]
 ---
 
 

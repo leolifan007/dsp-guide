@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ILS on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/ils/</link><description>Recent content in ILS on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dsp-guide.com/tags/ils/index.xml" rel="self" type="application/rss+xml"/><item><title>ILS Not Moving Items? Here's the 30-Second Fix (DSP Guide)</title><link>https://dsp-guide.com/ils-setup-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/ils-setup-guide/</guid><description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;
+&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn't this working&amp;rdquo; question in DSP. Let's fix it in 30 seconds flat.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;
+ &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;
+ 1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;
+ 2. Your vessels need Space Warpers to fly. Put some in the slot.
+&lt;/div&gt;
+&lt;div class="section-head"&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn't know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description></item></channel></rss>

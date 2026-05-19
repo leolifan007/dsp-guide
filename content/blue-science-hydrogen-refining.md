@@ -2,6 +2,8 @@
 title: "Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)"
 description: "Blue Science keeps stopping? It is always Hydrogen. Set up stable Refinery chains, fix Hydrogen backup issues, and keep Blue Matrix flowing without babysitting."
 date: "2026-05-18"
+categories: [Science & Production]
+tags: [blue-science, refining, hydrogen, mid-game]
 new: true
 ---
 
