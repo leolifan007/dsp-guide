@@ -40,14 +40,22 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   padding: 0 24px; gap: 12px;
   margin: 0;
 }
-.site-logo {
+.site-title {
   font-family: 'Orbitron', sans-serif;
-  font-size: .9rem; font-weight: 800;
-  color: var(--text-primary); text-decoration: none;
-  display: flex; align-items: center; gap: 6px;
-  text-transform: uppercase; letter-spacing: .5px;
+  font-size: 1.25rem;
+  font-weight: 900;
+  color: var(--accent-cyan);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: .5px;
+  white-space: nowrap;
+  transition: color 0.2s;
 }
-.logo-icon {
+.site-title:hover {
+  color: var(--accent-amber);
+}
   font-size: 1.1rem;
   background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
@@ -707,4 +715,84 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   .nav-link:hover {
     background: rgba(245,158,11,.08);
   }
+}
+
+/* ===== TAXONOMY PAGES ===== */
+.taxonomy-page { width: 100%; }
+.taxonomy-hero {
+  position: relative;
+  width: 100%;
+  padding: 100px 24px 40px;
+  text-align: center;
+  background: linear-gradient(160deg, #0a1628 0%, #0d1f3c 40%, #1a0e2e 100%);
+  margin-bottom: 32px;
+}
+.taxonomy-hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, transparent 60%, var(--bg-deep) 100%);
+  pointer-events: none;
+}
+.taxonomy-hero-inner {
+  position: relative;
+  z-index: 2;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+.taxonomy-hero h1 {
+  font-size: 1.5rem;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 8px;
+}
+.taxonomy-desc {
+  color: var(--text-secondary);
+  font-size: .9rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.taxonomy-body {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px 60px;
+}
+
+/* ===== TAGS GRID (Topics /tags/) ===== */
+.tags-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.tag-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 18px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-dim);
+  border-radius: 20px;
+  text-decoration: none;
+  transition: all .2s;
+}
+.tag-pill:hover {
+  border-color: var(--accent-cyan);
+  background: rgba(34,211,238,.06);
+  transform: translateY(-2px);
+}
+.tag-name {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: .88rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.tag-count {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .65rem;
+  background: rgba(34,211,238,.12);
+  color: var(--accent-cyan);
+  padding: 2px 8px;
+  border-radius: 10px;
 }

@@ -1,0 +1,22 @@
+{{ define "main" }}
+<div class="taxonomy-page">
+  <div class="taxonomy-hero">
+    <div class="taxonomy-hero-inner">
+      <h1>{{ .Title }}</h1>
+      <p class="taxonomy-desc">Browse guides by specific game concept. Click any topic to see all related guides.</p>
+    </div>
+  </div>
+  <div class="taxonomy-body">
+    <div class="tags-grid">
+      {{ range $term := .Pages }}
+        {{ if ge (len $term.Pages) 1 }}
+        <a href="{{ $term.RelPermalink }}" class="tag-pill">
+          <span class="tag-name">{{ $term.Title }}</span>
+          <span class="tag-count">{{ len $term.Pages }}</span>
+        </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

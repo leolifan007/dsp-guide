@@ -1,21 +1,25 @@
 {{ define "main" }}
 <div class="taxonomy-page">
-  <div class="taxonomy-header">
-    <h1>{{ .Title }}</h1>
-    {{ with .Content }}<p class="taxonomy-desc">{{ . }}</p>{{ end }}
+  <div class="taxonomy-hero">
+    <div class="taxonomy-hero-inner">
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}<p class="taxonomy-desc">{{ . | plainify | truncate 200 }}</p>{{ end }}
+    </div>
   </div>
-  <div class="guide-grid">
-    {{ range .Pages }}
-    <a href="{{ .RelPermalink }}" class="guide-card">
-      {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
-      <div class="card-body">
-        <h3>{{ .Title }}</h3>
-        {{ with .Description }}<p>{{ . }}</p>{{ end }}
-        <span class="card-read">Read Guide</span>
-        <span class="card-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
-      </div>
-    </a>
-    {{ end }}
+  <div class="taxonomy-body">
+    <div class="guide-grid">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="guide-card">
+        {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
+        <div class="card-body">
+          <h3>{{ .Title }}</h3>
+          {{ with .Description }}<p>{{ . }}</p>{{ end }}
+          <span class="card-read">Read Guide</span>
+          <span class="card-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+        </div>
+      </a>
+      {{ end }}
+    </div>
   </div>
 </div>
 {{ end }}
