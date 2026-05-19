@@ -21,7 +21,7 @@
       <h2 class="section-title">🔥 Hot Guides</h2>
       <div class="guide-grid hot-grid">
         {{ $pages := where (where .Site.RegularPages "Draft" false) "RelPermalink" "ne" "/" }}
-        {{ range first 6 $pages }}
+        {{ range $pages }}
         <a href="{{ .RelPermalink }}" class="guide-card hot-card">
           {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
           {{ if .Params.publishedAt }}
