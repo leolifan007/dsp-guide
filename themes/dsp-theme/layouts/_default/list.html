@@ -1,7 +1,9 @@
 {{ define "main" }}
 <div class="taxonomy-page">
-  <div class="taxonomy-hero">
-    <div class="taxonomy-hero-inner">
+  <div class="article-hero-full">
+    <div class="article-hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}')"></div>
+    <div class="article-hero-fade"></div>
+    <div class="article-hero-text">
       <h1>{{ .Title }}</h1>
       {{ with .Content }}<p class="taxonomy-desc">{{ . | plainify | truncate 200 }}</p>{{ end }}
     </div>
