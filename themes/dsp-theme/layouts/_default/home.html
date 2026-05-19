@@ -17,11 +17,12 @@
   </section>
 
   <div class="home-content">
+    {{ $pages := where .Site.RegularPages "RelPermalink" "ne" "/" }}
     <section class="featured-guides">
-      <h2 class="section-title">Latest Guides</h2>
+      <h2 class="section-title">🔥 Hot Guides</h2>
       <div class="guide-grid">
-        {{ range where .Pages "RelPermalink" "ne" "/" }}
-        <a href="{{ .RelPermalink }}" class="guide-card">
+        {{ range $pages }}
+        <a href="{{ .RelPermalink }}" class="guide-card hot-card">
           {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
           <div class="card-body">
             <h3>{{ .Title }}</h3>
@@ -48,21 +49,21 @@
           <div class="topic-body">
             <h3>Power and Energy</h3>
             <p>Grid management, cascade recovery, solar belts, fusion</p>
-            <span class="topic-count">1 guide</span>
+            <span class="topic-count">2 guides</span>
           </div>
         </a>
         <a href="{{ `titanium-transport-guide/` | relURL }}" class="topic-card">
           <div class="topic-body">
             <h3>Resources and Mining</h3>
-            <p>Titanium, Silicon, cross-planet transport, automation</p>
-            <span class="topic-count">1 guide</span>
+            <p>Titanium, Silicon, Fire Ice, cross-planet transport, automation</p>
+            <span class="topic-count">3 guides</span>
           </div>
         </a>
         <a href="{{ `green-science-warper-guide/` | relURL }}" class="topic-card">
           <div class="topic-body">
             <h3>Science and Production</h3>
-            <p>Green Science, Warpers, production ratios, tech tree</p>
-            <span class="topic-count">1 guide</span>
+            <p>Green Science, Warpers, Blue Science, Quantum Chips, production ratios</p>
+            <span class="topic-count">3 guides</span>
           </div>
         </a>
       </div>
