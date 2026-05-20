@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dyson Sphere Program Mining Outposts: Coal, Fire Ice &amp; Resource Veins | Dyson Sphere Program Guide</title>
+  <base href="https://dsp-guide.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/dsp-main.css">
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'analytics_storage': 'denied',
+  'wait_for_update': 500
+});
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RDJSH9J2M9"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RDJSH9J2M9', {
+    'allow_google_signals': false,
+    'allow_ad_personalization_signals': false
+  });
+</script>
+
+
+
+</head>
+<body>
+<div class="site-header">
+  <a href="/" class="site-title">DSP Guide</a>
+<nav class="main-nav" id="mainNav">
+  <a href="/" class="nav-link">Home</a>
+  
+  
+  <a href="/categories/power--energy/" class="nav-link">Power &amp; Energy</a>
+  
+  
+  <a href="/categories/resources--mining/" class="nav-link">Resources &amp; Mining</a>
+  
+  
+  <a href="/categories/science--production/" class="nav-link">Science &amp; Production</a>
+  
+  
+  <a href="/categories/logistics--transport/" class="nav-link">Logistics &amp; Transport</a>
+  
+  <a href="/tags/" class="nav-link">Topics</a>
+  <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">☰</button>
+</nav>
+
+</div>
+
+  <div class="page-wrap">
+    
+<div class="single-page">
+  <div class="article-hero-full">
+    <div class="article-hero-bg" style="background-image:url('/images/hero-bg.jpg')"></div>
+    <div class="article-hero-fade"></div>
+    <div class="article-hero-text">
+      <h1>Dyson Sphere Program Mining Outposts: Coal, Fire Ice &amp; Resource Veins</h1>
+      <div class="article-meta">
+        <span class="meta-date">Updated: May 20, 2026</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="article-layout">
+    <aside class="floating-toc" id="floatingToc"></aside>
+    <main class="article-body">
+      <p>Every DSP factory runs on raw materials — and raw materials live on planets that are rarely the planet where your main factory sits. Mining outposts are how you get coal from a gas giant's moon, titanium from an ice world, and fire ice from the dark reaches of the galaxy without leaving your main factory's logistics grid.</p>
+<p>This guide covers how to build mining outposts, position mining machines correctly, and connect them to your logistics network so resources flow automatically.</p>
+<hr>
+<div class="pro-tip"><strong>TL;DR</strong> — Mining Machines extract resources from veins. Place one miner per vein, connect to a belt or ILS, and export. For off-world mining, an ILS with demand set to &quot;remote supply&quot; ensures your factory automatically pulls resources from any connected outpost across your logistics network.</div>
+
+<hr>
+<div class="section-head"><h2>How Mining Machines Work</h2></div>
+
+<p>A <strong>Mining Machine</strong> extracts resources from a resource vein. Each vein is a finite source — it will eventually deplete, though DSP veins are large enough that depletion rarely matters within a single playthrough.</p>
+<p><strong>Mining Machine specs:</strong></p>
+<ul>
+<li>Mining speed varies by ore type and vein richness</li>
+<li>Produces raw ore at a fixed rate per vein</li>
+<li>Must be placed directly on a resource vein tile</li>
+<li>Output is raw ore — smelting is a separate step</li>
+</ul>
+<p><strong>Key rule:</strong> One Mining Machine per vein. You cannot place two mining machines on the same vein. The machine mines the vein until it's depleted, then stops.</p>
+<hr>
+<div class="section-head"><h2>Coal Mining Outpost</h2></div>
+
+<p>Coal is the backbone of early-game power. You need a dedicated coal mining outpost before your factory's power demand outpaces your starting coal supply.</p>
+<h3 id="building-a-coal-outpost">Building a Coal Outpost</h3>
+<ol>
+<li><strong>Find a coal-rich planet.</strong> The galaxy map shows resource distribution. Look for planets with at least 3–4 coal veins adjacent to each other.</li>
+<li><strong>Place Mining Machines</strong> on each coal vein. Set each miner to its own belt lane.</li>
+<li><strong>Run belts</strong> from the miners to a central collection point.</li>
+<li><strong>Connect to your power grid.</strong> Route coal directly to Thermal Power Plants.</li>
+<li><strong>Add ILS</strong> if this outpost is off-world — see the ILS setup section below.</li>
+</ol>
+<h3 id="belt-ratios">Belt Ratios</h3>
+<p>A Mk.I belt carries 1 ore/s. A coal vein produces roughly 1 ore/s per miner. For a full Mk.I belt of coal: 1 miner × 1 vein × 1 belt = 1 coal/s.</p>
+<p>For higher throughput: use Mk.II belts (2 miners) or Mk.III belts (3 miners) feeding into a coal column, then route the collected coal to power plants.</p>
+<hr>
+<div class="section-head"><h2>Fire Ice Mining Outpost</h2></div>
+
+<p><strong>Fire Ice</strong> is DSP's most distinctive early resource — a crystalline fuel found on ice worlds. Fire Ice is mined using <strong>Flame Smelters</strong> instead of standard Mining Machines, and it requires the <strong>Flame Interlocking</strong> research to unlock.</p>
+<h3 id="flame-smelter-vs-mining-machine">Flame Smelter vs Mining Machine</h3>
+<p>A standard Mining Machine extracts ore from veins. A <strong>Flame Smelter</strong> (activated on Fire Ice veins) converts Fire Ice directly into <strong>Fuel Pellets</strong> — a high-energy fuel source that burns in Fuel Plants.</p>
+<p><strong>Flame Smelter on Fire Ice:</strong></p>
+<ul>
+<li>Fire Ice × 1/s → Fuel Pellet × 1</li>
+<li>No intermediate ore step — directly converts to fuel</li>
+</ul>
+<p>This makes Fire Ice the most efficient early fuel source. A small Fire Ice mining outpost can produce enough Fuel Pellets to power a mid-sized factory without any coal logistics.</p>
+<h3 id="building-a-fire-ice-outpost">Building a Fire Ice Outpost</h3>
+<ol>
+<li><strong>Unlock Flame Interlocking</strong> research (early tech tree).</li>
+<li><strong>Find a Fire Ice planet.</strong> Ice worlds with ocean surfaces. Use your Vessel to scout.</li>
+<li><strong>Place Flame Smelters</strong> on Fire Ice veins.</li>
+<li><strong>Connect output</strong> to a Fuel Pellet storage tank or directly to Fuel Plants.</li>
+<li><strong>Connect the outpost ILS</strong> to your logistics network for remote access.</li>
+</ol>
+<hr>
+<div class="section-head"><h2>Off-World Mining: Connecting Outposts to Your Network</h2></div>
+
+<p>For any mining outpost not on your main factory planet, you need an <strong>Interplanetary Logistics Station (ILS)</strong> to pull resources back to your main factory.</p>
+<h3 id="ils-outpost-setup">ILS Outpost Setup</h3>
+<ol>
+<li><strong>Place an ILS</strong> at the mining outpost.</li>
+<li><strong>Configure the ILS:</strong>
+<ul>
+<li>Set <strong>Supply</strong> for the resource being mined (e.g., Iron Ore)</li>
+<li>Set the amount per dispatch</li>
+<li>Set to <strong>Remote</strong> mode</li>
+</ul>
+</li>
+<li><strong>Configure your main factory ILS:</strong>
+<ul>
+<li>Set <strong>Demand</strong> for the resource</li>
+<li>Set to pull from <strong>Remote</strong> stations</li>
+</ul>
+</li>
+</ol>
+<p>When your main factory needs iron, the ILS at the outpost will automatically dispatch cargo vessels carrying iron ore to your factory. This is what &quot;logistics automation&quot; means in DSP — you set the rules, the game handles the shipping.</p>
+<p>For full ILS configuration, see our <a href="/ils-setup-guide/">ILS Setup Guide</a>.</p>
+<hr>
+<div class="section-head"><h2>Mining Machine Belt Placement</h2></div>
+
+<h3 id="standard-belt-output">Standard Belt Output</h3>
+<p>Place the mining machine directly adjacent to a belt. The ore flows onto the belt automatically.</p>
+<pre tabindex="0"><code>[Resource Vein] → [Mining Machine] → [Belt] → [Collection Point / ILS]
+</code></pre><p>For multiple veins: each vein gets its own belt lane, merging at a collection point.</p>
+<h3 id="belt-merge-rules">Belt Merge Rules</h3>
+<p>When merging multiple belt lanes into one:</p>
+<ul>
+<li>Mk.I belt (1 ore/s): max 1 input lane</li>
+<li>Mk.II belt (2 ore/s): max 2 input lanes, properly compressed</li>
+<li>Mk.III belt (3 ore/s): max 3 input lanes</li>
+</ul>
+<p><strong>Critical:</strong> If your input lanes aren't fully compressing the belt (every tile filled), you're not getting full throughput. Visual check: a fully compressed belt entering a smelter bay looks solid — no gaps.</p>
+<hr>
+<p>Mining outposts are your factory's supply chain. Build them close to rich resource veins, connect them with ILS, and your factory will never starve for raw materials. Coal for power, Fire Ice for fuel, titanium and silicon for advanced components — each outpost is a node in your logistics network. Set it up once, and it runs forever.</p>
+<p>For moving mined materials off-world, see our <a href="/titanium-transport-guide/">Titanium Transport Guide</a>.</p>
+
+    </main>
+  </div>
+
+  
+  <section class="more-in-category">
+    <div class="more-inner">
+      <h2 class="section-title">More in Resources &amp; Mining</h2>
+      <div class="guide-grid">
+        
+      </div>
+    </div>
+  </section>
+  
+</div>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/">Guides</a>
+      <a href="/tags/">Topics</a>
+      <a href="/privacy/">Privacy</a>
+    </div>
+    <p><strong>DSP Guide</strong> - Unofficial community guides for Dyson Sphere Program.</p>
+    <p>(C) 2026 DSP Guide - Game assets belong to Youthcat Studio / Gamera Games</p>
+  </footer>
+
+  
+  <div id="cookieBanner" class="cookie-banner" style="display:none;">
+    <p class="cookie-banner-text">
+      This site uses cookies from Google for analytics and advertising.
+      <a href="/privacy/">Learn more</a>
+    </p>
+    <div class="cookie-banner-actions">
+      <button id="cookieReject" class="cookie-btn cookie-btn-reject">Reject</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn-accept">Accept All</button>
+    </div>
+  </div>
+
+<script src="/js/main.js"></script>
+<script src="/js/cookie-consent.js"></script>
+</body>
+</html>
