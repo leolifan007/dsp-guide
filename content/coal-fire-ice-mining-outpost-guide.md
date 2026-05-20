@@ -25,6 +25,10 @@ This guide covers how to build mining outposts, position mining machines correct
 
 ---
 
+{{< diagram "mining-outpost-layout.svg" "Mining outpost layout for coal and fire ice" "750" >}}
+
+---
+
 {{< section "How Mining Machines Work" >}}
 
 A **Mining Machine** extracts resources from a resource vein. Each vein is a finite source — it will eventually deplete, though DSP veins are large enough that depletion rarely matters within a single playthrough.

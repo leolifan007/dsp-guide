@@ -25,6 +25,10 @@ This guide covers the complete Energy Matrix production chain, the recipes that 
 
 ---
 
+{{< diagram "energy-matrix-chain.svg" "Energy Matrix production chain" "750" >}}
+
+---
+
 {{< section "What Is Energy Matrix Used For?" >}}
 
 Energy Matrix is the endgame energy resource. It's consumed by:

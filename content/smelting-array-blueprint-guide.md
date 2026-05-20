@@ -25,6 +25,10 @@ This guide covers smelting from the first furnace on a new planet through to ful
 
 ---
 
+{{< diagram "smelting-column-layout.svg" "Smelting column layout with belt ratios" "750" >}}
+
+---
+
 {{< section "How Smelting Works in DSP" >}}
 
 Smelters take raw **Ore** from a mining machine and output **Ingots** — Iron Ingots, Copper Ingots, or their stone and silicon variants.

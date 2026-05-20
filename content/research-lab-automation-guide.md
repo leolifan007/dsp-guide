@@ -25,6 +25,10 @@ This guide covers the complete science pack chain from Red Science to Purple Sci
 
 ---
 
+{{< diagram "research-lab-chain.svg" "Research lab chain and science pack flow" "750" >}}
+
+---
+
 {{< section "How Research Labs Work" >}}
 
 A **Research Lab** consumes science packs and outputs research progress. Each lab runs at 1/s base speed, consuming one science pack per second when researching.

@@ -25,6 +25,10 @@ This guide breaks down throughput, use cases, cost, and scalability for each sys
 
 ---
 
+{{< diagram "logistics-hierarchy.svg" "Logistics hierarchy: belt vs drone vs vessel" "750" >}}
+
+---
+
 {{< section "Belt Transportation: When to Use It" >}}
 
 Belt transport moves materials along physical paths. They're fast, reliable, and perfect for any situation where you're moving high volumes of materials between buildings on the same planet.
