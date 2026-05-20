@@ -82,7 +82,7 @@ gtag('consent', 'default', {
 <div class="pro-tip"><strong>TL;DR</strong> — Mining Machines extract resources from veins. Place one miner per vein, connect to a belt or ILS, and export. For off-world mining, an ILS with demand set to &quot;remote supply&quot; ensures your factory automatically pulls resources from any connected outpost across your logistics network.</div>
 
 <hr>
-<img src="/images/mining-outpost-layout.svg" alt="Mining outpost layout for coal and fire ice" class="schema-diagram" loading="lazy" width="750">
+<img src="/images/diagrams/mining-outpost-main.svg" alt="Mining outpost flow — Vein to Miner to Belt to ILS, plus coal and fire ice specifics" class="schema-diagram" loading="lazy" width="780">
 
 <hr>
 <div class="section-head"><h2>How Mining Machines Work</h2></div>
@@ -159,8 +159,8 @@ gtag('consent', 'default', {
 
 <h3 id="standard-belt-output">Standard Belt Output</h3>
 <p>Place the mining machine directly adjacent to a belt. The ore flows onto the belt automatically.</p>
-<pre tabindex="0"><code>[Resource Vein] → [Mining Machine] → [Belt] → [Collection Point / ILS]
-</code></pre><p>For multiple veins: each vein gets its own belt lane, merging at a collection point.</p>
+<p>The flow is: <strong>Resource Vein → Mining Machine → Belt → Collection Point / ILS</strong>. See the Mining Outpost Flow diagram above for the complete picture including the coal outpost and fire ice configurations.</p>
+<p>For multiple veins: each vein gets its own belt lane, merging at a collection point.</p>
 <h3 id="belt-merge-rules">Belt Merge Rules</h3>
 <p>When merging multiple belt lanes into one:</p>
 <ul>

@@ -25,7 +25,7 @@ This guide breaks down throughput, use cases, cost, and scalability for each sys
 
 ---
 
-{{< diagram "logistics-hierarchy.svg" "Logistics hierarchy: belt vs drone vs vessel" "750" >}}
+{{< diagram "diagrams/logistics-main.svg" "Logistics choice matrix — when to use belts, drones, or vessels" "780" >}}
 
 ---
 
@@ -38,6 +38,8 @@ Belt transport moves materials along physical paths. They're fast, reliable, and
 - Mk.II (Red): 2 items/s
 - Mk.III (Blue): 3 items/s
 - Mk.IV (Purple): 4 items/s
+
+{{< diagram "diagrams/belt-tier-comparison.svg" "Belt tier comparison — throughput, smelter ratios, and visual identification" "680" >}}
 
 For any production line that needs more than 1–2 items/s of a material and all the buildings are on the same planet, belts are the right answer. They're cheap to build, require no fuel, and never get lost.
 

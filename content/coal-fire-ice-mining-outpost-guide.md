@@ -25,7 +25,7 @@ This guide covers how to build mining outposts, position mining machines correct
 
 ---
 
-{{< diagram "mining-outpost-layout.svg" "Mining outpost layout for coal and fire ice" "750" >}}
+{{< diagram "diagrams/mining-outpost-main.svg" "Mining outpost flow — Vein to Miner to Belt to ILS, plus coal and fire ice specifics" "780" >}}
 
 ---
 
@@ -114,9 +114,7 @@ For full ILS configuration, see our [ILS Setup Guide](/ils-setup-guide/).
 
 Place the mining machine directly adjacent to a belt. The ore flows onto the belt automatically.
 
-```
-[Resource Vein] → [Mining Machine] → [Belt] → [Collection Point / ILS]
-```
+The flow is: **Resource Vein → Mining Machine → Belt → Collection Point / ILS**. See the Mining Outpost Flow diagram above for the complete picture including the coal outpost and fire ice configurations.
 
 For multiple veins: each vein gets its own belt lane, merging at a collection point.
 

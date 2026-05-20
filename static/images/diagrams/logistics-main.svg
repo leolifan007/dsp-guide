@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 420" width="780" height="420">
+  <defs>
+    <marker id="aB" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#FFB300"/></marker>
+    <marker id="aD" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#29B6F6"/></marker>
+    <marker id="aV" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#AB47BC"/></marker>
+    <filter id="dsLh"><feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.4"/></filter>
+  </defs>
+
+  <rect width="780" height="420" fill="#0d1117" rx="10"/>
+  <rect x="4" y="4" width="772" height="412" fill="none" stroke="#1c2333" stroke-width="0.5" rx="8"/>
+
+  <text x="390" y="28" text-anchor="middle" fill="#E8EAED" font-size="15" font-weight="bold" font-family="Inter,Segoe UI,sans-serif" letter-spacing="1.5">LOGISTICS CHOICE MATRIX</text>
+  <text x="390" y="44" text-anchor="middle" fill="#8B949E" font-size="10" font-family="Inter,Segoe UI,monospace">Belt | Drone | Vessel — When to use each system</text>
+
+  <!-- ═══ BELT ═══ -->
+  <rect x="25" y="60" width="730" height="100" rx="8" fill="#161b22" stroke="#FFB300" stroke-width="1.5" filter="url(#dsLh)"/>
+  <rect x="25" y="60" width="8" height="100" rx="4" fill="#FFB300"/>
+  <text x="55" y="82" fill="#FFB300" font-size="14" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">⚡ BELT</text>
+  <text x="55" y="97" fill="#FFE082" font-size="10" font-family="Inter,Segoe UI,monospace">SAME PLANET · HIGH THROUGHPUT · NO FUEL</text>
+  <text x="55" y="112" fill="#8B949E" font-size="9" font-family="Inter,Segoe UI,monospace">Best for: Smelting arrays, production chains, factory bus</text>
+
+  <!-- Belt tiers -->
+  <rect x="60" y="122" width="90" height="30" rx="5" fill="#5D4037" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="105" y="141" text-anchor="middle" fill="#FFB74D" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">Mk.I</text>
+
+  <rect x="165" y="122" width="90" height="30" rx="5" fill="#B71C1C" stroke="#EF5350" stroke-width="0.8"/>
+  <text x="210" y="141" text-anchor="middle" fill="#EF9A9A" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">Mk.II</text>
+
+  <rect x="270" y="122" width="90" height="30" rx="5" fill="#0D47A1" stroke="#42A5F5" stroke-width="0.8"/>
+  <text x="315" y="141" text-anchor="middle" fill="#90CAF9" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">Mk.III</text>
+
+  <rect x="375" y="122" width="90" height="30" rx="5" fill="#4A148C" stroke="#CE93D8" stroke-width="0.8"/>
+  <text x="420" y="141" text-anchor="middle" fill="#E1BEE7" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">Mk.IV</text>
+
+  <!-- Belt throughput bars -->
+  <rect x="480" y="122" width="50" height="8" rx="2" fill="#FFB300"/>
+  <text x="540" y="130" fill="#FFB300" font-size="8" font-family="Inter,Segoe UI,monospace">1/s</text>
+  <rect x="480" y="132" width="100" height="8" rx="2" fill="#EF5350"/>
+  <text x="590" y="140" fill="#EF5350" font-size="8" font-family="Inter,Segoe UI,monospace">2/s</text>
+  <rect x="480" y="142" width="150" height="8" rx="2" fill="#42A5F5"/>
+  <text x="640" y="150" fill="#42A5F5" font-size="8" font-family="Inter,Segoe UI,monospace">3/s</text>
+
+  <!-- ═══ DRONE ═══ -->
+  <rect x="25" y="172" width="730" height="100" rx="8" fill="#161b22" stroke="#29B6F6" stroke-width="1.5" filter="url(#dsLh)"/>
+  <rect x="25" y="172" width="8" height="100" rx="4" fill="#29B6F6"/>
+  <text x="55" y="194" fill="#29B6F6" font-size="14" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">🚁 DRONE</text>
+  <text x="55" y="209" fill="#81D4FA" font-size="10" font-family="Inter,Segoe UI,monospace">SAME STAR · CROSS-PLANET · AUTO-ROUTING</text>
+  <text x="55" y="224" fill="#8B949E" font-size="9" font-family="Inter,Segoe UI,monospace">Best for: Scattered labs, mid-volume cross-planet, flexible demand</text>
+
+  <!-- Drone specs -->
+  <rect x="60" y="232" width="130" height="32" rx="5" fill="#0277BD" stroke="#29B6F6" stroke-width="0.8"/>
+  <text x="125" y="248" text-anchor="middle" fill="#B3E5FC" font-size="9" font-family="Inter,Segoe UI,monospace">Cargo: 1 load/trip</text>
+  <text x="125" y="260" text-anchor="middle" fill="#81D4FA" font-size="8" font-family="Inter,Segoe UI,monospace">Speed: Fast</text>
+
+  <rect x="205" y="232" width="130" height="32" rx="5" fill="#1B5E20" stroke="#66BB6A" stroke-width="0.8"/>
+  <text x="270" y="248" text-anchor="middle" fill="#C8E6C9" font-size="9" font-family="Inter,Segoe UI,monospace">ILS Supply ↔ Demand</text>
+  <text x="270" y="260" text-anchor="middle" fill="#A5D6A7" font-size="8" font-family="Inter,Segoe UI,monospace">Remote ON</text>
+
+  <rect x="350" y="232" width="130" height="32" rx="5" fill="#E65100" stroke="#FF7043" stroke-width="0.8"/>
+  <text x="415" y="248" text-anchor="middle" fill="#FFCCBC" font-size="9" font-family="Inter,Segoe UI,monospace">Range: Star system</text>
+  <text x="415" y="260" text-anchor="middle" fill="#FFAB91" font-size="8" font-family="Inter,Segoe UI,monospace">ILS-powered</text>
+
+  <!-- ═══ VESSEL ═══ -->
+  <rect x="25" y="284" width="730" height="100" rx="8" fill="#161b22" stroke="#AB47BC" stroke-width="1.5" filter="url(#dsLh)"/>
+  <rect x="25" y="284" width="8" height="100" rx="4" fill="#AB47BC"/>
+  <text x="55" y="306" fill="#AB47BC" font-size="14" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">🚀 VESSEL</text>
+  <text x="55" y="321" fill="#CE93D8" font-size="10" font-family="Inter,Segoe UI,monospace">INTERSTELLAR · HIGH VOLUME · DEDICATED POWER</text>
+  <text x="55" y="336" fill="#8B949E" font-size="9" font-family="Inter,Segoe UI,monospace">Best for: Raw materials off-world, endgame massive supply chains</text>
+
+  <!-- Vessel specs -->
+  <rect x="60" y="344" width="130" height="32" rx="5" fill="#4A148C" stroke="#AB47BC" stroke-width="0.8"/>
+  <text x="125" y="360" text-anchor="middle" fill="#F3E5F5" font-size="9" font-family="Inter,Segoe UI,monospace">Cargo: Massive</text>
+  <text x="125" y="372" text-anchor="middle" fill="#CE93D8" font-size="8" font-family="Inter,Segoe UI,monospace">Speed: Slower</text>
+
+  <rect x="205" y="344" width="130" height="32" rx="5" fill="#BF360C" stroke="#FF7043" stroke-width="0.8"/>
+  <text x="270" y="360" text-anchor="middle" fill="#FFCCBC" font-size="9" font-family="Inter,Segoe UI,monospace">Range: Interstellar</text>
+  <text x="270" y="372" text-anchor="middle" fill="#FFAB91" font-size="8" font-family="Inter,Segoe UI,monospace">Dedicated power!</text>
+
+  <!-- Decision tree -->
+  <rect x="25" y="396" width="730" height="22" rx="5" fill="#1a1a2e" stroke="#FFD54F" stroke-width="0.8"/>
+  <text x="390" y="412" text-anchor="middle" fill="#FFD54F" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">
+    Same planet → BELT  |  Same star → DRONE  |  Cross-star → VESSEL
+  </text>
+</svg>

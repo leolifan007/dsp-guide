@@ -1,1 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/categories/</link><description>Recent content in Categories on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dsp-guide.com/categories/index.xml" rel="self" type="application/rss+xml"/><item><title>Power &amp; Energy</title><link>https://dsp-guide.com/categories/power--energy/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/categories/power--energy/</guid><description/></item><item><title>Resources &amp; Mining</title><link>https://dsp-guide.com/categories/resources--mining/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/categories/resources--mining/</guid><description/></item><item><title>Science &amp; Production</title><link>https://dsp-guide.com/categories/science--production/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/categories/science--production/</guid><description/></item><item><title>Logistics &amp; Transport</title><link>https://dsp-guide.com/categories/logistics--transport/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/categories/logistics--transport/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Dyson Sphere Program Guide</title>
+    <link>https://dsp-guide.com/categories/</link>
+    <description>Recent content in Categories on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Endgame Production</title>
+      <link>https://dsp-guide.com/categories/endgame-production/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/categories/endgame-production/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logistics &amp; Transportation</title>
+      <link>https://dsp-guide.com/categories/logistics--transportation/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/categories/logistics--transportation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Production &amp; Automation</title>
+      <link>https://dsp-guide.com/categories/production--automation/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/categories/production--automation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resources &amp; Mining</title>
+      <link>https://dsp-guide.com/categories/resources--mining/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/categories/resources--mining/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science &amp; Research</title>
+      <link>https://dsp-guide.com/categories/science--research/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/categories/science--research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Power &amp; Energy</title>
+      <link>https://dsp-guide.com/categories/power--energy/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/categories/power--energy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Science &amp; Production</title>
+      <link>https://dsp-guide.com/categories/science--production/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/categories/science--production/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logistics &amp; Transport</title>
+      <link>https://dsp-guide.com/categories/logistics--transport/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/categories/logistics--transport/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

@@ -82,7 +82,7 @@ gtag('consent', 'default', {
 <div class="pro-tip"><strong>TL;DR</strong> — Each lab consumes science packs at 1/s. Build science pack assemblers first, then scale labs to match. Prioritize Red → Yellow → Green → Blue → Purple in order. Always automate science packs — hand-feeding labs is a trap that costs you hours.</div>
 
 <hr>
-<img src="/images/research-lab-chain.svg" alt="Research lab chain and science pack flow" class="schema-diagram" loading="lazy" width="750">
+<img src="/images/diagrams/research-lab-main.svg" alt="Complete science pack chain from Red to Purple Science packs — lab setup and research priorities" class="schema-diagram" loading="lazy" width="780">
 
 <hr>
 <div class="section-head"><h2>How Research Labs Work</h2></div>
@@ -157,8 +157,9 @@ Copper Ingot × 1 → Copper Plate × 1
 
 <h3 id="standard-lab-row-5-labs">Standard Lab Row (5 Labs)</h3>
 <p>The most common early setup: 5 labs in a row, each fed by a science pack belt.</p>
-<pre tabindex="0"><code>[Science Pack Belt] → [Lab] [Lab] [Lab] [Lab] [Lab]
-</code></pre><p>Each lab in the row is adjacent to the previous one, so power propagates across the row. You only need one power connection point.</p>
+<img src="/images/diagrams/research-lab-row.svg" alt="Standard 5-lab row with science pack belt input and power daisy chain" class="schema-diagram" loading="lazy" width="740">
+
+<p>Each lab in the row is adjacent to the previous one, so power propagates across the row. You only need one power connection point.</p>
 <p><strong>Power requirement:</strong> 5 labs at full research speed draw significant power. Connect the row to a dedicated power grid — preferably fueled by Coal Power Plants early game, switching to Fuel Plants or Solar as you scale.</p>
 <h3 id="scaling-labs-with-science-pack-supply">Scaling Labs with Science Pack Supply</h3>
 <p>Labs consume packs at 1/s each. If you have 10 labs, you need 10 science packs/s feeding them. This means your science pack production must scale in exact proportion to your lab count.</p>

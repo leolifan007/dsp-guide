@@ -25,7 +25,7 @@ This guide covers the complete science pack chain from Red Science to Purple Sci
 
 ---
 
-{{< diagram "research-lab-chain.svg" "Research lab chain and science pack flow" "750" >}}
+{{< diagram "diagrams/research-lab-main.svg" "Complete science pack chain from Red to Purple Science packs — lab setup and research priorities" "780" >}}
 
 ---
 
@@ -120,9 +120,7 @@ Titanium production requires Flame Smelting or a dedicated Titanium smelting col
 
 The most common early setup: 5 labs in a row, each fed by a science pack belt.
 
-```
-[Science Pack Belt] → [Lab] [Lab] [Lab] [Lab] [Lab]
-```
+{{< diagram "diagrams/research-lab-row.svg" "Standard 5-lab row with science pack belt input and power daisy chain" "740" >}}
 
 Each lab in the row is adjacent to the previous one, so power propagates across the row. You only need one power connection point.
 

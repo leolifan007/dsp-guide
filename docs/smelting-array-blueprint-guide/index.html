@@ -82,7 +82,7 @@ gtag('consent', 'default', {
 <div class="pro-tip"><strong>TL;DR</strong> — Smelters convert Ores into Metal Ingots. Match smelter count to belt throughput: Mk.I Belt = 1 smelter, Mk.II = 2 smelters, Mk.III = 3 smelters per belt. Build smelting as dedicated columns from day one — you'll never regret having more smelting capacity early.</div>
 
 <hr>
-<img src="/images/smelting-column-layout.svg" alt="Smelting column layout with belt ratios" class="schema-diagram" loading="lazy" width="750">
+<img src="/images/diagrams/smelting-column-main.svg" alt="Smelting column layout with belt ratios — 3 smelters per Mk.III belt" class="schema-diagram" loading="lazy" width="820">
 
 <hr>
 <div class="section-head"><h2>How Smelting Works in DSP</h2></div>
@@ -116,7 +116,6 @@ gtag('consent', 'default', {
 | Mk.IV (Purple) | 4 ore/s | 4 smelters |</p>
 <p>This is the fundamental smelting ratio. If you feed a Mk.II belt into your smelting array and only connect one smelter, you're leaving 50% of your belt capacity unused. The remaining ore/s just sits on the belt with nowhere to go — until it backs up all the way to your miners.</p>
 <h3 id="how-backups-cascade">How Backups Cascade</h3>
-<p>Mining Machine → Belt → Smelter Bay → Out Belt → Downstream Factory</p>
 <p>When a smelter bay stalls because the out belt is full, ore backs up onto the input belt. The input belt backs up to the mining machine. The mining machine stops. Now your entire planet's ore production has halted because one part of one smelting bay is backed up.</p>
 <p>The fix isn't to build more smelters. It's to ensure your <strong>output belts always have capacity</strong> to drain the smelter output. This means either:</p>
 <ol>
@@ -128,14 +127,17 @@ gtag('consent', 'default', {
 
 <p>The cleanest smelting layout is a column array — each column dedicated to one ore type, with consistent spacing and parallel input belts.</p>
 <h3 id="basic-iron-column-mki-belts">Basic Iron Column (Mk.I Belts)</h3>
-<pre tabindex="0"><code>[Miners] → [Mk.I Belt] → [Smelter ×1] → [Mk.I Belt] → [Factory]
-</code></pre><p>One miner, one smelter, one belt. Simple, but it doesn't scale well.</p>
+<img src="/images/diagrams/smelting-mk1-basic.svg" alt="Basic smelting column — Mk.I Belt, 1:1:1 ratio" class="schema-diagram" loading="lazy" width="720">
+
+<p>One miner, one smelter, one belt. Simple, but it doesn't scale well.</p>
 <h3 id="scalable-iron-column-mkii-belts">Scalable Iron Column (Mk.II Belts)</h3>
-<pre tabindex="0"><code>[Miners ×2] → [Mk.II Belt] → [Smelter ×2] → [Mk.II Belt] → [Factory Bus]
-</code></pre><p>Two miners feed a Mk.II belt. Two smelters drain it. The output belt carries 2 ingots/s to wherever you need iron.</p>
+<img src="/images/diagrams/smelting-mk2-standard.svg" alt="Standard smelting column — Mk.II Belt, 2:2:2 ratio" class="schema-diagram" loading="lazy" width="720">
+
+<p>Two miners feed a Mk.II belt. Two smelters drain it. The output belt carries 2 ingots/s to wherever you need iron.</p>
 <h3 id="high-volume-iron-column-mkiii-belts">High-Volume Iron Column (Mk.III Belts)</h3>
-<pre tabindex="0"><code>[Miners ×3] → [Mk.III Belt] → [Smelter ×3] → [Mk.III Belt] → [Factory Bus]
-</code></pre><p>Three miners. Three smelters. This is your mid-game target — it matches the throughput of a Mk.III belt and produces iron fast enough to feed serious production.</p>
+<img src="/images/diagrams/smelting-mk3-highvol.svg" alt="High-volume smelting column — Mk.III Belt, 3:3:3 ratio (recommended)" class="schema-diagram" loading="lazy" width="720">
+
+<p>Three miners. Three smelters. This is your mid-game target — it matches the throughput of a Mk.III belt and produces iron fast enough to feed serious production.</p>
 <hr>
 <div class="section-head"><h2>Building Smelting Columns in Practice</h2></div>
 
@@ -147,10 +149,9 @@ gtag('consent', 'default', {
 <h3 id="step-3-place-smelters">Step 3: Place Smelters</h3>
 <p>Smelters must be placed directly adjacent to the input belt. They snap to the grid. Place one smelter per smelter slot, adjacent to the belt.</p>
 <p>For a three-smelter column, you need three adjacent positions on the smelting grid. You can place smelters in a row:</p>
-<pre tabindex="0"><code>[Belt] → [Smelter] [Smelter] [Smelter]
-         ↓
-    [Output Belt]
-</code></pre><h3 id="step-4-connect-output-to-your-bus">Step 4: Connect Output to Your Bus</h3>
+<img src="/images/diagrams/smelting-row-placement.svg" alt="Smelter row placement — 3 smelters adjacent to a single belt" class="schema-diagram" loading="lazy" width="620">
+
+<h3 id="step-4-connect-output-to-your-bus">Step 4: Connect Output to Your Bus</h3>
 <p>The output belt carries ingots away from smelters and into your production bus. Connect it to whatever factory system consumes iron or copper — and make sure your downstream consumption matches or exceeds smelter output.</p>
 <h3 id="step-5-add-overflow-to-ils">Step 5: Add Overflow to ILS</h3>
 <p>If smelters produce faster than your factory consumes, route the overflow to an <strong>Interplanetary Logistics Station (ILS)</strong>. Set the ILS to import ingots and distribute them to requesting stations across your logistics network. See our <a href="/ils-setup-guide/">ILS Setup Guide</a> for full details on ILS configuration.</p>

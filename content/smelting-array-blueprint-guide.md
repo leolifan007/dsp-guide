@@ -25,7 +25,7 @@ This guide covers smelting from the first furnace on a new planet through to ful
 
 ---
 
-{{< diagram "smelting-column-layout.svg" "Smelting column layout with belt ratios" "750" >}}
+{{< diagram "diagrams/smelting-column-main.svg" "Smelting column layout with belt ratios — 3 smelters per Mk.III belt" "820" >}}
 
 ---
 
@@ -66,8 +66,6 @@ This is the fundamental smelting ratio. If you feed a Mk.II belt into your smelt
 
 ### How Backups Cascade
 
-Mining Machine → Belt → Smelter Bay → Out Belt → Downstream Factory
-
 When a smelter bay stalls because the out belt is full, ore backs up onto the input belt. The input belt backs up to the mining machine. The mining machine stops. Now your entire planet's ore production has halted because one part of one smelting bay is backed up.
 
 The fix isn't to build more smelters. It's to ensure your **output belts always have capacity** to drain the smelter output. This means either:
@@ -82,25 +80,19 @@ The cleanest smelting layout is a column array — each column dedicated to one 
 
 ### Basic Iron Column (Mk.I Belts)
 
-```
-[Miners] → [Mk.I Belt] → [Smelter ×1] → [Mk.I Belt] → [Factory]
-```
+{{< diagram "diagrams/smelting-mk1-basic.svg" "Basic smelting column — Mk.I Belt, 1:1:1 ratio" "720" >}}
 
 One miner, one smelter, one belt. Simple, but it doesn't scale well.
 
 ### Scalable Iron Column (Mk.II Belts)
 
-```
-[Miners ×2] → [Mk.II Belt] → [Smelter ×2] → [Mk.II Belt] → [Factory Bus]
-```
+{{< diagram "diagrams/smelting-mk2-standard.svg" "Standard smelting column — Mk.II Belt, 2:2:2 ratio" "720" >}}
 
 Two miners feed a Mk.II belt. Two smelters drain it. The output belt carries 2 ingots/s to wherever you need iron.
 
 ### High-Volume Iron Column (Mk.III Belts)
 
-```
-[Miners ×3] → [Mk.III Belt] → [Smelter ×3] → [Mk.III Belt] → [Factory Bus]
-```
+{{< diagram "diagrams/smelting-mk3-highvol.svg" "High-volume smelting column — Mk.III Belt, 3:3:3 ratio (recommended)" "720" >}}
 
 Three miners. Three smelters. This is your mid-game target — it matches the throughput of a Mk.III belt and produces iron fast enough to feed serious production.
 
@@ -124,11 +116,7 @@ Smelters must be placed directly adjacent to the input belt. They snap to the gr
 
 For a three-smelter column, you need three adjacent positions on the smelting grid. You can place smelters in a row:
 
-```
-[Belt] → [Smelter] [Smelter] [Smelter]
-         ↓
-    [Output Belt]
-```
+{{< diagram "diagrams/smelting-row-placement.svg" "Smelter row placement — 3 smelters adjacent to a single belt" "620" >}}
 
 ### Step 4: Connect Output to Your Bus
 

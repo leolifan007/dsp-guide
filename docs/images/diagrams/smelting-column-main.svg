@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="820" height="400">
+  <defs>
+    <marker id="arrowOre" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0,0 10,3.5 0,7" fill="#FF8A65"/>
+    </marker>
+    <marker id="arrowIngot" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0,0 10,3.5 0,7" fill="#4FC3F7"/>
+    </marker>
+    <marker id="arrowBus" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0,0 10,3.5 0,7" fill="#AB47BC"/>
+    </marker>
+    <linearGradient id="gMiner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#455A64"/><stop offset="100%" stop-color="#263238"/>
+    </linearGradient>
+    <linearGradient id="gBelt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F57F17"/><stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="gSmelt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#388E3C"/><stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+    <linearGradient id="gIngot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4E342E"/><stop offset="100%" stop-color="#3E2723"/>
+    </linearGradient>
+    <linearGradient id="gBus" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0D47A1"/><stop offset="100%" stop-color="#1565C0"/>
+    </linearGradient>
+    <linearGradient id="gILS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6A1B9A"/><stop offset="100%" stop-color="#4A148C"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="ds">
+      <feDropShadow dx="1" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="820" height="400" fill="#0d1117" rx="10"/>
+  <rect x="5" y="5" width="810" height="390" fill="none" stroke="#1c2333" stroke-width="1" rx="8"/>
+
+  <!-- Title -->
+  <text x="410" y="35" text-anchor="middle" fill="#E8EAED" font-size="17" font-weight="bold" font-family="Inter,Segoe UI,monospace" letter-spacing="1.5">SMELTING COLUMN LAYOUT</text>
+  <text x="410" y="52" text-anchor="middle" fill="#8B949E" font-size="11" font-family="Inter,Segoe UI,monospace">3 Smelters / Mk.III Belt — Optimal Mid-Game Ratio</text>
+
+  <!-- ──── MINER ×3 ──── -->
+  <rect x="40" y="80" width="130" height="90" rx="10" fill="url(#gMiner)" stroke="#78909C" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="105" y="108" text-anchor="middle" fill="#CFD8DC" font-size="14" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">⛏ MINER ×3</text>
+  <text x="105" y="126" text-anchor="middle" fill="#90A4AE" font-size="10" font-family="Inter,Segoe UI,monospace">Iron / Copper Veins</text>
+  <text x="105" y="142" text-anchor="middle" fill="#FFB74D" font-size="11" font-weight="600" font-family="Inter,Segoe UI,monospace">1 ore/s each</text>
+  <text x="105" y="160" text-anchor="middle" fill="#78909C" font-size="9" font-family="Inter,Segoe UI,monospace">Total: 3 ore/s</text>
+
+  <!-- Arrow: Ore Belt -->
+  <line x1="170" y1="120" x2="230" y2="120" stroke="#FF8A65" stroke-width="3" marker-end="url(#arrowOre)" filter="url(#glow)"/>
+  <rect x="182" y="130" width="50" height="18" rx="4" fill="#1a1a2e" stroke="#FF8A65" stroke-width="0.8"/>
+  <text x="207" y="143" text-anchor="middle" fill="#FF8A65" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace">ORE</text>
+
+  <!-- ──── BELT ──── -->
+  <rect x="233" y="80" width="100" height="90" rx="10" fill="url(#gBelt)" stroke="#FFB300" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="283" y="108" text-anchor="middle" fill="#FFF8E1" font-size="13" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">MK.III</text>
+  <text x="283" y="126" text-anchor="middle" fill="#FFE082" font-size="11" font-weight="600" font-family="Inter,Segoe UI,monospace">3 ore/s</text>
+  <text x="283" y="142" text-anchor="middle" fill="#FFB74D" font-size="9" font-family="Inter,Segoe UI,monospace">Blue Belt</text>
+  <rect x="243" y="152" width="80" height="12" rx="3" fill="#E65100"/>
+  <rect x="243" y="152" width="80" height="12" rx="3" fill="none" stroke="#FFB300" stroke-width="0.5"/>
+
+  <!-- Arrow: Ore to Smelter -->
+  <line x1="333" y1="120" x2="393" y2="120" stroke="#FF8A65" stroke-width="3" marker-end="url(#arrowOre)" filter="url(#glow)"/>
+
+  <!-- ──── SMELTER ×3 ──── -->
+  <rect x="396" y="80" width="130" height="90" rx="10" fill="url(#gSmelt)" stroke="#66BB6A" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="461" y="108" text-anchor="middle" fill="#E8F5E9" font-size="14" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">🔥 SMELT ×3</text>
+  <text x="461" y="126" text-anchor="middle" fill="#A5D6A7" font-size="10" font-family="Inter,Segoe UI,monospace">1 ore/s each</text>
+  <text x="461" y="142" text-anchor="middle" fill="#81C784" font-size="11" font-weight="600" font-family="Inter,Segoe UI,monospace">→ 1 ingot/s</text>
+  <!-- Sub-smelter icons -->
+  <rect x="406" y="152" width="36" height="14" rx="3" fill="#2E7D32" stroke="#66BB6A" stroke-width="0.6"/>
+  <text x="424" y="162" text-anchor="middle" fill="#C8E6C9" font-size="8" font-family="monospace">S1</text>
+  <rect x="444" y="152" width="36" height="14" rx="3" fill="#2E7D32" stroke="#66BB6A" stroke-width="0.6"/>
+  <text x="462" y="162" text-anchor="middle" fill="#C8E6C9" font-size="8" font-family="monospace">S2</text>
+  <rect x="482" y="152" width="36" height="14" rx="3" fill="#2E7D32" stroke="#66BB6A" stroke-width="0.6"/>
+  <text x="500" y="162" text-anchor="middle" fill="#C8E6C9" font-size="8" font-family="monospace">S3</text>
+
+  <!-- Arrow: Ingot Belt -->
+  <line x1="526" y1="120" x2="586" y2="120" stroke="#4FC3F7" stroke-width="3" marker-end="url(#arrowIngot)" filter="url(#glow)"/>
+  <rect x="538" y="130" width="50" height="18" rx="4" fill="#1a1a2e" stroke="#4FC3F7" stroke-width="0.8"/>
+  <text x="563" y="143" text-anchor="middle" fill="#4FC3F7" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace">INGOT</text>
+
+  <!-- ──── INGOTS ──── -->
+  <rect x="589" y="80" width="130" height="90" rx="10" fill="url(#gIngot)" stroke="#8D6E63" stroke-width="1.5" filter="url(#ds)"/>
+  <text x="654" y="108" text-anchor="middle" fill="#D7CCC8" font-size="14" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">🪨 INGOTS</text>
+  <text x="654" y="126" text-anchor="middle" fill="#BCAAA4" font-size="10" font-family="Inter,Segoe UI,monospace">3 ingots/s</text>
+  <text x="654" y="142" text-anchor="middle" fill="#A1887F" font-size="9" font-family="Inter,Segoe UI,monospace">Iron or Copper</text>
+  <text x="654" y="160" text-anchor="middle" fill="#FFB74D" font-size="9" font-family="Inter,Segoe UI,monospace">Ready for factory</text>
+
+  <!-- ──── DOWNSTREAM: Factory Bus ──── -->
+  <line x1="719" y1="120" x2="790" y2="120" stroke="#AB47BC" stroke-width="2.5" marker-end="url(#arrowBus)" stroke-dasharray="6,3"/>
+  <rect x="730" y="105" width="50" height="15" rx="3" fill="#1a1a2e" stroke="#AB47BC" stroke-width="0.6"/>
+  <text x="755" y="115" text-anchor="middle" fill="#AB47BC" font-size="8" font-weight="bold" font-family="Inter,Segoe UI,monospace">BUS →</text>
+
+  <!-- ──── BOTTOM: Ratio Reference Table ──── -->
+  <rect x="40" y="200" width="740" height="180" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Table title -->
+  <text x="410" y="225" text-anchor="middle" fill="#E8EAED" font-size="14" font-weight="bold" font-family="Inter,Segoe UI,sans-serif" letter-spacing="1">SMELTING RATIO REFERENCE</text>
+  <line x1="60" y1="235" x2="760" y2="235" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Header -->
+  <text x="120" y="255" text-anchor="middle" fill="#8B949E" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">BELT TIER</text>
+  <text x="280" y="255" text-anchor="middle" fill="#8B949E" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">THROUGHPUT</text>
+  <text x="440" y="255" text-anchor="middle" fill="#8B949E" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">SMELTERS</text>
+  <text x="580" y="255" text-anchor="middle" fill="#8B949E" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">MINERS</text>
+  <text x="710" y="255" text-anchor="middle" fill="#8B949E" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">PHASE</text>
+
+  <!-- Row 1: Mk.I -->
+  <rect x="60" y="265" width="140" height="26" rx="5" fill="#3E2723" stroke="#8D6E63" stroke-width="1"/>
+  <text x="130" y="283" text-anchor="middle" fill="#FFB74D" font-size="12" font-weight="bold" font-family="Inter,Segoe UI,monospace">Mk.I Yellow</text>
+
+  <rect x="215" y="265" width="120" height="26" rx="5" fill="#1B5E20" stroke="#66BB6A" stroke-width="0.8"/>
+  <text x="275" y="283" text-anchor="middle" fill="#C8E6C9" font-size="12" font-family="Inter,Segoe UI,monospace">1 ore/s</text>
+
+  <rect x="350" y="265" width="120" height="26" rx="5" fill="#01579B" stroke="#42A5F5" stroke-width="0.8"/>
+  <text x="410" y="283" text-anchor="middle" fill="#B3E5FC" font-size="12" font-family="Inter,Segoe UI,monospace">×1</text>
+
+  <rect x="485" y="265" width="120" height="26" rx="5" fill="#4A148C" stroke="#CE93D8" stroke-width="0.8"/>
+  <text x="545" y="283" text-anchor="middle" fill="#E1BEE7" font-size="12" font-family="Inter,Segoe UI,monospace">×1</text>
+
+  <rect x="620" y="265" width="140" height="26" rx="5" fill="#263238" stroke="#546E7A" stroke-width="0.8"/>
+  <text x="690" y="283" text-anchor="middle" fill="#78909C" font-size="10" font-family="Inter,Segoe UI,monospace">Early Game</text>
+
+  <!-- Row 2: Mk.II -->
+  <rect x="60" y="298" width="140" height="26" rx="5" fill="#3E2723" stroke="#EF5350" stroke-width="1"/>
+  <text x="130" y="316" text-anchor="middle" fill="#EF9A9A" font-size="12" font-weight="bold" font-family="Inter,Segoe UI,monospace">Mk.II Red</text>
+
+  <rect x="215" y="298" width="120" height="26" rx="5" fill="#1B5E20" stroke="#66BB6A" stroke-width="0.8"/>
+  <text x="275" y="316" text-anchor="middle" fill="#C8E6C9" font-size="12" font-family="Inter,Segoe UI,monospace">2 ore/s</text>
+
+  <rect x="350" y="298" width="120" height="26" rx="5" fill="#01579B" stroke="#42A5F5" stroke-width="0.8"/>
+  <text x="410" y="316" text-anchor="middle" fill="#B3E5FC" font-size="12" font-family="Inter,Segoe UI,monospace">×2</text>
+
+  <rect x="485" y="298" width="120" height="26" rx="5" fill="#4A148C" stroke="#CE93D8" stroke-width="0.8"/>
+  <text x="545" y="316" text-anchor="middle" fill="#E1BEE7" font-size="12" font-family="Inter,Segoe UI,monospace">×2</text>
+
+  <rect x="620" y="298" width="140" height="26" rx="5" fill="#263238" stroke="#546E7A" stroke-width="0.8"/>
+  <text x="690" y="316" text-anchor="middle" fill="#78909C" font-size="10" font-family="Inter,Segoe UI,monospace">Mid Game</text>
+
+  <!-- Row 3: Mk.III (highlighted) -->
+  <rect x="60" y="331" width="140" height="26" rx="5" fill="#0D47A1" stroke="#42A5F5" stroke-width="1.5"/>
+  <text x="130" y="349" text-anchor="middle" fill="#90CAF9" font-size="12" font-weight="bold" font-family="Inter,Segoe UI,monospace">Mk.III Blue</text>
+
+  <rect x="215" y="331" width="120" height="26" rx="5" fill="#1B5E20" stroke="#66BB6A" stroke-width="0.8"/>
+  <text x="275" y="349" text-anchor="middle" fill="#C8E6C9" font-size="12" font-family="Inter,Segoe UI,monospace">3 ore/s</text>
+
+  <rect x="350" y="331" width="120" height="26" rx="5" fill="#01579B" stroke="#42A5F5" stroke-width="0.8"/>
+  <text x="410" y="349" text-anchor="middle" fill="#B3E5FC" font-size="12" font-weight="bold" font-family="Inter,Segoe UI,monospace">×3</text>
+
+  <rect x="485" y="331" width="120" height="26" rx="5" fill="#4A148C" stroke="#CE93D8" stroke-width="0.8"/>
+  <text x="545" y="349" text-anchor="middle" fill="#E1BEE7" font-size="12" font-family="Inter,Segoe UI,monospace">×3</text>
+
+  <rect x="620" y="331" width="140" height="26" rx="5" fill="#1B5E20" stroke="#66BB6A" stroke-width="1.5"/>
+  <text x="690" y="349" text-anchor="middle" fill="#66BB6A" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">✓ Recommended</text>
+
+  <!-- Tip bar -->
+  <rect x="40" y="368" width="740" height="22" rx="5" fill="#1a1a2e" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="410" y="383" text-anchor="middle" fill="#FFD54F" font-size="10" font-family="Inter,Segoe UI,monospace">⚠ TIP: Always build smelting columns at Mk.III ratios (3:3:3) — upgrading later costs more than building right the first time.</text>
+</svg>

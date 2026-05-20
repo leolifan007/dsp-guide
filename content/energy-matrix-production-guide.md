@@ -25,7 +25,7 @@ This guide covers the complete Energy Matrix production chain, the recipes that 
 
 ---
 
-{{< diagram "energy-matrix-chain.svg" "Energy Matrix production chain" "750" >}}
+{{< diagram "diagrams/energy-matrix-chain.svg" "Energy Matrix production chain from crude oil to Dyson Sphere — includes hydrogen competition table" "780" >}}
 
 ---
 
@@ -62,15 +62,9 @@ To produce Energy Matrix, you need a functioning oil refining setup first. If yo
 
 Hydrogen is the bottleneck in almost every DSP factory that reaches mid-game. Energy Matrix makes it worse — one Energy Matrix Refinery consumes 2 hydrogen/s, and you'll want multiple refineries running simultaneously.
 
-**The hydrogen competition:**
-| Consumer | Hydrogen/s per unit |
-|---|---|
-| Hydrogen Fuel Plants | 1/s |
-| Blue Science Packs | 2/s |
-| Graphene Production | 1/s |
-| Energy Matrix Refineries | 2/s |
+**The hydrogen competition:** The diagram above shows all major hydrogen consumers and their H2/s consumption rates. At scale, you're consuming hydrogen faster than a single oil field can produce it.
 
-At scale, you're consuming hydrogen faster than a single oil field can produce it. The solution is the same as always: more oil extractors, more refineries, and a dedicated hydrogen routing plan.
+The solution is the same as always: more oil extractors, more refineries, and a dedicated hydrogen routing plan.
 
 See our [Oil & Plastics Refining Guide](/oil-plastics-refining/) for the full hydrogen management solution, including the hydrogen tank buffer strategy that prevents refinery stalls.
 
