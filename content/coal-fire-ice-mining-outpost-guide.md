@@ -11,6 +11,7 @@ categories: [Resources & Mining]
 featured_image: ""
 slug: coal-fire-ice-mining-outpost-guide
 draft: true
+---
 
 Every DSP factory runs on raw materials — and raw materials live on planets that are rarely the planet where your main factory sits. Mining outposts are how you get coal from a gas giant's moon, titanium from an ice world, and fire ice from the dark reaches of the galaxy without leaving your main factory's logistics grid.
 

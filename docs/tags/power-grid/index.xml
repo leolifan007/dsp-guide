@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Power-Grid on Dyson Sphere Program Guide</title>
+    <link>https://dsp-guide.com/tags/power-grid/</link>
+    <description>Recent content in Power-Grid on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/tags/power-grid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Your DSP Power Grid Keeps Crashing (And How to Fix It)</title>
+      <link>https://dsp-guide.com/power-fix-guide/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/power-fix-guide/</guid>
+      <description>&lt;p&gt;Everything is running. Then: darkness. Sorters moving like they&#39;re underwater. Your thermal plants flickering on and off. The death spiral.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Here&#39;s what happened and how to fix it.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR — The cascade:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  Factory drains power → sorters slow down → thermal plants don&#39;t get fuel → production drops → more power loss → everything dies.&lt;br&gt;&#xD;&#xA;  &lt;strong&gt;The fix:&lt;/strong&gt; Disconnect non-essential buildings. Feed thermal plants manually. Then build more solar.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;⚡ What Just Happened (The Cascade)&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;DSP has a nasty feedback loop that first-timers always run into:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

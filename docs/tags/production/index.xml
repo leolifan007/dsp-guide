@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Production on Dyson Sphere Program Guide</title>
+    <link>https://dsp-guide.com/tags/production/</link>
+    <description>Recent content in Production on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/tags/production/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title>
+      <link>https://dsp-guide.com/quantum-chips-proliferator/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/quantum-chips-proliferator/</guid>
+      <description>&lt;p&gt;Every factory has a ceiling. At some point you&#39;re running 40 assemblers on your Circuit Board chain and wondering if there&#39;s a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&#39;s a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

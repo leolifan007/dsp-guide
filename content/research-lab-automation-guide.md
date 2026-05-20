@@ -11,6 +11,7 @@ categories: [Science & Research]
 featured_image: ""
 slug: research-lab-automation-guide
 draft: true
+---
 
 Research is the clock in DSP. Every unlock — new buildings, new recipes, new logistics options — lives behind the research tree. And research lives behind science packs. If your science pack production is weak, your entire progression grinds to a halt.
 
