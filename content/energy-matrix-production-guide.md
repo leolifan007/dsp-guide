@@ -10,8 +10,7 @@ topics: [production, endgame]
 categories: [Endgame Production]
 featured_image: ""
 slug: energy-matrix-production-guide
-draft: false
----
+draft: true
 
 Energy Matrix is the energy currency that powers Dyson Sphere construction. Every Solar Sail launched, every Ray Receiver powered, every component of the Dyson Sphere itself — all of it requires Energy Matrix. It's the fuel of the endgame, and getting a reliable Energy Matrix supply running is one of the most satisfying milestones in DSP.
 

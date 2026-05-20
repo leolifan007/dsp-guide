@@ -10,8 +10,7 @@ topics: [logistics, transportation]
 categories: [Logistics & Transportation]
 featured_image: ""
 slug: logistics-drones-vs-belts-guide
-draft: false
----
+draft: true
 
 DSP gives you two ways to move materials: belts and drones. Belts are local, simple, and fast. Drones are flexible, cross-planetary, and require zero physical infrastructure. Knowing which to use — and when — is one of the core strategic decisions in DSP factory design.
 
