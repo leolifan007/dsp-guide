@@ -43,16 +43,12 @@ The more ambitious your Dyson Sphere, the more Energy Matrix you need. A partial
 {{< section "The Energy Matrix Recipe" >}}
 
 **Fuel Refinery recipe (Energy Matrix):**
-```
-Hydrogen × 2/s + Refined Oil × 1/s → Energy Matrix × 1/s
-```
+
+{{< recipe name1="hydrogen" qty1="2x" name2="oil" qty2="1x" result="c-matrix" rqty="1x" >}}
 
 This is the only recipe that produces Energy Matrix. The critical input is hydrogen — and hydrogen is the same resource used in Blue Science chains, Rocket Fuel production, and Fuel Plant power generation. Your Energy Matrix production competes with all other hydrogen consumers.
 
-**Production dependency chain:**
-```
-Crude Oil → Refinery (Refined Oil + Hydrogen) → Fuel Refinery → Energy Matrix
-```
+The full production dependency chain from Crude Oil to Energy Matrix is shown in the **Energy Matrix Chain diagram** at the top of this article.
 
 To produce Energy Matrix, you need a functioning oil refining setup first. If your refineries are already backfeeding hydrogen into Blue Science production, you'll need to expand hydrogen supply before scaling Energy Matrix.
 

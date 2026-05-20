@@ -40,12 +40,11 @@ Smelters take raw **Ore** from a mining machine and output **Ingots** — Iron I
 
 The first smelter you place converts whatever ore belt you connect to it. You can run Iron Ore into a smelter, then swap the belt to Copper Ore and it'll start smelting copper immediately. The smelter itself doesn't care — it's purely a 1:1 conversion machine.
 
-**Smelting chain:**
-- Iron Ore → **Iron Ingot**
-- Copper Ore → **Copper Ingot**
-- Stone Ore → **Stone Brick**
-- Silicon Ore → **Silicon Ingot**
-- Titanium Ore → **Titanium Ingot**
+**Smelting outputs:**
+
+{{< material "iron" "1x" >}} {{< material "copper" "1x" >}} {{< material "silicon" "1x" >}} {{< material "titanium" "1x" >}}
+
+Each ore type converts 1:1 in a Smelter — one ore per second, one ingot per second. Stone Ore produces Stone Bricks; all others produce their respective plates/ingots.
 
 ---
 

@@ -72,8 +72,10 @@ For higher throughput: use Mk.II belts (2 miners) or Mk.III belts (3 miners) fee
 A standard Mining Machine extracts ore from veins. A **Flame Smelter** (activated on Fire Ice veins) converts Fire Ice directly into **Fuel Pellets** — a high-energy fuel source that burns in Fuel Plants.
 
 **Flame Smelter on Fire Ice:**
-- Fire Ice × 1/s → Fuel Pellet × 1
-- No intermediate ore step — directly converts to fuel
+
+{{< recipe name1="fire-ice" qty1="1x" result="fuel-pellet" rqty="1x" >}}
+
+No intermediate ore step — directly converts to fuel.
 
 This makes Fire Ice the most efficient early fuel source. A small Fire Ice mining outpost can produce enough Fuel Pellets to power a mid-sized factory without any coal logistics.
 
