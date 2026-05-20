@@ -102,55 +102,24 @@ gtag('consent', 'default', {
 <p>There are five science pack tiers, each with increasing production complexity.</p>
 <h3 id="red-science-packs-tier-1">Red Science Packs (Tier 1)</h3>
 <p>The simplest science pack. Produced in an <strong>Assembler</strong> from Iron and Copper Ingots.</p>
-<p><strong>Recipe:</strong></p>
-<ul>
-<li>Iron Ingot × 1</li>
-<li>Copper Ingot × 1</li>
-<li><strong>= Red Science Pack × 1</strong></li>
-</ul>
+<div class="game-row"><div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/iron-plate.png" alt="iron" class="game-img" loading="lazy"><span class="game-name">Iron</span></div><span class="game-plus">+</span><div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/copper-plate.png" alt="copper" class="game-img" loading="lazy"><span class="game-name">Copper</span></div><span class="game-plus">&rarr;</span><div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/u-matrix.png" alt="red-matrix" class="game-img" loading="lazy"><span class="game-name">Red matrix</span></div></div>
 <p>One Red Science Assembler produces enough packs for 1–2 labs. For early game, two assemblers feeding into 4–6 labs is a solid starting setup.</p>
 <h3 id="yellow-science-packs-tier-2">Yellow Science Packs (Tier 2)</h3>
 <p>Yellow Science introduces <strong>Conveyor Modules</strong> and <strong>Electromagnetic Turbine</strong> components.</p>
-<p><strong>Recipe:</strong></p>
-<ul>
-<li>Iron Ingot × 2</li>
-<li>Copper Ingot × 1</li>
-<li><strong>= Yellow Science Pack × 1</strong></li>
-</ul>
-<p><strong>Key dependency chain:</strong></p>
-<pre tabindex="0"><code>Iron Ingot × 2 → Gear × 1
-Copper Ingot × 1 → Copper Plate × 1
-→ Electromagnetic Turbine × 1 (Copper Plate + Magnetic Coil)
-→ Yellow Science Pack × 1
-</code></pre><p>You'll need a steady supply of Copper Ingots and Iron Ingots for Yellow Science. This is where smelting capacity starts to matter — if your iron production isn't scaled, Yellow Science will expose every bottleneck upstream.</p>
+<div class="game-row"><div class="game-slot"><span class="game-qty">2x</span><img src="/images/dsp-icons/iron-plate.png" alt="iron" class="game-img" loading="lazy"><span class="game-name">Iron</span></div><span class="game-plus">+</span><div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/copper-plate.png" alt="copper" class="game-img" loading="lazy"><span class="game-name">Copper</span></div><span class="game-plus">&rarr;</span><div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/e-matrix.png" alt="yellow-matrix" class="game-img" loading="lazy"><span class="game-name">Yellow matrix</span></div></div>
+<p>The key dependency chain is: Iron → Gears → Electromagnetic Turbine → Yellow Science. See the Science Pack Chain diagram at the top of this article for the full visual breakdown.</p>
+<p>You'll need a steady supply of Copper Ingots and Iron Ingots for Yellow Science. This is where smelting capacity starts to matter — if your iron production isn't scaled, Yellow Science will expose every bottleneck upstream.</p>
 <h3 id="green-science-packs-tier-3">Green Science Packs (Tier 3)</h3>
 <p>Green Science requires components from the smelting and intermediate chains — including Conveyor Belts and Sorters.</p>
-<p><strong>Recipe:</strong></p>
-<ul>
-<li>Iron Ingot × 1</li>
-<li>Conveyor Belt × 1</li>
-<li>Sorter × 1</li>
-<li><strong>= Green Science Pack × 1</strong></li>
-</ul>
+<div class="game-row"><div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/iron-plate.png" alt="iron" class="game-img" loading="lazy"><span class="game-name">Iron</span></div><span class="game-plus">+</span><div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/conveyor-belt.svg" alt="conveyor-belt" class="game-img" loading="lazy"><span class="game-name">Conveyor belt</span></div><span class="game-plus">+</span><div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/sorter.svg" alt="sorter" class="game-img" loading="lazy"><span class="game-name">Sorter</span></div><span class="game-plus">&rarr;</span><div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/g-matrix.png" alt="green-matrix" class="game-img" loading="lazy"><span class="game-name">Green matrix</span></div></div>
 <p><strong>Key tip:</strong> Build dedicated assemblers for belts and sorters as separate production chains. Don't try to share belt production between your factory logistics and science pack production — you'll constantly fight over the same belt lanes.</p>
 <h3 id="blue-science-packs-tier-4">Blue Science Packs (Tier 4)</h3>
 <p>Blue Science is the first major complexity jump. It requires <strong>Refined Oil</strong>, <strong>Hydrogen</strong>, and <strong>Proliferator</strong> products.</p>
-<p><strong>Recipe:</strong></p>
-<ul>
-<li>Refined Oil × 2</li>
-<li>Hydrogen × 2</li>
-<li>Proliferator Products × 1</li>
-<li><strong>= Blue Science Pack × 1</strong></li>
-</ul>
+<div class="game-row"><div class="game-slot"><span class="game-qty">2x</span><img src="/images/dsp-icons/refined-oil.png" alt="oil" class="game-img" loading="lazy"><span class="game-name">Oil</span></div><span class="game-plus">+</span><div class="game-slot"><span class="game-qty">2x</span><img src="/images/dsp-icons/hydrogen.png" alt="hydrogen" class="game-img" loading="lazy"><span class="game-name">Hydrogen</span></div><span class="game-plus">+</span><div class="game-slot"><span class="game-qty">1x</span><img src="/images/dsp-icons/proliferator.svg" alt="proliferator" class="game-img" loading="lazy"><span class="game-name">Proliferator</span></div><span class="game-plus">&rarr;</span><div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/t-matrix.png" alt="blue-matrix" class="game-img" loading="lazy"><span class="game-name">Blue matrix</span></div></div>
 <p>Blue Science production requires a working oil refining setup with hydrogen management. See our <a href="/blue-science-hydrogen-refining/">Blue Science &amp; Hydrogen Guide</a> for the full hydrogen byproduct solution before scaling Blue Science.</p>
 <h3 id="purple-science-packs-tier-5">Purple Science Packs (Tier 5)</h3>
 <p>Purple Science requires <strong>Titanium Alloy</strong> and <strong>Crystal Silicon</strong> — both mid to late-game materials.</p>
-<p><strong>Recipe:</strong></p>
-<ul>
-<li>Titanium Alloy × 2</li>
-<li>Crystal Silicon × 2</li>
-<li><strong>= Purple Science Pack × 1</strong></li>
-</ul>
+<div class="game-row"><div class="game-slot"><span class="game-qty">2x</span><img src="/images/dsp-icons/titanium-alloy.svg" alt="titanium-alloy" class="game-img" loading="lazy"><span class="game-name">Titanium alloy</span></div><span class="game-plus">+</span><div class="game-slot"><span class="game-qty">2x</span><img src="/images/dsp-icons/crystal-silicon.svg" alt="crystal-silicon" class="game-img" loading="lazy"><span class="game-name">Crystal silicon</span></div><span class="game-plus">&rarr;</span><div class="game-slot result"><span class="game-qty">1x</span><img src="/images/dsp-icons/i-matrix.png" alt="i-matrix" class="game-img" loading="lazy"><span class="game-name">I matrix</span></div></div>
 <p>Titanium production requires Flame Smelting or a dedicated Titanium smelting column. Crystal Silicon requires refine recipes on silicon ore. This is a mid-game production challenge — start sourcing these materials before Purple Science becomes your bottleneck.</p>
 <hr>
 <div class="section-head"><h2>Lab Row Setup</h2></div>

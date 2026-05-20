@@ -51,10 +51,7 @@ There are five science pack tiers, each with increasing production complexity.
 
 The simplest science pack. Produced in an **Assembler** from Iron and Copper Ingots.
 
-**Recipe:**
-- Iron Ingot × 1
-- Copper Ingot × 1
-- **= Red Science Pack × 1**
+{{< recipe name1="iron" qty1="1x" name2="copper" qty2="1x" result="red-matrix" rqty="1x" >}}
 
 One Red Science Assembler produces enough packs for 1–2 labs. For early game, two assemblers feeding into 4–6 labs is a solid starting setup.
 
@@ -62,18 +59,9 @@ One Red Science Assembler produces enough packs for 1–2 labs. For early game, 
 
 Yellow Science introduces **Conveyor Modules** and **Electromagnetic Turbine** components.
 
-**Recipe:**
-- Iron Ingot × 2
-- Copper Ingot × 1
-- **= Yellow Science Pack × 1**
+{{< recipe name1="iron" qty1="2x" name2="copper" qty2="1x" result="yellow-matrix" rqty="1x" >}}
 
-**Key dependency chain:**
-```
-Iron Ingot × 2 → Gear × 1
-Copper Ingot × 1 → Copper Plate × 1
-→ Electromagnetic Turbine × 1 (Copper Plate + Magnetic Coil)
-→ Yellow Science Pack × 1
-```
+The key dependency chain is: Iron → Gears → Electromagnetic Turbine → Yellow Science. See the Science Pack Chain diagram at the top of this article for the full visual breakdown.
 
 You'll need a steady supply of Copper Ingots and Iron Ingots for Yellow Science. This is where smelting capacity starts to matter — if your iron production isn't scaled, Yellow Science will expose every bottleneck upstream.
 
@@ -81,11 +69,7 @@ You'll need a steady supply of Copper Ingots and Iron Ingots for Yellow Science.
 
 Green Science requires components from the smelting and intermediate chains — including Conveyor Belts and Sorters.
 
-**Recipe:**
-- Iron Ingot × 1
-- Conveyor Belt × 1
-- Sorter × 1
-- **= Green Science Pack × 1**
+{{< recipe name1="iron" qty1="1x" name2="conveyor-belt" qty2="1x" name3="sorter" qty3="1x" result="green-matrix" rqty="1x" >}}
 
 **Key tip:** Build dedicated assemblers for belts and sorters as separate production chains. Don't try to share belt production between your factory logistics and science pack production — you'll constantly fight over the same belt lanes.
 
@@ -93,11 +77,7 @@ Green Science requires components from the smelting and intermediate chains — 
 
 Blue Science is the first major complexity jump. It requires **Refined Oil**, **Hydrogen**, and **Proliferator** products.
 
-**Recipe:**
-- Refined Oil × 2
-- Hydrogen × 2
-- Proliferator Products × 1
-- **= Blue Science Pack × 1**
+{{< recipe name1="oil" qty1="2x" name2="hydrogen" qty2="2x" name3="proliferator" qty3="1x" result="blue-matrix" rqty="1x" >}}
 
 Blue Science production requires a working oil refining setup with hydrogen management. See our [Blue Science & Hydrogen Guide](/blue-science-hydrogen-refining/) for the full hydrogen byproduct solution before scaling Blue Science.
 
@@ -105,10 +85,7 @@ Blue Science production requires a working oil refining setup with hydrogen mana
 
 Purple Science requires **Titanium Alloy** and **Crystal Silicon** — both mid to late-game materials.
 
-**Recipe:**
-- Titanium Alloy × 2
-- Crystal Silicon × 2
-- **= Purple Science Pack × 1**
+{{< recipe name1="titanium-alloy" qty1="2x" name2="crystal-silicon" qty2="2x" result="i-matrix" rqty="1x" >}}
 
 Titanium production requires Flame Smelting or a dedicated Titanium smelting column. Crystal Silicon requires refine recipes on silicon ore. This is a mid-game production challenge — start sourcing these materials before Purple Science becomes your bottleneck.
 
