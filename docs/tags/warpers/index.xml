@@ -1,26 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Warpers on Dyson Sphere Program Guide</title>
-    <link>https://dsp-guide.com/tags/warpers/</link>
-    <description>Recent content in Warpers on Dyson Sphere Program Guide</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dsp-guide.com/tags/warpers/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Green Science and Warpers: Stop Being Scared of Green Matrix (DSP Guide)</title>
-      <link>https://dsp-guide.com/green-science-warper-guide/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/green-science-warper-guide/</guid>
-      <description>&lt;p&gt;You&#39;ve got Yellow Science running. Titanium flowing. Everything is… fine. Then you look at Green Matrix. Three ingredients. Processors. Casimir Crystals. Electromagnetic Turbines.&lt;/p&gt;&#xA;&lt;p&gt;And you think: &lt;strong&gt;&amp;quot;Yeah no. I&#39;ll do it later.&amp;quot;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I get it. Every DSP player hits this wall. But here&#39;s the thing — Green Matrix unlocks Space Warpers. And Warpers turn your factory from a solar-system-only operation into a galactic empire. You want that.&lt;/p&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Green Matrix needs 3 things: &lt;strong&gt;Processors + Casimir Crystals + EM Turbines.&lt;/strong&gt; Scale your existing Processor line. Build a Casimir plant. That&#39;s most of the work done.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;The Three Things You Need&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Green Matrix = Processors + Casimir Crystals + EM Turbines&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ILS Not Moving Items? Here&#39;s the 30-Second Fix (DSP Guide)</title>
-      <link>https://dsp-guide.com/ils-setup-guide/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/ils-setup-guide/</guid>
-      <description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn&#39;t this working&amp;rdquo; question in DSP. Let&#39;s fix it in 30 seconds flat.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;&#xD;&#xA;  2. Your vessels need Space Warpers to fly. Put some in the slot.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn&#39;t know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Warpers on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/warpers/</link><description>Recent content in Warpers on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dsp-guide.com/tags/warpers/index.xml" rel="self" type="application/rss+xml"/><item><title>Green Science and Warpers: Stop Being Scared of Green Matrix (DSP Guide)</title><link>https://dsp-guide.com/green-science-warper-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/green-science-warper-guide/</guid><description>&lt;p&gt;You've got Yellow Science running. Titanium flowing. Everything is… fine. Then you look at Green Matrix. Three ingredients. Processors. Casimir Crystals. Electromagnetic Turbines.&lt;/p&gt;
+&lt;p&gt;And you think: &lt;strong&gt;&amp;quot;Yeah no. I'll do it later.&amp;quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I get it. Every DSP player hits this wall. But here's the thing — Green Matrix unlocks Space Warpers. And Warpers turn your factory from a solar-system-only operation into a galactic empire. You want that.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Green Matrix needs 3 things: &lt;strong&gt;Processors + Casimir Crystals + EM Turbines.&lt;/strong&gt; Scale your existing Processor line. Build a Casimir plant. That's most of the work done.&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;div class="section-head"&gt;&lt;h2&gt;The Three Things You Need&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Green Matrix = Processors + Casimir Crystals + EM Turbines&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>ILS Not Moving Items? Here's the 30-Second Fix (DSP Guide)</title><link>https://dsp-guide.com/ils-setup-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/ils-setup-guide/</guid><description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;
+&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn't this working&amp;rdquo; question in DSP. Let's fix it in 30 seconds flat.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;
+ &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;
+ 1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;
+ 2. Your vessels need Space Warpers to fly. Put some in the slot.
+&lt;/div&gt;
+&lt;div class="section-head"&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn't know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description></item></channel></rss>
