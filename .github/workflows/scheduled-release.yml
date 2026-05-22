@@ -3,7 +3,7 @@ name: Scheduled Auto-Release
 on:
   schedule:
     # Once daily at ~20:11 CST (12:11 UTC) - spreads 4 articles across the week
-    - cron: '11 12 * * *'
+    - cron: '11 12 */3 * *'
   workflow_dispatch:
 
 permissions:
