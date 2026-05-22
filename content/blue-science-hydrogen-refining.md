@@ -95,6 +95,7 @@ new: true
 <p>Route excess Hydrogen into Thermal Power Stations. Each burns Hydrogen at 2.4 MW. Build 2 to 3 in a row, connect them to your grid, and set Hydrogen as priority fuel. They only kick in when there is surplus, acting as an automatic buffer.</p>
 <p><strong>Pros:</strong> Dead simple, zero belt logic needed.</p>
 <p><strong>Cons:</strong> Wastes free power potential. Fine for 30/min Blue.</p>
+<p><strong>Upgrading to mid-game?</strong> When Yellow Science hits and hydrogen volume spikes, see the full auto-regulating setup: <a href="/hydrogen-backup-fix/">How to Clear Hydrogen Backup in DSP Without Stopping Power Grid →</a></p>
 
 <h3>Option B: Feed Red Science (Efficient)</h3>
 <p>If you are producing Red Science, hydrogen goes directly into Red Matrix production. Even if not expanding Red, storing Hydrogen in Liquid Storage Tanks gives you a buffer that feeds into your existing science line.</p>
