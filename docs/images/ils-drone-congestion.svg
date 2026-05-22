@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#1a1a2e"/>
+    <stop offset="100%" style="stop-color:#16213e"/>
+  </linearGradient>
+  <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#c0392b"/>
+    <stop offset="100%" style="stop-color:#e74c3c"/>
+  </linearGradient>
+  <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#27ae60"/>
+    <stop offset="100%" style="stop-color:#2ecc71"/>
+  </linearGradient>
+  <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#2980b9"/>
+    <stop offset="100%" style="stop-color:#3498db"/>
+  </linearGradient>
+  <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#d4a020"/>
+    <stop offset="100%" style="stop-color:#f0c040"/>
+  </linearGradient>
+  <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#8e44ad"/>
+    <stop offset="100%" style="stop-color:#9b59b6"/>
+  </linearGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+  </filter>
+  <marker id="arrowYell" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#d4a020"/>
+  </marker>
+  <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#c0392b"/>
+  </marker>
+  <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60"/>
+  </marker>
+  <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#3498db"/>
+  </marker>
+</defs>
+  <rect width="800" height="450" fill="url(#bg)" rx="8"/>
+  <text x="400" y="28" font-family="Arial,sans-serif" font-size="18.7" fill="#aac" text-anchor="middle" font-weight="bold">DRONE CONGESTION - WHY SOME STATIONS STARVE</text>
+  <line x1="50" y1="38" x2="750" y2="38" stroke="#334" stroke-width="1"/>
+
+  <!-- PROBLEM Section -->
+  <text x="400" y="62" font-family="Arial,sans-serif" font-size="16" fill="#e74c3c" text-anchor="middle" font-weight="bold">THE PROBLEM: Uneven Drone Distribution</text>
+
+  <!-- Station A (congested - 50 drones, all idle) -->
+  <rect x="20" y="80" width="240" height="130" rx="6" fill="#3a2020" stroke="#e74c3c" stroke-width="2" filter="url(#shadow)"/>
+  <text x="140" y="102" font-family="Arial,sans-serif" font-size="16" fill="#e74c3c" text-anchor="middle" font-weight="bold">Station A</text>
+  <text x="140" y="118" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">50 Drones Assigned</text>
+  <text x="140" y="135" font-family="Arial,sans-serif" font-size="12" fill="#f88" text-anchor="middle">48 idle (96% waste)</text>
+  <line x1="30" y1="145" x2="250" y2="145" stroke="#e74c3c" stroke-width="0.5" opacity="0.4"/>
+  <text x="140" y="162" font-family="Arial,sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Buffer full - demand met</text>
+  <text x="140" y="178" font-family="Arial,sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Drones: return to station</text>
+  <text x="140" y="195" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">Drones cannot help other stations</text>
+
+  <!-- Station B (starved - 2 drones, overwhelmed) -->
+  <rect x="280" y="80" width="240" height="130" rx="6" fill="#2a2020" stroke="#d4a020" stroke-width="2" filter="url(#shadow)"/>
+  <text x="400" y="102" font-family="Arial,sans-serif" font-size="16" fill="#f0c040" text-anchor="middle" font-weight="bold">Station B</text>
+  <text x="400" y="118" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">2 Drones Assigned</text>
+  <text x="400" y="135" font-family="Arial,sans-serif" font-size="12" fill="#f88" text-anchor="middle">100% overloaded</text>
+  <line x1="290" y1="145" x2="510" y2="145" stroke="#d4a020" stroke-width="0.5" opacity="0.4"/>
+  <text x="400" y="162" font-family="Arial,sans-serif" font-size="12" fill="#aaa" text-anchor="middle">High demand - not enough drones</text>
+  <text x="400" y="178" font-family="Arial,sans-serif" font-size="12" fill="#aaa" text-anchor="middle">Factory stalls frequently</text>
+  <text x="400" y="195" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">Production at 30% capacity</text>
+
+  <!-- Result -->
+  <rect x="560" y="80" width="220" height="130" rx="6" fill="#1e2a1e" stroke="#27ae60" stroke-width="1.5" filter="url(#shadow)"/>
+  <text x="670" y="102" font-family="Arial,sans-serif" font-size="16" fill="#2ecc71" text-anchor="middle" font-weight="bold">The Fix</text>
+  <line x1="570" y1="112" x2="770" y2="112" stroke="#2ecc71" stroke-width="0.5" opacity="0.4"/>
+  <text x="670" y="132" font-family="Arial,sans-serif" font-size="14" fill="#2ecc71" text-anchor="middle">Capped at 8</text>
+  <text x="670" y="150" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">All drones always busy</text>
+  <text x="670" y="168" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">No idle waste</text>
+  <text x="670" y="186" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">Factory at 100%</text>
+  <text x="670" y="204" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">Less is more</text>
+
+  <!-- HOW section -->
+  <text x="400" y="240" font-family="Arial,sans-serif" font-size="16" fill="#f0c040" text-anchor="middle" font-weight="bold">HOW TO PREVENT DRONE CONGESTION</text>
+
+  <!-- Solution 1 -->
+  <rect x="20" y="258" width="240" height="85" rx="6" fill="#2a2a44" stroke="#3498db" stroke-width="1.5"/>
+  <text x="140" y="280" font-family="Arial,sans-serif" font-size="14" fill="#3498db" text-anchor="middle" font-weight="bold">Cap: 8 Drones Max</text>
+  <text x="30" y="300" font-family="Arial,sans-serif" font-size="12" fill="#ccc">Reduce drone count per ILS</text>
+  <text x="30" y="315" font-family="Arial,sans-serif" font-size="12" fill="#ccc">Force all drones to be busy</text>
+  <text x="30" y="330" font-family="Arial,sans-serif" font-size="12" fill="#aaa">8 drones = 100% active</text>
+
+  <!-- Solution 2 -->
+  <rect x="280" y="258" width="240" height="85" rx="6" fill="#2a2a44" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="400" y="280" font-family="Arial,sans-serif" font-size="14" fill="#9b59b6" text-anchor="middle" font-weight="bold">Priority Splitter Chain</text>
+  <text x="290" y="300" font-family="Arial,sans-serif" font-size="12" fill="#ccc">Balance belts across stations</text>
+  <text x="290" y="315" font-family="Arial,sans-serif" font-size="12" fill="#ccc">First in line gets priority</text>
+  <text x="290" y="330" font-family="Arial,sans-serif" font-size="12" fill="#aaa">Overflow goes down the chain</text>
+
+  <!-- Solution 3 -->
+  <rect x="540" y="258" width="240" height="85" rx="6" fill="#2a2a44" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="660" y="280" font-family="Arial,sans-serif" font-size="14" fill="#2ecc71" text-anchor="middle" font-weight="bold">Buffer Chest</text>
+  <text x="550" y="300" font-family="Arial,sans-serif" font-size="12" fill="#ccc">Storage box between ILS + building</text>
+  <text x="550" y="315" font-family="Arial,sans-serif" font-size="12" fill="#ccc">5-10 min buffer for delays</text>
+  <text x="550" y="330" font-family="Arial,sans-serif" font-size="12" fill="#aaa">Eliminates production stutter</text>
+
+  <!-- Drone Count Table -->
+  <text x="400" y="372" font-family="Arial,sans-serif" font-size="14" fill="#aac" text-anchor="middle" font-weight="bold">Recommended Drone Counts by Station Type</text>
+  <rect x="130" y="380" width="540" height="55" rx="4" fill="#1a1a2e" stroke="#334" stroke-width="1"/>
+  <line x1="130" y1="395" x2="670" y2="395" stroke="#334" stroke-width="1"/>
+  <text x="175" y="410" font-family="Arial,sans-serif" font-size="11" fill="#d4a020" text-anchor="middle" font-weight="bold">Mining 8</text>
+  <text x="310" y="410" font-family="Arial,sans-serif" font-size="11" fill="#d4a020" text-anchor="middle" font-weight="bold">Smelting 6</text>
+  <text x="445" y="410" font-family="Arial,sans-serif" font-size="11" fill="#d4a020" text-anchor="middle" font-weight="bold">Production 6</text>
+  <text x="570" y="410" font-family="Arial,sans-serif" font-size="11" fill="#d4a020" text-anchor="middle" font-weight="bold">Science 10</text>
+  <text x="175" y="428" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">High throughput</text>
+  <text x="310" y="428" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">Moderate</text>
+  <text x="445" y="428" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">Multi-material</text>
+  <text x="570" y="428" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">High traffic</text>
+</svg>
