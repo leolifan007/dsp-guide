@@ -1,0 +1,98 @@
+name: Scheduled Auto-Release
+
+on:
+  schedule:
+    # 4 times daily at random minutes: ~08:11, ~12:48, ~15:03, ~22:17
+    - cron: '11 0,4,7,14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  auto-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content-polishing
+          fetch-depth: 0
+
+      - name: Auto-publish hidden articles
+        run: bash .github/scripts/auto-publish.sh
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.152.2'
+          extended: true
+
+      - name: Build with validation
+        run: |
+          # Check file encoding (UTF-8 without BOM)
+          echo "=== Encoding Check ==="
+          for f in content/*.md; do
+            if [ "$(head -c 3 "$f")" = $'\xef\xbb\xbf' ]; then
+              echo "ERROR: BOM found in $f"
+              exit 1
+            fi
+          done
+          echo "All files: UTF-8 without BOM (OK)"
+
+          # Check for forbidden characters
+          echo "=== Forbidden Char Check ==="
+          for f in content/*.md; do
+            if grep -Pn '[^\x00-\x7F]' "$f" | grep -v ":\s*[\x80-\xFF].*[\x80-\xFF].*[\x80-\xFF]" | grep -v "^[0-9]*:    "\
+               | grep -v "hidden:\|lastmod:\|date:\|version:\|categories:\|tags:\|^---$" | head -5; then
+              echo "NOTE: Non-ASCII chars found in $f (may be content, review)"
+            fi
+          done
+
+          # Build
+          echo "=== Hugo Build ==="
+          hugo --minify
+
+          # Verify sitemap
+          if [ -f "docs/sitemap.xml" ]; then
+            echo "Sitemap: OK ($(grep -c '<url>' docs/sitemap.xml) entries)"
+          else
+            echo "ERROR: sitemap.xml not found"
+            exit 1
+          fi
+
+      - name: Commit and push to content-polishing
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --staged --quiet || git commit -m "Auto-publish: $(date +'%Y-%m-%d %H:%M') [skip ci]"
+          git push origin content-polishing
+
+  deploy:
+    needs: auto-publish
+    if: success()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content-polishing
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.152.2'
+          extended: true
+
+      - name: Build and deploy
+        run: |
+          hugo --minify
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Merge to main and push
+        run: |
+          git fetch origin main
+          git checkout main
+          git merge content-polishing --no-edit
+          git push origin main
