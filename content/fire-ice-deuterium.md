@@ -13,7 +13,7 @@ draft: false
 lastmod: 2026-05-19
 ---
 
-You've found a lava world or an ice giant. The stars call it a Fire Ice planet 鈥?and it's full of something that doesn't exist on temperate worlds: **Deuterium**. Deuterium is your path to advanced fuels, high-output Rocket Fuel, and the Yellow Science chain.
+You've found a lava world or an ice giant. The stars call it a Fire Ice planet — and it's full of something that doesn't exist on temperate worlds: **Deuterium**. Deuterium is your path to advanced fuels, high-output Rocket Fuel, and the Yellow Science chain.
 
 But getting it out of the ground and into your factory requires understanding a completely different logistics problem.
 
@@ -22,7 +22,7 @@ This guide covers finding Fire Ice planets, the extraction and refining mechanic
 ---
 
 {{< callout >}}
-**TL;DR** 鈥?Fire Ice is found on cold, volcanic, or ocean planets. Processing it produces **Deuterium** (for advanced fuels) and **Water** (high-volume byproduct). Build Fractionators near water sources or import water via ILS. Scale by adding parallel fractionator units.
+**TL;DR** — Fire Ice is found on cold, volcanic, or ocean planets. Processing it produces **Deuterium** (for advanced fuels) and **Water** (high-volume byproduct). Build Fractionators near water sources or import water via ILS. Scale by adding parallel fractionator units.
 {{< /callout >}}
 
 ---
@@ -34,7 +34,7 @@ Fire Ice deposits appear on specific planet types:
 - **Oceanic** planets (large water/ice surfaces)
 - **Tundra** or ice cap planets with high "cold" rating
 
-Not every planet in a volcanic system will have Fire Ice. Check the planet's surface in the galaxy map 鈥?look for blue-white deposits in the resource overlay.
+Not every planet in a volcanic system will have Fire Ice. Check the planet's surface in the galaxy map — look for blue-white deposits in the resource overlay.
 
 {{< callout tip >}}
 **Pro Tip:** Set up **Vein Prospecting** research (Uncommon research item) to expand your passive scanning range. This helps locate cold worlds without manually flying to every system.
@@ -67,7 +67,7 @@ One central **Deuterium Fractionator bank** can receive Fire Ice via **Planetary
 
 {{< section "Step 2: The Deuterium Fractionator" >}}
 
-The **Deuterium Fractionator** converts Fire Ice into Deuterium. It requires a water input 鈥?which is where the byproduct problem starts.
+The **Deuterium Fractionator** converts Fire Ice into Deuterium. It requires a water input — which is where the byproduct problem starts.
 
 **Fractionator recipe:**
 
@@ -79,11 +79,11 @@ The byproduct ratio matters. For every 0.5 units of Deuterium you produce, you n
 
 ### Solving the Water Problem
 
-Water is easy on ocean planets 鈥?but scarce on volcanic worlds. Options:
+Water is easy on ocean planets — but scarce on volcanic worlds. Options:
 
 1. **Import water via logistics** from a water-rich planet in the same system. Use ILS for interplanetary transport.
-2. **Use oceans directly** 鈥?if your Fire Ice deposits are on an oceanic planet, build fractionators on the shore.
-3. **Desalination** 鈥?available in some planet biomes (research-dependent).
+2. **Use oceans directly** — if your Fire Ice deposits are on an oceanic planet, build fractionators on the shore.
+3. **Desalination** — available in some planet biomes (research-dependent).
 
 **Water tank storage:** Keep a buffer tank near your fractionators. If your water supply briefly stalls, the fractionator stops and you lose throughput.
 
@@ -91,7 +91,7 @@ Water is easy on ocean planets 鈥?but scarce on volcanic worlds. Options:
 
 {{< section "Step 3: Using Deuterium" >}}
 
-Deuterium isn't just a curiosity 鈥?it has serious applications in late-game production.
+Deuterium isn't just a curiosity — it has serious applications in late-game production.
 
 ### Rocket Fuel (Deuterium variant)
 
@@ -99,13 +99,13 @@ Advanced Rocket Fuel recipe uses Deuterium:
 
 {{< recipe name1="deuterium" qty1="2x" name2="coal" qty2="1x" result="rocket-fuel" rqty="1x" >}}
 
-Compared to the standard refined oil recipe, the Deuterium version is more compact 鈥?no refined oil dependency 鈥?but requires a stable Fire Ice supply chain.
+Compared to the standard refined oil recipe, the Deuterium version is more compact — no refined oil dependency — but requires a stable Fire Ice supply chain.
 
 This is the preferred late-game fuel recipe once your Fire Ice operation is established.
 
 ### Yellow Science and Advanced Research
 
-Deuterium feeds into the **Yellow Science** chain 鈥?the final science tier that requires particle broadband and quantum chips.
+Deuterium feeds into the **Yellow Science** chain — the final science tier that requires particle broadband and quantum chips.
 
 Yellow Science unlocks:
 - Full Dyson sphere shell construction
@@ -118,17 +118,17 @@ Yellow Science unlocks:
 
 The Fire Ice chain is more demanding than standard mining. Here's the layout that works:
 
-1. **Fire Ice Extractors** on multiple surface clusters 鈫?belts to central bank
-2. **Central Deuterium Fractionator bank** 鈥?co-located with water supply
-3. **Water tanks** at fractionator inputs 鈥?buffer against interruptions
-4. **Water import ILS** 鈥?pull water from water-rich planet if needed
-5. **Deuterium export ILS** 鈥?ship to your main production planet
+1. **Fire Ice Extractors** on multiple surface clusters → belts to central bank
+2. **Central Deuterium Fractionator bank** — co-located with water supply
+3. **Water tanks** at fractionator inputs — buffer against interruptions
+4. **Water import ILS** — pull water from water-rich planet if needed
+5. **Deuterium export ILS** — ship to your main production planet
 
 {{< callout tip >}}
-**Scaling:** Each fractionator has a processing rate. When Deuterium output drops, add another fractionator unit 鈥?not a bigger one. Parallel fractionators scale cleanly.
+**Scaling:** Each fractionator has a processing rate. When Deuterium output drops, add another fractionator unit — not a bigger one. Parallel fractionators scale cleanly.
 {{< /callout >}}
 
-**Power planning:** A fractionator bank of 10 units draws 3.6 MW 鈥?not trivial. Make sure your cold planet has adequate power before scaling up.
+**Power planning:** A fractionator bank of 10 units draws 3.6 MW — not trivial. Make sure your cold planet has adequate power before scaling up.
 
 ---
 
@@ -146,9 +146,9 @@ The Fire Ice chain is more demanding than standard mining. Here's the layout tha
 
 {{< section "Bottom Line" >}}
 
-Fire Ice is a planet-type-gated resource 鈥?finding the right world is half the battle. Once you've got a cold planet with Fire Ice deposits, the processing chain is straightforward: extract, fractionate, export.
+Fire Ice is a planet-type-gated resource — finding the right world is half the battle. Once you've got a cold planet with Fire Ice deposits, the processing chain is straightforward: extract, fractionate, export.
 
-The water byproduct is the real constraint 鈥?manage it with a dedicated water import route or an on-planet ocean supply before you scale up. Deuterium rockets are worth it for endgame fuel independence.
+The water byproduct is the real constraint — manage it with a dedicated water import route or an on-planet ocean supply before you scale up. Deuterium rockets are worth it for endgame fuel independence.
 
 For a full production calculator covering Fire Ice chains and Deuterium ratios, see [dyson-calculator.com](https://dyson-calculator.com/).
 
