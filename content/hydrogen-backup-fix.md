@@ -4,6 +4,7 @@ description: "Hydrogen backing up and stalling your power grid? Here is the exac
 date: "2026-05-22"
 lastmod: "2026-05-22T23:12:00+08:00"
 hidden: false
+new: true
 version: "0.10.32"
 categories: [Power & Energy]
 tags: [hydrogen, power, thermal, oil-processing, mid-game]

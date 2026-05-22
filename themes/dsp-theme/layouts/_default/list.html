@@ -16,7 +16,7 @@
     {{ $count := len .Pages }}
     <p class="taxonomy-count">{{ $count }} guide{{ if ne $count 1 }}s{{ end }}</p>
     <div class="taxonomy-guides">
-      {{ range .Pages }}
+      {{ range (where .Pages "Params.hidden" "!=" true) }}
       <a href="{{ .RelPermalink }}" class="taxonomy-guide-item">
         {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
         <div class="taxonomy-guide-body">
