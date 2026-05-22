@@ -2,8 +2,8 @@ name: Scheduled Auto-Release
 
 on:
   schedule:
-    # 4 times daily at random minutes: ~08:11, ~12:48, ~15:03, ~22:17
-    - cron: '11 0,4,7,14 * * *'
+    # Once daily at ~20:11 CST (12:11 UTC) - spreads 4 articles across the week
+    - cron: '11 12 * * *'
   workflow_dispatch:
 
 permissions:
