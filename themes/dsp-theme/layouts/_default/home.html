@@ -40,10 +40,16 @@
       <div class="hot-grid-new">
         {{ $pages := where .Site.RegularPages "Params.hidden" "!=" true }}
         {{ $sorted := $pages.ByDate.Reverse }}
-        {{ range first 9 $sorted }}
-        <a href="{{ .RelPermalink }}" class="guide-card{{ if .Params.new }} new{{ end }}">
-          {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
-          <h3>{{ .Title }}</h3>
+        {{ range $i, $p := first 9 $sorted }}
+        <a href="{{ $p.RelPermalink }}" class="guide-card{{ if $p.Params.new }} new{{ end }}">
+          {{ if $p.Params.new }}<span class="new-badge">NEW</span>{{ end }}
+          <div class="hot-card-inner">
+            <h3>{{ $p.Title }}</h3>
+            <div class="hot-card-footer">
+              <span class="hot-card-read">Read Guide</span>
+              <span class="hot-card-date">{{ $p.Date.Format "Jan 2, 2006" }}</span>
+            </div>
+          </div>
         </a>
         {{ end }}
       </div>
