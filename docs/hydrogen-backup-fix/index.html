@@ -53,7 +53,7 @@ gtag('consent', 'default', {
   
   <a href="/categories/logistics--transport/" class="nav-link">Logistics &amp; Transport</a>
   
-  <a href="/tags/" class="nav-link">Topics</a>
+  
   <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">☰</button>
 </nav>
 
@@ -62,21 +62,59 @@ gtag('consent', 'default', {
   <div class="page-wrap">
     
 <div class="single-page">
-  <div class="article-hero-full">
-    <div class="article-hero-bg" style="background-image:url('/images/hero-bg.jpg')"></div>
-    <div class="article-hero-fade"></div>
-    <div class="article-hero-text">
-      <h1>How to Clear Hydrogen Backup in DSP Without Stopping Power Grid</h1>
-      <div class="article-meta">
-        <span class="meta-date">Updated: May 22, 2026</span>
-      </div>
+  
+  <div class="article-category-bar">
+    <div class="category-bar-inner">
+      
+      
+      <span class="category-badge">Power &amp; Energy</span>
+      <h1 class="category-title">Power &amp; Energy Guides</h1>
+      <p class="category-desc">
+        Master your DSP power grid: cascade recovery, hydrogen management, solar sails, and endgame power solutions.
+        
+      </p>
+      
     </div>
   </div>
 
-  <div class="article-layout">
-    <aside class="floating-toc" id="floatingToc"></aside>
-    <main class="article-body">
-      <p>Your thermal plants flicker. Refineries stall. Power drops to 20%. You check the grid and find hydrogen backed up all the way to your refineries. Every DSP player hits this wall around Yellow Science.</p>
+  <div class="article-layout-new">
+    
+    <aside class="article-sidebar">
+      
+      
+      <div class="sidebar-section">
+        <h4 class="sidebar-title">In This Category</h4>
+        <ul class="sidebar-list">
+          
+          <li class="active">
+            <a href="/hydrogen-backup-fix/">How to Clear Hydrogen Backup in DSP Without Stopping Power Grid</a>
+          </li>
+          
+          <li>
+            <a href="/solar-sails-ray-receivers/">DSP Solar Sails &amp; Ray Receivers: Complete Endgame Power Guide</a>
+          </li>
+          
+          <li>
+            <a href="/power-fix-guide/">Why Your DSP Power Grid Keeps Crashing (And How to Fix It)</a>
+          </li>
+          
+        </ul>
+      </div>
+    </aside>
+
+    
+    <main class="article-body-wrap">
+      <div class="article-title-block">
+        <h1>How to Clear Hydrogen Backup in DSP Without Stopping Power Grid</h1>
+        <div class="article-meta-bar">
+          <span class="meta-date">Updated May 22, 2026</span>
+          <span class="meta-version">Game v0.10.32</span>
+        </div>
+      </div>
+
+      <div class="article-content-sections">
+        <p class="article-lead">Hydrogen backing up and stalling your power grid? Here is the exact fix that keeps fractionators running and your factory alive.</p>
+        <p>Your thermal plants flicker. Refineries stall. Power drops to 20%. You check the grid and find hydrogen backed up all the way to your refineries. Every DSP player hits this wall around Yellow Science.</p>
 <div class="pro-tip">
 <strong>TL;DR — The Fix:</strong><br>
 Build a thermal power plant, connect it to your hydrogen line, and split off your excess hydrogen to burn for power.<br>
@@ -134,11 +172,25 @@ Build a thermal power plant, connect it to your hydrogen line, and split off you
 <li><a href="https://wiki.gg/dyson-sphere-program/Hydrogen" target="_blank" rel="noopener noreferrer">DSP Wiki: Hydrogen management</a></li>
 <li><a href="https://steamcommunity.com/app/1366540/discussions/" target="_blank" rel="noopener noreferrer">Steam Community: DSP discussions</a></li>
 </ul>
+      </div>
     </main>
   </div>
-
-
 </div>
+<script>
+(function() {
+  var heads = document.querySelectorAll(".section-head.collapsible");
+  heads.forEach(function(h) {
+    h.addEventListener("click", function() {
+      this.classList.toggle("collapsed");
+      var sib = this.nextElementSibling;
+      while (sib && !sib.classList.contains("section-head")) {
+        sib.style.display = sib.style.display === "none" ? "" : "none";
+        sib = sib.nextElementSibling;
+      }
+    });
+  });
+})();
+</script>
 
   </div>
 

@@ -1,5 +1,7 @@
-{{- /* Section Header — self-closing
+﻿{{- /* Section Header with collapsible toggle
   Usage: {{< section "Section Title" >}}
+  The section-head is styled as a collapsible toggle
+  All content after it (until next section-head) will toggle
 */ -}}
 {{- $title := .Get 0 -}}
-<div class="section-head"><h2>{{ $title }}</h2></div>
+<div class="section-head collapsible"><h2>{{ $title }}</h2></div>

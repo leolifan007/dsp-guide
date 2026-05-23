@@ -53,7 +53,7 @@ gtag('consent', 'default', {
   
   <a href="/categories/logistics--transport/" class="nav-link">Logistics &amp; Transport</a>
   
-  <a href="/tags/" class="nav-link">Topics</a>
+  
   <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">☰</button>
 </nav>
 
@@ -62,28 +62,58 @@ gtag('consent', 'default', {
   <div class="page-wrap">
     
 <div class="single-page">
-  <div class="article-hero-full">
-    <div class="article-hero-bg" style="background-image:url('/images/hero-bg.jpg')"></div>
-    <div class="article-hero-fade"></div>
-    <div class="article-hero-text">
-      <h1>ILS Not Moving Items? Here&#39;s the 30-Second Fix (DSP Guide)</h1>
-      <div class="article-meta">
-        <span class="meta-date">Updated: May 14, 2026</span>
-      </div>
+  
+  <div class="article-category-bar">
+    <div class="category-bar-inner">
+      
+      
+      <span class="category-badge">Logistics &amp; Transport</span>
+      <h1 class="category-title">Logistics &amp; Transport Guides</h1>
+      <p class="category-desc">
+        ILS setup, supply/demand, warpers, drones, and interstellar transport made simple.
+        
+      </p>
+      
     </div>
   </div>
 
-  <div class="article-layout">
-    <aside class="floating-toc" id="floatingToc"></aside>
-    <main class="article-body">
-        <p>Your ILS has power. Ships are docked. Nothing moves.</p>
+  <div class="article-layout-new">
+    
+    <aside class="article-sidebar">
+      
+      
+      <div class="sidebar-section">
+        <h4 class="sidebar-title">In This Category</h4>
+        <ul class="sidebar-list">
+          
+          <li class="active">
+            <a href="/ils-setup-guide/">ILS Not Moving Items? Here&#39;s the 30-Second Fix (DSP Guide)</a>
+          </li>
+          
+        </ul>
+      </div>
+    </aside>
+
+    
+    <main class="article-body-wrap">
+      <div class="article-title-block">
+        <h1>ILS Not Moving Items? Here&#39;s the 30-Second Fix (DSP Guide)</h1>
+        <div class="article-meta-bar">
+          <span class="meta-date">Updated May 14, 2026</span>
+          
+        </div>
+      </div>
+
+      <div class="article-content-sections">
+        <p class="article-lead">ILS not moving items? Here&#39;s why and exactly how to fix Supply vs Demand, Warper slots, and vessel range in 30 seconds.</p>
+          <p>Your ILS has power. Ships are docked. Nothing moves.</p>
 <p>Yeah. This is the #1 &ldquo;why the hell isn't this working&rdquo; question in DSP. Let's fix it in 30 seconds flat.</p>
 <div class="pro-tip">
   <strong>TL;DR — Two things to check:</strong><br>
   1. One planet must be Supply, the other Demand (not both Supply)<br>
   2. Your vessels need Space Warpers to fly. Put some in the slot.
 </div>
-<div class="section-head"><h2>Supply vs Demand — The 1-Minute Show</h2></div>
+<div class="section-head collapsible"><h2>Supply vs Demand — The 1-Minute Show</h2></div>
 
 <p>Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn't know these make the difference between a dead ILS and a humming factory.</p>
 <img src="/images/ils-demand-vs-supply.svg" alt="ILS Supply vs Demand explanation showing how items flow on green arrows between planets" class="schema-diagram" loading="lazy" width="600" height="420">
@@ -91,7 +121,7 @@ gtag('consent', 'default', {
 <strong>Demand</strong> → &ldquo;I don't have this. Bring it.&rdquo;</p>
 <p>The classic mistake: you set both planets to Supply. Or both to Demand. Nothing moves — the game's waiting for a match that doesn't exist.</p>
 <p><strong>Fix it:</strong> Planet A (factory) = Supply. Planet B (where you need it) = Demand. Done.</p>
-<div class="section-head"><h2>Warpers — The Hidden Requirement</h2></div>
+<div class="section-head collapsible"><h2>Warpers — The Hidden Requirement</h2></div>
 
 <p>This one catches everyone. Interstellar vessels don't fly for free. Each trip burns one Space Warper.</p>
 <img src="/images/ils-warper-slot.svg" alt="ILS Warper slot setup showing Slot 4 must be set to Supply with Space Warpers or vessels won't fly" class="schema-diagram" loading="lazy" width="600" height="400">
@@ -106,12 +136,12 @@ gtag('consent', 'default', {
 <div class="callout callout-warning">
   <strong>⚡ One warper = 200 items shipped.</strong> The math works out fine. Just don't run out.
 </div>
-<div class="section-head"><h2>️ The Vessel Range Slider</h2></div>
+<div class="section-head collapsible"><h2>️ The Vessel Range Slider</h2></div>
 
 <p>There's a slider in the ILS panel labeled &ldquo;Vessel Range.&rdquo; Default is 60 AU (max). If you accidentally nudged it down, your vessels can't reach the next planet.</p>
 <p><strong>Fix:</strong> Drag it back to 60. Takes half a second.</p>
 <img src="/images/ils-how-it-works.svg" alt="ILS workflow diagram showing Planet A sending items via vessels to Planet B through logistics station" class="schema-diagram" loading="lazy" width="800" height="500">
-<div class="section-head"><h2>✅ Quick Checklist</h2></div>
+<div class="section-head collapsible"><h2>✅ Quick Checklist</h2></div>
 
 <table>
   <thead>
@@ -152,15 +182,29 @@ gtag('consent', 'default', {
 <div class="cta-box">
    <strong>Still stuck on power?</strong> → <a href="/power-fix-guide/">Power keeps tripping? Fix it here →</a>
 </div>
-<div class="section-head"><h2>Why DSP Makes This Confusing</h2></div>
+<div class="section-head collapsible"><h2>Why DSP Makes This Confusing</h2></div>
 
 <p>The game unlocks the ILS and gives you a tooltip with power specs, slot counts, and vessel capacity. Useful info. What it doesn't tell you: the logistics logic. How Supply vs Demand works. That vessels need fuel.</p>
 <p>One fix and you'll never get stuck again. Every new planet, same setup. Supply, Demand, Warpers. Done.</p>
+      </div>
     </main>
   </div>
-
-
 </div>
+<script>
+(function() {
+  var heads = document.querySelectorAll(".section-head.collapsible");
+  heads.forEach(function(h) {
+    h.addEventListener("click", function() {
+      this.classList.toggle("collapsed");
+      var sib = this.nextElementSibling;
+      while (sib && !sib.classList.contains("section-head")) {
+        sib.style.display = sib.style.display === "none" ? "" : "none";
+        sib = sib.nextElementSibling;
+      }
+    });
+  });
+})();
+</script>
 
   </div>
 

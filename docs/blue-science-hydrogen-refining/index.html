@@ -53,7 +53,7 @@ gtag('consent', 'default', {
   
   <a href="/categories/logistics--transport/" class="nav-link">Logistics &amp; Transport</a>
   
-  <a href="/tags/" class="nav-link">Topics</a>
+  
   <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">☰</button>
 </nav>
 
@@ -62,21 +62,59 @@ gtag('consent', 'default', {
   <div class="page-wrap">
     
 <div class="single-page">
-  <div class="article-hero-full">
-    <div class="article-hero-bg" style="background-image:url('/images/hero-bg.jpg')"></div>
-    <div class="article-hero-fade"></div>
-    <div class="article-hero-text">
-      <h1>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</h1>
-      <div class="article-meta">
-        <span class="meta-date">Updated: May 18, 2026</span>
-      </div>
+  
+  <div class="article-category-bar">
+    <div class="category-bar-inner">
+      
+      
+      <span class="category-badge">Science &amp; Production</span>
+      <h1 class="category-title">Science &amp; Production Guides</h1>
+      <p class="category-desc">
+        Production chains, matrix assembly, proliferator optimization, and science progression guides.
+        
+      </p>
+      
     </div>
   </div>
 
-  <div class="article-layout">
-    <aside class="floating-toc" id="floatingToc"></aside>
-    <main class="article-body">
-      <p>You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.</p>
+  <div class="article-layout-new">
+    
+    <aside class="article-sidebar">
+      
+      
+      <div class="sidebar-section">
+        <h4 class="sidebar-title">In This Category</h4>
+        <ul class="sidebar-list">
+          
+          <li>
+            <a href="/quantum-chips-proliferator/">DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</a>
+          </li>
+          
+          <li class="active">
+            <a href="/blue-science-hydrogen-refining/">Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</a>
+          </li>
+          
+          <li>
+            <a href="/green-science-warper-guide/">Green Science and Warpers: Stop Being Scared of Green Matrix (DSP Guide)</a>
+          </li>
+          
+        </ul>
+      </div>
+    </aside>
+
+    
+    <main class="article-body-wrap">
+      <div class="article-title-block">
+        <h1>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</h1>
+        <div class="article-meta-bar">
+          <span class="meta-date">Updated May 18, 2026</span>
+          
+        </div>
+      </div>
+
+      <div class="article-content-sections">
+        <p class="article-lead">Blue Science keeps stopping? It is always Hydrogen. Set up stable Refinery chains, fix Hydrogen backup issues, and keep Blue Matrix flowing without babysitting.</p>
+        <p>You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.</p>
 <p>Blue Science is the first wall in DSP that is not just "build more miners." It introduces Refined Oil, Hydrogen byproducts, and the frustrating "one output backed up, whole chain dead" problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.</p>
 <div class="pro-tip">
   <strong>TL;DR Three things to get right:</strong><br>
@@ -84,12 +122,12 @@ gtag('consent', 'default', {
   2. X-Ray Cracking is your release valve when Refined Oil backs up<br>
   3. Titanium Ingots are required for Blue Matrix; set that up first
 </div>
-<div class="section-head"><h2>Why Blue Science Is Different</h2></div>
+<div class="section-head collapsible"><h2>Why Blue Science Is Different</h2></div>
 
 <p>Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.</p>
 <p>That is the core mechanic you have not faced yet. And it is why half the community posts about "help my factory stopped" are about this specific chain.</p>
 <img src="/images/blue-science-refinery-split.svg" alt="Crude Oil Refinery split diagram showing production tree from Oil Extractor through Refinery to Refined Oil and Hydrogen byproducts" class="schema-diagram" loading="lazy" width="700" height="420">
-<div class="section-head"><h2>Step 1: Oil Extraction Setup</h2></div>
+<div class="section-head collapsible"><h2>Step 1: Oil Extraction Setup</h2></div>
 
 <p>Find an Oil Seep on your starter planet or a nearby ocean world. Each Seep supports 4 to 6 Oil Extractors at roughly 60 Crude Oil per minute per extractor at full utilization. Route all Crude Oil to your Refinery area on a single belt.</p>
 <table>
@@ -122,7 +160,7 @@ gtag('consent', 'default', {
 <div class="callout callout-warning">
   <strong>Oil tip:</strong> Do not belt Crude Oil across oceans from a distant planet. Ship it via ILS or use a Planetary Logistics Station. Long belts waste resources better spent on your factory core.
 </div>
-<div class="section-head"><h2>Step 2: The Refinery Chain</h2></div>
+<div class="section-head collapsible"><h2>Step 2: The Refinery Chain</h2></div>
 
 <p>One Refinery processing Crude Oil produces roughly 30 Refined Oil and 20 Hydrogen per minute. Both outputs feed different parts of Blue Science.</p>
 <p><strong>Blue Matrix ingredients:</strong></p>
@@ -141,7 +179,7 @@ gtag('consent', 'default', {
 </ul>
 <p>Crude Oil belt feeds Refineries. Refinery output splits: Refined Oil goes to Diamond and Crystal Silicon plants, Hydrogen goes to a buffer tank. From the buffer tank, Hydrogen feeds either a Thermal Plant or X-Ray Cracker. Matrix Labs get all three ingredients via separate belts.</p>
 <img src="/images/blue-science-flow.svg" alt="Blue Matrix production chain diagram showing full flow from Oil Extraction to Blue Matrix assembly with build ratios" class="schema-diagram" loading="lazy" width="800" height="520">
-<div class="section-head"><h2>Step 3: The Hydrogen Problem</h2></div>
+<div class="section-head collapsible"><h2>Step 3: The Hydrogen Problem</h2></div>
 
 <p>Here is where it breaks. Your Refineries produce Hydrogen. If Hydrogen has nowhere to go, the Refineries stall. If Refineries stall, no Refined Oil. No Refined Oil means no Blue Science. You come back ten minutes later and your labs are idle.</p>
 <p>Three ways to handle it, ordered by reliability:</p>
@@ -195,7 +233,7 @@ gtag('consent', 'default', {
 <div class="callout callout-warning">
   <strong>X-Ray math:</strong> Input 2 Hydrogen, output 1 Hydrogen; net loss of 1 Hydrogen per cycle. Run one Cracker per 3 Refineries and your line stays stable.
 </div>
-<div class="section-head"><h2>Step 4: Assemble the Matrix Line</h2></div>
+<div class="section-head collapsible"><h2>Step 4: Assemble the Matrix Line</h2></div>
 
 <p>With Diamonds and Crystal Silicon stable, build your Matrix Labs. Blue Matrix needs all three inputs on separate belts feeding each lab:</p>
 <ul>
@@ -205,7 +243,7 @@ gtag('consent', 'default', {
 </ul>
 <p>Space labs 2 tiles apart in rows of 6 to 8. Run three input belts parallel and use Sorters to pull from each belt into each lab.</p>
 <p><strong>Critical:</strong> Your Titanium Ingot belt needs a dedicated supply line. If it runs dry, Matrix Labs stop even when Diamonds and Silicon are flowing. Do not share the Titanium belt with other consumers.</p>
-<div class="section-head"><h2>Quick Reference</h2></div>
+<div class="section-head collapsible"><h2>Quick Reference</h2></div>
 
 <table>
   <thead>
@@ -256,7 +294,7 @@ gtag('consent', 'default', {
 <div class="cta-box">
   <strong>ILS giving you trouble?</strong> <a href="/ils-setup-guide/">Fix Supply vs Demand here</a>
 </div>
-<div class="section-head"><h2>Bottom Line</h2></div>
+<div class="section-head collapsible"><h2>Bottom Line</h2></div>
 
 <p>Blue Science is not hard once you understand the byproduct mechanic. Get Oil Extractors on a Seep, feed Crude Oil to Refineries, split Refined Oil into Diamonds and Crystal Silicon, and always give Hydrogen an exit. The Hydrogen buffer tank is non-negotiable; skip it and your line stops within minutes.</p>
 <p>Once Blue Matrix is stable, you are ready for Purple Science and the mid-game push toward Warpers and interstellar logistics.</p>
@@ -265,11 +303,25 @@ gtag('consent', 'default', {
   <a href="/titanium-transport-guide/">Titanium Transport</a> &mdash; <a href="/ils-setup-guide/">ILS Not Moving Items?</a> &mdash; <a href="/power-fix-guide/">Power Keep Tripping?</a>
 </div>
 
+      </div>
     </main>
   </div>
-
-
 </div>
+<script>
+(function() {
+  var heads = document.querySelectorAll(".section-head.collapsible");
+  heads.forEach(function(h) {
+    h.addEventListener("click", function() {
+      this.classList.toggle("collapsed");
+      var sib = this.nextElementSibling;
+      while (sib && !sib.classList.contains("section-head")) {
+        sib.style.display = sib.style.display === "none" ? "" : "none";
+        sib = sib.nextElementSibling;
+      }
+    });
+  });
+})();
+</script>
 
   </div>
 
