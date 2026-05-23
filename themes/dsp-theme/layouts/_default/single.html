@@ -1,6 +1,5 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 <div class="single-page">
-  <!-- Hero -->
   <div class="article-hero-full">
     <div class="article-hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}')"></div>
     <div class="article-hero-fade"></div>
@@ -8,37 +7,17 @@
       <h1>{{ .Title }}</h1>
       <div class="article-meta">
         <span class="meta-date">Updated: {{ .Date.Format "Jan 2, 2006" }}</span>
-        {{ with .Params.categories }}<span class="meta-category"> · {{ index . 0 }}</span>{{ end }}
       </div>
     </div>
   </div>
 
-  <!-- Main Layout -->
-  <div class="article-layout-new">
-    <!-- Left Sidebar: Category Articles -->
-    <aside class="article-sidebar">
-      {{ $currentCategories := .Params.categories }}
-      {{ $related := where .Site.RegularPages "Params.categories" "intersect" $currentCategories }}
-      <div class="sidebar-section">
-        <h4 class="sidebar-title">More in {{ index $currentCategories 0 }}</h4>
-        <ul class="sidebar-list">
-          {{ range $related.ByDate.Reverse }}
-          <li{{ if eq .RelPermalink $.RelPermalink }} class="active"{{ end }}>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-      <div class="sidebar-back">
-        <a href="/">← Back to Home</a>
-      </div>
-    </aside>
-
-    <!-- Right Content -->
+  <div class="article-layout">
+    <aside class="floating-toc" id="floatingToc"></aside>
     <main class="article-body">
-      {{ with .Description }}<p class="article-lead">{{ . }}</p>{{ end }}
       {{ .Content | safeHTML }}
     </main>
   </div>
+
+
 </div>
 {{ end }}
