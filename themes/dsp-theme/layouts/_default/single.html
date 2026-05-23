@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="single-page">
-  <!-- Category Hero Bar -->
+
+  <!-- Category Hero Bar (no breadcrumb) -->
   <div class="article-category-bar">
     <div class="category-bar-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}');"></div>
     <div class="category-bar-fade"></div>
@@ -17,28 +18,23 @@
         {{ else }}Practical guides for Dyson Sphere Program.{{ end }}
       </p>
       {{ end }}
-      <!-- Breadcrumb -->
-      <nav class="article-breadcrumb">
-        <a href="/">Home</a>
-        <span class="bc-sep">/</span>
-        <a href="/categories/{{ with .Params.categories }}{{ $s := index . 0 | lower | replaceRE `\\s*&\\s*` `--` | replaceRE `\\s+` `-` }}{{ $s }}{{ end }}/">{{ with .Params.categories }}{{ index . 0 }}{{ end }}</a>
-        <span class="bc-sep">/</span>
-        <span class="bc-current">{{ .Title }}</span>
-      </nav>
     </div>
   </div>
 
   <div class="article-layout-new">
-    <!-- Left Sidebar: Floating Menu -->
+    <!-- Left Sidebar: Control Panel -->
     <aside class="article-sidebar">
       {{ $currentCategories := .Params.categories }}
       {{ $related := where .Site.RegularPages "Params.categories" "intersect" $currentCategories }}
-      <div class="sidebar-section">
-        <h4 class="sidebar-title">In This Category</h4>
-        <ul class="sidebar-list">
+      <div class="sidebar-panel">
+        <div class="sidebar-panel-header">In This Category</div>
+        <ul class="sidebar-panel-list">
           {{ range $related.ByDate.Reverse }}
           <li{{ if eq .RelPermalink $.RelPermalink }} class="active"{{ end }}>
-            <a href="{{ .RelPermalink }}">{{ .Title | truncate 45 }}</a>
+            <a href="{{ .RelPermalink }}">
+              <span class="sp-list-title">{{ .Title | truncate 42 }}</span>
+              <span class="sp-list-date">{{ .Date.Format "Jan 2" }}</span>
+            </a>
           </li>
           {{ end }}
         </ul>
@@ -47,13 +43,13 @@
 
     <!-- Right Content Area -->
     <main class="article-body-wrap">
-      <div class="article-title-block">
+      <header class="article-content-header">
         <h1 class="article-main-title">{{ .Title }}</h1>
         <div class="article-meta-bar">
-          <span class="meta-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+          <span class="meta-date">{{ .Date.Format "Jan 2, 2006" }}</span>
           {{ with .Params.version }}<span class="meta-version">Game v{{ . }}</span>{{ end }}
         </div>
-      </div>
+      </header>
 
       <div class="article-content-sections">
         {{ with .Description }}<p class="article-lead">{{ . }}</p>{{ end }}
