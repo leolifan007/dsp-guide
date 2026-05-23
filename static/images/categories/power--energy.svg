@@ -1,0 +1,33 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 630 300" fill="none">
+  <rect width="630" height="300" rx="8" fill="url(#bgP)"/>
+  <defs>
+    <linearGradient id="bgP" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a0e08"/>
+      <stop offset="50%" stop-color="#2a1808"/>
+      <stop offset="100%" stop-color="#3a200a"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Grid lines -->
+  <path d="M0 150h630M315 0v300" stroke="rgba(245,158,11,0.06)" stroke-width="1"/>
+  <!-- Lightning bolt -->
+  <path d="M280 20l-80 140h60l-20 120 100-150h-60z" fill="url(#bolt)" opacity="0.5"/>
+  <!-- Small bolts -->
+  <path d="M400 60l-30 60h25l-8 50 40-70h-30z" fill="url(#bolt)" opacity="0.25"/>
+  <path d="M100 200l-20 40h18l-5 30 25-45-18z" fill="url(#bolt)" opacity="0.2"/>
+  <!-- Power rings -->
+  <circle cx="500" cy="220" r="60" stroke="rgba(245,158,11,0.12)" stroke-width="2" fill="none"/>
+  <circle cx="500" cy="220" r="40" stroke="rgba(245,158,11,0.08)" stroke-width="1" fill="none"/>
+  <circle cx="130" cy="80" r="50" stroke="rgba(245,158,11,0.1)" stroke-width="2" fill="none"/>
+  <!-- Particles -->
+  <circle cx="60" cy="240" r="2" fill="rgba(245,158,11,0.4)"/>
+  <circle cx="200" cy="50" r="1.5" fill="rgba(245,158,11,0.3)"/>
+  <circle cx="450" cy="80" r="1.5" fill="rgba(245,158,11,0.5)"/>
+  <circle cx="550" cy="180" r="2" fill="rgba(245,158,11,0.3)"/>
+  <!-- Title -->
+  <text x="315" y="170" text-anchor="middle" font-family="Orbitron,sans-serif" font-size="26" font-weight="700" fill="#f59e0b" letter-spacing="2">POWER &amp; ENERGY</text>
+  <text x="315" y="210" text-anchor="middle" font-family="Rajdhani,sans-serif" font-size="14" fill="rgba(245,158,11,0.5)" letter-spacing="4">ENERGY MANAGEMENT</text>
+</svg>

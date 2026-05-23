@@ -1,4 +1,4 @@
-﻿{{ define "main" }}
+{{ define "main" }}
 <div class="home-page">
   <section class="hero-section">
     <div class="hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}');"></div>
@@ -13,6 +13,28 @@
   </section>
 
   <main class="home-main">
+    {{/* ===== By Topic Section ===== */}}
+    <section class="topic-section">
+      <h2 class="section-title">By Topic</h2>
+      <div class="topic-grid">
+        {{ range $i, $cat := site.Params.nav_categories }}
+        {{ $slug := $cat | lower | replaceRE "\\s*&\\s*" "--" | replaceRE "\\s+" "-" }}
+        {{ $catArticles := where (where site.RegularPages "Params.hidden" "!=" true) "Params.categories" "intersect" (slice $cat) }}
+        {{ $count := len $catArticles }}
+        <a href="/categories/{{ $slug }}/" class="topic-card">
+          <div class="topic-banner topic-banner-{{ $i }}">
+            <img src="{{ `images/categories/` | relURL }}{{ $slug }}.svg" alt="{{ $cat }}" class="topic-img" loading="lazy">
+          </div>
+          <div class="topic-card-body">
+            <h3>{{ $cat }}</h3>
+            <div class="topic-count">{{ $count }} guide{{ if ne $count 1 }}s{{ end }}</div>
+          </div>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+
+    {{/* ===== Hot Guides Section ===== */}}
     <section class="hot-guides-section">
       <h2 class="section-title">Hot Guides</h2>
       <div class="hot-grid-new">
@@ -22,11 +44,6 @@
         <a href="{{ .RelPermalink }}" class="guide-card{{ if .Params.new }} new{{ end }}">
           {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
           <h3>{{ .Title }}</h3>
-          {{ with .Description }}<p>{{ . }}</p>{{ end }}
-          <div class="card-footer">
-            <span class="card-read">Read Guide</span>
-            <span class="card-date">{{ .Date.Format "Jan 2, 2006" }}</span>
-          </div>
         </a>
         {{ end }}
       </div>

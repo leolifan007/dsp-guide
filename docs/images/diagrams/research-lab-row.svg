@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 140" width="740" height="140">
+  <defs>
+    <marker id="aPack" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#CE93D8"/>
+    </marker>
+    <filter id="dsL"><feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.4"/></filter>
+  </defs>
+
+  <rect width="740" height="140" fill="#0d1117" rx="8"/>
+  <rect x="4" y="4" width="732" height="132" fill="none" stroke="#1c2333" stroke-width="0.5" rx="6"/>
+
+  <text x="370" y="22" text-anchor="middle" fill="#8B949E" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace" letter-spacing="1">STANDARD LAB ROW — 5 LABS</text>
+
+  <!-- Belt -->
+  <rect x="30" y="35" width="680" height="22" rx="4" fill="#1a1a2e" stroke="#FF8A65" stroke-width="1"/>
+  <text x="370" y="50" text-anchor="middle" fill="#FF8A65" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">SCIENCE PACK BELT</text>
+
+  <!-- Down arrows -->
+  <line x1="100" y1="57" x2="100" y2="70" stroke="#CE93D8" stroke-width="1.5" marker-end="url(#aPack)"/>
+  <line x1="230" y1="57" x2="230" y2="70" stroke="#CE93D8" stroke-width="1.5" marker-end="url(#aPack)"/>
+  <line x1="370" y1="57" x2="370" y2="70" stroke="#CE93D8" stroke-width="1.5" marker-end="url(#aPack)"/>
+  <line x1="510" y1="57" x2="510" y2="70" stroke="#CE93D8" stroke-width="1.5" marker-end="url(#aPack)"/>
+  <line x1="640" y1="57" x2="640" y2="70" stroke="#CE93D8" stroke-width="1.5" marker-end="url(#aPack)"/>
+
+  <!-- Lab 1-5 -->
+  <rect x="60" y="73" width="80" height="45" rx="7" fill="#37474F" stroke="#CE93D8" stroke-width="1.2" filter="url(#dsL)"/>
+  <text x="100" y="95" text-anchor="middle" fill="#E1BEE7" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">🔬 L1</text>
+  <text x="100" y="110" text-anchor="middle" fill="#AB47BC" font-size="8" font-family="Inter,Segoe UI,monospace">1/s</text>
+
+  <rect x="190" y="73" width="80" height="45" rx="7" fill="#37474F" stroke="#CE93D8" stroke-width="1.2" filter="url(#dsL)"/>
+  <text x="230" y="95" text-anchor="middle" fill="#E1BEE7" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">🔬 L2</text>
+  <text x="230" y="110" text-anchor="middle" fill="#AB47BC" font-size="8" font-family="Inter,Segoe UI,monospace">1/s</text>
+
+  <rect x="330" y="73" width="80" height="45" rx="7" fill="#37474F" stroke="#CE93D8" stroke-width="1.2" filter="url(#dsL)"/>
+  <text x="370" y="95" text-anchor="middle" fill="#E1BEE7" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">🔬 L3</text>
+  <text x="370" y="110" text-anchor="middle" fill="#AB47BC" font-size="8" font-family="Inter,Segoe UI,monospace">1/s</text>
+
+  <rect x="470" y="73" width="80" height="45" rx="7" fill="#37474F" stroke="#CE93D8" stroke-width="1.2" filter="url(#dsL)"/>
+  <text x="510" y="95" text-anchor="middle" fill="#E1BEE7" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">🔬 L4</text>
+  <text x="510" y="110" text-anchor="middle" fill="#AB47BC" font-size="8" font-family="Inter,Segoe UI,monospace">1/s</text>
+
+  <rect x="600" y="73" width="80" height="45" rx="7" fill="#37474F" stroke="#CE93D8" stroke-width="1.2" filter="url(#dsL)"/>
+  <text x="640" y="95" text-anchor="middle" fill="#E1BEE7" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">🔬 L5</text>
+  <text x="640" y="110" text-anchor="middle" fill="#AB47BC" font-size="8" font-family="Inter,Segoe UI,monospace">1/s</text>
+
+  <!-- Power daisy chain -->
+  <line x1="140" y1="95" x2="190" y2="95" stroke="#FFD54F" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="270" y1="95" x2="330" y2="95" stroke="#FFD54F" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="410" y1="95" x2="470" y2="95" stroke="#FFD54F" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="550" y1="95" x2="600" y2="95" stroke="#FFD54F" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Bottom note -->
+  <text x="370" y="132" text-anchor="middle" fill="#FFD54F" font-size="8" font-family="Inter,Segoe UI,monospace">⚡ Power propagates across adjacent labs — only 1 power connection needed per row</text>
+</svg>
