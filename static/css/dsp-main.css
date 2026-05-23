@@ -1117,6 +1117,72 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 /* ══ HERO SECTION (Homepage, no CTAs) ══ */
 .hero-section .hero-cta { display: none; }
 
+
+/* ══ ARTICLE LAYOUT (Base) ══ */
+.article-layout-new {
+  display: flex;
+  gap: 28px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 24px;
+  align-items: flex-start;
+}
+.article-sidebar {
+  width: 220px;
+  flex-shrink: 0;
+  position: sticky;
+  top: 80px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+.sidebar-section {
+  margin-bottom: 24px;
+}
+.sidebar-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: .7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accent-amber);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-dim);
+}
+.sidebar-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.sidebar-list li {
+  margin-bottom: 4px;
+}
+.sidebar-list li a {
+  display: block;
+  padding: 6px 10px;
+  font-size: .78rem;
+  color: var(--text-secondary);
+  border-radius: 4px;
+  transition: all .2s;
+  line-height: 1.4;
+}
+.sidebar-list li a:hover {
+  background: rgba(245,158,11,.06);
+  color: var(--text-primary);
+}
+.sidebar-list li.active a {
+  color: var(--accent-amber);
+  background: rgba(245,158,11,.08);
+  border-left: 2px solid var(--accent-amber);
+}
+
+/* ══ HOMEPAGE MAIN CONTENT ══ */
+.home-main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px 40px;
+}
+
 /* ══ HOT GUIDES REDESIGN ══ */
 .guide-card.new {
   position: relative;
@@ -1184,3 +1250,4 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   .article-sidebar { width: 100%; position: static; max-height: none; }
   .category-title { font-size: 22px !important; }
 }
+
