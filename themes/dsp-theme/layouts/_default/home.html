@@ -1,20 +1,20 @@
 {{ define "main" }}
 <div class="home-page">
-  <!-- Hero -->
-  <div class="home-hero">
-    <h1>DSP Guide – No Fluff, Just Fixes</h1>
-    <p>Real solutions to the problems that actually stop your factory.</p>
-    <div class="hero-stats">
-      <div class="stat">
-        <div class="stat-num">{{ len (where .Site.RegularPages "Params.hidden" "!=" true) }}</div>
-        <div class="stat-label">Guides</div>
+  <section class="hero-section">
+    <div class="hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}');"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-logo">
+        <img src="{{ `images/dsp-logo.png` | relURL }}" alt="Dyson Sphere Program" class="game-logo">
+      </div>
+      <h1>DSP Guide <span class="hero-version">v0.10.34.28524</span><span class="hero-tagline">No Fluff, Just Fixes</span></h1>
+      <p class="hero-sub">Real answers to the problems that actually stop your factory.<br>Written by players, for players.</p>
+      <div class="hero-cta">
+        <a href="{{ `ils-setup-guide/` | relURL }}" class="btn-primary">Start with ILS Setup</a>
+        <a href="{{ `power-fix-guide/` | relURL }}" class="btn-secondary">Power Troubleshooting</a>
       </div>
     </div>
-    <div style="margin-top:20px;display:flex;gap:12px;justify-content:center;">
-      <a href="{{ `ils-setup-guide/` | relURL }}" class="nav-btn" style="background:var(--accent-cyan);color:#000;">Start with ILS Setup</a>
-      <a href="{{ `power-fix-guide/` | relURL }}" class="nav-btn">Power Troubleshooting</a>
-    </div>
-  </div>
+  </section>
 
   <main style="padding:24px;max-width:1100px;margin:0 auto;">
     
@@ -81,7 +81,7 @@
         {{ $pages := where .Site.RegularPages "Params.hidden" "!=" true }}
         {{ $sorted := $pages.ByDate.Reverse }}
         {{ range first 9 $sorted }}
-        <a href="{{ .RelPermalink }}" class="guide-card">
+        <a href="{{ .RelPermalink }}" class="guide-card hot-card">
           {{ if .Params.new }}<span style="position:absolute;top:12px;right:12px;background:var(--accent-cyan);color:#000;font-size:.6rem;font-weight:700;padding:2px 6px;border-radius:4px;">NEW</span>{{ end }}
           <h3 style="font-size:.85rem;margin-bottom:6px;">{{ .Title }}</h3>
           {{ with .Description }}<p style="font-size:.75rem;color:var(--text-secondary);margin-bottom:8px;">{{ . }}</p>{{ end }}
