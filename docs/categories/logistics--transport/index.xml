@@ -1,26 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Logistics &amp; Transport on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/categories/logistics--transport/</link><description>Recent content in Logistics &amp; Transport on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 22 May 2026 22:34:00 +0800</lastBuildDate><atom:link href="https://dsp-guide.com/categories/logistics--transport/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Fix ILS Not Picking Up Items From DSP Local Storage</title><link>https://dsp-guide.com/ils-not-picking-items/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/ils-not-picking-items/</guid><description>&lt;p&gt;You have 2,000 iron ingots sitting inside the ILS storage. The drones are idle. Nothing is moving. Your factory downstream is starving. This is the most common ILS troubleshooting issue in DSP.&lt;/p&gt;
-&lt;div class="pro-tip"&gt;
-&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;
-Open the ILS panel. Set the slot to &lt;strong&gt;Supply&lt;/strong&gt; (not Storage). Remote Demand set to 0. Local Demand set to 0 or your target. Drones will now pick up from this station.&lt;br&gt;
-&lt;strong&gt;The golden rule:&lt;/strong&gt; "Supply" means drones can TAKE items out. "Storage" means items just sit there.
-&lt;/div&gt;
-&lt;img src="https://dsp-guide.com/images/ils-slots-explained.svg" alt="ILS slot configuration diagram showing the difference between Supply, Demand, and Storage slot modes" class="schema-diagram" loading="lazy" width="800" height="400"&gt;
-&lt;h2 id="the-slot-mode-problem"&gt;The #1 Culprit: Slot Mode Mismatch&lt;/h2&gt;
-&lt;p&gt;The ILS has three slot states per item type: &lt;strong&gt;Supply&lt;/strong&gt;, &lt;strong&gt;Demand&lt;/strong&gt;, and &lt;strong&gt;Storage&lt;/strong&gt;. These are NOT the same as the station-level "Local Supply / Local Demand / Remote Supply / Remote Demand" settings. They are per-slot behaviors that many players confuse.&lt;/p&gt;</description></item><item><title>How to Prevent DSP Logistic Drone Congestion at ILS Station</title><link>https://dsp-guide.com/ils-drone-congestion/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/ils-drone-congestion/</guid><description>&lt;p&gt;You have 200 drones orbiting a single ILS while three other stations sit empty. Items that should take 10 seconds to move take 5 minutes. Your factory is running at 30% because of logistics gridlock. Drone congestion is the hidden throughput killer of DSP.&lt;/p&gt;
-&lt;div class="pro-tip"&gt;
-&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;
-Cap your drones per ILS station (5-10 max), use priority splitters to balance material distribution, and add orbital buffer chests near high-traffic buildings.&lt;br&gt;
-&lt;strong&gt;The magic number:&lt;/strong&gt; 8 drones per ILS station is the sweet spot for 95% of factory setups.
-&lt;/div&gt;
-&lt;img src="https://dsp-guide.com/images/ils-drone-congestion.svg" alt="DSP drone congestion diagram showing how drones stack at one ILS while others are idle, with the fix using drone caps and buffer stations" class="schema-diagram" loading="lazy" width="800" height="450"&gt;
-&lt;h2 id="what-causes-drone-gridlock"&gt;What Causes Drone Gridlock&lt;/h2&gt;
-&lt;p&gt;The drone congestion problem is a classic tragedy of the commons in DSP's logistics system. Here is the chain reaction:&lt;/p&gt;</description></item><item><title>ILS Not Moving Items? Here's the 30-Second Fix (DSP Guide)</title><link>https://dsp-guide.com/ils-setup-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/ils-setup-guide/</guid><description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;
-&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn't this working&amp;rdquo; question in DSP. Let's fix it in 30 seconds flat.&lt;/p&gt;
-&lt;div class="pro-tip"&gt;
- &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;
- 1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;
- 2. Your vessels need Space Warpers to fly. Put some in the slot.
-&lt;/div&gt;
-&lt;div class="section-head"&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;
-
-&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn't know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logistics &amp; Transport on Dyson Sphere Program Guide</title>
+    <link>http://localhost:1313/categories/logistics--transport/</link>
+    <description>Recent content in Logistics &amp; Transport on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 May 2026 09:43:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/logistics--transport/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Prevent DSP Logistic Drone Congestion at ILS Station</title>
+      <link>http://localhost:1313/ils-drone-congestion/</link>
+      <pubDate>Thu, 28 May 2026 09:43:00 +0800</pubDate>
+      <guid>http://localhost:1313/ils-drone-congestion/</guid>
+      <description>&lt;p&gt;You have 200 drones orbiting a single ILS while three other stations sit empty. Items that should take 10 seconds to move take 5 minutes. Your factory is running at 30% because of logistics gridlock. Drone congestion is the hidden throughput killer of DSP.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;Cap your drones per ILS station (5-10 max), use priority splitters to balance material distribution, and add orbital buffer chests near high-traffic buildings.&lt;br&gt;&#xD;&#xA;&lt;strong&gt;The magic number:&lt;/strong&gt; 8 drones per ILS station is the sweet spot for 95% of factory setups.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/ils-drone-congestion.svg&#34; alt=&#34;DSP drone congestion diagram showing how drones stack at one ILS while others are idle, with the fix using drone caps and buffer stations&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;800&#34; height=&#34;450&#34;&gt;&#xD;&#xA;&lt;h2 id=&#34;what-causes-drone-gridlock&#34;&gt;What Causes Drone Gridlock&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;The drone congestion problem is a classic tragedy of the commons in DSP&#39;s logistics system. Here is the chain reaction:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to Fix ILS Not Picking Up Items From DSP Local Storage</title>
+      <link>http://localhost:1313/ils-not-picking-items/</link>
+      <pubDate>Mon, 25 May 2026 14:17:00 +0800</pubDate>
+      <guid>http://localhost:1313/ils-not-picking-items/</guid>
+      <description>&lt;p&gt;You have 2,000 iron ingots sitting inside the ILS storage. The drones are idle. Nothing is moving. Your factory downstream is starving. This is the most common ILS troubleshooting issue in DSP.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;Open the ILS panel. Set the slot to &lt;strong&gt;Supply&lt;/strong&gt; (not Storage). Remote Demand set to 0. Local Demand set to 0 or your target. Drones will now pick up from this station.&lt;br&gt;&#xD;&#xA;&lt;strong&gt;The golden rule:&lt;/strong&gt; &#34;Supply&#34; means drones can TAKE items out. &#34;Storage&#34; means items just sit there.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/ils-slots-explained.svg&#34; alt=&#34;ILS slot configuration diagram showing the difference between Supply, Demand, and Storage slot modes&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;800&#34; height=&#34;400&#34;&gt;&#xD;&#xA;&lt;h2 id=&#34;the-slot-mode-problem&#34;&gt;The #1 Culprit: Slot Mode Mismatch&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;The ILS has three slot states per item type: &lt;strong&gt;Supply&lt;/strong&gt;, &lt;strong&gt;Demand&lt;/strong&gt;, and &lt;strong&gt;Storage&lt;/strong&gt;. These are NOT the same as the station-level &#34;Local Supply / Local Demand / Remote Supply / Remote Demand&#34; settings. They are per-slot behaviors that many players confuse.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ILS Not Moving Items? Here&#39;s the 30-Second Fix (DSP Guide)</title>
+      <link>http://localhost:1313/ils-setup-guide/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ils-setup-guide/</guid>
+      <description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn&#39;t this working&amp;rdquo; question in DSP. Let&#39;s fix it in 30 seconds flat.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;&#xD;&#xA;  2. Your vessels need Space Warpers to fly. Put some in the slot.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn&#39;t know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
