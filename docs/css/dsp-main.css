@@ -1,4 +1,4 @@
-﻿/* ===== DSP Guide - CSS v6 (Screenshot-Verified) ===== */
+﻿/* ===== DSP Guide CSS v6 (Screenshot-Verified) ===== */
 /* Reset & Variables */
 :root {
   --bg-deep: #080c14;
@@ -1819,4 +1819,13 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   border-radius: 6px;
   margin-bottom: 24px;
   line-height: 1.7;
+}
+
+/* ── Nav link active highlight (nav-link used by header.html) ── */
+.nav-link.active {
+  color: var(--accent-amber) !important;
+  background: rgba(245,158,11,0.18) !important;
+  border-bottom: 2px solid var(--accent-amber) !important;
+  font-weight: 700 !important;
+  padding-bottom: 6px !important;
 }
