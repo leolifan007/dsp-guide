@@ -1829,3 +1829,185 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   font-weight: 700 !important;
   padding-bottom: 6px !important;
 }
+
+/* ══ ARTICLE PAGE REDESIGN v3 — Section Grouping + Accent Title ══ */
+
+/* ── Hero height +33%, no overlay ── */
+.article-category-bar {
+  min-height: 200px !important;
+  padding: 36px 24px !important;
+}
+.category-bar-fade {
+  display: none !important;
+}
+
+/* ── Title Area: Accent Line + Aligned with Sidebar Top ── */
+.article-title-area {
+  margin-bottom: 32px;
+  padding-bottom: 0;
+}
+.title-accent-line {
+  width: 48px;
+  height: 3px;
+  background: var(--accent-amber);
+  border-radius: 2px;
+  margin-bottom: 14px;
+}
+.article-main-title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+.article-meta-bar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: .68rem;
+  color: var(--text-dim);
+  font-family: "JetBrains Mono", monospace;
+}
+.meta-date,
+.meta-version {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.meta-version {
+  color: var(--accent-amber);
+  background: rgba(245,158,11,0.08);
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: .62rem;
+  font-weight: 600;
+}
+
+/* ── Article body wrap: align to sidebar top ── */
+.article-body-wrap {
+  padding-top: 0;
+}
+
+/* ── Section Content Blocks: Visual Grouping ── */
+.section-content-block {
+  margin: 28px 0;
+  padding: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(245,158,11,0.06);
+  background: rgba(10,20,32,0.35);
+  overflow: hidden;
+  transition: border-color .3s ease, background .3s ease;
+}
+.section-content-block:hover {
+  border-color: rgba(245,158,11,0.12);
+  background: rgba(10,22,40,0.45);
+}
+.section-content-block .section-head {
+  margin: 0;
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid rgba(245,158,11,0.06);
+  background: rgba(10,18,30,0.6);
+  position: relative;
+}
+.section-content-block .section-head::after {
+  display: none;
+}
+.section-content-block .section-head:hover {
+  background: rgba(12,22,36,0.8);
+}
+.section-content-block .section-head h2 {
+  font-size: .85rem;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+}
+.section-content-block .section-head h2::after {
+  display: none;
+}
+.section-content-block .section-head h2::before {
+  content: "\203A";
+  font-size: .8rem;
+  color: var(--accent-amber);
+  display: inline-block;
+  margin-right: 8px;
+  transition: transform .25s cubic-bezier(.4,0,.2,1);
+}
+.section-content-block.collapsed .section-head h2::before {
+  transform: rotate(-90deg);
+}
+/* Content inside section block */
+.section-content-block > *:not(.section-head) {
+  padding: 0 20px;
+}
+.section-content-block > *:not(.section-head):first-of-type {
+  padding-top: 18px;
+}
+.section-content-block > *:last-child {
+  padding-bottom: 20px;
+}
+.section-content-block p,
+.section-content-block ul,
+.section-content-block ol,
+.section-content-block table,
+.section-content-block blockquote {
+  margin-bottom: 14px;
+}
+.section-content-block p:last-child,
+.section-content-block ul:last-child,
+.section-content-block ol:last-child {
+  margin-bottom: 0;
+}
+.section-content-block .pro-tip,
+.section-content-block .callout {
+  margin: 16px 0 !important;
+}
+.section-content-block img {
+  margin: 18px auto !important;
+}
+
+/* ── Content before first section: no block wrap ── */
+#articleContent > .article-lead,
+#articleContent > .pro-tip,
+#articleContent > .callout,
+#articleContent > p,
+#articleContent > ul,
+#articleContent > ol,
+#articleContent > img,
+#articleContent > blockquote {
+  margin-bottom: 16px;
+}
+#articleContent > img {
+  display: block;
+  margin: 22px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* ── Images within content ── */
+.article-content-sections img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* ── Fix game icons: keep small ── */
+.game-slot img {
+  display: inline-block !important;
+  margin: 2px auto !important;
+  width: 48px !important;
+  height: 48px !important;
+}
+.schema-diagram,
+.article-content-sections img:not(.game-img):not([src*="dsp-icons"]) {
+  display: block;
+  margin: 24px auto;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
