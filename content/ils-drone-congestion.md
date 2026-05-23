@@ -1,8 +1,9 @@
 ---
 title: "How to Prevent DSP Logistic Drone Congestion at ILS Station"
 description: "Drones piling up at one ILS while others starve? Here is the fix using priority splitters, drone limits, and orbital buffer stations."
-date: "2026-05-22"
-lastmod: "2026-05-22T22:34:00+08:00"
+date: "2026-05-28"
+lastmod: "2026-05-28T09:43:00+08:00"
+publishDate: "2026-05-28T09:43:00+08:00"
 hidden: true
 version: "0.10.32"
 categories: [Logistics & Transport]

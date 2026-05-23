@@ -2,34 +2,115 @@ name: Scheduled Auto-Release
 
 on:
   schedule:
-    # Once daily at ~20:11 CST (12:11 UTC) - spreads 4 articles across the week
-    - cron: '11 12 * * *'
+    # Run twice daily: ~09:17 and ~21:43 CST (01:17 and 13:43 UTC)
+    # Non-round times to look natural
+    - cron: '17 1 * * *'
+    - cron: '43 13 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  auto-publish:
+  check-and-publish:
     runs-on: ubuntu-latest
+    outputs:
+      has_changes: ${{ steps.check.outputs.has_changes }}
     steps:
       - uses: actions/checkout@v4
         with:
           ref: content-polishing
           fetch-depth: 0
 
-      - name: Auto-publish hidden articles
-        run: bash .github/scripts/auto-publish.sh
+      - name: Check for due articles and publish
+        id: publish
+        run: |
+          chmod +x .github/scripts/auto-publish.sh
+          bash .github/scripts/auto-publish.sh 2>&1 | tee publish-log.txt
+
+          # Check if any article was published (hidden:false was set)
+          if git diff --name-only | grep -q "^content/"; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo ""
+            echo "Files changed:"
+            git diff --name-only
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No articles due for release."
+          fi
+
+      - name: Commit to content-polishing
+        if: steps.publish.outputs.has_changes == 'true' || steps.publish.outputs.has_changes == ''
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --staged --quiet || git commit -m "Auto-publish: $(date +'%Y-%m-%d %H:%M') [skip ci]"
+          git push origin content-polishing
+
+      - name: Check output
+        id: check
+        run: |
+          if [ "${{ steps.publish.outputs.has_changes }}" = "true" ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+  # Merge only published article files to main, then rebuild Hugo
+  merge-to-main:
+    needs: check-and-publish
+    if: needs.check-and-publish.outputs.has_changes == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Checkout content-polishing files
+        run: |
+          # Get the list of published (hidden:false) articles from content-polishing
+          git fetch origin content-polishing
+
+          # Find files that exist on content-polishing but not on main (new articles)
+          # We only copy content/*.md and related static/images/*.svg files
+          # that are NOT hidden:true on content-polishing
+          CHANGES=false
+
+          for f in $(git diff --name-only origin/main origin/content-polishing -- 'content/*.md' 'static/images/*.svg' 'static/images/*.png'); do
+            # Skip hidden articles
+            if echo "$f" | grep -q "^content/.*\.md$"; then
+              hidden=$(git show "origin/content-polishing:$f" | grep -c "^hidden: true" 2>/dev/null || true)
+              if [ "$hidden" -gt 0 ]; then
+                echo "  SKIP (still hidden): $f"
+                continue
+              fi
+            fi
+
+            # Copy file from content-polishing to working tree
+            echo "  COPY: $f"
+            git checkout "origin/content-polishing" -- "$f"
+            CHANGES=true
+          done
+
+          if [ "$CHANGES" = true ]; then
+            echo "has_files=true" >> $GITHUB_ENV
+          else
+            echo "has_files=false" >> $GITHUB_ENV
+          fi
 
       - name: Setup Hugo
+        if: env.has_files == 'true'
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.152.2'
           extended: true
 
       - name: Build with validation
+        if: env.has_files == 'true'
         run: |
-          # Check file encoding (UTF-8 without BOM)
+          # Encoding check
           echo "=== Encoding Check ==="
           for f in content/*.md; do
             if [ "$(head -c 3 "$f")" = $'\xef\xbb\xbf' ]; then
@@ -39,60 +120,35 @@ jobs:
           done
           echo "All files: UTF-8 without BOM (OK)"
 
-          # Check for forbidden characters
-          echo "=== Forbidden Char Check ==="
-          for f in content/*.md; do
-            if grep -Pn '[^\x00-\x7F]' "$f" | grep -v ":\s*[\x80-\xFF].*[\x80-\xFF].*[\x80-\xFF]" | grep -v "^[0-9]*:    "\
-               | grep -v "hidden:\|lastmod:\|date:\|version:\|categories:\|tags:\|^---$" | head -5; then
-              echo "NOTE: Non-ASCII chars found in $f (may be content, review)"
-            fi
-          done
-
           # Build
           echo "=== Hugo Build ==="
           hugo --minify
 
-          # Verify sitemap
-          if [ -f "docs/sitemap.xml" ]; then
-            echo "Sitemap: OK ($(grep -c '<url>' docs/sitemap.xml) entries)"
-          else
-            echo "ERROR: sitemap.xml not found"
+          # Verify sitemap only contains published pages
+          echo "=== Sitemap Verification ==="
+          SITEMAP_COUNT=$(grep -c '<url>' docs/sitemap.xml)
+          HIDDEN_COUNT=$(grep -rl "^hidden: true" content/*.md 2>/dev/null | wc -l)
+          echo "Sitemap entries: $SITEMAP_COUNT"
+          echo "Hidden articles still on main: $HIDDEN_COUNT"
+          if [ "$HIDDEN_COUNT" -gt 0 ]; then
+            echo "ERROR: Hidden articles found on main branch!"
             exit 1
           fi
 
-      - name: Commit and push to content-polishing
+      - name: Commit and push to main
+        if: env.has_files == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add -A
-          git diff --staged --quiet || git commit -m "Auto-publish: $(date +'%Y-%m-%d %H:%M') [skip ci]"
-          git push origin content-polishing
+          git diff --staged --quiet || git commit -m "Release: $(date +'%Y-%m-%d %H:%M') - published article(s) from content-polishing"
+          git push origin main
 
-  deploy:
-    needs: auto-publish
-    if: success()
+  # Cleanup: remove published articles' files from main if they were deleted there
+  # (this handles the case where content-polishing has articles that main doesn't need)
+  sync-main:
+    needs: merge-to-main
+    if: always() && needs.merge-to-main.result == 'skipped'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: content-polishing
-          fetch-depth: 0
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: '0.152.2'
-          extended: true
-
-      - name: Build and deploy
-        run: |
-          hugo --minify
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
-      - name: Merge to main and push
-        run: |
-          git fetch origin main
-          git checkout main
-          git merge content-polishing --no-edit
-          git push origin main
+      - run: echo "No articles due for release. Nothing to sync."
