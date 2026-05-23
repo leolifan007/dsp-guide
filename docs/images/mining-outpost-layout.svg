@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440">
+  <defs>
+    <marker id="arrCoal" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#F9A825"/>
+    </marker>
+    <marker id="arrIce" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#29B6F6"/>
+    </marker>
+    <marker id="arrILS" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#AB47BC"/>
+    </marker>
+    <marker id="arrPow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#FFD54F"/>
+    </marker>
+    <marker id="arrVess" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#FF7043"/>
+    </marker>
+    <linearGradient id="minerGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#263238"/><stop offset="100%" stop-color="#455A64"/>
+    </linearGradient>
+    <linearGradient id="ilsGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A148C"/><stop offset="100%" stop-color="#7B1FA2"/>
+    </linearGradient>
+    <linearGradient id="factoryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1B5E20"/><stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="powerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E65100"/><stop offset="100%" stop-color="#F57F17"/>
+    </linearGradient>
+    <filter id="shadow2" x="-5%" y="-5%" width="115%" height="115%">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="440" fill="#0d1117" rx="8"/>
+
+  <!-- Title -->
+  <text x="400" y="28" text-anchor="middle" fill="#ECEFF1" font-size="16" font-family="monospace" font-weight="bold">MINING OUTPOST LAYOUT — COAL &amp; FIRE ICE</text>
+
+  <!-- ===== LEFT: Outpost Planet ===== -->
+  <rect x="20" y="45" width="350" height="370" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="195" y="65" text-anchor="middle" fill="#8D6E63" font-size="11" font-family="monospace" font-weight="bold">⸎ OUTPOST PLANET</text>
+
+  <!-- Coal Mining Section -->
+  <text x="35" y="92" fill="#F9A825" font-size="10" font-family="monospace" font-weight="bold">▸ COAL OUTPOST</text>
+
+  <!-- Coal Veins + Miners -->
+  <rect x="35" y="100" width="90" height="40" rx="5" fill="url(#minerGrad2)" stroke="#78909C" stroke-width="1.2" filter="url(#shadow2)"/>
+  <text x="80" y="118" text-anchor="middle" fill="#B0BEC5" font-size="9.5" font-family="monospace" font-weight="bold">MINER ×3</text>
+  <text x="80" y="130" text-anchor="middle" fill="#FFD54F" font-size="8" font-family="monospace">Coal Veins</text>
+
+  <!-- Coal Belt -->
+  <line x1="125" y1="120" x2="190" y2="120" stroke="#F9A825" stroke-width="3" marker-end="url(#arrCoal)"/>
+  <text x="157" y="114" text-anchor="middle" fill="#F9A825" font-size="8" font-family="monospace">Belt</text>
+
+  <!-- Coal Collection -->
+  <rect x="190" y="100" width="80" height="40" rx="5" fill="#3E2723" stroke="#8D6E63" stroke-width="1.2"/>
+  <text x="230" y="118" text-anchor="middle" fill="#D7CCC8" font-size="9.5" font-family="monospace" font-weight="bold">COAL PILE</text>
+  <text x="230" y="130" text-anchor="middle" fill="#BCAAA4" font-size="8" font-family="monospace">Collection</text>
+
+  <!-- Coal to ILS -->
+  <line x1="270" y1="120" x2="340" y2="140" stroke="#F9A825" stroke-width="2.5" marker-end="url(#arrCoal)"/>
+
+  <!-- ILS (Supply) -->
+  <rect x="340" y="110" width="110" height="60" rx="6" fill="url(#ilsGrad2)" stroke="#AB47BC" stroke-width="1.5" filter="url(#shadow2)"/>
+  <text x="395" y="130" text-anchor="middle" fill="#F3E5F5" font-size="11" font-family="monospace" font-weight="bold">ILS</text>
+  <text x="395" y="144" text-anchor="middle" fill="#CE93D8" font-size="9" font-family="monospace">Supply: COAL</text>
+  <text x="395" y="156" text-anchor="middle" fill="#BA68C8" font-size="8" font-family="monospace">Remote: ON</text>
+
+  <!-- Power for Coal Outpost -->
+  <rect x="35" y="155" width="90" height="35" rx="5" fill="url(#powerGrad)" stroke="#FFD54F" stroke-width="1"/>
+  <text x="80" y="172" text-anchor="middle" fill="#FFF8E1" font-size="9" font-family="monospace" font-weight="bold">THERMAL PLANT</text>
+  <text x="80" y="183" text-anchor="middle" fill="#FFE082" font-size="7.5" font-family="monospace">Burns Coal</text>
+
+  <!-- Fire Ice Mining Section -->
+  <text x="35" y="212" fill="#29B6F6" font-size="10" font-family="monospace" font-weight="bold">▸ FIRE ICE OUTPOST</text>
+
+  <!-- Flame Smelters -->
+  <rect x="35" y="220" width="100" height="40" rx="5" fill="url(#minerGrad2)" stroke="#29B6F6" stroke-width="1.2" filter="url(#shadow2)"/>
+  <text x="85" y="238" text-anchor="middle" fill="#E1F5FE" font-size="9.5" font-family="monospace" font-weight="bold">FLAME SMELTER ×2</text>
+  <text x="85" y="250" text-anchor="middle" fill="#81D4FA" font-size="8" font-family="monospace">Fire Ice Veins</text>
+
+  <!-- Fuel Pellet output -->
+  <line x1="135" y1="240" x2="210" y2="240" stroke="#29B6F6" stroke-width="3" marker-end="url(#arrIce)"/>
+  <text x="172" y="234" text-anchor="middle" fill="#29B6F6" font-size="8" font-family="monospace">Fuel Pellets</text>
+
+  <!-- Fuel Plant (local) -->
+  <rect x="210" y="220" width="110" height="40" rx="5" fill="#01579B" stroke="#29B6F6" stroke-width="1.2"/>
+  <text x="265" y="238" text-anchor="middle" fill="#B3E5FC" font-size="9.5" font-family="monospace" font-weight="bold">FUEL PLANT</text>
+  <text x="265" y="250" text-anchor="middle" fill="#81D4FA" font-size="8" font-family="monospace">Power: Local</text>
+
+  <!-- Fuel Pellet to ILS -->
+  <line x1="320" y1="240" x2="340" y2="200" stroke="#29B6F6" stroke-width="2" marker-end="url(#arrIce)"/>
+
+  <!-- ILS (Supply Fuel) — same ILS or second? Show second ILS -->
+  <rect x="340" y="180" width="110" height="60" rx="6" fill="url(#ilsGrad2)" stroke="#AB47BC" stroke-width="1.5" filter="url(#shadow2)"/>
+  <text x="395" y="200" text-anchor="middle" fill="#F3E5F5" font-size="11" font-family="monospace" font-weight="bold">ILS #2</text>
+  <text x="395" y="214" text-anchor="middle" fill="#CE93D8" font-size="9" font-family="monospace">Supply: FUEL PELLET</text>
+  <text x="395" y="226" text-anchor="middle" fill="#BA68C8" font-size="8" font-family="monospace">Remote: ON</text>
+
+  <!-- ===== INTERPLANETARY CONNECTION ===== -->
+  <line x1="460" y1="140" x2="540" y2="140" stroke="#AB47BC" stroke-width="2" stroke-dasharray="6,4" marker-end="url(#arrILS)"/>
+  <text x="500" y="132" text-anchor="middle" fill="#AB47BC" font-size="9" font-family="monospace">← VESSELS</text>
+
+  <!-- Vessel icon -->
+  <polygon points="490,155 510,155 505,162 495,162" fill="#FF7043" opacity="0.8"/>
+  <text x="500" y="172" text-anchor="middle" fill="#FF7043" font-size="8" font-family="monospace">Vessel</text>
+
+  <!-- ===== RIGHT: Main Factory Planet ===== -->
+  <rect x="540" y="45" width="240" height="370" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+  <text x="660" y="65" text-anchor="middle" fill="#66BB6A" font-size="11" font-family="monospace" font-weight="bold">⸎ MAIN FACTORY</text>
+
+  <!-- ILS (Demand) -->
+  <rect x="555" y="80" width="110" height="60" rx="6" fill="url(#ilsGrad2)" stroke="#AB47BC" stroke-width="1.5" filter="url(#shadow2)"/>
+  <text x="610" y="100" text-anchor="middle" fill="#F3E5F5" font-size="11" font-family="monospace" font-weight="bold">ILS</text>
+  <text x="610" y="114" text-anchor="middle" fill="#CE93D8" font-size="9" font-family="monospace">Demand: COAL</text>
+  <text x="610" y="126" text-anchor="middle" fill="#BA68C8" font-size="8" font-family="monospace">Remote: ON</text>
+
+  <!-- Factory Bus -->
+  <rect x="555" y="155" width="110" height="50" rx="5" fill="url(#factoryGrad)" stroke="#66BB6A" stroke-width="1.2"/>
+  <text x="610" y="173" text-anchor="middle" fill="#C8E6C9" font-size="10" font-family="monospace" font-weight="bold">FACTORY BUS</text>
+  <text x="610" y="185" text-anchor="middle" fill="#A5D6A7" font-size="8.5" font-family="monospace">Thermal Plants</text>
+  <text x="610" y="196" text-anchor="middle" fill="#81C784" font-size="8" font-family="monospace">+ Smelting</text>
+
+  <!-- Arrow Demand → Factory -->
+  <line x1="610" y1="155" x2="610" y2="135" stroke="#66BB6A" stroke-width="2"/>
+
+  <!-- Power Grid -->
+  <rect x="555" y="220" width="110" height="45" rx="5" fill="#E65100" stroke="#FFD54F" stroke-width="1.2"/>
+  <text x="610" y="237" text-anchor="middle" fill="#FFF8E1" font-size="9.5" font-family="monospace" font-weight="bold">POWER GRID</text>
+  <text x="610" y="250" text-anchor="middle" fill="#FFE082" font-size="8" font-family="monospace">Coal + Fuel</text>
+
+  <!-- Second ILS for Fuel Pellets -->
+  <rect x="555" y="285" width="110" height="60" rx="6" fill="url(#ilsGrad2)" stroke="#AB47BC" stroke-width="1.5" filter="url(#shadow2)"/>
+  <text x="610" y="305" text-anchor="middle" fill="#F3E5F5" font-size="11" font-family="monospace" font-weight="bold">ILS #2</text>
+  <text x="610" y="319" text-anchor="middle" fill="#CE93D8" font-size="9" font-family="monospace">Demand: FUEL</text>
+  <text x="610" y="331" text-anchor="middle" fill="#BA68C8" font-size="8" font-family="monospace">Remote: ON</text>
+
+  <!-- Fuel to Power -->
+  <line x1="610" y1="345" x2="610" y2="370" stroke="#29B6F6" stroke-width="2" marker-end="url(#arrIce)"/>
+  <rect x="575" y="370" width="70" height="30" rx="4" fill="#01579B" stroke="#29B6F6" stroke-width="1"/>
+  <text x="610" y="388" text-anchor="middle" fill="#B3E5FC" font-size="8.5" font-family="monospace">Fuel Plants</text>
+
+  <!-- ===== BOTTOM: Setup Checklist ===== -->
+  <rect x="20" y="425" width="760" height="1" fill="#30363d"/>
+  <text x="35" y="438" fill="#8D6E63" font-size="8.5" font-family="monospace">✓ Outpost: Miners → Belt → ILS (Supply) | ✓ Main: ILS (Demand) → Factory | ✓ Power: Local Thermal/Fuel Plants | ✓ Remote=ON on both ILS</text>
+
+  <!-- Legend (top right) -->
+  <rect x="620" y="8" width="170" height="32" rx="4" fill="rgba(13,17,23,0.9)" stroke="#455A64" stroke-width="0.8"/>
+  <rect x="628" y="14" width="10" height="8" rx="2" fill="#F9A825"/><text x="643" y="21" fill="#B0BEC5" font-size="8" font-family="monospace">Coal</text>
+  <rect x="690" y="14" width="10" height="8" rx="2" fill="#29B6F6"/><text x="705" y="21" fill="#B0BEC5" font-size="8" font-family="monospace">Fire Ice</text>
+  <rect x="628" y="24" width="10" height="8" rx="2" fill="#AB47BC"/><text x="643" y="31" fill="#B0BEC5" font-size="8" font-family="monospace">ILS</text>
+  <rect x="690" y="24" width="10" height="8" rx="2" fill="#FFD54F"/><text x="705" y="31" fill="#B0BEC5" font-size="8" font-family="monospace">Power</text>
+</svg>

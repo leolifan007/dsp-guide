@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400">
+
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#1a1a2e"/>
+    <stop offset="100%" style="stop-color:#16213e"/>
+  </linearGradient>
+  <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#c0392b"/>
+    <stop offset="100%" style="stop-color:#e74c3c"/>
+  </linearGradient>
+  <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#27ae60"/>
+    <stop offset="100%" style="stop-color:#2ecc71"/>
+  </linearGradient>
+  <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#2980b9"/>
+    <stop offset="100%" style="stop-color:#3498db"/>
+  </linearGradient>
+  <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#d4a020"/>
+    <stop offset="100%" style="stop-color:#f0c040"/>
+  </linearGradient>
+  <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#8e44ad"/>
+    <stop offset="100%" style="stop-color:#9b59b6"/>
+  </linearGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+  </filter>
+  <marker id="arrowYell" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#d4a020"/>
+  </marker>
+  <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#c0392b"/>
+  </marker>
+  <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#27ae60"/>
+  </marker>
+  <marker id="arrowBlue" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#3498db"/>
+  </marker>
+</defs>
+  <rect width="800" height="400" fill="url(#bg)" rx="8"/>
+  <text x="400" y="28" font-family="Arial,sans-serif" font-size="18.7" fill="#aac" text-anchor="middle" font-weight="bold">ILS SLOT MODES - SUPPLY vs DEMAND vs STORAGE</text>
+  <line x1="50" y1="38" x2="750" y2="38" stroke="#334" stroke-width="1"/>
+
+  <!-- Supply -->
+  <rect x="20" y="60" width="240" height="150" rx="6" fill="#1e2a1e" stroke="#2ecc71" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="20" y="60" width="240" height="28" rx="6" fill="#27ae60" opacity="0.3"/>
+  <text x="140" y="78" font-family="Arial,sans-serif" font-size="16" fill="#2ecc71" text-anchor="middle" font-weight="bold">SUPPLY MODE</text>
+  <line x1="30" y1="95" x2="250" y2="95" stroke="#2ecc71" stroke-width="0.5" opacity="0.4"/>
+  <text x="140" y="115" font-family="Arial,sans-serif" font-size="14" fill="#2ecc71" text-anchor="middle">Drones CAN take items OUT</text>
+  <text x="140" y="135" font-family="Arial,sans-serif" font-size="14" fill="#2ecc71" text-anchor="middle">Drones CAN bring items IN</text>
+  <line x1="30" y1="145" x2="250" y2="145" stroke="#2ecc71" stroke-width="0.5" opacity="0.4"/>
+  <text x="140" y="165" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">Use: Export materials to other</text>
+  <text x="140" y="180" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">stations and planets</text>
+  <text x="140" y="200" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">Default for most production outputs</text>
+
+  <!-- Demand -->
+  <rect x="280" y="60" width="240" height="150" rx="6" fill="#2a2030" stroke="#9b59b6" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="280" y="60" width="240" height="28" rx="6" fill="#9b59b6" opacity="0.3"/>
+  <text x="400" y="78" font-family="Arial,sans-serif" font-size="16" fill="#9b59b6" text-anchor="middle" font-weight="bold">DEMAND MODE</text>
+  <line x1="290" y1="95" x2="510" y2="95" stroke="#9b59b6" stroke-width="0.5" opacity="0.4"/>
+  <text x="400" y="115" font-family="Arial,sans-serif" font-size="14" fill="#e74c3c" text-anchor="middle">Drones CANNOT take out</text>
+  <text x="400" y="135" font-family="Arial,sans-serif" font-size="14" fill="#2ecc71" text-anchor="middle">Drones CAN bring items IN</text>
+  <line x1="290" y1="145" x2="510" y2="145" stroke="#9b59b6" stroke-width="0.5" opacity="0.4"/>
+  <text x="400" y="165" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">Use: Import materials INTO</text>
+  <text x="400" y="180" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">this station</text>
+  <text x="400" y="200" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">Default for production inputs</text>
+
+  <!-- Storage -->
+  <rect x="540" y="60" width="240" height="150" rx="6" fill="#2a2020" stroke="#e74c3c" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="540" y="60" width="240" height="28" rx="6" fill="#e74c3c" opacity="0.3"/>
+  <text x="660" y="78" font-family="Arial,sans-serif" font-size="16" fill="#e74c3c" text-anchor="middle" font-weight="bold">STORAGE MODE</text>
+  <line x1="550" y1="95" x2="770" y2="95" stroke="#e74c3c" stroke-width="0.5" opacity="0.4"/>
+  <text x="660" y="115" font-family="Arial,sans-serif" font-size="14" fill="#e74c3c" text-anchor="middle">Drones CANNOT take out</text>
+  <text x="660" y="135" font-family="Arial,sans-serif" font-size="14" fill="#e74c3c" text-anchor="middle">Drones CANNOT bring in</text>
+  <line x1="550" y1="145" x2="770" y2="145" stroke="#e74c3c" stroke-width="0.5" opacity="0.4"/>
+  <text x="660" y="165" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">Use: Dead inventory</text>
+  <text x="660" y="180" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">Items just sit there</text>
+  <text x="660" y="200" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">Rarely used - usually a mistake</text>
+
+  <!-- Warning -->
+  <rect x="120" y="235" width="560" height="70" rx="6" fill="#3a2020" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="400" y="258" font-family="Arial,sans-serif" font-size="16" fill="#e74c3c" text-anchor="middle" font-weight="bold">COMMON MISTAKE: Items in Storage mode = stuck forever</text>
+  <text x="400" y="278" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">Always set slot to Supply (export) or Demand (import). Storage mode blocks ALL drone activity for that slot.</text>
+  <text x="400" y="296" font-family="Arial,sans-serif" font-size="10.7" fill="#888" text-anchor="middle">Tip: If drones are idle and items are in the station, check if the slot is accidentally set to Storage</text>
+
+  <!-- Bottom: ILS slot setting instructions -->
+  <rect x="100" y="325" width="600" height="55" rx="6" fill="#1e2a3e" stroke="#3498db" stroke-width="1"/>
+  <text x="400" y="345" font-family="Arial,sans-serif" font-size="14" fill="#3498db" text-anchor="middle" font-weight="bold">Quick Fix: ILS Panel Setup for Working Transport</text>
+  <text x="400" y="362" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">1. Set slot mode to Supply (if exporting) OR Demand (if importing)</text>
+  <text x="400" y="376" font-family="Arial,sans-serif" font-size="12" fill="#ccc" text-anchor="middle">2. Tick Local Supply (for local drones) OR Remote Supply (for vessels) - or both</text>
+</svg>
