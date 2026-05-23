@@ -6,7 +6,7 @@ enableRobotsTXT = true
 buildFuture = true
 buildDrafts = false
 
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 [markup]
   [markup.goldmark]
