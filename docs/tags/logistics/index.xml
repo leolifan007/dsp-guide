@@ -1,10 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Logistics on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/logistics/</link><description>Recent content in Logistics on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dsp-guide.com/tags/logistics/index.xml" rel="self" type="application/rss+xml"/><item><title>ILS Not Moving Items? Here's the 30-Second Fix (DSP Guide)</title><link>https://dsp-guide.com/ils-setup-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/ils-setup-guide/</guid><description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;
-&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn't this working&amp;rdquo; question in DSP. Let's fix it in 30 seconds flat.&lt;/p&gt;
-&lt;div class="pro-tip"&gt;
- &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;
- 1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;
- 2. Your vessels need Space Warpers to fly. Put some in the slot.
-&lt;/div&gt;
-&lt;div class="section-head"&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;
-
-&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn't know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logistics on Dyson Sphere Program Guide</title>
+    <link>http://localhost:1414/tags/logistics/</link>
+    <description>Recent content in Logistics on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1414/tags/logistics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dyson Sphere Program Logistics Drones vs Belts: Complete Comparison</title>
+      <link>http://localhost:1414/logistics-drones-vs-belts-guide/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/logistics-drones-vs-belts-guide/</guid>
+      <description>&lt;p&gt;DSP gives you two ways to move materials: belts and drones. Belts are local, simple, and fast. Drones are flexible, cross-planetary, and require zero physical infrastructure. Knowing which to use — and when — is one of the core strategic decisions in DSP factory design.&lt;/p&gt;&#xA;&lt;p&gt;This guide breaks down throughput, use cases, cost, and scalability for each system.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Use &lt;strong&gt;belts&lt;/strong&gt; for high-throughput local transport (within a planet). Use &lt;strong&gt;logistics drones&lt;/strong&gt; for cross-planetary transport and flexible low-volume requests. Use &lt;strong&gt;vessels&lt;/strong&gt; for massive interplanetary shipments of raw materials. For maximum efficiency, combine all three — belts for planet-level production, drones and vessels for network-level logistics.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;img src=&#34;http://localhost:1414/images/diagrams/logistics-main.svg&#34; alt=&#34;Logistics choice matrix — when to use belts, drones, or vessels&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;780&#34;&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Belt Transportation: When to Use It&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Belt transport moves materials along physical paths. They&#39;re fast, reliable, and perfect for any situation where you&#39;re moving high volumes of materials between buildings on the same planet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dyson Sphere Program Mining Outposts: Coal, Fire Ice &amp; Resource Veins</title>
+      <link>http://localhost:1414/coal-fire-ice-mining-outpost-guide/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/coal-fire-ice-mining-outpost-guide/</guid>
+      <description>&lt;p&gt;Every DSP factory runs on raw materials — and raw materials live on planets that are rarely the planet where your main factory sits. Mining outposts are how you get coal from a gas giant&#39;s moon, titanium from an ice world, and fire ice from the dark reaches of the galaxy without leaving your main factory&#39;s logistics grid.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers how to build mining outposts, position mining machines correctly, and connect them to your logistics network so resources flow automatically.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ILS Not Moving Items? Here&#39;s the 30-Second Fix (DSP Guide)</title>
+      <link>http://localhost:1414/ils-setup-guide/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/ils-setup-guide/</guid>
+      <description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn&#39;t this working&amp;rdquo; question in DSP. Let&#39;s fix it in 30 seconds flat.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;&#xD;&#xA;  2. Your vessels need Space Warpers to fly. Put some in the slot.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn&#39;t know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

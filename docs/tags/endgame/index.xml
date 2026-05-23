@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Endgame on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/endgame/</link><description>Recent content in Endgame on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dsp-guide.com/tags/endgame/index.xml" rel="self" type="application/rss+xml"/><item><title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title><link>https://dsp-guide.com/quantum-chips-proliferator/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/quantum-chips-proliferator/</guid><description>&lt;p&gt;Every factory has a ceiling. At some point you're running 40 assemblers on your Circuit Board chain and wondering if there's a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;It's a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;
-&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description></item><item><title>DSP Solar Sails &amp; Ray Receivers: Complete Endgame Power Guide</title><link>https://dsp-guide.com/solar-sails-ray-receivers/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/solar-sails-ray-receivers/</guid><description>&lt;p&gt;You've got a handful of coal power plants. Maybe you've built a wind farm or twelve. You're researching toward the stars — literally — and then it hits you: the Dyson sphere isn't just the goal, it's the power solution. To get there, you need Solar Sails and Ray Receivers working in tandem.&lt;/p&gt;
-&lt;p&gt;One launches into orbit and reflects stellar radiation. The other catches that energy and converts it into usable power for your planet.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Endgame on Dyson Sphere Program Guide</title>
+    <link>http://localhost:1414/tags/endgame/</link>
+    <description>Recent content in Endgame on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1414/tags/endgame/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dyson Sphere Program Energy Matrix: Complete Production Guide</title>
+      <link>http://localhost:1414/energy-matrix-production-guide/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/energy-matrix-production-guide/</guid>
+      <description>&lt;p&gt;Energy Matrix is the energy currency that powers Dyson Sphere construction. Every Solar Sail launched, every Ray Receiver powered, every component of the Dyson Sphere itself — all of it requires Energy Matrix. It&#39;s the fuel of the endgame, and getting a reliable Energy Matrix supply running is one of the most satisfying milestones in DSP.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete Energy Matrix production chain, the recipes that matter, how to scale it, and how proliferation affects your output.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title>
+      <link>http://localhost:1414/quantum-chips-proliferator/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/quantum-chips-proliferator/</guid>
+      <description>&lt;p&gt;Every factory has a ceiling. At some point you&#39;re running 40 assemblers on your Circuit Board chain and wondering if there&#39;s a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&#39;s a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Solar Sails &amp; Ray Receivers: Complete Endgame Power Guide</title>
+      <link>http://localhost:1414/solar-sails-ray-receivers/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/solar-sails-ray-receivers/</guid>
+      <description>&lt;p&gt;You&#39;ve got a handful of coal power plants. Maybe you&#39;ve built a wind farm or twelve. You&#39;re researching toward the stars — literally — and then it hits you: the Dyson sphere isn&#39;t just the goal, it&#39;s the power solution. To get there, you need Solar Sails and Ray Receivers working in tandem.&lt;/p&gt;&#xA;&lt;p&gt;One launches into orbit and reflects stellar radiation. The other catches that energy and converts it into usable power for your planet.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

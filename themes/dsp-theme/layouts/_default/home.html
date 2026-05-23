@@ -1,96 +1,81 @@
 {{ define "main" }}
 <div class="home-page">
-  <!-- Hero -->
-  <div class="home-hero">
-    <h1>DSP Guide – No Fluff, Just Fixes</h1>
-    <p>Real solutions to the problems that actually stop your factory.</p>
-    <div class="hero-stats">
-      <div class="stat">
-        <div class="stat-num">{{ len (where .Site.RegularPages "Params.hidden" "!=" true) }}</div>
-        <div class="stat-label">Guides</div>
+  <section class="hero-section">
+    <div class="hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}');"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-logo">
+        <img src="{{ `images/dsp-logo.png` | relURL }}" alt="Dyson Sphere Program" class="game-logo">
+      </div>
+      <h1>DSP Guide <span class="hero-version">v0.10.34.28524</span><span class="hero-tagline">No Fluff, Just Fixes</span></h1>
+      <p class="hero-sub">Real answers to the problems that actually stop your factory.<br>Written by players, for players.</p>
+      <div class="hero-cta">
+        <a href="{{ `ils-setup-guide/` | relURL }}" class="btn-primary">Start with ILS Setup</a>
+        <a href="{{ `power-fix-guide/` | relURL }}" class="btn-secondary">Power Troubleshooting</a>
       </div>
     </div>
-    <div style="margin-top:20px;display:flex;gap:12px;justify-content:center;">
-      <a href="{{ `ils-setup-guide/` | relURL }}" class="nav-btn" style="background:var(--accent-cyan);color:#000;">Start with ILS Setup</a>
-      <a href="{{ `power-fix-guide/` | relURL }}" class="nav-btn">Power Troubleshooting</a>
-    </div>
-  </div>
+  </section>
 
-  <main style="padding:24px;max-width:1100px;margin:0 auto;">
-    
-    <!-- By Topic Cards - NEW -->
-    <section class="topic-section">
-      <h2 class="section-title">By Topic</h2>
-      
-      <div class="topic-grid-new">
-        {{ $power := where .Site.RegularPages "Params.categories" "intersect" (slice "Power & Energy") }}
-        {{ $powerCount := len $power }}
-        <a href="/categories/power--energy/" class="guide-card" style="padding:0;overflow:hidden;">
-          <div class="topic-card-img power">
-            <span class="topic-card-icon">⚡</span>
-          </div>
-          <div style="padding:12px;">
-            <h3 style="font-size:.9rem;margin-bottom:4px;">Power & Energy</h3>
-            <p style="font-size:.75rem;color:var(--text-dim);"><span style="color:var(--accent-amber);font-weight:600;">{{ $powerCount }}</span> articles</p>
-          </div>
-        </a>
-
-        {{ $resources := where .Site.RegularPages "Params.categories" "intersect" (slice "Resources & Mining") }}
-        {{ $resourcesCount := len $resources }}
-        <a href="/categories/resources--mining/" class="guide-card" style="padding:0;overflow:hidden;">
-          <div class="topic-card-img resources">
-            <span class="topic-card-icon">⛏️</span>
-          </div>
-          <div style="padding:12px;">
-            <h3 style="font-size:.9rem;margin-bottom:4px;">Resources & Mining</h3>
-            <p style="font-size:.75rem;color:var(--text-dim);"><span style="color:var(--accent-amber);font-weight:600;">{{ $resourcesCount }}</span> articles</p>
-          </div>
-        </a>
-
-        {{ $science := where .Site.RegularPages "Params.categories" "intersect" (slice "Science & Production") }}
-        {{ $scienceCount := len $science }}
-        <a href="/categories/science--production/" class="guide-card" style="padding:0;overflow:hidden;">
-          <div class="topic-card-img science">
-            <span class="topic-card-icon">🔬</span>
-          </div>
-          <div style="padding:12px;">
-            <h3 style="font-size:.9rem;margin-bottom:4px;">Science & Production</h3>
-            <p style="font-size:.75rem;color:var(--text-dim);"><span style="color:var(--accent-amber);font-weight:600;">{{ $scienceCount }}</span> articles</p>
-          </div>
-        </a>
-
-        {{ $logistics := where .Site.RegularPages "Params.categories" "intersect" (slice "Logistics & Transport") }}
-        {{ $logisticsCount := len $logistics }}
-        <a href="/categories/logistics--transport/" class="guide-card" style="padding:0;overflow:hidden;">
-          <div class="topic-card-img logistics">
-            <span class="topic-card-icon">🚀</span>
-          </div>
-          <div style="padding:12px;">
-            <h3 style="font-size:.9rem;margin-bottom:4px;">Logistics & Transport</h3>
-            <p style="font-size:.75rem;color:var(--text-dim);"><span style="color:var(--accent-amber);font-weight:600;">{{ $logisticsCount }}</span> articles</p>
-          </div>
-        </a>
-      </div>
-    </section>
-
-    <!-- Hot Guides - 3x3, newest first -->
-    <section class="hot-guides-section">
+  <div class="home-content">
+    {{ $pages := where (where (where .Site.RegularPages "Params.hidden" "!=" true) "RelPermalink" "ne" "/") "RelPermalink" "ne" "/privacy/" }}
+    <section class="featured-guides">
       <h2 class="section-title">🔥 Hot Guides</h2>
-      
-      <div class="hot-grid-new">
-        {{ $pages := where .Site.RegularPages "Params.hidden" "!=" true }}
-        {{ $sorted := $pages.ByDate.Reverse }}
-        {{ range first 9 $sorted }}
-        <a href="{{ .RelPermalink }}" class="guide-card">
-          {{ if .Params.new }}<span style="position:absolute;top:12px;right:12px;background:var(--accent-cyan);color:#000;font-size:.6rem;font-weight:700;padding:2px 6px;border-radius:4px;">NEW</span>{{ end }}
-          <h3 style="font-size:.85rem;margin-bottom:6px;">{{ .Title }}</h3>
-          {{ with .Description }}<p style="font-size:.75rem;color:var(--text-secondary);margin-bottom:8px;">{{ . }}</p>{{ end }}
-          <div class="card-date">{{ .Date.Format "Jan 2, 2006" }}</div>
+      <div class="guide-grid">
+        {{ range $pages }}
+        <a href="{{ .RelPermalink }}" class="guide-card hot-card">
+          {{ if .Params.new }}<span class="new-badge">NEW</span>{{ end }}
+          <div class="card-body">
+            <div class="card-top">
+              <h3>{{ .Title }}</h3>
+              {{ with .Description }}<p>{{ . }}</p>{{ end }}
+            </div>
+            <div class="card-footer">
+              <span class="card-read">Read Guide</span>
+              <span class="card-date">Updated {{ .Date.Format "Jan 2, 2006" }}</span>
+            </div>
+          </div>
         </a>
         {{ end }}
       </div>
     </section>
 
-  </main>
+    <section class="topic-clusters">
+      <h2 class="section-title">By Topic</h2>
+      <div class="topic-grid">
+        <a href="/categories/logistics--transport/" class="topic-card">
+          <div class="topic-body">
+            <h3>Interstellar Logistics</h3>
+            <p>ILS setup, Supply/Demand, Warpers, vessel routing</p>
+          </div>
+        </a>
+        <a href="/categories/power--energy/" class="topic-card">
+          <div class="topic-body">
+            <h3>Power and Energy</h3>
+            <p>Grid management, cascade recovery, solar sails, fusion</p>
+          </div>
+        </a>
+        <a href="/categories/resources--mining/" class="topic-card">
+          <div class="topic-body">
+            <h3>Resources and Mining</h3>
+            <p>Titanium, Silicon, Fire Ice, cross-planet transport, automation</p>
+          </div>
+        </a>
+        <a href="/categories/science--production/" class="topic-card">
+          <div class="topic-body">
+            <h3>Science and Production</h3>
+            <p>Blue/Green/Purple Science, Warpers, production ratios</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="newsletter-cta">
+      <p><strong>New guides dropping weekly.</strong> Bookmark the page, no email list, no spam, just DSP.</p>
+    </section>
+
+    <section class="site-disclaimer">
+      <p><strong>Disclaimer:</strong> This is an unofficial fan-made guide site. Dyson Sphere Program is developed by Youthcat Studio and published by <a href="https://store.steampowered.com/app/1366540/Dyson_Sphere_Program/" target="_blank" rel="noopener">Gamera Game</a>. All trademarks and copyrights belong to their respective owners.</p>
+    </section>
+  </div>
 </div>
 {{ end }}

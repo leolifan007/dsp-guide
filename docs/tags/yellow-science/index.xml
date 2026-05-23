@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yellow-Science on Dyson Sphere Program Guide</title>
+    <link>http://localhost:1414/tags/yellow-science/</link>
+    <description>Recent content in Yellow-Science on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1414/tags/yellow-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSP Research Lab Setup: Complete Automation Guide</title>
+      <link>http://localhost:1414/research-lab-automation-guide/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/research-lab-automation-guide/</guid>
+      <description>&lt;p&gt;Research is the clock in DSP. Every unlock — new buildings, new recipes, new logistics options — lives behind the research tree. And research lives behind science packs. If your science pack production is weak, your entire progression grinds to a halt.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete science pack chain from Red Science to Purple Science, lab setup ratios, power requirements, and which research priorities actually matter for your factory&#39;s next phase.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,46 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mid-Game on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/mid-game/</link><description>Recent content in Mid-Game on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 22 May 2026 23:12:00 +0800</lastBuildDate><atom:link href="https://dsp-guide.com/tags/mid-game/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Clear Hydrogen Backup in DSP Without Stopping Power Grid</title><link>https://dsp-guide.com/hydrogen-backup-fix/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/hydrogen-backup-fix/</guid><description>&lt;p&gt;Your thermal plants flicker. Refineries stall. Power drops to 20%. You check the grid and find hydrogen backed up all the way to your refineries. Every DSP player hits this wall around Yellow Science.&lt;/p&gt;
-&lt;div class="pro-tip"&gt;
-&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;
-Build a thermal power plant, connect it to your hydrogen line, and split off your excess hydrogen to burn for power.&lt;br&gt;
-&lt;strong&gt;Key insight:&lt;/strong&gt; You do NOT need to stop your factory. You need to &lt;em&gt;consume&lt;/em&gt; the excess hydrogen before it blocks your refineries. One thermal plant burning hydrogen at 100% upkeep can sink your entire hydrogen overflow.
-&lt;/div&gt;
-&lt;img src="https://dsp-guide.com/images/hydrogen-backup-fix.svg" alt="Hydrogen backup fix diagram showing how to split off excess hydrogen to thermal plants while keeping your main hydrogen line flowing" class="schema-diagram" loading="lazy" width="800" height="450"&gt;
-&lt;h2 id="why-hydrogen-backup-happens"&gt;The Core Problem: Why Hydrogen Traps Your Grid&lt;/h2&gt;
-&lt;p&gt;Hydrogen backup is a design paradox: your refineries &lt;strong&gt;need&lt;/strong&gt; to output hydrogen to keep running, but when your hydrogen buffers are full, the refineries stall. When refineries stall, you stop producing oil products (refined oil, graphite, and the red science flowing through them). Your entire early-to-mid game chain collapses.&lt;/p&gt;</description></item><item><title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</title><link>https://dsp-guide.com/blue-science-hydrogen-refining/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/blue-science-hydrogen-refining/</guid><description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;
-&lt;p&gt;Blue Science is the first wall in DSP that is not just "build more miners." It introduces Refined Oil, Hydrogen byproducts, and the frustrating "one output backed up, whole chain dead" problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;
-&lt;div class="pro-tip"&gt;
- &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;
- 1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;
- 2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;
- 3. Titanium Ingots are required for Blue Matrix; set that up first
-&lt;/div&gt;
-&lt;div class="section-head"&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;
-
-&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description></item><item><title>DSP Oil &amp; Plastics: Full Refining Chain Guide</title><link>https://dsp-guide.com/oil-plastics-refining/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/oil-plastics-refining/</guid><description>&lt;p&gt;Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up — is a system that catches almost everyone off guard.&lt;/p&gt;
-&lt;p&gt;This guide covers the complete Oil Refining chain from extraction to end products, with working production ratios, the critical &lt;strong&gt;hydrogen byproduct problem&lt;/strong&gt;, and how to automate it without tearing your hair out.&lt;/p&gt;</description></item><item><title>Green Science and Warpers: Stop Being Scared of Green Matrix (DSP Guide)</title><link>https://dsp-guide.com/green-science-warper-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/green-science-warper-guide/</guid><description>&lt;p&gt;You've got Yellow Science running. Titanium flowing. Everything is… fine. Then you look at Green Matrix. Three ingredients. Processors. Casimir Crystals. Electromagnetic Turbines.&lt;/p&gt;
-&lt;p&gt;And you think: &lt;strong&gt;&amp;quot;Yeah no. I'll do it later.&amp;quot;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I get it. Every DSP player hits this wall. But here's the thing — Green Matrix unlocks Space Warpers. And Warpers turn your factory from a solar-system-only operation into a galactic empire. You want that.&lt;/p&gt;
-&lt;div class="pro-tip"&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Green Matrix needs 3 things: &lt;strong&gt;Processors + Casimir Crystals + EM Turbines.&lt;/strong&gt; Scale your existing Processor line. Build a Casimir plant. That's most of the work done.&lt;/div&gt;
-
-&lt;hr&gt;
-&lt;div class="section-head"&gt;&lt;h2&gt;The Three Things You Need&lt;/h2&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Green Matrix = Processors + Casimir Crystals + EM Turbines&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>ILS Not Moving Items? Here's the 30-Second Fix (DSP Guide)</title><link>https://dsp-guide.com/ils-setup-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/ils-setup-guide/</guid><description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;
-&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn't this working&amp;rdquo; question in DSP. Let's fix it in 30 seconds flat.&lt;/p&gt;
-&lt;div class="pro-tip"&gt;
- &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;
- 1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;
- 2. Your vessels need Space Warpers to fly. Put some in the slot.
-&lt;/div&gt;
-&lt;div class="section-head"&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;
-
-&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn't know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description></item><item><title>Why Your DSP Power Grid Keeps Crashing (And How to Fix It)</title><link>https://dsp-guide.com/power-fix-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/power-fix-guide/</guid><description>&lt;p&gt;Everything is running. Then: darkness. Sorters moving like they're underwater. Your thermal plants flickering on and off. The death spiral.&lt;/p&gt;
-&lt;p&gt;Here's what happened and how to fix it.&lt;/p&gt;
-&lt;div class="pro-tip"&gt;
- &lt;strong&gt;TL;DR — The cascade:&lt;/strong&gt;&lt;br&gt;
- Factory drains power → sorters slow down → thermal plants don't get fuel → production drops → more power loss → everything dies.&lt;br&gt;
- &lt;strong&gt;The fix:&lt;/strong&gt; Disconnect non-essential buildings. Feed thermal plants manually. Then build more solar.
-&lt;/div&gt;
-&lt;div class="section-head"&gt;&lt;h2&gt;⚡ What Just Happened (The Cascade)&lt;/h2&gt;&lt;/div&gt;
-
-&lt;p&gt;DSP has a nasty feedback loop that first-timers always run into:&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mid-Game on Dyson Sphere Program Guide</title>
+    <link>http://localhost:1414/tags/mid-game/</link>
+    <description>Recent content in Mid-Game on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 May 2026 23:12:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1414/tags/mid-game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Clear Hydrogen Backup in DSP Without Stopping Power Grid</title>
+      <link>http://localhost:1414/hydrogen-backup-fix/</link>
+      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/hydrogen-backup-fix/</guid>
+      <description>&lt;p&gt;Your thermal plants flicker. Refineries stall. Power drops to 20%. You check the grid and find hydrogen backed up all the way to your refineries. Every DSP player hits this wall around Yellow Science.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;Build a thermal power plant, connect it to your hydrogen line, and split off your excess hydrogen to burn for power.&lt;br&gt;&#xD;&#xA;&lt;strong&gt;Key insight:&lt;/strong&gt; You do NOT need to stop your factory. You need to &lt;em&gt;consume&lt;/em&gt; the excess hydrogen before it blocks your refineries. One thermal plant burning hydrogen at 100% upkeep can sink your entire hydrogen overflow.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1414/images/hydrogen-backup-fix.svg&#34; alt=&#34;Hydrogen backup fix diagram showing how to split off excess hydrogen to thermal plants while keeping your main hydrogen line flowing&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;800&#34; height=&#34;450&#34;&gt;&#xD;&#xA;&lt;h2 id=&#34;why-hydrogen-backup-happens&#34;&gt;The Core Problem: Why Hydrogen Traps Your Grid&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hydrogen backup is a design paradox: your refineries &lt;strong&gt;need&lt;/strong&gt; to output hydrogen to keep running, but when your hydrogen buffers are full, the refineries stall. When refineries stall, you stop producing oil products (refined oil, graphite, and the red science flowing through them). Your entire early-to-mid game chain collapses.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</title>
+      <link>http://localhost:1414/blue-science-hydrogen-refining/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/blue-science-hydrogen-refining/</guid>
+      <description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Blue Science is the first wall in DSP that is not just &#34;build more miners.&#34; It introduces Refined Oil, Hydrogen byproducts, and the frustrating &#34;one output backed up, whole chain dead&#34; problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;&#xD;&#xA;  2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;&#xD;&#xA;  3. Titanium Ingots are required for Blue Matrix; set that up first&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Oil &amp; Plastics: Full Refining Chain Guide</title>
+      <link>http://localhost:1414/oil-plastics-refining/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/oil-plastics-refining/</guid>
+      <description>&lt;p&gt;Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up — is a system that catches almost everyone off guard.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete Oil Refining chain from extraction to end products, with working production ratios, the critical &lt;strong&gt;hydrogen byproduct problem&lt;/strong&gt;, and how to automate it without tearing your hair out.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Green Science and Warpers: Stop Being Scared of Green Matrix (DSP Guide)</title>
+      <link>http://localhost:1414/green-science-warper-guide/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/green-science-warper-guide/</guid>
+      <description>&lt;p&gt;You&#39;ve got Yellow Science running. Titanium flowing. Everything is… fine. Then you look at Green Matrix. Three ingredients. Processors. Casimir Crystals. Electromagnetic Turbines.&lt;/p&gt;&#xA;&lt;p&gt;And you think: &lt;strong&gt;&amp;quot;Yeah no. I&#39;ll do it later.&amp;quot;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I get it. Every DSP player hits this wall. But here&#39;s the thing — Green Matrix unlocks Space Warpers. And Warpers turn your factory from a solar-system-only operation into a galactic empire. You want that.&lt;/p&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Green Matrix needs 3 things: &lt;strong&gt;Processors + Casimir Crystals + EM Turbines.&lt;/strong&gt; Scale your existing Processor line. Build a Casimir plant. That&#39;s most of the work done.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;The Three Things You Need&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Green Matrix = Processors + Casimir Crystals + EM Turbines&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ILS Not Moving Items? Here&#39;s the 30-Second Fix (DSP Guide)</title>
+      <link>http://localhost:1414/ils-setup-guide/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/ils-setup-guide/</guid>
+      <description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn&#39;t this working&amp;rdquo; question in DSP. Let&#39;s fix it in 30 seconds flat.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;&#xD;&#xA;  2. Your vessels need Space Warpers to fly. Put some in the slot.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn&#39;t know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why Your DSP Power Grid Keeps Crashing (And How to Fix It)</title>
+      <link>http://localhost:1414/power-fix-guide/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1414/power-fix-guide/</guid>
+      <description>&lt;p&gt;Everything is running. Then: darkness. Sorters moving like they&#39;re underwater. Your thermal plants flickering on and off. The death spiral.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Here&#39;s what happened and how to fix it.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR — The cascade:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  Factory drains power → sorters slow down → thermal plants don&#39;t get fuel → production drops → more power loss → everything dies.&lt;br&gt;&#xD;&#xA;  &lt;strong&gt;The fix:&lt;/strong&gt; Disconnect non-essential buildings. Feed thermal plants manually. Then build more solar.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;⚡ What Just Happened (The Cascade)&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;DSP has a nasty feedback loop that first-timers always run into:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
