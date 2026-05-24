@@ -237,19 +237,6 @@ You have a titanium mining outpost on an ice planet in a distant star system. Yo
     if (node.tagName === 'H2' && !node.closest('.section-head')) {
       var wrapper = document.createElement('div');
       wrapper.className = 'section-head collapsible';
-      wrapper.style.display = 'flex';
-      wrapper.style.alignItems = 'center';
-      wrapper.style.gap = '10px';
-      wrapper.style.cursor = 'pointer';
-      wrapper.style.userSelect = 'none';
-      wrapper.style.padding = '14px 18px';
-      wrapper.style.margin = '0';
-      wrapper.style.background = 'rgba(10,22,40,0.85)';
-      wrapper.style.borderRadius = '6px';
-      wrapper.style.borderTop = '1px solid rgba(245,158,11,0.1)';
-      wrapper.style.borderRight = '1px solid rgba(245,158,11,0.1)';
-      wrapper.style.borderBottom = '1px solid rgba(245,158,11,0.1)';
-      wrapper.style.borderLeft = '4px solid #f59e0b';
       node.parentNode.insertBefore(wrapper, node);
       wrapper.appendChild(node);
       heads.push(wrapper);
