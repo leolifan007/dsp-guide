@@ -1954,10 +1954,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   padding: 0 24px;
 }
 .section-content-block > *:not(.section-head):first-of-type {
-  padding-top: 22px;
-}
-.section-content-block > *:last-child {
-  padding-bottom: 22px;
+  padding-top: 20px;
 }
 .section-content-block p,
 .section-content-block ul,
