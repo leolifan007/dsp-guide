@@ -1960,6 +1960,9 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 .section-content-block blockquote {
   margin-bottom: 14px;
 }
+.section-content-block ol {
+  padding-left: 36px;
+}
 .section-content-block p:last-child,
 .section-content-block ul:last-child,
 .section-content-block ol:last-child {
@@ -1967,7 +1970,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 }
 .section-content-block .pro-tip,
 .section-content-block .callout {
-  margin: 16px 0 !important;
+  margin: 16px 24px !important;
 }
 .section-content-block img {
   margin: 18px auto !important;
