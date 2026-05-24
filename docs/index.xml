@@ -16,41 +16,6 @@
       <description>&lt;p&gt;Your thermal plants flicker. Refineries stall. Power drops to 20%. You check the grid and find hydrogen backed up all the way to your refineries. Every DSP player hits this wall around Yellow Science.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;Build a thermal power plant, connect it to your hydrogen line, and split off your excess hydrogen to burn for power.&lt;br&gt;&#xD;&#xA;&lt;strong&gt;Key insight:&lt;/strong&gt; You do NOT need to stop your factory. You need to &lt;em&gt;consume&lt;/em&gt; the excess hydrogen before it blocks your refineries. One thermal plant burning hydrogen at 100% upkeep can sink your entire hydrogen overflow.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/hydrogen-backup-fix.svg&#34; alt=&#34;Hydrogen backup fix diagram showing how to split off excess hydrogen to thermal plants while keeping your main hydrogen line flowing&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;800&#34; height=&#34;450&#34;&gt;&#xD;&#xA;&lt;h2 id=&#34;why-hydrogen-backup-happens&#34;&gt;The Core Problem: Why Hydrogen Traps Your Grid&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hydrogen backup is a design paradox: your refineries &lt;strong&gt;need&lt;/strong&gt; to output hydrogen to keep running, but when your hydrogen buffers are full, the refineries stall. When refineries stall, you stop producing oil products (refined oil, graphite, and the red science flowing through them). Your entire early-to-mid game chain collapses.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>DSP Research Lab Setup: Complete Automation Guide</title>
-      <link>https://dsp-guide.com/research-lab-automation-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/research-lab-automation-guide/</guid>
-      <description>&lt;p&gt;Research is the clock in DSP. Every unlock — new buildings, new recipes, new logistics options — lives behind the research tree. And research lives behind science packs. If your science pack production is weak, your entire progression grinds to a halt.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete science pack chain from Red Science to Purple Science, lab setup ratios, power requirements, and which research priorities actually matter for your factory&#39;s next phase.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dyson Sphere Program Energy Matrix: Complete Production Guide</title>
-      <link>https://dsp-guide.com/energy-matrix-production-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/energy-matrix-production-guide/</guid>
-      <description>&lt;p&gt;Energy Matrix is the energy currency that powers Dyson Sphere construction. Every Solar Sail launched, every Ray Receiver powered, every component of the Dyson Sphere itself — all of it requires Energy Matrix. It&#39;s the fuel of the endgame, and getting a reliable Energy Matrix supply running is one of the most satisfying milestones in DSP.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete Energy Matrix production chain, the recipes that matter, how to scale it, and how proliferation affects your output.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dyson Sphere Program Logistics Drones vs Belts: Complete Comparison</title>
-      <link>https://dsp-guide.com/logistics-drones-vs-belts-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/logistics-drones-vs-belts-guide/</guid>
-      <description>&lt;p&gt;DSP gives you two ways to move materials: belts and drones. Belts are local, simple, and fast. Drones are flexible, cross-planetary, and require zero physical infrastructure. Knowing which to use — and when — is one of the core strategic decisions in DSP factory design.&lt;/p&gt;&#xA;&lt;p&gt;This guide breaks down throughput, use cases, cost, and scalability for each system.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Use &lt;strong&gt;belts&lt;/strong&gt; for high-throughput local transport (within a planet). Use &lt;strong&gt;logistics drones&lt;/strong&gt; for cross-planetary transport and flexible low-volume requests. Use &lt;strong&gt;vessels&lt;/strong&gt; for massive interplanetary shipments of raw materials. For maximum efficiency, combine all three — belts for planet-level production, drones and vessels for network-level logistics.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/diagrams/logistics-main.svg&#34; alt=&#34;Logistics choice matrix — when to use belts, drones, or vessels&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;780&#34;&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;Belt Transportation: When to Use It&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Belt transport moves materials along physical paths. They&#39;re fast, reliable, and perfect for any situation where you&#39;re moving high volumes of materials between buildings on the same planet.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dyson Sphere Program Mining Outposts: Coal, Fire Ice &amp; Resource Veins</title>
-      <link>https://dsp-guide.com/coal-fire-ice-mining-outpost-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/coal-fire-ice-mining-outpost-guide/</guid>
-      <description>&lt;p&gt;Every DSP factory runs on raw materials — and raw materials live on planets that are rarely the planet where your main factory sits. Mining outposts are how you get coal from a gas giant&#39;s moon, titanium from an ice world, and fire ice from the dark reaches of the galaxy without leaving your main factory&#39;s logistics grid.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers how to build mining outposts, position mining machines correctly, and connect them to your logistics network so resources flow automatically.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dyson Sphere Program Smelting Arrays: Complete Setup Guide</title>
-      <link>https://dsp-guide.com/smelting-array-blueprint-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/smelting-array-blueprint-guide/</guid>
-      <description>&lt;p&gt;Smelting is where every DSP run starts, and where most players first feel the pain of scaling up. One smelter looks fine. Ten smelters look decent. Fifty smelters feeding a sprawling factory reveal every bottleneck you buried under &amp;quot;it should work.&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;This guide covers smelting from the first furnace on a new planet through to full production columns — the correct ratios, the belt speeds that matter, and the layouts that scale cleanly without requiring you to redesign everything at every tier.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</title>
       <link>https://dsp-guide.com/blue-science-hydrogen-refining/</link>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>

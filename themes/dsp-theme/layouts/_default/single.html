@@ -67,14 +67,17 @@
   var heads = [];
   var headNodes = content.querySelectorAll('.section-head.collapsible, h2');
   headNodes.forEach(function(node) {
-    // If it's a plain h2 (not inside .section-head), wrap it in a section-head style div
-    if (node.tagName === 'H2' && !node.closest('.section-head')) {
-      var wrapper = document.createElement('div');
-      wrapper.className = 'section-head collapsible';
-      node.parentNode.insertBefore(wrapper, node);
-      wrapper.appendChild(node);
-      heads.push(wrapper);
-    } else {
+    if (node.tagName === 'H2') {
+      // Plain h2 (not inside .section-head) → wrap it
+      if (!node.closest('.section-head')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'section-head collapsible';
+        node.parentNode.insertBefore(wrapper, node);
+        wrapper.appendChild(node);
+        heads.push(wrapper);
+      }
+      // h2 already inside .section-head → skip (avoid double-processing)
+    } else if (node.classList.contains('section-head')) {
       heads.push(node);
     }
   });

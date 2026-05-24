@@ -92,12 +92,6 @@ gtag('consent', 'default', {
         <div class="sidebar-panel-header">In This Category</div>
         <ul class="sidebar-panel-list">
           
-          <li>
-            <a href="/coal-fire-ice-mining-outpost-guide/">
-              <span class="sp-list-title">Dyson Sphere Program Mining Outposts: …</span>
-            </a>
-          </li>
-          
           <li class="active">
             <a href="/oil-plastics-refining/">
               <span class="sp-list-title">DSP Oil &amp; Plastics: Full Refining Chain …</span>
@@ -237,8 +231,106 @@ gtag('consent', 'default', {
 | Heavy Oil Residual | Crude Oil x1/s | Refined Oil x0.5/s + H2 x1/s | H2-focused |
 | Plastics | Refined Oil + Coal | Plastics x1 / 1.5s | Mid-game component |
 | Rocket Fuel | Refined Oil x2 + Coal x1 | Rocket Fuel x1 / 3s | Endgame fuel |
-| Graphene | Coal + Refined Oil | Graphene x2 + H2 x1 | Sail component |</p><p><strong>Extractor → Refinery ratio:</strong> 1 extractor feeds ~1 refinery comfortably. Scale with multiples.</p><p>Oil isn't complicated — it's just demanding. One Refinery bank solving for hydrogen keeps everything downstream clean. Run hydrogen into Fuel Plants, use the refined oil for Plastics, and scale with parallel refineries rather than faster ones. The moment your refinery tanks are backed up, check your hydrogen consumer count first. More often than not, that's the bottleneck.</p><p>For getting oil resources off-world, see our <a href=/titanium-transport-guide/>Titanium Transport Guide</a>.</p></div></main></div></div><script>(function(){var e,t,n,o,i,a,r,s=document.getElementById("articleContent");if(!s)return;if(e=[],a=s.querySelectorAll(".section-head.collapsible, h2"),a.forEach(function(t){if(t.tagName==="H2"&&!t.closest(".section-head")){var n=document.createElement("div");n.className="section-head collapsible",t.parentNode.insertBefore(n,t),n.appendChild(t),e.push(n)}else e.push(t)}),e.length===0)return;for(o=[],n=0;n<e.length;n++){for(i=[e[n]],t=e[n].nextElementSibling;t&&!t.classList.contains("section-head")&&t.tagName!=="H2";)i.push(t),t=t.nextElementSibling;o.push(i)}o.forEach(function(e){var n,t=document.createElement("div");t.className="section-content-block",n=e[0].parentNode,n.insertBefore(t,e[0]),e.forEach(function(e){t.appendChild(e)})}),r=s.querySelectorAll(".section-content-block"),r.forEach(function(e){var t=e.querySelector(".section-head");if(!t)return;t.addEventListener("click",function(){e.classList.toggle("collapsed");var t=e.querySelectorAll(":scope > *:not(.section-head)");t.forEach(function(e){e.style.display=e.style.display==="none"?"":"none"})})})})()</script></div><footer class=site-footer><div class=footer-links><a href=/>Guides</a>
-<a href=/tags/>Topics</a>
-<a href=/privacy/>Privacy</a></div><p><strong>DSP Guide</strong> - Unofficial community guides for Dyson Sphere Program.</p><p>(C) 2026 DSP Guide - Game assets belong to Youthcat Studio / Gamera Games</p></footer><div id=cookieBanner class=cookie-banner style=display:none><p class=cookie-banner-text>This site uses cookies from Google for analytics and advertising.
-<a href=/privacy/>Learn more</a></p><div class=cookie-banner-actions><button id=cookieReject class="cookie-btn cookie-btn-reject">Reject</button>
-<button id=cookieAccept class="cookie-btn cookie-btn-accept">Accept All</button></div></div><script src=/js/main.js></script><script src=/js/cookie-consent.js></script></body></html>
+| Graphene | Coal + Refined Oil | Graphene x2 + H2 x1 | Sail component |</p>
+<p><strong>Extractor → Refinery ratio:</strong> 1 extractor feeds ~1 refinery comfortably. Scale with multiples.</p>
+<p>Oil isn't complicated — it's just demanding. One Refinery bank solving for hydrogen keeps everything downstream clean. Run hydrogen into Fuel Plants, use the refined oil for Plastics, and scale with parallel refineries rather than faster ones. The moment your refinery tanks are backed up, check your hydrogen consumer count first. More often than not, that's the bottleneck.</p>
+<p>For getting oil resources off-world, see our <a href="/titanium-transport-guide/">Titanium Transport Guide</a>.</p>
+
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+(function() {
+  var content = document.getElementById('articleContent');
+  if (!content) return;
+
+  
+  var heads = [];
+  var headNodes = content.querySelectorAll('.section-head.collapsible, h2');
+  headNodes.forEach(function(node) {
+    if (node.tagName === 'H2') {
+      
+      if (!node.closest('.section-head')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'section-head collapsible';
+        node.parentNode.insertBefore(wrapper, node);
+        wrapper.appendChild(node);
+        heads.push(wrapper);
+      }
+      
+    } else if (node.classList.contains('section-head')) {
+      heads.push(node);
+    }
+  });
+
+  if (heads.length === 0) return;
+
+  
+  var sections = [];
+  for (var i = 0; i < heads.length; i++) {
+    var sectionContent = [heads[i]];
+    var sib = heads[i].nextElementSibling;
+    while (sib && !sib.classList.contains('section-head') && sib.tagName !== 'H2') {
+      sectionContent.push(sib);
+      sib = sib.nextElementSibling;
+    }
+    sections.push(sectionContent);
+  }
+
+  
+  sections.forEach(function(elems) {
+    var block = document.createElement('div');
+    block.className = 'section-content-block';
+    var parent = elems[0].parentNode;
+    parent.insertBefore(block, elems[0]);
+    elems.forEach(function(el) {
+      block.appendChild(el);
+    });
+  });
+
+  
+  var allBlocks = content.querySelectorAll('.section-content-block');
+  allBlocks.forEach(function(block) {
+    var head = block.querySelector('.section-head');
+    if (!head) return;
+    head.addEventListener('click', function() {
+      block.classList.toggle('collapsed');
+      var toggles = block.querySelectorAll(':scope > *:not(.section-head)');
+      toggles.forEach(function(el) {
+        el.style.display = el.style.display === 'none' ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/">Guides</a>
+      <a href="/tags/">Topics</a>
+      <a href="/privacy/">Privacy</a>
+    </div>
+    <p><strong>DSP Guide</strong> - Unofficial community guides for Dyson Sphere Program.</p>
+    <p>(C) 2026 DSP Guide - Game assets belong to Youthcat Studio / Gamera Games</p>
+  </footer>
+
+  
+  <div id="cookieBanner" class="cookie-banner" style="display:none;">
+    <p class="cookie-banner-text">
+      This site uses cookies from Google for analytics and advertising.
+      <a href="/privacy/">Learn more</a>
+    </p>
+    <div class="cookie-banner-actions">
+      <button id="cookieReject" class="cookie-btn cookie-btn-reject">Reject</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn-accept">Accept All</button>
+    </div>
+  </div>
+
+<script src="/js/main.js"></script>
+<script src="/js/cookie-consent.js"></script>
+</body>
+</html>
