@@ -1,124 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>DSP Guide – No Fluff, Just Fixes on Dyson Sphere Program Guide</title>
-    <link>https://dsp-guide.com/</link>
-    <description>Recent content in DSP Guide – No Fluff, Just Fixes on Dyson Sphere Program Guide</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 23:12:00 +0800</lastBuildDate>
-    <atom:link href="https://dsp-guide.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to Clear Hydrogen Backup in DSP Without Stopping Power Grid</title>
-      <link>https://dsp-guide.com/hydrogen-backup-fix/</link>
-      <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/hydrogen-backup-fix/</guid>
-      <description>&lt;p&gt;Your thermal plants flicker. Refineries stall. Power drops to 20%. You check the grid and find hydrogen backed up all the way to your refineries. Every DSP player hits this wall around Yellow Science.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;Build a thermal power plant, connect it to your hydrogen line, and split off your excess hydrogen to burn for power.&lt;br&gt;&#xD;&#xA;&lt;strong&gt;Key insight:&lt;/strong&gt; You do NOT need to stop your factory. You need to &lt;em&gt;consume&lt;/em&gt; the excess hydrogen before it blocks your refineries. One thermal plant burning hydrogen at 100% upkeep can sink your entire hydrogen overflow.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/hydrogen-backup-fix.svg&#34; alt=&#34;Hydrogen backup fix diagram showing how to split off excess hydrogen to thermal plants while keeping your main hydrogen line flowing&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;800&#34; height=&#34;450&#34;&gt;&#xD;&#xA;&lt;h2 id=&#34;why-hydrogen-backup-happens&#34;&gt;The Core Problem: Why Hydrogen Traps Your Grid&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hydrogen backup is a design paradox: your refineries &lt;strong&gt;need&lt;/strong&gt; to output hydrogen to keep running, but when your hydrogen buffers are full, the refineries stall. When refineries stall, you stop producing oil products (refined oil, graphite, and the red science flowing through them). Your entire early-to-mid game chain collapses.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Research Lab Setup: Complete Automation Guide</title>
-      <link>https://dsp-guide.com/research-lab-automation-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/research-lab-automation-guide/</guid>
-      <description>&lt;p&gt;Research is the clock in DSP. Every unlock — new buildings, new recipes, new logistics options — lives behind the research tree. And research lives behind science packs. If your science pack production is weak, your entire progression grinds to a halt.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete science pack chain from Red Science to Purple Science, lab setup ratios, power requirements, and which research priorities actually matter for your factory&#39;s next phase.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dyson Sphere Program Energy Matrix: Complete Production Guide</title>
-      <link>https://dsp-guide.com/energy-matrix-production-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/energy-matrix-production-guide/</guid>
-      <description>&lt;p&gt;Energy Matrix is the energy currency that powers Dyson Sphere construction. Every Solar Sail launched, every Ray Receiver powered, every component of the Dyson Sphere itself — all of it requires Energy Matrix. It&#39;s the fuel of the endgame, and getting a reliable Energy Matrix supply running is one of the most satisfying milestones in DSP.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete Energy Matrix production chain, the recipes that matter, how to scale it, and how proliferation affects your output.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dyson Sphere Program Logistics Drones vs Belts: Complete Comparison</title>
-      <link>https://dsp-guide.com/logistics-drones-vs-belts-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/logistics-drones-vs-belts-guide/</guid>
-      <description>&lt;p&gt;DSP gives you two ways to move materials: belts and drones. Belts are local, simple, and fast. Drones are flexible, cross-planetary, and require zero physical infrastructure. Knowing which to use — and when — is one of the core strategic decisions in DSP factory design.&lt;/p&gt;&#xA;&lt;p&gt;This guide breaks down throughput, use cases, cost, and scalability for each system.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Use &lt;strong&gt;belts&lt;/strong&gt; for high-throughput local transport (within a planet). Use &lt;strong&gt;logistics drones&lt;/strong&gt; for cross-planetary transport and flexible low-volume requests. Use &lt;strong&gt;vessels&lt;/strong&gt; for massive interplanetary shipments of raw materials. For maximum efficiency, combine all three — belts for planet-level production, drones and vessels for network-level logistics.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/diagrams/logistics-main.svg&#34; alt=&#34;Logistics choice matrix — when to use belts, drones, or vessels&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;780&#34;&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;Belt Transportation: When to Use It&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Belt transport moves materials along physical paths. They&#39;re fast, reliable, and perfect for any situation where you&#39;re moving high volumes of materials between buildings on the same planet.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dyson Sphere Program Mining Outposts: Coal, Fire Ice &amp; Resource Veins</title>
-      <link>https://dsp-guide.com/coal-fire-ice-mining-outpost-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/coal-fire-ice-mining-outpost-guide/</guid>
-      <description>&lt;p&gt;Every DSP factory runs on raw materials — and raw materials live on planets that are rarely the planet where your main factory sits. Mining outposts are how you get coal from a gas giant&#39;s moon, titanium from an ice world, and fire ice from the dark reaches of the galaxy without leaving your main factory&#39;s logistics grid.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers how to build mining outposts, position mining machines correctly, and connect them to your logistics network so resources flow automatically.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dyson Sphere Program Smelting Arrays: Complete Setup Guide</title>
-      <link>https://dsp-guide.com/smelting-array-blueprint-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/smelting-array-blueprint-guide/</guid>
-      <description>&lt;p&gt;Smelting is where every DSP run starts, and where most players first feel the pain of scaling up. One smelter looks fine. Ten smelters look decent. Fifty smelters feeding a sprawling factory reveal every bottleneck you buried under &amp;quot;it should work.&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;This guide covers smelting from the first furnace on a new planet through to full production columns — the correct ratios, the belt speeds that matter, and the layouts that scale cleanly without requiring you to redesign everything at every tier.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</title>
-      <link>https://dsp-guide.com/blue-science-hydrogen-refining/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/blue-science-hydrogen-refining/</guid>
-      <description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Blue Science is the first wall in DSP that is not just &#34;build more miners.&#34; It introduces Refined Oil, Hydrogen byproducts, and the frustrating &#34;one output backed up, whole chain dead&#34; problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;&#xD;&#xA;  2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;&#xD;&#xA;  3. Titanium Ingots are required for Blue Matrix; set that up first&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Fire Ice &amp; Deuterium: Cold Planet Refining Guide</title>
-      <link>https://dsp-guide.com/fire-ice-deuterium/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/fire-ice-deuterium/</guid>
-      <description>&lt;p&gt;You&#39;ve found a lava world or an ice giant. The stars call it a Fire Ice planet — and it&#39;s full of something that doesn&#39;t exist on temperate worlds: &lt;strong&gt;Deuterium&lt;/strong&gt;. Deuterium is your path to advanced fuels, high-output Rocket Fuel, and the Yellow Science chain.&lt;/p&gt;&#xA;&lt;p&gt;But getting it out of the ground and into your factory requires understanding a completely different logistics problem.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers finding Fire Ice planets, the extraction and refining mechanics, managing the water byproduct, and how to integrate Deuterium into your endgame production.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Oil &amp; Plastics: Full Refining Chain Guide</title>
-      <link>https://dsp-guide.com/oil-plastics-refining/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/oil-plastics-refining/</guid>
-      <description>&lt;p&gt;Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up — is a system that catches almost everyone off guard.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete Oil Refining chain from extraction to end products, with working production ratios, the critical &lt;strong&gt;hydrogen byproduct problem&lt;/strong&gt;, and how to automate it without tearing your hair out.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title>
-      <link>https://dsp-guide.com/quantum-chips-proliferator/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/quantum-chips-proliferator/</guid>
-      <description>&lt;p&gt;Every factory has a ceiling. At some point you&#39;re running 40 assemblers on your Circuit Board chain and wondering if there&#39;s a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&#39;s a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Solar Sails &amp; Ray Receivers: Complete Endgame Power Guide</title>
-      <link>https://dsp-guide.com/solar-sails-ray-receivers/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/solar-sails-ray-receivers/</guid>
-      <description>&lt;p&gt;You&#39;ve got a handful of coal power plants. Maybe you&#39;ve built a wind farm or twelve. You&#39;re researching toward the stars — literally — and then it hits you: the Dyson sphere isn&#39;t just the goal, it&#39;s the power solution. To get there, you need Solar Sails and Ray Receivers working in tandem.&lt;/p&gt;&#xA;&lt;p&gt;One launches into orbit and reflects stellar radiation. The other catches that energy and converts it into usable power for your planet.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Can&#39;t Find Titanium in DSP? Here&#39;s How to Get It (And Bring It Home)</title>
-      <link>https://dsp-guide.com/titanium-transport-guide/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/titanium-transport-guide/</guid>
-      <description>&lt;p&gt;Your starter planet has no titanium.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;That&#39;s not a bug. It&#39;s not bad luck. It&#39;s literally how the game works. The devs designed it this way to force you to figure out interplanetary travel.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Here&#39;s the quickest way to get titanium and why you shouldn&#39;t panic.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR:&lt;/strong&gt; Fly to the planet next door. Mine the shiny blue rocks. Fly back with a full inventory. Build your first ILS to automate it. Done.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;Step 1: Find Your Titanium Planet&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Open your star map (M key). Look at the other planets in your starting system. One of them will have titanium veins. In the default cluster, your starter planet orbits the sun with two more planets — the one closer to the sun usually has titanium. Sometimes both do.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Green Science and Warpers: Stop Being Scared of Green Matrix (DSP Guide)</title>
-      <link>https://dsp-guide.com/green-science-warper-guide/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/green-science-warper-guide/</guid>
-      <description>&lt;p&gt;You&#39;ve got Yellow Science running. Titanium flowing. Everything is… fine. Then you look at Green Matrix. Three ingredients. Processors. Casimir Crystals. Electromagnetic Turbines.&lt;/p&gt;&#xA;&lt;p&gt;And you think: &lt;strong&gt;&amp;quot;Yeah no. I&#39;ll do it later.&amp;quot;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I get it. Every DSP player hits this wall. But here&#39;s the thing — Green Matrix unlocks Space Warpers. And Warpers turn your factory from a solar-system-only operation into a galactic empire. You want that.&lt;/p&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Green Matrix needs 3 things: &lt;strong&gt;Processors + Casimir Crystals + EM Turbines.&lt;/strong&gt; Scale your existing Processor line. Build a Casimir plant. That&#39;s most of the work done.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;The Three Things You Need&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Green Matrix = Processors + Casimir Crystals + EM Turbines&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ILS Not Moving Items? Here&#39;s the 30-Second Fix (DSP Guide)</title>
-      <link>https://dsp-guide.com/ils-setup-guide/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/ils-setup-guide/</guid>
-      <description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn&#39;t this working&amp;rdquo; question in DSP. Let&#39;s fix it in 30 seconds flat.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;&#xD;&#xA;  2. Your vessels need Space Warpers to fly. Put some in the slot.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn&#39;t know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Why Your DSP Power Grid Keeps Crashing (And How to Fix It)</title>
-      <link>https://dsp-guide.com/power-fix-guide/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/power-fix-guide/</guid>
-      <description>&lt;p&gt;Everything is running. Then: darkness. Sorters moving like they&#39;re underwater. Your thermal plants flickering on and off. The death spiral.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Here&#39;s what happened and how to fix it.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR — The cascade:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  Factory drains power → sorters slow down → thermal plants don&#39;t get fuel → production drops → more power loss → everything dies.&lt;br&gt;&#xD;&#xA;  &lt;strong&gt;The fix:&lt;/strong&gt; Disconnect non-essential buildings. Feed thermal plants manually. Then build more solar.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;⚡ What Just Happened (The Cascade)&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;DSP has a nasty feedback loop that first-timers always run into:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Privacy Policy</title>
-      <link>https://dsp-guide.com/privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/privacy/</guid>
-      <description>&lt;h2 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h2&gt;&#xA;&lt;p&gt;Last updated: May 19, 2026&lt;/p&gt;&#xA;&lt;p&gt;This Privacy Policy describes how DSP Guide (&amp;quot;we&amp;quot;, &amp;quot;our&amp;quot;, or &amp;quot;the Site&amp;quot;) collects, uses, and shares information when you visit our website at &lt;strong&gt;dsp-guide.com&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;information-we-collect&#34;&gt;Information We Collect&lt;/h3&gt;&#xA;&lt;h4 id=&#34;google-analytics&#34;&gt;Google Analytics&lt;/h4&gt;&#xA;&lt;p&gt;We use Google Analytics (GA4), a web analytics service provided by Google LLC. Google Analytics uses cookies and similar technologies to collect and analyze information about how visitors use the Site. This information may include:&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DSP Guide – No Fluff, Just Fixes on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/</link><description>Recent content in DSP Guide – No Fluff, Just Fixes on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 22 May 2026 23:12:00 +0800</lastBuildDate><atom:link href="https://dsp-guide.com/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Clear Hydrogen Backup in DSP Without Stopping Power Grid</title><link>https://dsp-guide.com/hydrogen-backup-fix/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/hydrogen-backup-fix/</guid><description>&lt;p&gt;Your thermal plants flicker. Refineries stall. Power drops to 20%. You check the grid and find hydrogen backed up all the way to your refineries. Every DSP player hits this wall around Yellow Science.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;
+&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;
+Build a thermal power plant, connect it to your hydrogen line, and split off your excess hydrogen to burn for power.&lt;br&gt;
+&lt;strong&gt;Key insight:&lt;/strong&gt; You do NOT need to stop your factory. You need to &lt;em&gt;consume&lt;/em&gt; the excess hydrogen before it blocks your refineries. One thermal plant burning hydrogen at 100% upkeep can sink your entire hydrogen overflow.
+&lt;/div&gt;
+&lt;img src="https://dsp-guide.com/images/hydrogen-backup-fix.svg" alt="Hydrogen backup fix diagram showing how to split off excess hydrogen to thermal plants while keeping your main hydrogen line flowing" class="schema-diagram" loading="lazy" width="800" height="450"&gt;
+&lt;h2 id="why-hydrogen-backup-happens"&gt;The Core Problem: Why Hydrogen Traps Your Grid&lt;/h2&gt;
+&lt;p&gt;Hydrogen backup is a design paradox: your refineries &lt;strong&gt;need&lt;/strong&gt; to output hydrogen to keep running, but when your hydrogen buffers are full, the refineries stall. When refineries stall, you stop producing oil products (refined oil, graphite, and the red science flowing through them). Your entire early-to-mid game chain collapses.&lt;/p&gt;</description></item><item><title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</title><link>https://dsp-guide.com/blue-science-hydrogen-refining/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/blue-science-hydrogen-refining/</guid><description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;
+&lt;p&gt;Blue Science is the first wall in DSP that is not just "build more miners." It introduces Refined Oil, Hydrogen byproducts, and the frustrating "one output backed up, whole chain dead" problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;
+ &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;
+ 1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;
+ 2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;
+ 3. Titanium Ingots are required for Blue Matrix; set that up first
+&lt;/div&gt;
+&lt;div class="section-head collapsible"&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description></item><item><title>DSP Fire Ice &amp; Deuterium: Cold Planet Refining Guide</title><link>https://dsp-guide.com/fire-ice-deuterium/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/fire-ice-deuterium/</guid><description>&lt;p&gt;You've found a lava world or an ice giant. The stars call it a Fire Ice planet — and it's full of something that doesn't exist on temperate worlds: &lt;strong&gt;Deuterium&lt;/strong&gt;. Deuterium is your path to advanced fuels, high-output Rocket Fuel, and the Yellow Science chain.&lt;/p&gt;
+&lt;p&gt;But getting it out of the ground and into your factory requires understanding a completely different logistics problem.&lt;/p&gt;
+&lt;p&gt;This guide covers finding Fire Ice planets, the extraction and refining mechanics, managing the water byproduct, and how to integrate Deuterium into your endgame production.&lt;/p&gt;</description></item><item><title>DSP Oil &amp; Plastics: Full Refining Chain Guide</title><link>https://dsp-guide.com/oil-plastics-refining/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/oil-plastics-refining/</guid><description>&lt;p&gt;Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up — is a system that catches almost everyone off guard.&lt;/p&gt;
+&lt;p&gt;This guide covers the complete Oil Refining chain from extraction to end products, with working production ratios, the critical &lt;strong&gt;hydrogen byproduct problem&lt;/strong&gt;, and how to automate it without tearing your hair out.&lt;/p&gt;</description></item><item><title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title><link>https://dsp-guide.com/quantum-chips-proliferator/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/quantum-chips-proliferator/</guid><description>&lt;p&gt;Every factory has a ceiling. At some point you're running 40 assemblers on your Circuit Board chain and wondering if there's a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It's a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;
+&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description></item><item><title>DSP Solar Sails &amp; Ray Receivers: Complete Endgame Power Guide</title><link>https://dsp-guide.com/solar-sails-ray-receivers/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/solar-sails-ray-receivers/</guid><description>&lt;p&gt;You've got a handful of coal power plants. Maybe you've built a wind farm or twelve. You're researching toward the stars — literally — and then it hits you: the Dyson sphere isn't just the goal, it's the power solution. To get there, you need Solar Sails and Ray Receivers working in tandem.&lt;/p&gt;
+&lt;p&gt;One launches into orbit and reflects stellar radiation. The other catches that energy and converts it into usable power for your planet.&lt;/p&gt;</description></item><item><title>Can't Find Titanium in DSP? Here's How to Get It (And Bring It Home)</title><link>https://dsp-guide.com/titanium-transport-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/titanium-transport-guide/</guid><description>&lt;p&gt;Your starter planet has no titanium.&lt;/p&gt;
+&lt;p&gt;That's not a bug. It's not bad luck. It's literally how the game works. The devs designed it this way to force you to figure out interplanetary travel.&lt;/p&gt;
+&lt;p&gt;Here's the quickest way to get titanium and why you shouldn't panic.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;
+ &lt;strong&gt;TL;DR:&lt;/strong&gt; Fly to the planet next door. Mine the shiny blue rocks. Fly back with a full inventory. Build your first ILS to automate it. Done.
+&lt;/div&gt;
+&lt;div class="section-head collapsible"&gt;&lt;h2&gt;Step 1: Find Your Titanium Planet&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Open your star map (M key). Look at the other planets in your starting system. One of them will have titanium veins. In the default cluster, your starter planet orbits the sun with two more planets — the one closer to the sun usually has titanium. Sometimes both do.&lt;/p&gt;</description></item><item><title>Green Science and Warpers: Stop Being Scared of Green Matrix (DSP Guide)</title><link>https://dsp-guide.com/green-science-warper-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/green-science-warper-guide/</guid><description>&lt;p&gt;You've got Yellow Science running. Titanium flowing. Everything is… fine. Then you look at Green Matrix. Three ingredients. Processors. Casimir Crystals. Electromagnetic Turbines.&lt;/p&gt;
+&lt;p&gt;And you think: &lt;strong&gt;&amp;quot;Yeah no. I'll do it later.&amp;quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I get it. Every DSP player hits this wall. But here's the thing — Green Matrix unlocks Space Warpers. And Warpers turn your factory from a solar-system-only operation into a galactic empire. You want that.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Green Matrix needs 3 things: &lt;strong&gt;Processors + Casimir Crystals + EM Turbines.&lt;/strong&gt; Scale your existing Processor line. Build a Casimir plant. That's most of the work done.&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;div class="section-head collapsible"&gt;&lt;h2&gt;The Three Things You Need&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Green Matrix = Processors + Casimir Crystals + EM Turbines&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>ILS Not Moving Items? Here's the 30-Second Fix (DSP Guide)</title><link>https://dsp-guide.com/ils-setup-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/ils-setup-guide/</guid><description>&lt;p&gt;Your ILS has power. Ships are docked. Nothing moves.&lt;/p&gt;
+&lt;p&gt;Yeah. This is the #1 &amp;ldquo;why the hell isn't this working&amp;rdquo; question in DSP. Let's fix it in 30 seconds flat.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;
+ &lt;strong&gt;TL;DR — Two things to check:&lt;/strong&gt;&lt;br&gt;
+ 1. One planet must be Supply, the other Demand (not both Supply)&lt;br&gt;
+ 2. Your vessels need Space Warpers to fly. Put some in the slot.
+&lt;/div&gt;
+&lt;div class="section-head collapsible"&gt;&lt;h2&gt;Supply vs Demand — The 1-Minute Show&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Every ILS slot has a dropdown: Supply, Demand, and Store. Half the community doesn't know these make the difference between a dead ILS and a humming factory.&lt;/p&gt;</description></item><item><title>Why Your DSP Power Grid Keeps Crashing (And How to Fix It)</title><link>https://dsp-guide.com/power-fix-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/power-fix-guide/</guid><description>&lt;p&gt;Everything is running. Then: darkness. Sorters moving like they're underwater. Your thermal plants flickering on and off. The death spiral.&lt;/p&gt;
+&lt;p&gt;Here's what happened and how to fix it.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;
+ &lt;strong&gt;TL;DR — The cascade:&lt;/strong&gt;&lt;br&gt;
+ Factory drains power → sorters slow down → thermal plants don't get fuel → production drops → more power loss → everything dies.&lt;br&gt;
+ &lt;strong&gt;The fix:&lt;/strong&gt; Disconnect non-essential buildings. Feed thermal plants manually. Then build more solar.
+&lt;/div&gt;
+&lt;div class="section-head collapsible"&gt;&lt;h2&gt;⚡ What Just Happened (The Cascade)&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;DSP has a nasty feedback loop that first-timers always run into:&lt;/p&gt;</description></item><item><title>Privacy Policy</title><link>https://dsp-guide.com/privacy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/privacy/</guid><description>&lt;h2 id="privacy-policy"&gt;Privacy Policy&lt;/h2&gt;
+&lt;p&gt;Last updated: May 19, 2026&lt;/p&gt;
+&lt;p&gt;This Privacy Policy describes how DSP Guide (&amp;quot;we&amp;quot;, &amp;quot;our&amp;quot;, or &amp;quot;the Site&amp;quot;) collects, uses, and shares information when you visit our website at &lt;strong&gt;dsp-guide.com&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id="information-we-collect"&gt;Information We Collect&lt;/h3&gt;
+&lt;h4 id="google-analytics"&gt;Google Analytics&lt;/h4&gt;
+&lt;p&gt;We use Google Analytics (GA4), a web analytics service provided by Google LLC. Google Analytics uses cookies and similar technologies to collect and analyze information about how visitors use the Site. This information may include:&lt;/p&gt;</description></item></channel></rss>
