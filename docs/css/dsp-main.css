@@ -1917,7 +1917,7 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   margin: 0;
   padding: 14px 18px;
   border-radius: 6px;
-  border: none;
+  border: 1px solid rgba(245,158,11,0.1);
   border-left: 4px solid var(--accent-amber);
   border-bottom: 1px solid rgba(245,158,11,0.15);
   background: rgba(10,22,40,0.85);
