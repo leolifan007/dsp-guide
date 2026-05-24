@@ -412,8 +412,14 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 }
 
 /* ===== Content Section Boxes ===== */
-.article-body hr {
-  display: none;
+.article-body hr,
+.article-content-sections hr,
+#articleContent hr {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  border: none !important;
 }
 .article-body > .section-head + * {
   /* content after section head grouped visually */
@@ -1897,6 +1903,15 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
   background: rgba(10,18,28,0.55);
   overflow: hidden;
   transition: border-color .3s ease, background .3s ease, box-shadow .3s ease;
+}
+/* Hide hr inside content blocks (from markdown --- between sections) */
+.section-content-block hr {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  border: none !important;
+  visibility: hidden !important;
 }
 .section-content-block:hover {
   border-color: rgba(245,158,11,0.25);
