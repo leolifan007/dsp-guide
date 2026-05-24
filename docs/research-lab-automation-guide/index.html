@@ -229,10 +229,11 @@ gtag('consent', 'default', {
       wrapper.style.padding = '14px 18px';
       wrapper.style.margin = '0';
       wrapper.style.background = 'rgba(10,22,40,0.85)';
-      wrapper.style.borderLeft = '4px solid #f59e0b';
       wrapper.style.borderRadius = '6px';
-      wrapper.style.border = '1px solid rgba(245,158,11,0.1)';
-      wrapper.style.borderLeftWidth = '4px';
+      wrapper.style.borderTop = '1px solid rgba(245,158,11,0.1)';
+      wrapper.style.borderRight = '1px solid rgba(245,158,11,0.1)';
+      wrapper.style.borderBottom = '1px solid rgba(245,158,11,0.1)';
+      wrapper.style.borderLeft = '4px solid #f59e0b';
       node.parentNode.insertBefore(wrapper, node);
       wrapper.appendChild(node);
       heads.push(wrapper);
