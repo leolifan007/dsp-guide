@@ -413,9 +413,24 @@ h1,h2,h3 { font-family: 'Orbitron', sans-serif; font-weight: 700; color: var(--t
 }
 
 /* ===== Content Section Boxes ===== */
-.article-body hr {
-  display: none;
+.article-body hr,
+.article-content-sections hr,
+#articleContent hr {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  border: none !important;
 }
+.section-content-block hr {
+  display: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  border: none !important;
+}
+/* Remove last-child padding in section-content-block */
+/* Remove last-child padding - handled by block margin now */
 .article-body > .section-head + * {
   /* content after section head grouped visually */
 }
