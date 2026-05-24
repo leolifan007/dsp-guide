@@ -1,19 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Resources on Dyson Sphere Program Guide</title>
-    <link>https://dsp-guide.com/tags/resources/</link>
-    <description>Recent content in Resources on Dyson Sphere Program Guide</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dsp-guide.com/tags/resources/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Can&#39;t Find Titanium in DSP? Here&#39;s How to Get It (And Bring It Home)</title>
-      <link>https://dsp-guide.com/titanium-transport-guide/</link>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/titanium-transport-guide/</guid>
-      <description>&lt;p&gt;Your starter planet has no titanium.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;That&#39;s not a bug. It&#39;s not bad luck. It&#39;s literally how the game works. The devs designed it this way to force you to figure out interplanetary travel.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Here&#39;s the quickest way to get titanium and why you shouldn&#39;t panic.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR:&lt;/strong&gt; Fly to the planet next door. Mine the shiny blue rocks. Fly back with a full inventory. Build your first ILS to automate it. Done.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;Step 1: Find Your Titanium Planet&lt;/h2&gt;&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Open your star map (M key). Look at the other planets in your starting system. One of them will have titanium veins. In the default cluster, your starter planet orbits the sun with two more planets — the one closer to the sun usually has titanium. Sometimes both do.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Resources on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/resources/</link><description>Recent content in Resources on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Thu, 14 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://dsp-guide.com/tags/resources/index.xml" rel="self" type="application/rss+xml"/><item><title>Can't Find Titanium in DSP? Here's How to Get It (And Bring It Home)</title><link>https://dsp-guide.com/titanium-transport-guide/</link><pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/titanium-transport-guide/</guid><description>&lt;p&gt;Your starter planet has no titanium.&lt;/p&gt;
+&lt;p&gt;That's not a bug. It's not bad luck. It's literally how the game works. The devs designed it this way to force you to figure out interplanetary travel.&lt;/p&gt;
+&lt;p&gt;Here's the quickest way to get titanium and why you shouldn't panic.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;
+ &lt;strong&gt;TL;DR:&lt;/strong&gt; Fly to the planet next door. Mine the shiny blue rocks. Fly back with a full inventory. Build your first ILS to automate it. Done.
+&lt;/div&gt;
+&lt;div class="section-head collapsible"&gt;&lt;h2&gt;Step 1: Find Your Titanium Planet&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Open your star map (M key). Look at the other planets in your starting system. One of them will have titanium veins. In the default cluster, your starter planet orbits the sun with two more planets — the one closer to the sun usually has titanium. Sometimes both do.&lt;/p&gt;</description></item></channel></rss>
