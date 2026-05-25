@@ -2,9 +2,8 @@
 title: "How to Fix ILS Not Picking Up Items From DSP Local Storage"
 description: "Your Interstellar Logistics Station has local storage items but drones won't pick them up? Here is the exact slot configuration and filter fix."
 date: "2026-05-25"
-lastmod: "2026-05-25T14:17:00+08:00"
-publishDate: "2026-05-25T14:17:00+08:00"
-hidden: true
+lastmod: "2026-05-25T23:40:00+08:00"
+hidden: false
 version: "0.10.32"
 categories: [Logistics & Transport]
 tags: [ils, logistics, drones, mid-game]
