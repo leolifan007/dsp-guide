@@ -1,0 +1,59 @@
+{{ define "main" }}
+<div class="home-page">
+  <section class="hero-section">
+    <div class="hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}');"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-logo">
+        <img src="{{ `images/dsp-logo.png` | relURL }}" alt="Dyson Sphere Program" class="game-logo">
+      </div>
+      <h1>DSP Guide <span class="hero-version">v0.10.34.28524</span></h1>
+      <p class="hero-sub">Real answers to the problems that actually stop your factory.<br>Written by players, for players.</p>
+    </div>
+  </section>
+
+  <main class="home-main">
+    {{/* ===== By Topic Section ===== */}}
+    <section class="topic-section">
+      <h2 class="section-title">By Topic</h2>
+      <div class="topic-grid">
+        {{ range $i, $cat := site.Params.nav_categories }}
+        {{ $slug := $cat | lower | replaceRE "\\s*&\\s*" "--" | replaceRE "\\s+" "-" }}
+        {{ $catArticles := where (where site.RegularPages "Params.hidden" "!=" true) "Params.categories" "intersect" (slice $cat) }}
+        {{ $count := len $catArticles }}
+        <a href="/categories/{{ $slug }}/" class="topic-card">
+          <div class="topic-banner topic-banner-{{ $i }}">
+            <img src="{{ `images/categories/` | relURL }}{{ $slug }}.svg" alt="{{ $cat }}" class="topic-img" loading="lazy">
+          </div>
+          <div class="topic-card-body">
+            <h3>{{ $cat }}</h3>
+            <div class="topic-count">{{ $count }} guide{{ if ne $count 1 }}s{{ end }}</div>
+          </div>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+
+    {{/* ===== Hot Guides Section ===== */}}
+    <section class="hot-guides-section">
+      <h2 class="section-title">Hot Guides</h2>
+      <div class="hot-grid-new">
+        {{ $pages := where .Site.RegularPages "Params.hidden" "!=" true }}
+        {{ $sorted := $pages.ByDate.Reverse }}
+        {{ range $i, $p := first 20 $sorted }}
+        <a href="{{ $p.RelPermalink }}" class="guide-card{{ if $p.Params.new }} new{{ end }}">
+          {{ if $p.Params.new }}<span class="new-badge">NEW</span>{{ end }}
+          <div class="hot-card-inner">
+            <h3>{{ $p.Title }}</h3>
+            <div class="hot-card-footer">
+              <span class="hot-card-read">Read Guide</span>
+              <span class="hot-card-date">{{ $p.Date.Format "Jan 2, 2006" }}</span>
+            </div>
+          </div>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+  </main>
+</div>
+{{ end }}
