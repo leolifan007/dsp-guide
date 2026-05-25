@@ -38,8 +38,31 @@ for f in "$ARTICLES_DIR"/*.md; do
   fi
 
   # Parse publishDate to epoch (handle ISO format with timezone)
-  # e.g. "2026-05-25T14:17:00+08:00" or "2026-05-25"
-  publish_epoch=$(date -d "$publish_date" +%s 2>/dev/null || echo "0")
+  # e.g. "2026-05-25T14:17:00+08:00" or "2026-05-25T14:17:00Z" or "2026-05-25"
+  # GNU date may not handle ISO 8601 with T and : in timezone offset
+  publish_epoch=0
+  
+  if echo "$publish_date" | grep -q "T"; then
+    # ISO 8601 format - convert to GNU date format
+    # Input: "2026-05-25T14:17:00+08:00" → Output: "2026-05-25 14:17:00 +0800"
+    # Input: "2026-05-25T14:17:00Z" → Output: "2026-05-25 14:17:00 +0000"
+    
+    # Handle Z (UTC) timezone
+    publish_date_fixed=$(echo "$publish_date" | sed 's/Z$/ +0000/')
+    
+    # Replace T with space
+    publish_date_fixed=$(echo "$publish_date_fixed" | sed 's/T/ /')
+    
+    # Remove : from timezone offset (e.g., +08:00 →  +0800)
+    publish_date_fixed=$(echo "$publish_date_fixed" | sed 's/\([+-][0-9][0-9]\):\([0-9][0-9]\)$/ \1\2/')
+    
+    echo "    DEBUG: Parsing ISO date: $publish_date → $publish_date_fixed"
+    publish_epoch=$(date -d "$publish_date_fixed" +%s 2>/dev/null || echo "0")
+  else
+    # Simple date format (no time)
+    echo "    DEBUG: Parsing simple date: $publish_date"
+    publish_epoch=$(date -d "$publish_date" +%s 2>/dev/null || echo "0")
+  fi
 
   if [ "$publish_epoch" -eq 0 ]; then
     echo "  SKIP: $(basename "$f") - cannot parse publishDate: $publish_date"
