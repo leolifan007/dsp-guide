@@ -1,9 +1,9 @@
 ---
 title: "How to Set Up DSP Gravity Matrix Production With Mk.III Proliferator"
 description: "Gravity matrices are the chokepoint of late-game DSP. Here is a blueprint-ready setup using Mk.III proliferator to 4x your output."
-date: "2026-05-31"
-lastmod: "2026-05-31T16:52:00+08:00"
-publishDate: "2026-05-31T16:52:00+08:00"
+date: "2026-05-30"
+lastmod: "2026-05-25T23:57:00+08:00"
+publishDate: "2026-05-30T14:00:00+08:00"
 hidden: true
 version: "0.10.32"
 categories: [Production & Science]
