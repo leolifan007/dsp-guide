@@ -1,0 +1,17 @@
+=== Auto-Publish Script ===
+Current time: 2026-05-27 16:51:03 UTC
+Current epoch: 1779900663
+    DEBUG: Parsing ISO date: 2026-05-30T14:00:00+08:00 → 2026-05-30 14:00:00 +0800
+  WAIT: gravity-matrix-proliferator.md - scheduled in 2d 13h (2026-05-30T14:00:00+08:00)
+    DEBUG: Parsing ISO date: 2026-05-27T14:00:00+08:00 → 2026-05-27 14:00:00 +0800
+  PUBLISH: ils-drone-congestion.md - "How to Prevent DSP Logistic Drone Congestion at ILS Station"
+    publishDate: 2026-05-27T14:00:00+08:00 (epoch: 1779861600, now: 1779900663)
+    DEBUG: Parsing ISO date: 2026-06-02T14:00:00+08:00 → 2026-06-02 14:00:00 +0800
+  WAIT: yellow-matrix-slowdown.md - scheduled in 5d 13h (2026-06-02T14:00:00+08:00)
+
+=== Articles published this run - will merge to main ===
+  hydrogen-backup-fix.md
+  ils-drone-congestion.md
+  ils-not-picking-items.md
+
+=== Auto-Publish Script Complete ===
