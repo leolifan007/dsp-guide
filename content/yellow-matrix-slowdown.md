@@ -3,8 +3,7 @@ title: "How to Fix DSP Yellow Matrix Research Slowdown After Tech Unlock"
 description: "Your yellow matrix research just ground to a halt after researching a major tech? Here is the real cause and the production line fix."
 date: "2026-06-02"
 lastmod: "2026-05-25T23:57:00+08:00"
-publishDate: "2026-06-02T14:00:00+08:00"
-hidden: true
+hidden: false
 version: "0.10.32"
 categories: [Production & Science]
 tags: [yellow-matrix, science, production-line, mid-game]
