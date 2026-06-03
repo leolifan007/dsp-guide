@@ -1,12 +1,10 @@
 baseURL = 'https://dsp-guide.com/'
 theme = 'dsp-theme'
 title = 'Dyson Sphere Program Guide'
-publishDir = 'docs'
+publishDir = 'public'
 enableRobotsTXT = true
 buildFuture = true
 buildDrafts = false
-
-disableKinds = ["taxonomy"]
 
 [markup]
   [markup.goldmark]
