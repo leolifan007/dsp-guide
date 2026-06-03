@@ -57,7 +57,9 @@ jobs:
             echo "has_changes=false" >> $GITHUB_OUTPUT
           fi
 
-  # Merge only published article files to main, then rebuild Hugo
+  # Merge published articles from content-polishing to main
+  # Strategy: wholesale checkout content/ + static/images/ from content-polishing,
+  # then remove any files that are still hidden:true (not yet due for publish)
   merge-to-main:
     needs: check-and-publish
     if: needs.check-and-publish.outputs.has_changes == 'true'
@@ -68,36 +70,45 @@ jobs:
           ref: main
           fetch-depth: 0
 
-      - name: Checkout content-polishing files
+      - name: Sync published files from content-polishing to main
         run: |
-          # Get the list of published (hidden:false) articles from content-polishing
           git fetch origin content-polishing
 
-          # Find files that exist on content-polishing but not on main (new articles)
-          # We only copy content/*.md and related static/images/*.svg files
-          # that are NOT hidden:true on content-polishing
-          CHANGES=false
+          # 1. Checkout all content files from content-polishing into main's working tree
+          #    This is reliable — no per-file diff logic needed
+          git checkout origin/content-polishing -- content/ 2>/dev/null || echo "  (no content/ diff)"
+          git checkout origin/content-polishing -- static/images/ 2>/dev/null || echo "  (no static/images/ diff)"
 
-          for f in $(git diff --name-only origin/main origin/content-polishing -- 'content/*.md' 'static/images/*.svg' 'static/images/*.png'); do
-            # Skip hidden articles
-            if echo "$f" | grep -q "^content/.*\.md$"; then
-              hidden=$(git show "origin/content-polishing:$f" | grep -c "^hidden: true" 2>/dev/null || true)
-              if [ "$hidden" -gt 0 ]; then
-                echo "  SKIP (still hidden): $f"
-                continue
-              fi
+          # 2. Remove files that are still hidden:true on content-polishing (not yet published)
+          for f in $(git diff --name-only --diff-filter=A -- 'content/*.md' 'static/images/*.svg' 'static/images/*.png' 2>/dev/null); do
+            [ -z "$f" ] && break
+            hidden=$(git show "origin/content-polishing:$f" 2>/dev/null | grep -c "^hidden: true" || true)
+            if [ "$hidden" -gt 0 ]; then
+              echo "  REMOVE (still hidden on polishing): $f"
+              git rm -f "$f" 2>/dev/null || rm -f "$f"
             fi
-
-            # Copy file from content-polishing to working tree
-            echo "  COPY: $f"
-            git checkout "origin/content-polishing" -- "$f"
-            CHANGES=true
           done
 
-          if [ "$CHANGES" = true ]; then
-            echo "has_files=true" >> $GITHUB_ENV
-          else
+          # 3. Also check modified files — if hidden:true on polishing, revert them
+          for f in $(git diff --name-only --diff-filter=M -- 'content/*.md' 2>/dev/null); do
+            [ -z "$f" ] && break
+            hidden=$(git show "origin/content-polishing:$f" 2>/dev/null | grep -c "^hidden: true" || true)
+            if [ "$hidden" -gt 0 ]; then
+              echo "  REVERT (re-hidden on polishing): $f"
+              git checkout origin/main -- "$f"
+            fi
+          done
+
+          # 4. Summary
+          echo ""
+          echo "=== Files staged for main ==="
+          git diff --staged --name-only || echo "(none)"
+
+          if git diff --staged --quiet; then
             echo "has_files=false" >> $GITHUB_ENV
+            echo "No files to release."
+          else
+            echo "has_files=true" >> $GITHUB_ENV
           fi
 
       - name: Setup Hugo
