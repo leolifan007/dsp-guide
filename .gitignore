@@ -1,5 +1,6 @@
 # Hugo build output
 /public/
+/docs/
 /resources/
 
 # OS files

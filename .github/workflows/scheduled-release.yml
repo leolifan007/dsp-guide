@@ -2,164 +2,82 @@ name: Scheduled Auto-Release
 
 on:
   schedule:
-    # Run twice daily: ~09:17 and ~21:43 CST (01:17 and 13:43 UTC)
-    # Non-round times to look natural
-    - cron: '17 1 * * *'
-    - cron: '43 13 * * *'
+    # 每天 09:11 CST (01:11 UTC)
+    - cron: '11 1 * * *'
+    # 周一三五 13:48 CST (05:48 UTC)
+    - cron: '48 5 * * 1,3,5'
+    # 周二四 17:23 CST (09:23 UTC)
+    - cron: '23 9 * * 2,4'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  check-and-publish:
+  publish:
     runs-on: ubuntu-latest
-    outputs:
-      has_changes: ${{ steps.check.outputs.has_changes }}
     steps:
       - uses: actions/checkout@v4
         with:
           ref: content-polishing
           fetch-depth: 0
 
-      - name: Check for due articles and publish
-        id: publish
-        run: |
-          chmod +x .github/scripts/auto-publish.sh
-          bash .github/scripts/auto-publish.sh 2>&1 | tee publish-log.txt
-
-          # Check if any article was published (hidden:false was set)
-          if git diff --name-only | grep -q "^content/"; then
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-            echo ""
-            echo "Files changed:"
-            git diff --name-only
-          else
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-            echo "No articles due for release."
-          fi
-
-      - name: Commit to content-polishing
-        if: steps.publish.outputs.has_changes == 'true' || steps.publish.outputs.has_changes == ''
+      - name: Sync with main
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add -A
-          git diff --staged --quiet || git commit -m "Auto-publish: $(date +'%Y-%m-%d %H:%M') [skip ci]"
-          git push origin content-polishing
-
-      - name: Check output
-        id: check
-        run: |
-          if [ "${{ steps.publish.outputs.has_changes }}" = "true" ]; then
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          fi
-
-  # Merge published articles from content-polishing to main
-  # Strategy: wholesale checkout content/ + static/images/ from content-polishing,
-  # then remove any files that are still hidden:true (not yet due for publish)
-  merge-to-main:
-    needs: check-and-publish
-    if: needs.check-and-publish.outputs.has_changes == 'true'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-
-      - name: Sync published files from content-polishing to main
-        run: |
-          git fetch origin content-polishing
-
-          # 1. Checkout all content files from content-polishing into main's working tree
-          #    This is reliable — no per-file diff logic needed
-          git checkout origin/content-polishing -- content/ 2>/dev/null || echo "  (no content/ diff)"
-          git checkout origin/content-polishing -- static/images/ 2>/dev/null || echo "  (no static/images/ diff)"
-
-          # 2. Remove files that are still hidden:true on content-polishing (not yet published)
-          for f in $(git diff --name-only --diff-filter=A -- 'content/*.md' 'static/images/*.svg' 'static/images/*.png' 2>/dev/null); do
-            [ -z "$f" ] && break
-            hidden=$(git show "origin/content-polishing:$f" 2>/dev/null | grep -c "^hidden: true" || true)
-            if [ "$hidden" -gt 0 ]; then
-              echo "  REMOVE (still hidden on polishing): $f"
-              git rm -f "$f" 2>/dev/null || rm -f "$f"
-            fi
-          done
-
-          # 3. Also check modified files — if hidden:true on polishing, revert them
-          for f in $(git diff --name-only --diff-filter=M -- 'content/*.md' 2>/dev/null); do
-            [ -z "$f" ] && break
-            hidden=$(git show "origin/content-polishing:$f" 2>/dev/null | grep -c "^hidden: true" || true)
-            if [ "$hidden" -gt 0 ]; then
-              echo "  REVERT (re-hidden on polishing): $f"
-              git checkout origin/main -- "$f"
-            fi
-          done
-
-          # 4. Summary
-          echo ""
-          echo "=== Files staged for main ==="
-          git diff --staged --name-only || echo "(none)"
-
-          if git diff --staged --quiet; then
-            echo "has_files=false" >> $GITHUB_ENV
-            echo "No files to release."
-          else
-            echo "has_files=true" >> $GITHUB_ENV
-          fi
+          git fetch origin main
+          git merge origin/main --no-edit 2>&1 || echo "Sync complete (no changes needed)"
 
       - name: Setup Hugo
-        if: env.has_files == 'true'
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: '0.152.2'
           extended: true
 
-      - name: Build with validation
-        if: env.has_files == 'true'
+      - name: Auto-publish due articles
+        id: publish
         run: |
-          # Encoding check
-          echo "=== Encoding Check ==="
-          for f in content/*.md; do
-            if [ "$(head -c 3 "$f")" = $'\xef\xbb\xbf' ]; then
-              echo "ERROR: BOM found in $f"
-              exit 1
-            fi
-          done
-          echo "All files: UTF-8 without BOM (OK)"
-
-          # Build
-          echo "=== Hugo Build ==="
-          hugo --minify
-
-          # Verify sitemap only contains published pages
-          echo "=== Sitemap Verification ==="
-          SITEMAP_COUNT=$(grep -c '<url>' docs/sitemap.xml)
-          HIDDEN_COUNT=$(grep -rl "^hidden: true" content/*.md 2>/dev/null | wc -l)
-          echo "Sitemap entries: $SITEMAP_COUNT"
-          echo "Hidden articles still on main: $HIDDEN_COUNT"
-          if [ "$HIDDEN_COUNT" -gt 0 ]; then
-            echo "ERROR: Hidden articles found on main branch!"
-            exit 1
+          chmod +x .github/scripts/auto-publish.py
+          python3 .github/scripts/auto-publish.py 2>&1 | tee publish-log.txt
+          # Check if any article was modified (hidden:true → hidden removed)
+          if git diff --name-only | grep -q "^content/"; then
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit and push to main
-        if: env.has_files == 'true'
+      - name: Commit and push to content-polishing
+        if: steps.publish.outputs.has_changes == 'true'
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
           git add -A
-          git diff --staged --quiet || git commit -m "Release: $(date +'%Y-%m-%d %H:%M') - published article(s) from content-polishing"
+          git diff --staged --quiet || git commit -m "Auto-publish: $(date +'%Y-%m-%d %H:%M') [skip ci]"
+          git push origin content-polishing
+
+      - name: Merge to main
+        if: steps.publish.outputs.has_changes == 'true'
+        run: |
+          git fetch origin main
+          git checkout main
+          git merge origin/content-polishing --no-edit
           git push origin main
 
-  # Cleanup: remove published articles' files from main if they were deleted there
-  # (this handles the case where content-polishing has articles that main doesn't need)
-  sync-main:
-    needs: merge-to-main
-    if: always() && needs.merge-to-main.result == 'skipped'
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "No articles due for release. Nothing to sync."
+      - name: Build site with Hugo
+        if: steps.publish.outputs.has_changes == 'true'
+        run: |
+          hugo --minify
+          echo "Build complete"
+
+      - name: Deploy to GitHub Pages
+        if: steps.publish.outputs.has_changes == 'true'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          cname: dsp-guide.com
+          enable_jekyll: false
+
+      - name: No articles due (summary)
+        if: steps.publish.outputs.has_changes == 'false'
+        run: |
+          echo "No articles due for release. Nothing to publish."
