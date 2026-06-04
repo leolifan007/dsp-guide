@@ -37,6 +37,10 @@
     <!-- Right Content -->
     <main class="article-body">
       {{ with .Description }}<p class="article-lead">{{ . }}</p>{{ end }}
+      
+      <!-- Adsterra Native Banner - before content -->
+      {{ partial "ads/adsterra-native.html" . }}
+      
       {{ .Content | safeHTML }}
       
       <!-- Adsterra Banner after article content -->
