@@ -12,6 +12,8 @@ tags: [starter, early-game, production]
 <p>Dyson Sphere Program does not hold your hand. Your first hour can feel overwhelming. Dozens of buildings, multiple resources, and no clear starting point.</p>
 <p>Here is the exact 5-step path to get your first automated factory running.</p>
 
+{{< diagram "starter-factory-pipeline.svg" "Starter factory 5-step pipeline" "720" >}}
+
 ## Your First Factory: 5-Step Setup
 
 <h3>Step 1: Place Your First Miner</h3>

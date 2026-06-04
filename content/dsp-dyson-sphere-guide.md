@@ -1,4 +1,4 @@
----
+﻿---
 title: "DSP Dyson Sphere Guide - Permanent First Layer Frame Strategy"
 description: "Build your first Dyson Sphere in DSP. Step-by-step guide from solar sails to node framing to full shell. No wasted resources."
 date: "2026-06-04"
@@ -11,6 +11,8 @@ tags: [dyson-sphere, solar-sails, ray-receiver, endgame]
 
 <p>Building a Dyson Sphere is the endgame milestone in DSP. But the first attempt often fails: you launch sails, they expire, and you get zero power.</p>
 <p>Here is the exact sequence to build a permanent, self-sustaining first layer.</p>
+
+{{< diagram "dyson-frame-strategy.svg" "Dyson Sphere frame-first strategy" "600" >}}
 
 ## TL;DR: The 4-Step Sequence
 

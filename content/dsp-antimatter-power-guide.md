@@ -1,4 +1,4 @@
----
+﻿---
 title: "1 Artificial Sun Replaces 125 Wind Turbines - DSP Endgame Power Loop Guide"
 description: "Complete guide to critical photon, antimatter, and artificial sun power. Set up the endgame energy loop in DSP without confusion."
 date: "2026-06-04"
@@ -10,6 +10,8 @@ tags: [endgame, power, critical-photon, antimatter, fuel-rod]
 ---
 
 <p>Critical photons and antimatter are the gateway to endgame power in DSP. The loop is confusing at first: photons come from the sphere, make antimatter, make fuel rods, power your planet. Here is exactly how the chain works, step by step.</p>
+
+{{< diagram "antimatter-power-loop.svg" "Antimatter power self-sustaining loop" "680" >}}
 
 ## TL;DR: The Endgame Power Loop
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Build a Mall in 30 Minutes - Never Hand-Craft a Building Again (DSP Guide)"
 description: "Build a mall in DSP - a factory that produces every building automatically. No more hand-crafting belts, sorters, and assemblers."
 date: "2026-06-04"
@@ -11,6 +11,8 @@ tags: [mall, automation, production, logistics]
 
 <p>Hand-crafting buildings is the #1 time waste in DSP. You spend 20 minutes crafting assemblers, belts, and sorters when you should be designing production lines.</p>
 <p>Here is how to build a mall - a factory that produces every building automatically, so you never craft by hand again.</p>
+
+{{< diagram "mall-layout-belt-bus.svg" "Mall belt bus layout" "650" >}}
 
 ## TL;DR: The Mall Concept
 

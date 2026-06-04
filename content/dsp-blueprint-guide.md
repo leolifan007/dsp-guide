@@ -1,4 +1,4 @@
----
+﻿---
 title: "DSP Blueprint Guide (v0.10) - Copy and Paste Entire Factories in Seconds"
 description: "Complete blueprint guide for DSP v0.10. How to copy, paste, mirror, and share factory blueprints. Save hours of rebuilding."
 date: "2026-06-04"
@@ -10,6 +10,8 @@ tags: [blueprint, automation, production, v0.10]
 ---
 
 <p>DSP v0.10 added a proper blueprint system. No more hand-placing every smelter. Here is everything you need to know about blueprints - from basic copy-paste to advanced mirroring and sharing.</p>
+
+{{< diagram "blueprint-workflow.svg" "Blueprint copy mirror paste workflow" "600" >}}
 
 ## TL;DR: How Blueprints Work in DSP v0.10
 
