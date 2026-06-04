@@ -38,6 +38,9 @@
     <main class="article-body">
       {{ with .Description }}<p class="article-lead">{{ . }}</p>{{ end }}
       {{ .Content | safeHTML }}
+      
+      <!-- Adsterra Banner after article content -->
+      {{ partial "ads/adsterra-banner.html" . }}
     </main>
   </div>
 </div>

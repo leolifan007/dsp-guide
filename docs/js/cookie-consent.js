@@ -12,10 +12,14 @@
         'analytics_storage': 'granted'
       });
     }
-    loadAdsense();
+    // Ads load automatically via Hugo partials
     return;
   }
-  if (consent === 'rejected') return;
+  if (consent === 'rejected') {
+    // Remove ad scripts if user rejected
+    removeAdsterraAds();
+    return;
+  }
 
   // Show banner
   var banner = document.getElementById('cookieBanner');
@@ -33,15 +37,14 @@
         'analytics_storage': 'granted'
       });
     }
-    loadAdsense();
-    // Reload GA pageview with full consent
+    // Ads already loaded via Hugo partials
     if (typeof gtag === 'function') {
       gtag('event', 'consent_update');
     }
   });
 
   document.getElementById('cookieReject').addEventListener('click', function() {
-    // Essential only — also reject AdSense personalization
+    // Essential only
     localStorage.setItem(STORAGE_KEY, 'rejected');
     banner.style.display = 'none';
     if (typeof gtag === 'function') {
@@ -52,15 +55,17 @@
         'analytics_storage': 'denied'
       });
     }
+    // Remove ad containers
+    removeAdsterraAds();
   });
 
-  function loadAdsense() {
-    var existing = document.querySelector('script[src*="adsbygoogle.js"]');
-    if (existing) return;
-    var s = document.createElement('script');
-    s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7551387157478980';
-    s.crossOrigin = 'anonymous';
-    s.async = true;
-    document.head.appendChild(s);
+  function removeAdsterraAds() {
+    // Remove ad containers
+    var adContainers = document.querySelectorAll('.adsterra-banner, .adsterra-native, #container-da8ceeaa957e13ce9d75f6f99ca7ef33');
+    adContainers.forEach(function(el) {
+      el.style.display = 'none';
+      el.innerHTML = '';
+    });
+    // Note: Popunder script cannot be removed once loaded, but won't trigger on reject
   }
 })();
