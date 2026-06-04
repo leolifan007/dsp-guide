@@ -1,5 +1,5 @@
 ---
-title: "Overwhelmed by DSP? Here's Your First Automated Factory in 5 Steps"
+title: "5 Steps to Your First Automated Factory - Up and Running in 10 Minutes (DSP Guide)"
 description: "New to DSP? Your first miner, smelter, and assembler setup - no prior factory game experience required. 5-minute starter factory."
 date: "2026-06-04"
 lastmod: "2026-06-04T23:39:00+08:00"

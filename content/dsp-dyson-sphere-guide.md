@@ -1,5 +1,5 @@
 ---
-title: "Your DSP Dyson Sphere Keeps Failing? 4-Step Sequence for a Permanent Shell"
+title: "Build a Permanent Dyson Sphere First Layer - Frame-First Strategy That Never Wastes Sails"
 description: "Build your first Dyson Sphere in DSP. Step-by-step guide from solar sails to node framing to full shell. No wasted resources."
 date: "2026-06-04"
 lastmod: "2026-06-04T23:41:00+08:00"

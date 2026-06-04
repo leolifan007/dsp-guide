@@ -1,5 +1,5 @@
 ---
-title: "DSP Power Crisis? The Antimatter Loop That Solves Endgame Energy"
+title: "1 Artificial Sun Replaces 125 Wind Turbines - DSP Endgame Power Loop Guide"
 description: "Complete guide to critical photon, antimatter, and artificial sun power. Set up the endgame energy loop in DSP without confusion."
 date: "2026-06-04"
 lastmod: "2026-06-04T23:46:00+08:00"
