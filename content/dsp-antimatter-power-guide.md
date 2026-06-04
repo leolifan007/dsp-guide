@@ -1,5 +1,5 @@
 ---
-title: "DSP Critical Photons and Antimatter: Endgame Power and Science Loop"
+title: "DSP Power Crisis? The Antimatter Loop That Solves Endgame Energy"
 description: "Complete guide to critical photon, antimatter, and artificial sun power. Set up the endgame energy loop in DSP without confusion."
 date: "2026-06-04"
 lastmod: "2026-06-04T23:46:00+08:00"

@@ -1,5 +1,5 @@
 ---
-title: "DSP Blueprint Guide: Copy, Paste, and Rebuild Your Factory (v0.10+)"
+title: "Still Placing Buildings One by One? Full DSP Blueprint Guide (v0.10)"
 description: "Complete blueprint guide for DSP v0.10. How to copy, paste, mirror, and share factory blueprints. Save hours of rebuilding."
 date: "2026-06-04"
 lastmod: "2026-06-04T23:42:00+08:00"

@@ -1,5 +1,5 @@
 ---
-title: "DSP Mall Guide: Automate Building Production (Stop Hand-Crafting)"
+title: "Tired of Hand-Crafting in DSP? Build a Mall That Automates Every Building"
 description: "Build a mall in DSP - a factory that produces every building automatically. No more hand-crafting belts, sorters, and assemblers."
 date: "2026-06-04"
 lastmod: "2026-06-04T23:44:00+08:00"
