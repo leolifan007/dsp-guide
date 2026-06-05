@@ -2,9 +2,7 @@
 title: "DSP Automation Guide (v0.10) - Build Your First Automated Factory in 10 Minutes"
 description: "New to DSP? Your first miner, smelter, and assembler setup - no prior factory game experience required. 5-minute starter factory."
 date: "2026-06-04"
-lastmod: "2026-06-04T23:39:00+08:00"
-publishDate: "2026-06-08T09:43:00+08:00"
-hidden: true
+lastmod: '2026-06-05T21:53:29+08:00'
 categories: [Production & Automation]
 tags: [starter, early-game, production]
 ---

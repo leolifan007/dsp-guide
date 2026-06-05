@@ -2,9 +2,7 @@
 title: "Build a Mall in 30 Minutes - Never Hand-Craft a Building Again (DSP Guide)"
 description: "Build a mall in DSP - a factory that produces every building automatically. No more hand-crafting belts, sorters, and assemblers."
 date: "2026-06-04"
-lastmod: "2026-06-04T23:44:00+08:00"
-publishDate: "2026-06-15T09:11:00+08:00"
-hidden: true
+lastmod: '2026-06-05T21:28:21+08:00'
 categories: [Logistics & Transport]
 tags: [mall, automation, production, logistics]
 ---

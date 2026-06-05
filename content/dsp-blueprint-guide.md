@@ -2,9 +2,7 @@
 title: "DSP Blueprint Guide (v0.10) - Copy and Paste Entire Factories in Seconds"
 description: "Complete blueprint guide for DSP v0.10. How to copy, paste, mirror, and share factory blueprints. Save hours of rebuilding."
 date: "2026-06-04"
-lastmod: "2026-06-04T23:42:00+08:00"
-publishDate: "2026-06-12T15:03:00+08:00"
-hidden: true
+lastmod: '2026-06-05T21:40:11+08:00'
 categories: [Production & Automation]
 tags: [blueprint, automation, production, v0.10]
 ---

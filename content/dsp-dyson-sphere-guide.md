@@ -2,9 +2,7 @@
 title: "DSP Dyson Sphere Guide - Permanent First Layer Frame Strategy"
 description: "Build your first Dyson Sphere in DSP. Step-by-step guide from solar sails to node framing to full shell. No wasted resources."
 date: "2026-06-04"
-lastmod: "2026-06-04T23:41:00+08:00"
-publishDate: "2026-06-10T12:48:00+08:00"
-hidden: true
+lastmod: '2026-06-05T21:54:02+08:00'
 categories: [Power & Energy]
 tags: [dyson-sphere, solar-sails, ray-receiver, endgame]
 ---
