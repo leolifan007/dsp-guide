@@ -1,16 +1,15 @@
 ---
-title: "DSP Research Lab Setup: Complete Automation Guide"
+title: "DSP Research Lab Guide (v0.10) - Automate Red to Purple Science Without Hand-Feeding"
 description: "Master research lab automation in Dyson Sphere Program. Full science pack chains from Red to Purple Science, lab spacing, power requirements, and the research tree priorities that unlock everything."
 date: 2026-05-20
 publishedAt: 2026-05-20T09:05:00+08:00
-lastmod: 2026-05-20
+lastmod: 2026-06-05
 type: post
 tags: [research, labs, science-packs, red-science, yellow-science, green-science, blue-science, purple-science]
 topics: [research, automation]
 categories: [Science & Research]
 featured_image: ""
 slug: research-lab-automation-guide
-draft: true
 ---
 
 Research is the clock in DSP. Every unlock — new buildings, new recipes, new logistics options — lives behind the research tree. And research lives behind science packs. If your science pack production is weak, your entire progression grinds to a halt.
@@ -20,7 +19,7 @@ This guide covers the complete science pack chain from Red Science to Purple Sci
 ---
 
 {{< callout >}}
-**TL;DR** — Each lab consumes science packs at 1/s. Build science pack assemblers first, then scale labs to match. Prioritize Red → Yellow → Green → Blue → Purple in order. Always automate science packs — hand-feeding labs is a trap that costs you hours.
+**TL;DR** — Each lab consumes science packs at 1/s. Build science pack assemblers first, then scale labs to match. Prioritize Red -> Yellow -> Green -> Blue -> Purple in order. Always automate science packs — hand-feeding labs is a trap that costs you hours.
 {{< /callout >}}
 
 ---
@@ -29,7 +28,7 @@ This guide covers the complete science pack chain from Red Science to Purple Sci
 
 ---
 
-{{< section "How Research Labs Work" >}}
+{{< section "1 Lab, 1 Science Pack/s - No More, No Less" >}}
 
 A **Research Lab** consumes science packs and outputs research progress. Each lab runs at 1/s base speed, consuming one science pack per second when researching.
 
@@ -43,7 +42,7 @@ Labs need **science packs** — not just any resource, but specific pack types t
 
 ---
 
-{{< section "The Science Pack Chain" >}}
+{{< section "Red to Purple - What Each Science Pack Actually Needs to Produce" >}}
 
 There are five science pack tiers, each with increasing production complexity.
 
@@ -53,7 +52,7 @@ The simplest science pack. Produced in an **Assembler** from Iron and Copper Ing
 
 {{< recipe name1="iron" qty1="1x" name2="copper" qty2="1x" result="red-matrix" rqty="1x" >}}
 
-One Red Science Assembler produces enough packs for 1–2 labs. For early game, two assemblers feeding into 4–6 labs is a solid starting setup.
+One Red Science Assembler produces enough packs for 1-2 labs. For early game, two assemblers feeding into 4-6 labs is a solid starting setup.
 
 ### Yellow Science Packs (Tier 2)
 
@@ -61,7 +60,7 @@ Yellow Science introduces **Conveyor Modules** and **Electromagnetic Turbine** c
 
 {{< recipe name1="iron" qty1="2x" name2="copper" qty2="1x" result="yellow-matrix" rqty="1x" >}}
 
-The key dependency chain is: Iron → Gears → Electromagnetic Turbine → Yellow Science. See the Science Pack Chain diagram at the top of this article for the full visual breakdown.
+The key dependency chain is: Iron -> Gears -> Electromagnetic Turbine -> Yellow Science. See the Science Pack Chain diagram at the top of this article for the full visual breakdown.
 
 You'll need a steady supply of Copper Ingots and Iron Ingots for Yellow Science. This is where smelting capacity starts to matter — if your iron production isn't scaled, Yellow Science will expose every bottleneck upstream.
 
@@ -91,7 +90,7 @@ Titanium production requires Flame Smelting or a dedicated Titanium smelting col
 
 ---
 
-{{< section "Lab Row Setup" >}}
+{{< section "Lab Row in 5 Minutes - The Standard 5-Lab Setup That Powers Your Early Game" >}}
 
 ### Standard Lab Row (5 Labs)
 
@@ -108,29 +107,29 @@ Each lab in the row is adjacent to the previous one, so power propagates across 
 Labs consume packs at 1/s each. If you have 10 labs, you need 10 science packs/s feeding them. This means your science pack production must scale in exact proportion to your lab count.
 
 **The math:**
-- 1 Red Science Assembler ≈ 1 science pack/5s = 0.2 science/s
+- 1 Red Science Assembler ~ 1 science pack/5s = 0.2 science/s
 - 5 labs = 5 science/s required
-- 5 ÷ 0.2 = 25 assemblers needed (per science type)
+- 5 / 0.2 = 25 assemblers needed (per science type)
 
 This is why most players dedicate entire factory sections to science pack production. The packs flow continuously; the labs run continuously. Stop the flow, stop the research.
 
 ---
 
-{{< section "Prioritizing the Research Tree" >}}
+{{< section "Research Priority Cheat Sheet - Unlock Mk.II Belts Before Everything Else" >}}
 
 Not all research is equal. Some unlocks open entire game systems; others are minor conveniences. Here's what to prioritize at each stage.
 
-### Early Game (Red → Green Science)
+### Early Game (Red -> Green Science)
 - **Conveyor Belt Mk.II** — doubles belt throughput, immediately increases factory capacity
 - **Assembler Mk.II** — faster production, critical for scaling science packs
 - **Logistics System** — unlocks sorters, essential for automation
 
-### Mid Game (Green → Blue Science)
+### Mid Game (Green -> Blue Science)
 - **Logistics Pill** — enables logistics bots, game-changing for factory layout flexibility
 - **Oil Refining** — unlocks Refined Oil, Plastics, and Rocket Fuel chains
 - **Hydrogen Fuel Cells** — better power generation from hydrogen
 
-### Late Game (Blue → Purple Science)
+### Late Game (Blue -> Purple Science)
 - **Quantum Chip Production** — unlocks the endgame production chain
 - **Solar Sail Production** — enables Dyson Sphere construction
 - **Accumulator Production** — necessary for solar power grids on dark planets

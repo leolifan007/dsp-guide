@@ -1,16 +1,15 @@
 ---
-title: "Dyson Sphere Program Logistics Drones vs Belts: Complete Comparison"
+title: "DSP Logistics Guide (v0.10) - Drones vs Belts: When Each System Saves Your Factory"
 description: "Logistics Drones or Belts in DSP? This guide covers drone cargo capacity, speed, fuel costs, belt throughput, cross-planet transport, and when to use each system for maximum factory efficiency."
 date: 2026-05-20
 publishedAt: 2026-05-20T09:15:00+08:00
-lastmod: 2026-05-20
+lastmod: 2026-06-05
 type: post
 tags: [logistics, drones, vessels, belts, transportation, mkii, interplanetary]
 topics: [logistics, transportation]
 categories: [Logistics & Transportation]
 featured_image: ""
 slug: logistics-drones-vs-belts-guide
-draft: true
 ---
 
 DSP gives you two ways to move materials: belts and drones. Belts are local, simple, and fast. Drones are flexible, cross-planetary, and require zero physical infrastructure. Knowing which to use — and when — is one of the core strategic decisions in DSP factory design.
@@ -29,7 +28,7 @@ This guide breaks down throughput, use cases, cost, and scalability for each sys
 
 ---
 
-{{< section "Belt Transportation: When to Use It" >}}
+{{< section "Belts Win Where Throughput Matters - Local Transport That Never Drops a Packet" >}}
 
 Belt transport moves materials along physical paths. They're fast, reliable, and perfect for any situation where you're moving high volumes of materials between buildings on the same planet.
 
@@ -41,10 +40,10 @@ Belt transport moves materials along physical paths. They're fast, reliable, and
 
 {{< diagram "diagrams/belt-tier-comparison.svg" "Belt tier comparison — throughput, smelter ratios, and visual identification" "680" >}}
 
-For any production line that needs more than 1–2 items/s of a material and all the buildings are on the same planet, belts are the right answer. They're cheap to build, require no fuel, and never get lost.
+For any production line that needs more than 1-2 items/s of a material and all the buildings are on the same planet, belts are the right answer. They're cheap to build, require no fuel, and never get lost.
 
 **When belts are better:**
-- Smelting arrays (local ore → ingots → factory bus)
+- Smelting arrays (local ore -> ingots -> factory bus)
 - Production chains within a single planet
 - Any situation where you need guaranteed throughput with no latency
 - High-volume materials like iron ingots, copper ingots, stone bricks
@@ -56,7 +55,7 @@ For any production line that needs more than 1–2 items/s of a material and all
 
 ---
 
-{{< section "Logistics Drones: When to Use Them" >}}
+{{< section "Drones Win Where Flexibility Matters - Cross-Planet Supply Without a Single Belt Tile" >}}
 
 **Logistics Drones** are small robotic aircraft that fly between ILS stations. They carry materials over short-to-medium distances and are ideal for connecting facilities on the same planet or nearby planets.
 
@@ -84,7 +83,7 @@ For any production line that needs more than 1–2 items/s of a material and all
 
 ---
 
-{{< section "Logistics Vessels: Interplanetary Workhorses" >}}
+{{< section "Vessels Are the Heavy Lifters - 1 ILS Pair Moves Entire Planets of Ore" >}}
 
 **Logistics Vessels** are large cargo ships that travel between ILS stations in different star systems. They carry massive cargo loads and are the backbone of any serious DSP logistics network.
 
@@ -101,7 +100,7 @@ Solution: Place an ILS at the titanium outpost (supply), place an ILS at your ma
 
 ---
 
-{{< section "ILS Setup for Drone and Vessel Logistics" >}}
+{{< section "ILS in 60 Seconds - Configure Supply and Demand Like a Pro" >}}
 
 The **Interplanetary Logistics Station (ILS)** is the hub of DSP's drone and vessel network. Every station in your logistics network talks to every other station — you set the rules, and drones/vessels handle the execution.
 
