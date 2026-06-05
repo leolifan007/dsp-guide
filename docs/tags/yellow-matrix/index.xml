@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yellow-Matrix on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/yellow-matrix/</link><description>Recent content in Yellow-Matrix on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 25 May 2026 23:57:00 +0800</lastBuildDate><atom:link href="https://dsp-guide.com/tags/yellow-matrix/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Fix DSP Yellow Matrix Research Slowdown After Tech Unlock</title><link>https://dsp-guide.com/yellow-matrix-slowdown/</link><pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/yellow-matrix-slowdown/</guid><description>&lt;p&gt;You researched Titanium Alloy Smelting. Yellow matrices stopped. You researched Interstellar Logistics. Yellow matrices stopped again. Your research lab is consuming matrices but production is stalled. This isn't a bug — it's a buffer collapse, and it is fixable in 5 minutes.&lt;/p&gt;
-&lt;div class="pro-tip"&gt;
-&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;
-Yellow matrix slowdown after tech unlock is caused by your production buffers running dry while new tech consumes the same materials. The fix is to add buffer storage between each production step and increase production of the bottleneck ingredient.&lt;br&gt;
-&lt;strong&gt;Quick check:&lt;/strong&gt; Open your production stats (P key). Check which yellow matrix ingredient is empty. That's your bottleneck.
-&lt;/div&gt;
-&lt;img src="https://dsp-guide.com/images/yellow-matrix-slowdown.svg" alt="Yellow matrix research slowdown diagram showing how buffers drain after tech unlocks and the production line fix" class="schema-diagram" loading="lazy" width="800" height="400"&gt;
-&lt;h2 id="the-buffer-collapse-mechanic"&gt;The Buffer Collapse: How It Works&lt;/h2&gt;
-&lt;p&gt;Here is what actually happens when you research a big tech and your yellow science stops:&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yellow-Matrix on Dyson Sphere Program Guide</title>
+    <link>https://dsp-guide.com/tags/yellow-matrix/</link>
+    <description>Recent content in Yellow-Matrix on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 25 May 2026 23:57:00 +0800</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/tags/yellow-matrix/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Fix DSP Yellow Matrix Research Slowdown After Tech Unlock</title>
+      <link>https://dsp-guide.com/yellow-matrix-slowdown/</link>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/yellow-matrix-slowdown/</guid>
+      <description>&lt;p&gt;You researched Titanium Alloy Smelting. Yellow matrices stopped. You researched Interstellar Logistics. Yellow matrices stopped again. Your research lab is consuming matrices but production is stalled. This isn&#39;t a bug — it&#39;s a buffer collapse, and it is fixable in 5 minutes.&lt;/p&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xA;&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;&#xA;Yellow matrix slowdown after tech unlock is caused by your production buffers running dry while new tech consumes the same materials. The fix is to add buffer storage between each production step and increase production of the bottleneck ingredient.&lt;br&gt;&#xA;&lt;strong&gt;Quick check:&lt;/strong&gt; Open your production stats (P key). Check which yellow matrix ingredient is empty. That&#39;s your bottleneck.&#xA;&lt;/div&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/yellow-matrix-slowdown.svg&#34; alt=&#34;Yellow matrix research slowdown diagram showing how buffers drain after tech unlocks and the production line fix&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;800&#34; height=&#34;400&#34;&gt;&#xA;&lt;h2 id=&#34;the-buffer-collapse-mechanic&#34;&gt;The Buffer Collapse: How It Works&lt;/h2&gt;&#xA;&lt;p&gt;Here is what actually happens when you research a big tech and your yellow science stops:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

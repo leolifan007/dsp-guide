@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dyson Sphere Program Smelting Arrays: Complete Setup Guide | Dyson Sphere Program Guide</title>
+  <title>DSP Smelting Array Blueprint Guide (v0.10) - 3 Smelters Feed a Mk.III Belt Perfectly | Dyson Sphere Program Guide</title>
   <base href="https://dsp-guide.com/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -91,9 +91,21 @@ gtag('consent', 'default', {
         <div class="sidebar-panel-header">In This Category</div>
         <ul class="sidebar-panel-list">
           
+          <li>
+            <a href="/dsp-blueprint-guide/">
+              <span class="sp-list-title">DSP Blueprint Guide (v0.10) - Copy and …</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/dsp-starter-automation-guide/">
+              <span class="sp-list-title">DSP Automation Guide (v0.10) - Build Your …</span>
+            </a>
+          </li>
+          
           <li class="active">
             <a href="/smelting-array-blueprint-guide/">
-              <span class="sp-list-title">Dyson Sphere Program Smelting Arrays: …</span>
+              <span class="sp-list-title">DSP Smelting Array Blueprint Guide (v0.10) …</span>
             </a>
           </li>
           
@@ -105,7 +117,7 @@ gtag('consent', 'default', {
     <main class="article-body-wrap">
       <div class="article-title-area">
         <div class="title-accent-line"></div>
-        <h1 class="article-main-title">Dyson Sphere Program Smelting Arrays: Complete Setup Guide</h1>
+        <h1 class="article-main-title">DSP Smelting Array Blueprint Guide (v0.10) - 3 Smelters Feed a Mk.III Belt Perfectly</h1>
         <div class="article-meta-bar">
           <span class="meta-date">May 20, 2026</span>
           
@@ -123,7 +135,7 @@ gtag('consent', 'default', {
 <img src="/images/diagrams/smelting-column-main.svg" alt="Smelting column layout with belt ratios — 3 smelters per Mk.III belt" class="schema-diagram" loading="lazy" width="820">
 
 <hr>
-<div class="section-head collapsible"><h2>How Smelting Works in DSP</h2></div>
+<div class="section-head collapsible"><h2>One Ore In, One Ingot Out - The Simple Math That Never Changes</h2></div>
 
 <p>Smelters take raw <strong>Ore</strong> from a mining machine and output <strong>Ingots</strong> — Iron Ingots, Copper Ingots, or their stone and silicon variants.</p>
 <p><strong>Smelter specs (v0.10):</strong></p>
@@ -149,16 +161,41 @@ gtag('consent', 'default', {
 </p>
 <p>Each ore type converts 1:1 in a Smelter — one ore per second, one ingot per second. Stone Ore produces Stone Bricks; all others produce their respective plates/ingots.</p>
 <hr>
-<div class="section-head collapsible"><h2>The Belt Throughput Problem</h2></div>
+<div class="section-head collapsible"><h2>Why Your Smelters Starve - Belt Throughput Is the Real Bottleneck</h2></div>
 
 <p>Every smelter consumes ore at 1/s. Every belt carries a fixed amount of ore per second. The mismatch between smelter demand and belt capacity is where most early-game factory designs fall apart.</p>
 <h3 id="belt-tiers-and-smelter-ratios">Belt Tiers and Smelter Ratios</h3>
-<p>| Belt Tier | Throughput | Smelters Per Belt |
-|---|---|---|
-| Mk.I (Yellow) | 1 ore/s | 1 smelter |
-| Mk.II (Red) | 2 ore/s | 2 smelters |
-| Mk.III (Blue) | 3 ore/s | 3 smelters |
-| Mk.IV (Purple) | 4 ore/s | 4 smelters |</p>
+<table>
+  <thead>
+      <tr>
+          <th>Belt Tier</th>
+          <th>Throughput</th>
+          <th>Smelters Per Belt</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Mk.I (Yellow)</td>
+          <td>1 ore/s</td>
+          <td>1 smelter</td>
+      </tr>
+      <tr>
+          <td>Mk.II (Red)</td>
+          <td>2 ore/s</td>
+          <td>2 smelters</td>
+      </tr>
+      <tr>
+          <td>Mk.III (Blue)</td>
+          <td>3 ore/s</td>
+          <td>3 smelters</td>
+      </tr>
+      <tr>
+          <td>Mk.IV (Purple)</td>
+          <td>4 ore/s</td>
+          <td>4 smelters</td>
+      </tr>
+  </tbody>
+</table>
 <p>This is the fundamental smelting ratio. If you feed a Mk.II belt into your smelting array and only connect one smelter, you're leaving 50% of your belt capacity unused. The remaining ore/s just sits on the belt with nowhere to go — until it backs up all the way to your miners.</p>
 <h3 id="how-backups-cascade">How Backups Cascade</h3>
 <p>When a smelter bay stalls because the out belt is full, ore backs up onto the input belt. The input belt backs up to the mining machine. The mining machine stops. Now your entire planet's ore production has halted because one part of one smelting bay is backed up.</p>
@@ -168,7 +205,7 @@ gtag('consent', 'default', {
 <li>You route overflow to an ILS (Interplanetary Logistics Station) for export</li>
 </ol>
 <hr>
-<div class="section-head collapsible"><h2>Smelting Array Layout: The Column Method</h2></div>
+<div class="section-head collapsible"><h2>The Column Method - 3 Smelters per Belt, No Exceptions</h2></div>
 
 <p>The cleanest smelting layout is a column array — each column dedicated to one ore type, with consistent spacing and parallel input belts.</p>
 <h3 id="basic-iron-column-mki-belts">Basic Iron Column (Mk.I Belts)</h3>
@@ -184,7 +221,7 @@ gtag('consent', 'default', {
 
 <p>Three miners. Three smelters. This is your mid-game target — it matches the throughput of a Mk.III belt and produces iron fast enough to feed serious production.</p>
 <hr>
-<div class="section-head collapsible"><h2>Building Smelting Columns in Practice</h2></div>
+<div class="section-head collapsible"><h2>5-Step Setup - From Ore Vein to Overflow-Draining ILS</h2></div>
 
 <h3 id="step-1-find-a-mineral-rich-patch">Step 1: Find a Mineral-Rich Patch</h3>
 <p>You want a mining patch with at least two veins of the same ore. Place <strong>Mining Machines</strong> on each vein. Set each miner to its own belt lane.</p>
@@ -201,13 +238,13 @@ gtag('consent', 'default', {
 <h3 id="step-5-add-overflow-to-ils">Step 5: Add Overflow to ILS</h3>
 <p>If smelters produce faster than your factory consumes, route the overflow to an <strong>Interplanetary Logistics Station (ILS)</strong>. Set the ILS to import ingots and distribute them to requesting stations across your logistics network. See our <a href="/ils-setup-guide/">ILS Setup Guide</a> for full details on ILS configuration.</p>
 <hr>
-<div class="section-head collapsible"><h2>Smelter Power Consumption</h2></div>
+<div class="section-head collapsible"><h2>Power Your Smelting Array - Don&#39;t Let Your Foundry Go Dark</h2></div>
 
 <p>Smelters consume power continuously. Each smelter draws a base amount — enough to matter when you're running 50+ smelters.</p>
 <p><strong>Power tip:</strong> Place <strong>Thermal Power Plants</strong> near your smelting area. Coal Power Plants are cheap to build and produce enough electricity to run large smelter arrays. In mid-game, switch to Fuel Power or Solar to reduce coal logistics overhead.</p>
 <p>If your smelters are stuttering, check your power grid first — a smelter with no power produces zero ingots, and you won't see the problem until your factory backs up.</p>
 <hr>
-<div class="section-head collapsible"><h2>Common Smelting Mistakes</h2></div>
+<div class="section-head collapsible"><h2>4 Mistakes That Kill Your Smelting Throughput (and How to Fix Each)</h2></div>
 
 <h3 id="mistake-1-mixing-ores-on-belts">Mistake 1: Mixing Ores on Belts</h3>
 <p>Don't run Iron Ore and Copper Ore on the same belt expecting smelters to magically sort them. Smelters are dumb — they take whatever is on the belt. One ore per belt, always.</p>
@@ -239,14 +276,17 @@ gtag('consent', 'default', {
   var heads = [];
   var headNodes = content.querySelectorAll('.section-head.collapsible, h2');
   headNodes.forEach(function(node) {
-    
-    if (node.tagName === 'H2' && !node.closest('.section-head')) {
-      var wrapper = document.createElement('div');
-      wrapper.className = 'section-head collapsible';
-      node.parentNode.insertBefore(wrapper, node);
-      wrapper.appendChild(node);
-      heads.push(wrapper);
-    } else {
+    if (node.tagName === 'H2') {
+      
+      if (!node.closest('.section-head')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'section-head collapsible';
+        node.parentNode.insertBefore(wrapper, node);
+        wrapper.appendChild(node);
+        heads.push(wrapper);
+      }
+      
+    } else if (node.classList.contains('section-head')) {
       heads.push(node);
     }
   });

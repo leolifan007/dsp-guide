@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dyson Sphere Program Logistics Drones vs Belts: Complete Comparison | Dyson Sphere Program Guide</title>
+  <title>DSP Logistics Guide (v0.10) - Drones vs Belts: When Each System Saves Your Factory | Dyson Sphere Program Guide</title>
   <base href="https://dsp-guide.com/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -93,7 +93,7 @@ gtag('consent', 'default', {
           
           <li class="active">
             <a href="/logistics-drones-vs-belts-guide/">
-              <span class="sp-list-title">Dyson Sphere Program Logistics Drones vs …</span>
+              <span class="sp-list-title">DSP Logistics Guide (v0.10) - Drones vs …</span>
             </a>
           </li>
           
@@ -105,7 +105,7 @@ gtag('consent', 'default', {
     <main class="article-body-wrap">
       <div class="article-title-area">
         <div class="title-accent-line"></div>
-        <h1 class="article-main-title">Dyson Sphere Program Logistics Drones vs Belts: Complete Comparison</h1>
+        <h1 class="article-main-title">DSP Logistics Guide (v0.10) - Drones vs Belts: When Each System Saves Your Factory</h1>
         <div class="article-meta-bar">
           <span class="meta-date">May 20, 2026</span>
           
@@ -123,7 +123,7 @@ gtag('consent', 'default', {
 <img src="/images/diagrams/logistics-main.svg" alt="Logistics choice matrix — when to use belts, drones, or vessels" class="schema-diagram" loading="lazy" width="780">
 
 <hr>
-<div class="section-head collapsible"><h2>Belt Transportation: When to Use It</h2></div>
+<div class="section-head collapsible"><h2>Belts Win Where Throughput Matters - Local Transport That Never Drops a Packet</h2></div>
 
 <p>Belt transport moves materials along physical paths. They're fast, reliable, and perfect for any situation where you're moving high volumes of materials between buildings on the same planet.</p>
 <p><strong>Belt throughput (per belt):</strong></p>
@@ -135,10 +135,10 @@ gtag('consent', 'default', {
 </ul>
 <img src="/images/diagrams/belt-tier-comparison.svg" alt="Belt tier comparison — throughput, smelter ratios, and visual identification" class="schema-diagram" loading="lazy" width="680">
 
-<p>For any production line that needs more than 1–2 items/s of a material and all the buildings are on the same planet, belts are the right answer. They're cheap to build, require no fuel, and never get lost.</p>
+<p>For any production line that needs more than 1-2 items/s of a material and all the buildings are on the same planet, belts are the right answer. They're cheap to build, require no fuel, and never get lost.</p>
 <p><strong>When belts are better:</strong></p>
 <ul>
-<li>Smelting arrays (local ore → ingots → factory bus)</li>
+<li>Smelting arrays (local ore -&gt; ingots -&gt; factory bus)</li>
 <li>Production chains within a single planet</li>
 <li>Any situation where you need guaranteed throughput with no latency</li>
 <li>High-volume materials like iron ingots, copper ingots, stone bricks</li>
@@ -150,7 +150,7 @@ gtag('consent', 'default', {
 <li>Long-distance transport within a large planet (latency from long belt chains)</li>
 </ul>
 <hr>
-<div class="section-head collapsible"><h2>Logistics Drones: When to Use Them</h2></div>
+<div class="section-head collapsible"><h2>Drones Win Where Flexibility Matters - Cross-Planet Supply Without a Single Belt Tile</h2></div>
 
 <p><strong>Logistics Drones</strong> are small robotic aircraft that fly between ILS stations. They carry materials over short-to-medium distances and are ideal for connecting facilities on the same planet or nearby planets.</p>
 <p><strong>Drone specs (v0.10):</strong></p>
@@ -180,7 +180,7 @@ gtag('consent', 'default', {
 <li>High-throughput production chains — drones can't match belt volume</li>
 </ul>
 <hr>
-<div class="section-head collapsible"><h2>Logistics Vessels: Interplanetary Workhorses</h2></div>
+<div class="section-head collapsible"><h2>Vessels Are the Heavy Lifters - 1 ILS Pair Moves Entire Planets of Ore</h2></div>
 
 <p><strong>Logistics Vessels</strong> are large cargo ships that travel between ILS stations in different star systems. They carry massive cargo loads and are the backbone of any serious DSP logistics network.</p>
 <p><strong>Vessel specs:</strong></p>
@@ -194,7 +194,7 @@ gtag('consent', 'default', {
 You have a titanium mining outpost on an ice planet in a distant star system. Your main factory is on your starting planet. You need titanium ingots flowing continuously into your production chains.</p>
 <p>Solution: Place an ILS at the titanium outpost (supply), place an ILS at your main factory (demand), and configure a vessel route between them. Vessels will shuttle titanium ingots automatically.</p>
 <hr>
-<div class="section-head collapsible"><h2>ILS Setup for Drone and Vessel Logistics</h2></div>
+<div class="section-head collapsible"><h2>ILS in 60 Seconds - Configure Supply and Demand Like a Pro</h2></div>
 
 <p>The <strong>Interplanetary Logistics Station (ILS)</strong> is the hub of DSP's drone and vessel network. Every station in your logistics network talks to every other station — you set the rules, and drones/vessels handle the execution.</p>
 <h3 id="basic-ils-configuration">Basic ILS Configuration</h3>
@@ -233,14 +233,17 @@ You have a titanium mining outpost on an ice planet in a distant star system. Yo
   var heads = [];
   var headNodes = content.querySelectorAll('.section-head.collapsible, h2');
   headNodes.forEach(function(node) {
-    
-    if (node.tagName === 'H2' && !node.closest('.section-head')) {
-      var wrapper = document.createElement('div');
-      wrapper.className = 'section-head collapsible';
-      node.parentNode.insertBefore(wrapper, node);
-      wrapper.appendChild(node);
-      heads.push(wrapper);
-    } else {
+    if (node.tagName === 'H2') {
+      
+      if (!node.closest('.section-head')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'section-head collapsible';
+        node.parentNode.insertBefore(wrapper, node);
+        wrapper.appendChild(node);
+        heads.push(wrapper);
+      }
+      
+    } else if (node.classList.contains('section-head')) {
       heads.push(node);
     }
   });

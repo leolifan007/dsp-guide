@@ -1,7 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>V0.10 on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/v0.10/</link><description>Recent content in V0.10 on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 05 Jun 2026 21:40:11 +0800</lastBuildDate><atom:link href="https://dsp-guide.com/tags/v0.10/index.xml" rel="self" type="application/rss+xml"/><item><title>DSP Blueprint Guide (v0.10) - Copy and Paste Entire Factories in Seconds</title><link>https://dsp-guide.com/dsp-blueprint-guide/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/dsp-blueprint-guide/</guid><description>&lt;p&gt;DSP v0.10 added a proper blueprint system. No more hand-placing every smelter. Here is everything you need to know about blueprints - from basic copy-paste to advanced mirroring and sharing.&lt;/p&gt;
-&lt;img src="https://dsp-guide.com/images/blueprint-workflow.svg" alt="Blueprint copy mirror paste workflow" class="schema-diagram" loading="lazy" width="600"&gt;
-
-&lt;h2 id="tldr-how-blueprints-work-in-dsp-v010"&gt;TL;DR: How Blueprints Work in DSP v0.10&lt;/h2&gt;
-&lt;p&gt;Press B to open the Blueprint Library. Select buildings (hold shift to multi-select), press CTRL+C to copy, then CTRL+V to paste. That is the basic flow. This guide covers the details that are not in the game.&lt;/p&gt;</description></item><item><title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title><link>https://dsp-guide.com/quantum-chips-proliferator/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/quantum-chips-proliferator/</guid><description>&lt;p&gt;Every factory has a ceiling. At some point you're running 40 assemblers on your Circuit Board chain and wondering if there's a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;It's a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;
-&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>V0.10 on Dyson Sphere Program Guide</title>
+    <link>https://dsp-guide.com/tags/v0.10/</link>
+    <description>Recent content in V0.10 on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Jun 2026 21:40:11 +0800</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/tags/v0.10/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSP Blueprint Guide (v0.10) - Copy and Paste Entire Factories in Seconds</title>
+      <link>https://dsp-guide.com/dsp-blueprint-guide/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/dsp-blueprint-guide/</guid>
+      <description>&lt;p&gt;DSP v0.10 added a proper blueprint system. No more hand-placing every smelter. Here is everything you need to know about blueprints - from basic copy-paste to advanced mirroring and sharing.&lt;/p&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/blueprint-workflow.svg&#34; alt=&#34;Blueprint copy mirror paste workflow&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;600&#34;&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;tldr-how-blueprints-work-in-dsp-v010&#34;&gt;TL;DR: How Blueprints Work in DSP v0.10&lt;/h2&gt;&#xA;&lt;p&gt;Press B to open the Blueprint Library. Select buildings (hold shift to multi-select), press CTRL+C to copy, then CTRL+V to paste. That is the basic flow. This guide covers the details that are not in the game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title>
+      <link>https://dsp-guide.com/quantum-chips-proliferator/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/quantum-chips-proliferator/</guid>
+      <description>&lt;p&gt;Every factory has a ceiling. At some point you&#39;re running 40 assemblers on your Circuit Board chain and wondering if there&#39;s a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&#39;s a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
