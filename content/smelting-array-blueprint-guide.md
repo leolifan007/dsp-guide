@@ -1,16 +1,15 @@
 ---
-title: "Dyson Sphere Program Smelting Arrays: Complete Setup Guide"
+title: "DSP Smelting Array Blueprint Guide (v0.10) - 3 Smelters Feed a Mk.III Belt Perfectly"
 description: "Learn how to build efficient smelting arrays in Dyson Sphere Program. From basic smelter chains to optimized smelting columns — production ratios, belt speeds, and scalable layouts for every stage of the game."
 date: 2026-05-20
 publishedAt: 2026-05-20T09:00:00+08:00
-lastmod: 2026-05-20
+lastmod: 2026-06-05
 type: post
 tags: [smelting, basics, early-game, production, iron, copper]
 topics: [smelting, production]
 categories: [Production & Automation]
 featured_image: ""
 slug: smelting-array-blueprint-guide
-draft: true
 ---
 
 Smelting is where every DSP run starts, and where most players first feel the pain of scaling up. One smelter looks fine. Ten smelters look decent. Fifty smelters feeding a sprawling factory reveal every bottleneck you buried under "it should work."
@@ -29,7 +28,7 @@ This guide covers smelting from the first furnace on a new planet through to ful
 
 ---
 
-{{< section "How Smelting Works in DSP" >}}
+{{< section "One Ore In, One Ingot Out - The Simple Math That Never Changes" >}}
 
 Smelters take raw **Ore** from a mining machine and output **Ingots** — Iron Ingots, Copper Ingots, or their stone and silicon variants.
 
@@ -48,7 +47,7 @@ Each ore type converts 1:1 in a Smelter — one ore per second, one ingot per se
 
 ---
 
-{{< section "The Belt Throughput Problem" >}}
+{{< section "Why Your Smelters Starve - Belt Throughput Is the Real Bottleneck" >}}
 
 Every smelter consumes ore at 1/s. Every belt carries a fixed amount of ore per second. The mismatch between smelter demand and belt capacity is where most early-game factory designs fall apart.
 
@@ -73,7 +72,7 @@ The fix isn't to build more smelters. It's to ensure your **output belts always 
 
 ---
 
-{{< section "Smelting Array Layout: The Column Method" >}}
+{{< section "The Column Method - 3 Smelters per Belt, No Exceptions" >}}
 
 The cleanest smelting layout is a column array — each column dedicated to one ore type, with consistent spacing and parallel input belts.
 
@@ -97,7 +96,7 @@ Three miners. Three smelters. This is your mid-game target — it matches the th
 
 ---
 
-{{< section "Building Smelting Columns in Practice" >}}
+{{< section "5-Step Setup - From Ore Vein to Overflow-Draining ILS" >}}
 
 ### Step 1: Find a Mineral-Rich Patch
 
@@ -127,7 +126,7 @@ If smelters produce faster than your factory consumes, route the overflow to an 
 
 ---
 
-{{< section "Smelter Power Consumption" >}}
+{{< section "Power Your Smelting Array - Don't Let Your Foundry Go Dark" >}}
 
 Smelters consume power continuously. Each smelter draws a base amount — enough to matter when you're running 50+ smelters.
 
@@ -137,7 +136,7 @@ If your smelters are stuttering, check your power grid first — a smelter with 
 
 ---
 
-{{< section "Common Smelting Mistakes" >}}
+{{< section "4 Mistakes That Kill Your Smelting Throughput (and How to Fix Each)" >}}
 
 ### Mistake 1: Mixing Ores on Belts
 

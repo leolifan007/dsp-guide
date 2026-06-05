@@ -1,16 +1,15 @@
 ---
-title: "Dyson Sphere Program Energy Matrix: Complete Production Guide"
+title: "DSP Energy Matrix Guide (v0.10) - Fuel Your Dyson Sphere Without Hydrogen Bottlenecks"
 description: "Master Energy Matrix production in Dyson Sphere Program. Full dependency chain from crude oil to Energy Matrix, optimal recipes, proliferation strategies, and scaling for late-game Dyson Sphere construction."
 date: 2026-05-20
 publishedAt: 2026-05-20T09:20:00+08:00
-lastmod: 2026-05-20
+lastmod: 2026-06-05
 type: post
 tags: [energy-matrix, endgame, proliferator, warper, fuel-refinery, solar-sails]
 topics: [production, endgame]
 categories: [Endgame Production]
 featured_image: ""
 slug: energy-matrix-production-guide
-draft: true
 ---
 
 Energy Matrix is the energy currency that powers Dyson Sphere construction. Every Solar Sail launched, every Ray Receiver powered, every component of the Dyson Sphere itself — all of it requires Energy Matrix. It's the fuel of the endgame, and getting a reliable Energy Matrix supply running is one of the most satisfying milestones in DSP.
@@ -29,7 +28,7 @@ This guide covers the complete Energy Matrix production chain, the recipes that 
 
 ---
 
-{{< section "What Is Energy Matrix Used For?" >}}
+{{< section "Energy Matrix Powers Everything Endgame - Ray Receivers, Solar Sails, and the Sphere Itself" >}}
 
 Energy Matrix is the endgame energy resource. It's consumed by:
 - **Ray Receivers** — convert Energy Matrix into power for the planet's grid
@@ -40,7 +39,7 @@ The more ambitious your Dyson Sphere, the more Energy Matrix you need. A partial
 
 ---
 
-{{< section "The Energy Matrix Recipe" >}}
+{{< section "2 Hydrogen + 1 Oil = 1 Energy Matrix - The Recipe That Competes With Everything" >}}
 
 **Fuel Refinery recipe (Energy Matrix):**
 
@@ -54,7 +53,7 @@ To produce Energy Matrix, you need a functioning oil refining setup first. If yo
 
 ---
 
-{{< section "Managing the Hydrogen Bottleneck" >}}
+{{< section "Hydrogen Is the Real Gatekeeper - Beat the Competition Before You Scale" >}}
 
 Hydrogen is the bottleneck in almost every DSP factory that reaches mid-game. Energy Matrix makes it worse — one Energy Matrix Refinery consumes 2 hydrogen/s, and you'll want multiple refineries running simultaneously.
 
@@ -66,7 +65,7 @@ See our [Oil & Plastics Refining Guide](/oil-plastics-refining/) for the full hy
 
 ---
 
-{{< section "Proliferation: Boosting Energy Matrix Output" >}}
+{{< section "Proliferate Your Refineries First - The Highest-ROI Proliferation Target in the Game" >}}
 
 **Proliferator** is a late-game resource that boosts production efficiency when applied to assemblers, refineries, and smelters. Energy Matrix Refineries benefit significantly from proliferation.
 
@@ -84,7 +83,7 @@ Energy Matrix Refineries are among the highest-value buildings to proliferate �
 
 ---
 
-{{< section "Ray Receivers: Converting Energy Matrix to Power" >}}
+{{< section "Ray Receiver Arrays - Place Them Right or Waste Half Your Energy Matrix" >}}
 
 **Ray Receivers** are structures placed on planets that convert Energy Matrix into electricity for the local grid.
 
