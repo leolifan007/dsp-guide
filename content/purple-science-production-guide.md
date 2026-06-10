@@ -1,8 +1,8 @@
----
+﻿---
 title: "DSP Purple Science Guide (v0.10) - Build a Complete Structure Matrix Production Line"
 description: "Complete Structure Matrix (purple science) production guide for Dyson Sphere Program. Full chain from raw materials to automated purple science, with exact ratios, factory layout, and scaling strategies."
 date: 2026-06-09
-publishDate: 2026-06-10T14:37:00+08:00
+publishDate: 2026-06-10T17:14:00+08:00
 lastmod: 2026-06-09T22:08:00+08:00
 hidden: true
 type: post
