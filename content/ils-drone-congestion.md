@@ -82,6 +82,7 @@ Cap your drones per ILS station (5-10 max), use priority splitters to balance ma
 </div>
 
 <h2 id="community-verification">Community Verification</h2>
+<p><em>Diagram updated 2026-06-10: SVG rebuilt to fix rendering on GitHub Pages.</em></p>
 <ul>
 <li><a href="https://wiki.gg/dyson-sphere-program/Logistics_Drone" target="_blank" rel="noopener noreferrer">DSP Wiki: Logistics Drone mechanics</a></li>
 <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2817369299" target="_blank" rel="noopener noreferrer">Steam Guide: Advanced ILS logistics</a></li>

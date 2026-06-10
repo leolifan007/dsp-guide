@@ -29,14 +29,14 @@
   <rect width="800" height="480" fill="#0d1117" rx="8"/>
 
   <!-- Title -->
-  <text x="400" y="28" text-anchor="middle" fill="#ECEFF1" font-size="16" font-family="monospace" font-weight="bold">LOGISTICS HIERARCHY — BELT → DRONE → VESSEL</text>
+  <text x="400" y="28" text-anchor="middle" fill="#ECEFF1" font-size="16" font-family="monospace" font-weight="bold">LOGISTICS HIERARCHY - BELT -> DRONE -> VESSEL</text>
 
   <!-- ===== ROW 1: BELT (Local) ===== -->
   <rect x="30" y="45" width="740" height="120" rx="8" fill="url(#cardGrad)" stroke="#F9A825" stroke-width="1.5" filter="url(#shadow3)"/>
 
   <rect x="45" y="55" width="6" height="100" rx="3" fill="#F9A825"/>
-  <text x="70" y="75" fill="#F9A825" font-size="13" font-family="monospace" font-weight="bold">⚡ BELT TRANSPORT — LOCAL / HIGH THROUGHPUT</text>
-  <text x="70" y="93" fill="#B0BEC5" font-size="9.5" font-family="monospace">Use when:  Same planet • High volume • Guaranteed throughput • No latency</text>
+  <text x="70" y="75" fill="#F9A825" font-size="13" font-family="monospace" font-weight="bold">PWR BELT TRANSPORT - LOCAL / HIGH THROUGHPUT</text>
+  <text x="70" y="93" fill="#B0BEC5" font-size="9.5" font-family="monospace">Use when:  Same planet - High volume - Guaranteed throughput - No latency</text>
 
   <!-- Belt Tiers -->
   <rect x="45" y="100" width="130" height="50" rx="5" fill="#3E2723" stroke="#8D6E63" stroke-width="1"/>
@@ -52,7 +52,7 @@
   <rect x="335" y="100" width="130" height="50" rx="5" fill="#0D47A1" stroke="#42A5F5" stroke-width="1"/>
   <text x="400" y="118" text-anchor="middle" fill="#E1F5FE" font-size="10" font-family="monospace" font-weight="bold">MK.III (BLUE)</text>
   <text x="400" y="132" text-anchor="middle" fill="#81D4FA" font-size="9" font-family="monospace">3 items / s</text>
-  <text x="400" y="144" text-anchor="middle" fill="#4FC3F7" font-size="8" font-family="monospace">3 smelters ✓</text>
+  <text x="400" y="144" text-anchor="middle" fill="#4FC3F7" font-size="8" font-family="monospace">3 smelters OK</text>
 
   <rect x="480" y="100" width="130" height="50" rx="5" fill="#4A148C" stroke="#AB47BC" stroke-width="1"/>
   <text x="545" y="118" text-anchor="middle" fill="#F3E5F5" font-size="10" font-family="monospace" font-weight="bold">MK.IV (PURPLE)</text>
@@ -67,19 +67,19 @@
   <rect x="30" y="180" width="740" height="120" rx="8" fill="url(#cardGrad)" stroke="#29B6F6" stroke-width="1.5" filter="url(#shadow3)"/>
 
   <rect x="45" y="190" width="6" height="100" rx="3" fill="#29B6F6"/>
-  <text x="70" y="210" fill="#29B6F6" font-size="13" font-family="monospace" font-weight="bold">🚁 LOGISTICS DRONES — REGIONAL / FLEXIBLE</text>
-  <text x="70" y="228" fill="#B0BEC5" font-size="9.5" font-family="monospace">Use when:  Cross-planet (same star) • Scattered demand • Low-medium volume • No belts needed</text>
+  <text x="70" y="210" fill="#29B6F6" font-size="13" font-family="monospace" font-weight="bold"> LOGISTICS DRONES - REGIONAL / FLEXIBLE</text>
+  <text x="70" y="228" fill="#B0BEC5" font-size="9.5" font-family="monospace">Use when:  Cross-planet (same star) - Scattered demand - Low-medium volume - No belts needed</text>
 
   <!-- Drone specs -->
   <rect x="45" y="237" width="200" height="50" rx="5" fill="#01579B" stroke="#29B6F6" stroke-width="1"/>
   <text x="145" y="255" text-anchor="middle" fill="#B3E5FC" font-size="10" font-family="monospace" font-weight="bold">DRONE STATS</text>
   <text x="145" y="269" text-anchor="middle" fill="#81D4FA" font-size="9" font-family="monospace">Cargo: 1 load / trip</text>
-  <text x="145" y="281" text-anchor="middle" fill="#4FC3F7" font-size="8.5" font-family="monospace">Speed: Fast • Range: Star system</text>
+  <text x="145" y="281" text-anchor="middle" fill="#4FC3F7" font-size="8.5" font-family="monospace">Speed: Fast - Range: Star system</text>
 
   <!-- ILS Drone config -->
   <rect x="260" y="237" width="230" height="50" rx="5" fill="#1B5E20" stroke="#66BB6A" stroke-width="1"/>
   <text x="375" y="255" text-anchor="middle" fill="#C8E6C9" font-size="10" font-family="monospace" font-weight="bold">ILS DRONE CONFIG</text>
-  <text x="375" y="269" text-anchor="middle" fill="#A5D6A7" font-size="9" font-family="monospace">Supply → Demand (Remote ON)</text>
+  <text x="375" y="269" text-anchor="middle" fill="#A5D6A7" font-size="9" font-family="monospace">Supply -> Demand (Remote ON)</text>
   <text x="375" y="281" text-anchor="middle" fill="#81C784" font-size="8.5" font-family="monospace">Power: From ILS grid</text>
 
   <!-- Drone arrow -->
@@ -90,14 +90,14 @@
   <rect x="30" y="315" width="740" height="120" rx="8" fill="url(#cardGrad)" stroke="#AB47BC" stroke-width="1.5" filter="url(#shadow3)"/>
 
   <rect x="45" y="325" width="6" height="100" rx="3" fill="#AB47BC"/>
-  <text x="70" y="345" fill="#AB47BC" font-size="13" font-family="monospace" font-weight="bold">🚀 LOGISTICS VESSELS — INTERSTELLAR / HIGH VOLUME</text>
-  <text x="70" y="363" fill="#B0BEC5" font-size="9.5" font-family="monospace">Use when:  Cross-star-system • Raw materials • Massive cargo • Dedicated power supply</text>
+  <text x="70" y="345" fill="#AB47BC" font-size="13" font-family="monospace" font-weight="bold"> LOGISTICS VESSELS - INTERSTELLAR / HIGH VOLUME</text>
+  <text x="70" y="363" fill="#B0BEC5" font-size="9.5" font-family="monospace">Use when:  Cross-star-system - Raw materials - Massive cargo - Dedicated power supply</text>
 
   <!-- Vessel specs -->
   <rect x="45" y="372" width="200" height="50" rx="5" fill="#4A148C" stroke="#AB47BC" stroke-width="1"/>
   <text x="145" y="390" text-anchor="middle" fill="#F3E5F5" font-size="10" font-family="monospace" font-weight="bold">VESSEL STATS</text>
   <text x="145" y="404" text-anchor="middle" fill="#CE93D8" font-size="9" font-family="monospace">Cargo: Large capacity</text>
-  <text x="145" y="416" text-anchor="middle" fill="#BA68C8" font-size="8.5" font-family="monospace">Speed: Slower • Range: Interstellar</text>
+  <text x="145" y="416" text-anchor="middle" fill="#BA68C8" font-size="8.5" font-family="monospace">Speed: Slower - Range: Interstellar</text>
 
   <!-- ILS Vessel config -->
   <rect x="260" y="372" width="230" height="50" rx="5" fill="#BF360C" stroke="#FF7043" stroke-width="1"/>
@@ -112,6 +112,6 @@
   <!-- ===== BOTTOM: Decision Flow ===== -->
   <rect x="30" y="450" width="740" height="1" fill="#30363d"/>
 
-  <text x="400" y="468" text-anchor="middle" fill="#FFD54F" font-size="9.5" font-family="monospace" font-weight="bold">DECISION:  Same planet → BELT  |  Same star → DRONE  |  Cross-star → VESSEL</text>
-  <text x="400" y="481" text-anchor="middle" fill="#8D6E63" font-size="8.5" font-family="monospace">Belt for throughput • Drone for flexibility • Vessel for scale</text>
+  <text x="400" y="468" text-anchor="middle" fill="#FFD54F" font-size="9.5" font-family="monospace" font-weight="bold">DECISION:  Same planet -> BELT  |  Same star -> DRONE  |  Cross-star -> VESSEL</text>
+  <text x="400" y="481" text-anchor="middle" fill="#8D6E63" font-size="8.5" font-family="monospace">Belt for throughput - Drone for flexibility - Vessel for scale</text>
 </svg>
