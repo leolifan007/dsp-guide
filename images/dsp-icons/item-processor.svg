@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a3040"/>
+      <stop offset="100%" stop-color="#1a1f2a"/>
+    </linearGradient>
+  </defs>
+  <!--  -->
+  <rect x="4" y="4" width="112" height="112" rx="10" fill="url(#g)" stroke="#4a5568" stroke-width="1.5"/>
+  
+  <!-- Processor: CPU -->
+  <!--  -->
+  <rect x="35" y="35" width="50" height="50" rx="4" fill="#1a1f2a" stroke="#6b8cae" stroke-width="2"/>
+  <!--  -->
+  <rect x="45" y="45" width="30" height="30" rx="2" fill="#2a3a4a" stroke="#6b8cae" stroke-width="1"/>
+  <!--  -  -->
+  <line x1="40" y1="35" x2="40" y2="25" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="50" y1="35" x2="50" y2="25" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="60" y1="35" x2="60" y2="25" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="70" y1="35" x2="70" y2="25" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="80" y1="35" x2="80" y2="25" stroke="#6b8cae" stroke-width="1.5"/>
+  <!--  -  -->
+  <line x1="40" y1="85" x2="40" y2="95" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="50" y1="85" x2="50" y2="95" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="60" y1="85" x2="60" y2="95" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="70" y1="85" x2="70" y2="95" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="80" y1="85" x2="80" y2="95" stroke="#6b8cae" stroke-width="1.5"/>
+  <!--  -  -->
+  <line x1="35" y1="40" x2="25" y2="40" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="35" y1="50" x2="25" y2="50" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="35" y1="60" x2="25" y2="60" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="35" y1="70" x2="25" y2="70" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="35" y1="80" x2="25" y2="80" stroke="#6b8cae" stroke-width="1.5"/>
+  <!--  -  -->
+  <line x1="85" y1="40" x2="95" y2="40" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="85" y1="50" x2="95" y2="50" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="85" y1="60" x2="95" y2="60" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="85" y1="70" x2="95" y2="70" stroke="#6b8cae" stroke-width="1.5"/>
+  <line x1="85" y1="80" x2="95" y2="80" stroke="#6b8cae" stroke-width="1.5"/>
+</svg>

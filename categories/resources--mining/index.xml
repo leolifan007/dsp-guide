@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources &amp; Mining on Dyson Sphere Program Guide</title>
+    <link>https://dsp-guide.com/categories/resources--mining/</link>
+    <description>Recent content in Resources &amp; Mining on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Jun 2026 22:29:00 +0800</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/categories/resources--mining/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSP Advanced Oil Processing Guide (v0.10) - Never Waste Refined Oil or Backup Your Factory Again</title>
+      <link>https://dsp-guide.com/advanced-oil-processing-guide/</link>
+      <pubDate>Fri, 12 Jun 2026 16:43:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/advanced-oil-processing-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; The key to oil processing is balancing Hydrogen output with consumption. Build a thermal power station burning excess Hydrogen as a buffer. Store Refined Oil in tanks (not towers - tanks are free). When Hydrogen backs up, your entire oil chain stops, which stops plastic, which stops yellow science. Burn the excess.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Oil processing is the most mis-understood production chain in DSP. Unlike mining, which produces exactly what you ask for, oil refining produces multiple outputs simultaneously. When one output backs up, the entire refinery stops. This guide covers every aspect of oil management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Vein Utilization Guide (v0.10) - Optimal Miner Placement and Proliferation for Maximum Output</title>
+      <link>https://dsp-guide.com/vein-utilization-mining-guide/</link>
+      <pubDate>Sun, 14 Jun 2026 08:55:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/vein-utilization-mining-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Each Mining Machine covers a 3x3 grid of ore tiles. Place them edge-to-edge over the densest part of the vein. One Mk.III proliferator sprayed on the ore output increases effective output by 25% at the cost of proliferator materials. The Vein Utilization research (up to level 10) doubles your effective ore per node.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Ore veins are finite. Every iron ore, copper ore, and coal vein on your starting planet will eventually deplete. Mining optimization determines whether you run out of resources in 20 hours or 200 hours. This guide covers every mining optimization technique.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Mining Outpost Guide (v0.10) - Set Up Off-World Bases That Run Forever</title>
+      <link>https://dsp-guide.com/coal-fire-ice-mining-outpost-guide/</link>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/coal-fire-ice-mining-outpost-guide/</guid>
+      <description>&lt;p&gt;Every DSP factory runs on raw materials — and raw materials live on planets that are rarely the planet where your main factory sits. Mining outposts are how you get coal from a gas giant&#39;s moon, titanium from an ice world, and fire ice from the dark reaches of the galaxy without leaving your main factory&#39;s logistics grid.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers how to build mining outposts, position mining machines correctly, and connect them to your logistics network so resources flow automatically.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Fire Ice &amp; Deuterium: Cold Planet Refining Guide</title>
+      <link>https://dsp-guide.com/fire-ice-deuterium/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/fire-ice-deuterium/</guid>
+      <description>&lt;p&gt;You&#39;ve found a lava world or an ice giant. The stars call it a Fire Ice planet — and it&#39;s full of something that doesn&#39;t exist on temperate worlds: &lt;strong&gt;Deuterium&lt;/strong&gt;. Deuterium is your path to advanced fuels, high-output Rocket Fuel, and the Yellow Science chain.&lt;/p&gt;&#xA;&lt;p&gt;But getting it out of the ground and into your factory requires understanding a completely different logistics problem.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers finding Fire Ice planets, the extraction and refining mechanics, managing the water byproduct, and how to integrate Deuterium into your endgame production.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Oil &amp; Plastics: Full Refining Chain Guide</title>
+      <link>https://dsp-guide.com/oil-plastics-refining/</link>
+      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/oil-plastics-refining/</guid>
+      <description>&lt;p&gt;Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up — is a system that catches almost everyone off guard.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete Oil Refining chain from extraction to end products, with working production ratios, the critical &lt;strong&gt;hydrogen byproduct problem&lt;/strong&gt;, and how to automate it without tearing your hair out.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Can&#39;t Find Titanium in DSP? Here&#39;s How to Get It (And Bring It Home)</title>
+      <link>https://dsp-guide.com/titanium-transport-guide/</link>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/titanium-transport-guide/</guid>
+      <description>&lt;p&gt;Your starter planet has no titanium.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;That&#39;s not a bug. It&#39;s not bad luck. It&#39;s literally how the game works. The devs designed it this way to force you to figure out interplanetary travel.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Here&#39;s the quickest way to get titanium and why you shouldn&#39;t panic.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR:&lt;/strong&gt; Fly to the planet next door. Mine the shiny blue rocks. Fly back with a full inventory. Build your first ILS to automate it. Done.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;Step 1: Find Your Titanium Planet&lt;/h2&gt;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Open your star map (M key). Look at the other planets in your starting system. One of them will have titanium veins. In the default cluster, your starter planet orbits the sun with two more planets — the one closer to the sun usually has titanium. Sometimes both do.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

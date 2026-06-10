@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DSP Vein Utilization Guide (v0.10) - Optimal Miner Placement and Proliferation for Maximum Output | Dyson Sphere Program Guide</title>
+  <base href="https://dsp-guide.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/dsp-main.css?v=3">
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'analytics_storage': 'denied',
+  'wait_for_update': 500
+});
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RDJSH9J2M9"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RDJSH9J2M9', {
+    'allow_google_signals': false,
+    'allow_ad_personalization_signals': false
+  });
+</script>
+
+
+
+</head>
+<body>
+<div class="site-header">
+  <a href="/" class="site-title">DSP Guide</a>
+<nav class="main-nav" id="mainNav">
+  <a href="/" class="nav-link">Home</a>
+  
+  
+  
+  
+  <a href="/categories/power--energy/" class="nav-link">Power &amp; Energy</a>
+  
+  
+  
+  <a href="/categories/resources--mining/" class="nav-link active">Resources &amp; Mining</a>
+  
+  
+  
+  <a href="/categories/science--production/" class="nav-link">Science &amp; Production</a>
+  
+  
+  
+  <a href="/categories/logistics--transport/" class="nav-link">Logistics &amp; Transport</a>
+  
+  
+  <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">☰</button>
+</nav>
+</div>
+
+  <div class="page-wrap">
+    
+<div class="single-page">
+
+  
+  <div class="article-category-bar">
+    <div class="category-bar-bg" style="background-image:url('/images/hero-bg.jpg');"></div>
+    <div class="category-bar-inner">
+      
+      
+      <span class="category-badge">Resources &amp; Mining</span>
+      <h1 class="category-title">Resources &amp; Mining Guides</h1>
+      <p class="category-desc">
+        From titanium transport to fire ice refining: resource guides for every stage of your factory.
+        
+      </p>
+      
+    </div>
+  </div>
+
+  <div class="article-layout-new">
+    
+    <aside class="article-sidebar">
+      
+      
+      <div class="sidebar-panel">
+        <div class="sidebar-panel-header">In This Category</div>
+        <ul class="sidebar-panel-list">
+          
+          <li class="active">
+            <a href="/vein-utilization-mining-guide/">
+              <span class="sp-list-title">DSP Vein Utilization Guide (v0.10) - …</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/advanced-oil-processing-guide/">
+              <span class="sp-list-title">DSP Advanced Oil Processing Guide (v0.10) …</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/coal-fire-ice-mining-outpost-guide/">
+              <span class="sp-list-title">DSP Mining Outpost Guide (v0.10) - Set Up …</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/oil-plastics-refining/">
+              <span class="sp-list-title">DSP Oil &amp; Plastics: Full Refining Chain …</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/fire-ice-deuterium/">
+              <span class="sp-list-title">DSP Fire Ice &amp; Deuterium: Cold Planet …</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/titanium-transport-guide/">
+              <span class="sp-list-title">Can&#39;t Find Titanium in DSP? Here&#39;s How to …</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </aside>
+
+    
+    <main class="article-body-wrap">
+      <div class="article-title-area">
+        <div class="title-accent-line"></div>
+        <h1 class="article-main-title">DSP Vein Utilization Guide (v0.10) - Optimal Miner Placement and Proliferation for Maximum Output</h1>
+        <div class="article-meta-bar">
+          <span class="meta-date">Jun 9, 2026</span>
+          
+        </div>
+      </div>
+
+      <div class="article-content-sections" id="articleContent">
+        <p class="article-lead">Master mining optimization in Dyson Sphere Program. Complete guide to mining machine placement, vein coverage patterns, proliferator application, and vein utilization upgrade priorities. Extract more ore per vein with fewer miners.</p>
+        <div class="callout"><strong>Short answer:</strong> Each Mining Machine covers a 3x3 grid of ore tiles. Place them edge-to-edge over the densest part of the vein. One Mk.III proliferator sprayed on the ore output increases effective output by 25% at the cost of proliferator materials. The Vein Utilization research (up to level 10) doubles your effective ore per node.</div>
+
+<p>Ore veins are finite. Every iron ore, copper ore, and coal vein on your starting planet will eventually deplete. Mining optimization determines whether you run out of resources in 20 hours or 200 hours. This guide covers every mining optimization technique.</p>
+<h2 id="mining-machine-coverage">Mining Machine Coverage</h2>
+<div class="section-head collapsible"><h2>Placement Pattern</h2></div>
+
+<p>Each mining machine covers a 3x3 tile area, extracting ore from all 9 tiles simultaneously. The key insight is overlapping coverage:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Placement</th>
+          <th>Coverage</th>
+          <th>Ore Veins Used</th>
+          <th>Output</th>
+          <th>Efficiency</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Scattered random</td>
+          <td>50-70%</td>
+          <td>Partial</td>
+          <td>~20/min</td>
+          <td>60%</td>
+      </tr>
+      <tr>
+          <td>Edge-to-edge grid</td>
+          <td>90-95%</td>
+          <td>Full vein</td>
+          <td>~30/min</td>
+          <td>90%</td>
+      </tr>
+      <tr>
+          <td>Dense center cluster</td>
+          <td>95-100%</td>
+          <td>Full vein</td>
+          <td>~36/min</td>
+          <td>95%</td>
+      </tr>
+  </tbody>
+</table>
+<p><div class="game-slot"><img src="/images/dsp-icons/mining-machine.png" alt="mining-machine" class="game-img" loading="lazy">
+  <span class="game-name">Mining</span>
+</div>
+ <div class="game-slot"><img src="/images/dsp-icons/belt.png" alt="belt" class="game-img" loading="lazy">
+   <span class="game-name">Belt</span>
+ </div>
+</p>
+<p>Build mining machines in a grid pattern starting from the densest cluster of ore tiles. Place them edge-to-edge so no tile is left un-mined. A single 12-tile-wide iron vein supports 4 mining machines in a 2x2 grid.</p>
+<blockquote class="insight-box">
+**Depth rule:** Mining machines placed directly on top of the ore patch mine faster than machines placed on the edge. The center tiles of a large vein get priority mining. If your vein is irregularly shaped, cluster miners on the thickest part.
+</blockquote>
+<h2 id="the-vein-utilization-tech-tree">The Vein Utilization Tech Tree</h2>
+<p>Vein Utilization is the single most important infinite research in DSP. Each level reduces ore consumption by 10%, effectively increasing your ore supply by 11% per level.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Ore Consumption Reduction</th>
+          <th>Effective Ore Multiplier</th>
+          <th>Cost (Previous Level x)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>10%</td>
+          <td>1.11x</td>
+          <td>1x</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>50%</td>
+          <td>2.0x</td>
+          <td>480x</td>
+      </tr>
+      <tr>
+          <td>10</td>
+          <td>100%</td>
+          <td>infinite (free mining)</td>
+          <td>196,830x</td>
+      </tr>
+      <tr>
+          <td>15</td>
+          <td>150%</td>
+          <td>2.5x reduction per craft</td>
+          <td>47Mx</td>
+      </tr>
+  </tbody>
+</table>
+<div class="pro-tip"><strong>Research priority:</strong> Rush Vein Utilization to level 4 before you exhaust your starting iron vein. Each level costs progressively more science, but the savings compound. At level 4, your starting iron vein lasts 66% longer. At level 6, it lasts 150% longer.</div>
+
+<h2 id="proliferation-for-mining">Proliferation for Mining</h2>
+<p>Applying Mk.II or Mk.III Proliferator to mining outputs is surprisingly effective:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Proliferator</th>
+          <th>Extra Output</th>
+          <th>Cost to Spray</th>
+          <th>Net Gain</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Mk.I</td>
+          <td>+12.5%</td>
+          <td>1 Coal per 12 ore</td>
+          <td>Small gain</td>
+      </tr>
+      <tr>
+          <td>Mk.II</td>
+          <td>+20%</td>
+          <td>1 Diamond per 10 ore</td>
+          <td>Medium gain</td>
+      </tr>
+      <tr>
+          <td>Mk.III</td>
+          <td>+25%</td>
+          <td>1 Carbon Nanotube per 8 ore</td>
+          <td>Good gain (late game)</td>
+      </tr>
+  </tbody>
+</table>
+<p>For early game, skip proliferator on mining. The coal and diamond costs outweigh the gains. For late game (post-green science), Mk.III proliferator on high-volume ores (iron, copper, titanium) is worthwhile.</p>
+<div class="section-head collapsible"><h2>When to Proliferate Mining</h2></div>
+
+<table>
+  <thead>
+      <tr>
+          <th>Ore Type</th>
+          <th>Early Game</th>
+          <th>Mid Game</th>
+          <th>Late Game</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Iron Ore</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes (Mk.III)</td>
+      </tr>
+      <tr>
+          <td>Copper Ore</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes (Mk.III)</td>
+      </tr>
+      <tr>
+          <td>Coal</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+      </tr>
+      <tr>
+          <td>Titanium Ore</td>
+          <td>No</td>
+          <td>Maybe (Mk.II)</td>
+          <td>Yes (Mk.III)</td>
+      </tr>
+      <tr>
+          <td>Silicon Ore</td>
+          <td>No</td>
+          <td>Maybe (Mk.II)</td>
+          <td>Yes (Mk.III)</td>
+      </tr>
+      <tr>
+          <td>Rare Minerals</td>
+          <td>N/A</td>
+          <td>Yes (Mk.II)</td>
+          <td>Yes (Mk.III)</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="off-world-mining-setup">Off-World Mining Setup</h2>
+<p>When your home planet veins run low, expand to off-world outposts:</p>
+<div class="step-group">
+<div class="step">
+  <div class="step-title">Scout planets</div>
+  <div class="step-body">Scan nearby systems for high-concentration ore planets</div>
+</div>
+<div class="step">
+  <div class="step-title">Drop miners</div>
+  <div class="step-body">Grid-place 20-30 mining machines covering the best patches</div>
+</div>
+<div class="step">
+  <div class="step-title">Power up</div>
+  <div class="step-body">Build 10-15 wind turbines + 4-6 thermal generators for off-grid power</div>
+</div>
+<div class="step">
+  <div class="step-title">ILS export</div>
+  <div class="step-body">Place an ILS set to Supply with 3-4 vessels and Warpers</div>
+</div>
+<div class="step">
+  <div class="step-title">Home import</div>
+  <div class="step-body">Set matching ILS on home planet to Demand</div>
+</div>
+</div>
+<div class="callout"><strong>Outpost trap:</strong> Do not over-build miners on off-world outposts. Export capacity is limited by ILS vessel throughput. 20 miners on a single ILS is usually enough. More miners without more ILS towers just clog the belts.</div>
+
+<h2 id="mining-priority-for-starting-planet">Mining Priority for Starting Planet</h2>
+<p>Set mining priority based on depletion speed:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Ore</th>
+          <th>Starting Amount (Typical)</th>
+          <th>Hours at 60 SPM</th>
+          <th>Strategy</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Iron Ore</td>
+          <td>2-3M</td>
+          <td>~40h</td>
+          <td>Build iron off-world outpost at hour 15</td>
+      </tr>
+      <tr>
+          <td>Copper Ore</td>
+          <td>1-2M</td>
+          <td>~30h</td>
+          <td>Build copper off-world at hour 10</td>
+      </tr>
+      <tr>
+          <td>Coal</td>
+          <td>1-2M</td>
+          <td>~50h</td>
+          <td>Switch to Energetic Graphite from Oil by hour 20</td>
+      </tr>
+      <tr>
+          <td>Stone</td>
+          <td>500K-1M</td>
+          <td>~60h</td>
+          <td>Negligible consumption, skip off-world</td>
+      </tr>
+      <tr>
+          <td>Oil Seeps</td>
+          <td>2-4/s</td>
+          <td>Infinite</td>
+          <td>Oil never depletes, just slows</td>
+      </tr>
+  </tbody>
+</table>
+<p>Pair mining optimization with our <a href="/smelting-array-blueprint-guide/">DSP Smelting Array Blueprint Guide</a> for a complete raw-to-ingot pipeline.</p>
+<div class="resource-grid">
+<a class="resource-card" href="https://dsp-wiki.com/Mining_Machine" target="_blank" rel="noopener">
+  <div class="resource-card-name">DSP Wiki - Mining</div>
+  <div class="resource-card-desc">Mining machine mechanics and coverage</div>
+</a>
+<a class="resource-card" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2373611284" target="_blank" rel="noopener">
+  <div class="resource-card-name">Steam Guide - Resource Management</div>
+  <div class="resource-card-desc">Community mining optimization guides</div>
+</a>
+</div>
+
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+(function() {
+  var content = document.getElementById('articleContent');
+  if (!content) return;
+
+  
+  var heads = [];
+  var headNodes = content.querySelectorAll('.section-head.collapsible, h2');
+  headNodes.forEach(function(node) {
+    if (node.tagName === 'H2') {
+      
+      if (!node.closest('.section-head')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'section-head collapsible';
+        node.parentNode.insertBefore(wrapper, node);
+        wrapper.appendChild(node);
+        heads.push(wrapper);
+      }
+      
+    } else if (node.classList.contains('section-head')) {
+      heads.push(node);
+    }
+  });
+
+  if (heads.length === 0) return;
+
+  
+  var sections = [];
+  for (var i = 0; i < heads.length; i++) {
+    var sectionContent = [heads[i]];
+    var sib = heads[i].nextElementSibling;
+    while (sib && !sib.classList.contains('section-head') && sib.tagName !== 'H2') {
+      sectionContent.push(sib);
+      sib = sib.nextElementSibling;
+    }
+    sections.push(sectionContent);
+  }
+
+  
+  sections.forEach(function(elems) {
+    var block = document.createElement('div');
+    block.className = 'section-content-block';
+    var parent = elems[0].parentNode;
+    parent.insertBefore(block, elems[0]);
+    elems.forEach(function(el) {
+      block.appendChild(el);
+    });
+  });
+
+  
+  var allBlocks = content.querySelectorAll('.section-content-block');
+  allBlocks.forEach(function(block) {
+    var head = block.querySelector('.section-head');
+    if (!head) return;
+    head.addEventListener('click', function() {
+      block.classList.toggle('collapsed');
+      var toggles = block.querySelectorAll(':scope > *:not(.section-head)');
+      toggles.forEach(function(el) {
+        el.style.display = el.style.display === 'none' ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/">Guides</a>
+      <a href="/tags/">Topics</a>
+      <a href="/privacy/">Privacy</a>
+    </div>
+    <p><strong>DSP Guide</strong> - Unofficial community guides for Dyson Sphere Program.</p>
+    <p>(C) 2026 DSP Guide - Game assets belong to Youthcat Studio / Gamera Games</p>
+  </footer>
+
+  
+  <div id="cookieBanner" class="cookie-banner" style="display:none;">
+    <p class="cookie-banner-text">
+      This site uses cookies from Google for analytics and advertising.
+      <a href="/privacy/">Learn more</a>
+    </p>
+    <div class="cookie-banner-actions">
+      <button id="cookieReject" class="cookie-btn cookie-btn-reject">Reject</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn-accept">Accept All</button>
+    </div>
+  </div>
+
+<script src="/js/main.js"></script>
+<script src="/js/cookie-consent.js"></script>
+
+
+<script src="https://pl29637235.effectivecpmnetwork.com/4e/c7/6d/4ec76da7b1f6cd9f77f8032e5cf4a764.js"></script>
+
+</body>
+</html>

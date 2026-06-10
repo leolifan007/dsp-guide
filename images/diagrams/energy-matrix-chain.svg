@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 440" width="780" height="440">
+  <defs>
+    <marker id="aOil" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#8D6E63"/></marker>
+    <marker id="aH2" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#29B6F6"/></marker>
+    <marker id="aEM" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#FFD54F"/></marker>
+    <marker id="aRR" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0,0 8,3 0,6" fill="#66BB6A"/></marker>
+    <filter id="dsEm"><feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.45"/></filter>
+    <linearGradient id="gOil" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5D4037"/><stop offset="100%" stop-color="#3E2723"/></linearGradient>
+    <linearGradient id="gRef" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#6D4C41"/><stop offset="100%" stop-color="#4E342E"/></linearGradient>
+    <linearGradient id="gH2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0277BD"/><stop offset="100%" stop-color="#01579B"/></linearGradient>
+    <linearGradient id="gEM" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#C17900"/><stop offset="100%" stop-color="#F57F17"/></linearGradient>
+    <linearGradient id="gRR" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1B5E20"/><stop offset="100%" stop-color="#2E7D32"/></linearGradient>
+  </defs>
+
+  <rect width="780" height="440" fill="#0d1117" rx="10"/>
+  <rect x="4" y="4" width="772" height="432" fill="none" stroke="#1c2333" stroke-width="0.5" rx="8"/>
+
+  <text x="390" y="28" text-anchor="middle" fill="#E8EAED" font-size="15" font-weight="bold" font-family="Inter,Segoe UI,sans-serif" letter-spacing="1.5">ENERGY MATRIX PRODUCTION CHAIN</text>
+  <text x="390" y="44" text-anchor="middle" fill="#8B949E" font-size="10" font-family="Inter,Segoe UI,monospace">Crude Oil -> Refinery -> Fuel Refinery -> Energy Matrix -> Ray Receiver -> PWR</text>
+
+  <!-- Crude Oil -->
+  <rect x="25" y="62" width="110" height="60" rx="8" fill="url(#gOil)" stroke="#8D6E63" stroke-width="1.2" filter="url(#dsEm)"/>
+  <text x="80" y="84" text-anchor="middle" fill="#D7CCC8" font-size="12" font-weight="bold" font-family="Inter,Segoe UI,sans-serif"></text>
+  <text x="80" y="100" text-anchor="middle" fill="#BCAAA4" font-size="10" font-family="Inter,Segoe UI,monospace">CRUDE OIL</text>
+  <text x="80" y="114" text-anchor="middle" fill="#8D6E63" font-size="8" font-family="Inter,Segoe UI,monospace">From oil extractor</text>
+
+  <!-- Arrow: Oil to Refinery -->
+  <line x1="135" y1="92" x2="195" y2="92" stroke="#8D6E63" stroke-width="2.5" marker-end="url(#aOil)"/>
+
+  <!-- Refinery -->
+  <rect x="198" y="58" width="130" height="68" rx="8" fill="url(#gRef)" stroke="#A1887F" stroke-width="1.2" filter="url(#dsEm)"/>
+  <text x="263" y="80" text-anchor="middle" fill="#D7CCC8" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,sans-serif"> REFINERY</text>
+  <text x="263" y="96" text-anchor="middle" fill="#BCAAA4" font-size="9" font-family="Inter,Segoe UI,monospace">Standard Recipe</text>
+  <text x="263" y="110" text-anchor="middle" fill="#A1887F" font-size="8" font-family="Inter,Segoe UI,monospace">Oil 1/s + H2 0.5/s</text>
+
+  <!-- Arrow: Refined Oil -->
+  <line x1="328" y1="80" x2="388" y2="80" stroke="#8D6E63" stroke-width="2" marker-end="url(#aOil)"/>
+  <text x="358" y="74" fill="#8D6E63" font-size="8" font-family="Inter,Segoe UI,monospace">Ref. Oil</text>
+
+  <!-- Arrow: H2 output -->
+  <line x1="328" y1="104" x2="388" y2="104" stroke="#29B6F6" stroke-width="2" marker-end="url(#aH2)"/>
+  <text x="358" y="98" fill="#29B6F6" font-size="8" font-family="Inter,Segoe UI,monospace">H2</text>
+
+  <!-- Fuel Refinery -->
+  <rect x="391" y="58" width="130" height="68" rx="8" fill="url(#gEM)" stroke="#FFD54F" stroke-width="1.5" filter="url(#dsEm)"/>
+  <text x="456" y="80" text-anchor="middle" fill="#FFF8E1" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">PWR FUEL REFINERY</text>
+  <text x="456" y="96" text-anchor="middle" fill="#FFE082" font-size="9" font-family="Inter,Segoe UI,monospace">H2x2 + Ref.Oilx1</text>
+  <text x="456" y="110" text-anchor="middle" fill="#FFD54F" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace">-> EM x1/s</text>
+
+  <!-- Proliferator badge -->
+  <rect x="491" y="60" width="55" height="20" rx="4" fill="#7B1FA2" stroke="#CE93D8" stroke-width="0.8"/>
+  <text x="519" y="74" text-anchor="middle" fill="#E1BEE7" font-size="8" font-weight="bold" font-family="Inter,Segoe UI,monospace">+PROLIF</text>
+
+  <!-- Arrow: Energy Matrix -->
+  <line x1="521" y1="92" x2="570" y2="92" stroke="#FFD54F" stroke-width="2.5" marker-end="url(#aEM)"/>
+
+  <!-- Energy Matrix -->
+  <rect x="573" y="62" width="110" height="60" rx="8" fill="url(#gEM)" stroke="#FFB300" stroke-width="1.5" filter="url(#dsEm)"/>
+  <text x="628" y="84" text-anchor="middle" fill="#FFF8E1" font-size="12" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">PWR EM</text>
+  <text x="628" y="100" text-anchor="middle" fill="#FFE082" font-size="10" font-family="Inter,Segoe UI,monospace">ENERGY MATRIX</text>
+  <text x="628" y="114" text-anchor="middle" fill="#FFD54F" font-size="8" font-family="Inter,Segoe UI,monospace">Dyson Sphere fuel</text>
+
+  <!-- Arrow: to Ray Receiver -->
+  <line x1="683" y1="92" x2="720" y2="92" stroke="#66BB6A" stroke-width="2" marker-end="url(#aRR)"/>
+
+  <!-- Ray Receiver -->
+  <rect x="723" y="62" width="38" height="60" rx="6" fill="url(#gRR)" stroke="#66BB6A" stroke-width="1" filter="url(#dsEm)"/>
+  <text x="742" y="87" text-anchor="middle" fill="#E8F5E9" font-size="8" font-weight="bold" font-family="Inter,Segoe UI,monospace">RR</text>
+
+  <!-- H2 Competition Table -->
+  <rect x="25" y="145" width="730" height="130" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <rect x="25" y="145" width="730" height="26" rx="8" fill="#21262d"/>
+  <text x="390" y="163" text-anchor="middle" fill="#E8EAED" font-size="12" font-weight="bold" font-family="Inter,Segoe UI,sans-serif">HYDROGEN CONSUMER COMPETITION - THE BOTTLENECK</text>
+  <line x1="25" y1="171" x2="755" y2="171" stroke="#30363d" stroke-width="0.8"/>
+
+  <!-- Headers -->
+  <text x="100" y="188" text-anchor="middle" fill="#8B949E" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace">CONSUMER</text>
+  <text x="310" y="188" text-anchor="middle" fill="#8B949E" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace">H2/s</text>
+  <text x="500" y="188" text-anchor="middle" fill="#8B949E" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace">PRODUCT</text>
+  <text x="680" y="188" text-anchor="middle" fill="#8B949E" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace">PRIORITY</text>
+
+  <!-- H2 Fuel Plants -->
+  <rect x="30" y="195" width="150" height="30" rx="5" fill="#01579B" stroke="#29B6F6" stroke-width="0.8"/>
+  <text x="105" y="214" text-anchor="middle" fill="#B3E5FC" font-size="10" font-family="Inter,Segoe UI,monospace">H2 Fuel Plants</text>
+  <rect x="265" y="200" width="80" height="20" rx="4" fill="#0277BD" stroke="#29B6F6" stroke-width="0.6"/>
+  <text x="305" y="214" text-anchor="middle" fill="#81D4FA" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,monospace">1/s</text>
+  <text x="500" y="214" text-anchor="middle" fill="#8B949E" font-size="9" font-family="Inter,Segoe UI,monospace">PWR Power</text>
+  <rect x="620" y="198" width="120" height="24" rx="4" fill="#263238" stroke="#546E7A" stroke-width="0.8"/>
+  <text x="680" y="214" text-anchor="middle" fill="#78909C" font-size="9" font-family="Inter,Segoe UI,monospace">Flexible</text>
+
+  <!-- Blue Science -->
+  <rect x="30" y="230" width="150" height="30" rx="5" fill="#0D47A1" stroke="#42A5F5" stroke-width="0.8"/>
+  <text x="105" y="249" text-anchor="middle" fill="#B3E5FC" font-size="10" font-family="Inter,Segoe UI,monospace">Blue Science Packs</text>
+  <rect x="265" y="235" width="80" height="20" rx="4" fill="#0277BD" stroke="#29B6F6" stroke-width="0.6"/>
+  <text x="305" y="249" text-anchor="middle" fill="#81D4FA" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,monospace">2/s</text>
+  <text x="500" y="249" text-anchor="middle" fill="#8B949E" font-size="9" font-family="Inter,Segoe UI,monospace"> Science</text>
+  <rect x="620" y="233" width="120" height="24" rx="4" fill="#0D47A1" stroke="#42A5F5" stroke-width="0.8"/>
+  <text x="680" y="249" text-anchor="middle" fill="#90CAF9" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace"> Critical</text>
+
+  <!-- Graphene -->
+  <rect x="30" y="265" width="150" height="30" rx="5" fill="#1B5E20" stroke="#66BB6A" stroke-width="0.8"/>
+  <text x="105" y="284" text-anchor="middle" fill="#C8E6C9" font-size="10" font-family="Inter,Segoe UI,monospace">Graphene Production</text>
+  <rect x="265" y="270" width="80" height="20" rx="4" fill="#0277BD" stroke="#29B6F6" stroke-width="0.6"/>
+  <text x="305" y="284" text-anchor="middle" fill="#81D4FA" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,monospace">1/s</text>
+  <text x="500" y="284" text-anchor="middle" fill="#8B949E" font-size="9" font-family="Inter,Segoe UI,monospace"> Sails</text>
+  <rect x="620" y="268" width="120" height="24" rx="4" fill="#BF360C" stroke="#FF7043" stroke-width="0.8"/>
+  <text x="680" y="284" text-anchor="middle" fill="#FFAB91" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace"> Critical</text>
+
+  <!-- Energy Matrix Refineries -->
+  <rect x="30" y="300" width="150" height="30" rx="5" fill="#F57F17" stroke="#FFB300" stroke-width="1.2"/>
+  <text x="105" y="319" text-anchor="middle" fill="#FFF8E1" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">EM Refineries</text>
+  <rect x="265" y="305" width="80" height="20" rx="4" fill="#0277BD" stroke="#29B6F6" stroke-width="0.8"/>
+  <text x="305" y="319" text-anchor="middle" fill="#81D4FA" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,monospace">2/s</text>
+  <text x="500" y="319" text-anchor="middle" fill="#8B949E" font-size="9" font-family="Inter,Segoe UI,monospace">PWR Dyson Sphere</text>
+  <rect x="620" y="303" width="120" height="24" rx="4" fill="#C17900" stroke="#FFD54F" stroke-width="1"/>
+  <text x="680" y="319" text-anchor="middle" fill="#FFD54F" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace"> Endgame</text>
+
+  <!-- Bottom tip -->
+  <rect x="25" y="345" width="730" height="28" rx="5" fill="#1a1a2e" stroke="#FFB300" stroke-width="0.8"/>
+  <text x="390" y="364" text-anchor="middle" fill="#FFD54F" font-size="9" font-family="Inter,Segoe UI,monospace"> Hydrogen is the universal bottleneck - add more oil extractors and refineries before scaling any H2 consumer</text>
+
+  <!-- Proliferation note -->
+  <rect x="25" y="382" width="730" height="45" rx="6" fill="#4A148C" stroke="#AB47BC" stroke-width="1"/>
+  <text x="55" y="402" fill="#E1BEE7" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,sans-serif"> PROLIFERATION PRIORITY: EM Refineries</text>
+  <text x="55" y="418" fill="#CE93D8" font-size="9" font-family="Inter,Segoe UI,monospace">Proliferate EM Refineries first - each additional level directly accelerates your Dyson Sphere construction speed.</text>
+</svg>

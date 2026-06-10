@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DSP Interplanetary Logistics Guide (v0.10) - Warper Economics and Vessel Management for Endgame | Dyson Sphere Program Guide</title>
+  <base href="https://dsp-guide.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/dsp-main.css?v=3">
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'analytics_storage': 'denied',
+  'wait_for_update': 500
+});
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RDJSH9J2M9"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RDJSH9J2M9', {
+    'allow_google_signals': false,
+    'allow_ad_personalization_signals': false
+  });
+</script>
+
+
+
+</head>
+<body>
+<div class="site-header">
+  <a href="/" class="site-title">DSP Guide</a>
+<nav class="main-nav" id="mainNav">
+  <a href="/" class="nav-link">Home</a>
+  
+  
+  
+  
+  <a href="/categories/power--energy/" class="nav-link">Power &amp; Energy</a>
+  
+  
+  
+  <a href="/categories/resources--mining/" class="nav-link">Resources &amp; Mining</a>
+  
+  
+  
+  <a href="/categories/science--production/" class="nav-link">Science &amp; Production</a>
+  
+  
+  
+  <a href="/categories/logistics--transport/" class="nav-link">Logistics &amp; Transport</a>
+  
+  
+  <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">☰</button>
+</nav>
+</div>
+
+  <div class="page-wrap">
+    
+<div class="single-page">
+
+  
+  <div class="article-category-bar">
+    <div class="category-bar-bg" style="background-image:url('/images/hero-bg.jpg');"></div>
+    <div class="category-bar-inner">
+      
+      
+      <span class="category-badge">Logistics &amp; Transportation</span>
+      <h1 class="category-title">Logistics &amp; Transportation Guides</h1>
+      <p class="category-desc">
+        Practical guides for Dyson Sphere Program.
+      </p>
+      
+    </div>
+  </div>
+
+  <div class="article-layout-new">
+    
+    <aside class="article-sidebar">
+      
+      
+      <div class="sidebar-panel">
+        <div class="sidebar-panel-header">In This Category</div>
+        <ul class="sidebar-panel-list">
+          
+          <li class="active">
+            <a href="/interplanetary-logistics-guide/">
+              <span class="sp-list-title">DSP Interplanetary Logistics Guide (v0.10) …</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/logistics-drones-vs-belts-guide/">
+              <span class="sp-list-title">DSP Logistics Guide (v0.10) - Drones vs …</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </aside>
+
+    
+    <main class="article-body-wrap">
+      <div class="article-title-area">
+        <div class="title-accent-line"></div>
+        <h1 class="article-main-title">DSP Interplanetary Logistics Guide (v0.10) - Warper Economics and Vessel Management for Endgame</h1>
+        <div class="article-meta-bar">
+          <span class="meta-date">Jun 9, 2026</span>
+          
+        </div>
+      </div>
+
+      <div class="article-content-sections" id="articleContent">
+        <p class="article-lead">Master interplanetary logistics in Dyson Sphere Program. Complete guide to ILS vessel management, warper production ratios, fuel economics, drone vs vessel routing strategies, and scaling logistics for 60&#43; SPM factories.</p>
+        <div class="callout"><strong>Short answer:</strong> One ILS with 3 Logistics Vessels handles ~60 items/min over 5 light years. Each trip uses 1 Warper per vessel per jump. For 60 SPM factories, allocate 1 Warper chemical plant per 5 ILS towers. Set demand on the home planet's ILS, supply on remote outposts. Never set both on the same tower.</div>
+
+<p>Interplanetary logistics is the backbone of every mid-to-late game DSP factory. Moving materials between planets efficiently determines whether your factory scales cleanly or becomes a congested mess. This guide covers the economics, the routing, and the common mistakes.</p>
+<h2 id="vessel-economics">Vessel Economics</h2>
+<p>Logistics Vessels operate on a simple principle: they carry items between ILS towers on different planets.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Vessel Stat</th>
+          <th>Base</th>
+          <th>With Mk.III Proliferator (Fuel)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Cargo Capacity</td>
+          <td>100</td>
+          <td>100</td>
+      </tr>
+      <tr>
+          <td>Speed (base)</td>
+          <td>400 m/s</td>
+          <td>520 m/s</td>
+      </tr>
+      <tr>
+          <td>Warper per trip</td>
+          <td>1</td>
+          <td>1 (can be proliferated)</td>
+      </tr>
+  </tbody>
+</table>
+<p>The cost per trip is always 1 Warper regardless of distance. This means short hops are expensive per-item while long hauls are cheaper per light year. Optimize by batching: a single vessel carrying 100 items costs 1 Warper. Splitting into 2 vessels costs 2 Warpers.</p>
+<p><div class="game-slot"><img src="/images/dsp-icons/warper.png" alt="warper" class="game-img" loading="lazy">
+  <span class="game-name">Warper</span>
+</div>
+ <div class="game-slot"><img src="/images/dsp-icons/logistics-vessel.png" alt="logistics-vessel" class="game-img" loading="lazy">
+   <span class="game-name">Logistics</span>
+ </div>
+</p>
+<blockquote class="insight-box">
+**Cost-saving trick:** For planets within the same system (planet-to-planet, not star-to-star), vessels do not need Warpers. Use this for your first two planets. Only use Warpers for interstellar routes. This alone cuts your Warper consumption by 60% in the mid game.
+</blockquote>
+<h2 id="warper-production-scaling">Warper Production Scaling</h2>
+<p>Each ILS tower needs Warpers in its warper slot. The Warper production chain is:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Step</th>
+          <th>Input</th>
+          <th>Output</th>
+          <th>Buildings for 60/min</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Gravity Lens</td>
+          <td>4 Graphite + 4 Diamond + 1 Strange Matter</td>
+          <td>1 Lens</td>
+          <td>4 assemblers</td>
+      </tr>
+      <tr>
+          <td>Warper</td>
+          <td>1 Gravity Lens + 1 Processor</td>
+          <td>5 Warpers</td>
+          <td>3 assemblers Mk.II</td>
+      </tr>
+  </tbody>
+</table>
+<p>One assembler producing Warpers from Gravity Lenses makes 5 Warpers every 6 seconds. That is 50 Warpers per minute per assembler. One assembler running full time supplies ~50 ILS towers.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Factory Size</th>
+          <th>Warpers Needed</th>
+          <th>Assemblers Required</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Small (10 ILS)</td>
+          <td>~0.5/min</td>
+          <td>1 (runs 1% of the time)</td>
+      </tr>
+      <tr>
+          <td>Medium (30 ILS)</td>
+          <td>~1.5/min</td>
+          <td>1 (runs 3% of the time)</td>
+      </tr>
+      <tr>
+          <td>Large (100 ILS)</td>
+          <td>~5/min</td>
+          <td>1 (runs 10% of the time)</td>
+      </tr>
+  </tbody>
+</table>
+<div class="pro-tip"><strong>Under-estimated cost:</strong> Most players over-build Warper production. One assembler with Mk.III assembler speed upgrade produces enough Warpers for 100+ ILS towers. Build exactly 1 Warper assembler and let it run. The belts will saturate and the assembler will auto-throttle.</div>
+
+<h2 id="routing-strategy">Routing Strategy</h2>
+<div class="section-head collapsible"><h2>The Supply-Demand Rule</h2></div>
+
+<p>Every ILS route must follow this rule exactly:</p>
+<table>
+  <thead>
+      <tr>
+          <th>ILS Type</th>
+          <th>Slots</th>
+          <th>Direction</th>
+          <th>Example</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Supply</td>
+          <td>Remote outpost</td>
+          <td>Output slots set to Supply</td>
+          <td>&quot;Send Titanium Ore&quot;</td>
+      </tr>
+      <tr>
+          <td>Demand</td>
+          <td>Factory planet</td>
+          <td>Input slots set to Demand</td>
+          <td>&quot;Receive Titanium Ore&quot;</td>
+      </tr>
+      <tr>
+          <td>Supply+Demand</td>
+          <td>Balanced planet</td>
+          <td>Some Supply, some Demand</td>
+          <td>Rare (planets that both send and receive)</td>
+      </tr>
+  </tbody>
+</table>
+<p>Never set the same slot to both Supply and Demand. This creates vessel ping-pong where ships waste Warpers traveling empty between planets.</p>
+<div class="section-head collapsible"><h2>Vessel Count Optimization</h2></div>
+
+<p>Each ILS has a default of 3 vessel slots. Increase this only when:</p>
+<ul>
+<li>Your factory consumes &gt;60 items/min of a single resource</li>
+<li>The resource travels &gt;10 light years</li>
+<li>The resource is bulky (Titanium Ore, Stone)</li>
+</ul>
+<p>For most resources, the default 2-3 vessels per ILS are sufficient. Over-allocating vessels wastes power and Warpers.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Resource</th>
+          <th>Vessels Needed</th>
+          <th>Why</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Titanium Ore</td>
+          <td>4-6</td>
+          <td>High volume, from early outposts</td>
+      </tr>
+      <tr>
+          <td>Silicon Ore</td>
+          <td>3-4</td>
+          <td>High volume, similar to titanium</td>
+      </tr>
+      <tr>
+          <td>Processors</td>
+          <td>1-2</td>
+          <td>Low volume, high value</td>
+      </tr>
+      <tr>
+          <td>Antimatter Rods</td>
+          <td>1-2</td>
+          <td>Very low volume, very high value</td>
+      </tr>
+      <tr>
+          <td>Warpers</td>
+          <td>1</td>
+          <td>Single vessel is enough forever</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="common-mistakes">Common Mistakes</h2>
+<ol>
+<li><strong>Oversized logistics stations</strong> - Use the Planetary Logistics Station (PLS) for intra-planet transport. ILS is over-kill and wastes power</li>
+<li><strong>No Warper slot configured</strong> - ILS without Warpers in the special slot cannot make interstellar trips, causing mysterious supply failures</li>
+<li><strong>Identical station names</strong> - Name each ILS by what it does (&quot;Titanium Mining Outpost - North&quot;) for debugging</li>
+<li><strong>All vessels on one planet</strong> - Vessel travel time increases exponentially with distance. Distribute ILS towers across planets</li>
+</ol>
+<div class="step-group">
+<div class="step">
+  <div class="step-title">Build Warper line</div>
+  <div class="step-body">One chemical plant making Warpers, fed by processor + gravity lens</div>
+</div>
+<div class="step">
+  <div class="step-title">Set supply ILS</div>
+  <div class="step-body">On mining planets, set ore slots to Supply, add Warpers</div>
+</div>
+<div class="step">
+  <div class="step-title">Set demand ILS</div>
+  <div class="step-body">On factory planet, set matching slots to Demand, add Warpers</div>
+</div>
+<div class="step">
+  <div class="step-title">Monitor stats</div>
+  <div class="step-body">Check ILS vessel activity tab - empty trips mean routing errors</div>
+</div>
+</div>
+<p>For ILS basics and setup, check our <a href="/ils-setup-guide/">DSP ILS Setup Guide</a>.</p>
+<div class="resource-grid">
+<a class="resource-card" href="https://dsp-wiki.com/Interstellar_Logistics_Station" target="_blank" rel="noopener">
+  <div class="resource-card-name">DSP Wiki - Logistics</div>
+  <div class="resource-card-desc">ILS mechanics and vessel behavior</div>
+</a>
+<a class="resource-card" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2373611284" target="_blank" rel="noopener">
+  <div class="resource-card-name">Steam Guide - Logistics Network</div>
+  <div class="resource-card-desc">Community logistics routing strategies</div>
+</a>
+</div>
+
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+(function() {
+  var content = document.getElementById('articleContent');
+  if (!content) return;
+
+  
+  var heads = [];
+  var headNodes = content.querySelectorAll('.section-head.collapsible, h2');
+  headNodes.forEach(function(node) {
+    if (node.tagName === 'H2') {
+      
+      if (!node.closest('.section-head')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'section-head collapsible';
+        node.parentNode.insertBefore(wrapper, node);
+        wrapper.appendChild(node);
+        heads.push(wrapper);
+      }
+      
+    } else if (node.classList.contains('section-head')) {
+      heads.push(node);
+    }
+  });
+
+  if (heads.length === 0) return;
+
+  
+  var sections = [];
+  for (var i = 0; i < heads.length; i++) {
+    var sectionContent = [heads[i]];
+    var sib = heads[i].nextElementSibling;
+    while (sib && !sib.classList.contains('section-head') && sib.tagName !== 'H2') {
+      sectionContent.push(sib);
+      sib = sib.nextElementSibling;
+    }
+    sections.push(sectionContent);
+  }
+
+  
+  sections.forEach(function(elems) {
+    var block = document.createElement('div');
+    block.className = 'section-content-block';
+    var parent = elems[0].parentNode;
+    parent.insertBefore(block, elems[0]);
+    elems.forEach(function(el) {
+      block.appendChild(el);
+    });
+  });
+
+  
+  var allBlocks = content.querySelectorAll('.section-content-block');
+  allBlocks.forEach(function(block) {
+    var head = block.querySelector('.section-head');
+    if (!head) return;
+    head.addEventListener('click', function() {
+      block.classList.toggle('collapsed');
+      var toggles = block.querySelectorAll(':scope > *:not(.section-head)');
+      toggles.forEach(function(el) {
+        el.style.display = el.style.display === 'none' ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/">Guides</a>
+      <a href="/tags/">Topics</a>
+      <a href="/privacy/">Privacy</a>
+    </div>
+    <p><strong>DSP Guide</strong> - Unofficial community guides for Dyson Sphere Program.</p>
+    <p>(C) 2026 DSP Guide - Game assets belong to Youthcat Studio / Gamera Games</p>
+  </footer>
+
+  
+  <div id="cookieBanner" class="cookie-banner" style="display:none;">
+    <p class="cookie-banner-text">
+      This site uses cookies from Google for analytics and advertising.
+      <a href="/privacy/">Learn more</a>
+    </p>
+    <div class="cookie-banner-actions">
+      <button id="cookieReject" class="cookie-btn cookie-btn-reject">Reject</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn-accept">Accept All</button>
+    </div>
+  </div>
+
+<script src="/js/main.js"></script>
+<script src="/js/cookie-consent.js"></script>
+
+
+<script src="https://pl29637235.effectivecpmnetwork.com/4e/c7/6d/4ec76da7b1f6cd9f77f8032e5cf4a764.js"></script>
+
+</body>
+</html>

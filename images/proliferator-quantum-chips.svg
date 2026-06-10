@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380" width="700" height="380">
+  <defs>
+    <marker id="arr" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#FFD54F"/>
+    </marker>
+    <marker id="arrProl" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#AB47BC"/>
+    </marker>
+    <linearGradient id="hubGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6A1B9A"/>
+      <stop offset="100%" stop-color="#4A148C"/>
+    </linearGradient>
+    <linearGradient id="assemblerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1565C0"/>
+      <stop offset="100%" stop-color="#0D47A1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="700" height="380" fill="#0d1117"/>
+  <!-- Title -->
+  <text x="350" y="25" text-anchor="middle" fill="#ECEFF1" font-size="17.3" font-family="monospace" font-weight="bold">PROLIFERATOR APPLICATION - QUANTUM CHIP CHAIN</text>
+  <!-- Step 1: Circuit Board Production -->
+  <rect x="40" y="50" width="140" height="70" rx="6" fill="#1B5E20" stroke="#43A047" stroke-width="1.5"/>
+  <text x="110" y="72" text-anchor="middle" fill="#C8E6C9" font-size="12" font-family="monospace" font-weight="bold">CIRCUIT BOARD</text>
+  <text x="110" y="87" text-anchor="middle" fill="#A5D6A7" font-size="10.7" font-family="monospace">ASSEMBLER</text>
+  <text x="110" y="102" text-anchor="middle" fill="#66BB6A" font-size="9.3" font-family="monospace">Plastics + Iron</text>
+  <text x="110" y="113" text-anchor="middle" fill="#43A047" font-size="9.3" font-family="monospace">-&gt; Circuit Boards</text>
+  <!-- Belt from Circuit Board -->
+  <line x1="180" y1="85" x2="230" y2="85" stroke="#8D6E63" stroke-width="2.5" marker-end="url(#arr)"/>
+  <!-- Proliferator Hub Mk.I -->
+  <rect x="230" y="45" width="120" height="80" rx="6" fill="url(#hubGrad)" stroke="#CE93D8" stroke-width="1.5"/>
+  <text x="290" y="65" text-anchor="middle" fill="#F3E5F5" font-size="12" font-family="monospace" font-weight="bold">PROLIFERATOR</text>
+  <text x="290" y="80" text-anchor="middle" fill="#E1BEE7" font-size="10.7" font-family="monospace">HUB Mk.I</text>
+  <text x="290" y="95" text-anchor="middle" fill="#CE93D8" font-size="10.7" font-family="monospace">Spray: +20%</text>
+  <text x="290" y="115" text-anchor="middle" fill="#BA68C8" font-size="9.3" font-family="monospace">v Belt passes under</text>
+  <!-- Belt continues to Assembler -->
+  <line x1="350" y1="85" x2="420" y2="85" stroke="#8D6E63" stroke-width="2.5"/>
+  <text x="385" y="78" fill="#AB47BC" font-size="9.3" font-family="monospace">+20% output</text>
+  <!-- Quantum Chip Assembler -->
+  <rect x="420" y="50" width="150" height="70" rx="6" fill="url(#assemblerGrad)" stroke="#42A5F5" stroke-width="1.5"/>
+  <text x="495" y="72" text-anchor="middle" fill="#E3F2FD" font-size="12" font-family="monospace" font-weight="bold">QUANTUM CHIP</text>
+  <text x="495" y="87" text-anchor="middle" fill="#90CAF9" font-size="10.7" font-family="monospace">ASSEMBLER</text>
+  <text x="495" y="102" text-anchor="middle" fill="#64B5F6" font-size="9.3" font-family="monospace">Circuit+Si+Copper</text>
+  <text x="495" y="113" text-anchor="middle" fill="#42A5F5" font-size="9.3" font-family="monospace">-&gt; Quantum Chips</text>
+  <!-- Output belt -->
+  <line x1="570" y1="85" x2="620" y2="85" stroke="#AB47BC" stroke-width="2.5" marker-end="url(#arrProl)"/>
+  <!-- Quantum Chips output -->
+  <rect x="620" y="55" width="70" height="60" rx="6" fill="#4A148C" stroke="#AB47BC" stroke-width="1.5"/>
+  <text x="655" y="78" text-anchor="middle" fill="#F3E5F5" font-size="10.7" font-family="monospace" font-weight="bold">QUANTUM</text>
+  <text x="655" y="91" text-anchor="middle" fill="#E1BEE7" font-size="10.7" font-family="monospace">CHIPS</text>
+  <text x="655" y="105" text-anchor="middle" fill="#CE93D8" font-size="9.3" font-family="monospace">+20%</text>
+  <!-- ROI comparison -->
+  <rect x="35" y="145" width="330" height="80" rx="6" fill="rgba(67,160,71,0.12)" stroke="#66BB6A" stroke-width="1"/>
+  <text x="200" y="165" text-anchor="middle" fill="#66BB6A" font-size="13.3" font-family="monospace" font-weight="bold">WITHOUT PROLIFERATOR</text>
+  <text x="200" y="185" text-anchor="middle" fill="#A5D6A7" font-size="12" font-family="monospace">100 Circuit Boards -> 100 Quantum Chips</text>
+  <text x="200" y="205" text-anchor="middle" fill="#81C784" font-size="10.7" font-family="monospace">Baseline factory output</text>
+  <text x="200" y="218" text-anchor="middle" fill="#43A047" font-size="9.3" font-family="monospace">Same materials, same time</text>
+  <rect x="340" y="145" width="330" height="80" rx="6" fill="rgba(171,71,188,0.12)" stroke="#AB47BC" stroke-width="1"/>
+  <text x="505" y="165" text-anchor="middle" fill="#AB47BC" font-size="13.3" font-family="monospace" font-weight="bold">WITH Mk.I PROLIFERATOR</text>
+  <text x="505" y="185" text-anchor="middle" fill="#CE93D8" font-size="12" font-family="monospace">100 Circuit Boards -> 120 Quantum Chips</text>
+  <text x="505" y="205" text-anchor="middle" fill="#BA68C8" font-size="10.7" font-family="monospace">+20% output for Proliferator cost</text>
+  <text x="505" y="218" text-anchor="middle" fill="#9C27B0" font-size="9.3" font-family="monospace">Proliferator cost &lt; building 2nd assembler</text>
+  <!-- Layered application -->
+  <rect x="40" y="245" width="620" height="120" rx="6" fill="rgba(255,213,79,0.08)" stroke="#FFD54F" stroke-width="1"/>
+  <text x="350" y="268" text-anchor="middle" fill="#FFD54F" font-size="13.3" font-family="monospace" font-weight="bold">LAYERED PROLIFERATOR STRATEGY (Maximum Efficiency)</text>
+  <!-- Layer 1 -->
+  <rect x="60" y="285" width="180" height="65" rx="4" fill="#2E7D32" stroke="#66BB6A" stroke-width="1"/>
+  <text x="150" y="303" text-anchor="middle" fill="#C8E6C9" font-size="12" font-family="monospace" font-weight="bold">LAYER 1: Mk.I</text>
+  <text x="150" y="318" text-anchor="middle" fill="#A5D6A7" font-size="10.7" font-family="monospace">Circuit Board belt</text>
+  <text x="150" y="333" text-anchor="middle" fill="#66BB6A" font-size="9.3" font-family="monospace">+20% base throughput</text>
+  <text x="150" y="345" text-anchor="middle" fill="#43A047" font-size="9.3" font-family="monospace">Biggest bottleneck first</text>
+  <!-- Layer 2 -->
+  <rect x="260" y="285" width="180" height="65" rx="4" fill="#1565C0" stroke="#42A5F5" stroke-width="1"/>
+  <text x="350" y="303" text-anchor="middle" fill="#E3F2FD" font-size="12" font-family="monospace" font-weight="bold">LAYER 2: Mk.II</text>
+  <text x="350" y="318" text-anchor="middle" fill="#90CAF9" font-size="10.7" font-family="monospace">Quantum Chip inputs</text>
+  <text x="350" y="333" text-anchor="middle" fill="#64B5F6" font-size="9.3" font-family="monospace">+40% chip output</text>
+  <text x="350" y="345" text-anchor="middle" fill="#42A5F5" font-size="9.3" font-family="monospace">Mid-tier cost, high ROI</text>
+  <!-- Layer 3 -->
+  <rect x="460" y="285" width="180" height="65" rx="4" fill="#6A1B9A" stroke="#AB47BC" stroke-width="1"/>
+  <text x="550" y="303" text-anchor="middle" fill="#F3E5F5" font-size="12" font-family="monospace" font-weight="bold">LAYER 3: Mk.III</text>
+  <text x="550" y="318" text-anchor="middle" fill="#E1BEE7" font-size="10.7" font-family="monospace">Final output belt</text>
+  <text x="550" y="333" text-anchor="middle" fill="#CE93D8" font-size="9.3" font-family="monospace">+60% if belt-limited</text>
+  <text x="550" y="345" text-anchor="middle" fill="#AB47BC" font-size="9.3" font-family="monospace">Endgame optimization</text>
+</svg>

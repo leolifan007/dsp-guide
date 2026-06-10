@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 160" width="720" height="160">
+  <defs>
+    <marker id="aOre3" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#FF8A65"/>
+    </marker>
+    <marker id="aIngot3" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#4FC3F7"/>
+    </marker>
+    <marker id="aBus3" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0,0 8,3 0,6" fill="#AB47BC"/>
+    </marker>
+    <filter id="ds4"><feDropShadow dx="1" dy="1" stdDeviation="2" flood-color="#000" flood-opacity="0.4"/></filter>
+  </defs>
+
+  <rect width="720" height="160" fill="#0d1117" rx="8"/>
+  <rect x="4" y="4" width="712" height="152" fill="none" stroke="#42A5F5" stroke-width="0.8" rx="6"/>
+
+  <text x="360" y="25" text-anchor="middle" fill="#42A5F5" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,monospace" letter-spacing="1">HIGH-VOLUME COLUMN - Mk.III BELT OK RECOMMENDED</text>
+
+  <!-- Miner x3 -->
+  <rect x="25" y="42" width="115" height="72" rx="8" fill="#0D47A1" stroke="#42A5F5" stroke-width="1.5" filter="url(#ds4)"/>
+  <text x="83" y="68" text-anchor="middle" fill="#B3E5FC" font-size="12" font-weight="bold" font-family="Inter,Segoe UI,sans-serif"> MINER x3</text>
+  <text x="83" y="86" text-anchor="middle" fill="#90CAF9" font-size="10" font-family="Inter,Segoe UI,monospace">3 ore/s total</text>
+  <text x="83" y="102" text-anchor="middle" fill="#64B5F6" font-size="9" font-family="Inter,Segoe UI,monospace">x3 veins</text>
+
+  <!-- Arrow -->
+  <line x1="140" y1="78" x2="200" y2="78" stroke="#FF8A65" stroke-width="3" marker-end="url(#aOre3)"/>
+  <rect x="150" y="85" width="40" height="14" rx="3" fill="#1a1a2e" stroke="#42A5F5" stroke-width="0.8"/>
+  <text x="170" y="95" text-anchor="middle" fill="#42A5F5" font-size="8" font-weight="bold" font-family="Inter,Segoe UI,monospace">Mk.III</text>
+
+  <!-- Smelter x3 -->
+  <rect x="203" y="42" width="115" height="72" rx="8" fill="#1B5E20" stroke="#66BB6A" stroke-width="1.5" filter="url(#ds4)"/>
+  <text x="261" y="68" text-anchor="middle" fill="#E8F5E9" font-size="12" font-weight="bold" font-family="Inter,Segoe UI,sans-serif"> SMELT x3</text>
+  <text x="261" y="86" text-anchor="middle" fill="#A5D6A7" font-size="10" font-family="Inter,Segoe UI,monospace">1/s each</text>
+  <text x="261" y="102" text-anchor="middle" fill="#81C784" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace">-> 3 ingots/s</text>
+
+  <!-- Arrow -->
+  <line x1="318" y1="78" x2="378" y2="78" stroke="#4FC3F7" stroke-width="3" marker-end="url(#aIngot3)"/>
+  <rect x="328" y="85" width="40" height="14" rx="3" fill="#1a1a2e" stroke="#4FC3F7" stroke-width="0.8"/>
+  <text x="348" y="95" text-anchor="middle" fill="#4FC3F7" font-size="8" font-weight="bold" font-family="Inter,Segoe UI,monospace">Mk.III</text>
+
+  <!-- Ingots -->
+  <rect x="381" y="42" width="105" height="72" rx="8" fill="#3E2723" stroke="#FFB300" stroke-width="1.5" filter="url(#ds4)"/>
+  <text x="434" y="68" text-anchor="middle" fill="#D7CCC8" font-size="12" font-weight="bold" font-family="Inter,Segoe UI,sans-serif"> INGOTS</text>
+  <text x="434" y="86" text-anchor="middle" fill="#FFD54F" font-size="10" font-weight="bold" font-family="Inter,Segoe UI,monospace">3/s</text>
+  <text x="434" y="102" text-anchor="middle" fill="#A1887F" font-size="9" font-family="Inter,Segoe UI,monospace">Or -> ILS</text>
+
+  <!-- Arrow to Bus -->
+  <line x1="486" y1="78" x2="536" y2="78" stroke="#AB47BC" stroke-width="2.5" marker-end="url(#aBus3)" stroke-dasharray="5,3"/>
+
+  <!-- Factory Bus -->
+  <rect x="539" y="48" width="150" height="60" rx="8" fill="#4A148C" stroke="#AB47BC" stroke-width="1.2" filter="url(#ds4)"/>
+  <text x="614" y="74" text-anchor="middle" fill="#E1BEE7" font-size="11" font-weight="bold" font-family="Inter,Segoe UI,sans-serif"> FACTORY BUS</text>
+  <text x="614" y="92" text-anchor="middle" fill="#CE93D8" font-size="9" font-family="Inter,Segoe UI,monospace">Or ILS Export</text>
+
+  <!-- Bottom note -->
+  <text x="360" y="140" text-anchor="middle" fill="#66BB6A" font-size="9" font-weight="bold" font-family="Inter,Segoe UI,monospace">3:3:3 ratio - the gold standard. Build this from the start even if some slots are empty.</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <radialGradient id="starGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4"/>
+      <stop offset="40%" stop-color="#FFEE58"/>
+      <stop offset="100%" stop-color="#FF8F00"/>
+    </radialGradient>
+    <radialGradient id="rayGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6B6B" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF6B6B" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0a0e1a"/>
+  <!-- Star -->
+  <circle cx="400" cy="250" r="60" fill="url(#starGrad)" filter="url(#glow)"/>
+  <text x="400" y="255" text-anchor="middle" fill="#FFF9C4" font-size="14.7" font-family="monospace">STAR</text>
+  <!-- Sail orbit ring -->
+  <circle cx="400" cy="250" r="140" fill="none" stroke="#29B6F6" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.5"/>
+  <!-- Solar sails -->
+  <circle cx="400" cy="110" r="7" fill="#29B6F6" opacity="0.9"/>
+  <circle cx="505" cy="185" r="7" fill="#29B6F6" opacity="0.9"/>
+  <circle cx="505" cy="315" r="7" fill="#29B6F6" opacity="0.9"/>
+  <circle cx="400" cy="390" r="7" fill="#29B6F6" opacity="0.9"/>
+  <circle cx="295" cy="315" r="7" fill="#29B6F6" opacity="0.9"/>
+  <circle cx="295" cy="185" r="7" fill="#29B6F6" opacity="0.9"/>
+  <circle cx="455" cy="133" r="6" fill="#29B6F6" opacity="0.7"/>
+  <circle cx="345" cy="133" r="6" fill="#29B6F6" opacity="0.7"/>
+  <!-- Ray paths from star to planet -->
+  <line x1="400" y1="250" x2="640" y2="390" stroke="#EF5350" stroke-width="1" opacity="0.35"/>
+  <line x1="400" y1="250" x2="620" y2="430" stroke="#EF5350" stroke-width="1" opacity="0.25"/>
+  <line x1="400" y1="250" x2="660" y2="360" stroke="#EF5350" stroke-width="1" opacity="0.2"/>
+  <!-- Planet -->
+  <circle cx="680" cy="400" r="30" fill="#1B5E20"/>
+  <text x="680" y="405" text-anchor="middle" fill="#A5D6A7" font-size="12" font-family="monospace">PLANET</text>
+  <!-- Ray Receiver on planet -->
+  <rect x="660" y="375" width="40" height="25" rx="3" fill="#1565C0" stroke="#29B6F6" stroke-width="1.5"/>
+  <text x="680" y="391" text-anchor="middle" fill="#E3F2FD" font-size="9.3" font-family="monospace">RX</text>
+  <!-- Arrow: launcher to star orbit -->
+  <path d="M 110,420 Q 200,300 300,250" stroke="#FFD54F" stroke-width="1.5" fill="none" stroke-dasharray="5 4" marker-end="url(#arr)"/>
+  <defs>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#FFD54F"/>
+    </marker>
+  </defs>
+  <!-- Vertical Launcher -->
+  <rect x="80" y="400" width="60" height="40" rx="4" fill="#37474F" stroke="#90A4AE" stroke-width="1.5"/>
+  <text x="110" y="418" text-anchor="middle" fill="#ECEFF1" font-size="9.3" font-family="monospace">LAUNCHER</text>
+  <text x="110" y="428" text-anchor="middle" fill="#90A4AE" font-size="8" font-family="monospace">(Vertical)</text>
+  <!-- Label: sail orbit -->
+  <text x="400" y="80" text-anchor="middle" fill="#29B6F6" font-size="13.3" font-family="monospace" opacity="0.8">SAIL ORBIT</text>
+  <!-- Legend -->
+  <rect x="20" y="20" width="300" height="120" rx="6" fill="rgba(10,20,40,0.8)" stroke="rgba(41,182,246,0.3)" stroke-width="1"/>
+  <text x="35" y="38" fill="#ECEFF1" font-size="13.3" font-family="monospace" font-weight="bold">SOLAR SAILS -> RAY RECEIVERS</text>
+  <circle cx="35" cy="58" r="6" fill="#FFEE58"/><text x="55" y="61" fill="#FFF9C4" font-size="12" font-family="monospace">Star (power source)</text>
+  <circle cx="35" cy="76" r="5" fill="#29B6F6"/><text x="55" y="79" fill="#29B6F6" font-size="12" font-family="monospace">Solar Sail (orbiting)</text>
+  <rect x="29" cy="90" width="12" height="10" rx="2" fill="#1565C0"/><text x="55" y="99" fill="#E3F2FD" font-size="12" font-family="monospace">Ray Receiver (planet)</text>
+  <line x1="30" y1="112" x2="55" y2="112" stroke="#EF5350" stroke-width="1.5"/><text x="55" y="115" fill="#EF5350" font-size="12" font-family="monospace">Radiation (power)</text>
+  <!-- Title -->
+  <text x="400" y="465" text-anchor="middle" fill="#546E7A" font-size="12" font-family="monospace">Dyson Sphere Program - Solar Sail &amp; Ray Receiver System</text>
+</svg>
