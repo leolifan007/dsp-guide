@@ -1,0 +1,7 @@
+{{- /* Resource Card
+  Usage: {{< resourcecard name="Title" url="..." desc="Description" >}}
+*/ -}}
+<a class="resource-card" href="{{ .Get "url" }}" target="_blank" rel="noopener">
+  <div class="resource-card-name">{{ .Get "name" | markdownify }}</div>
+  <div class="resource-card-desc">{{ .Get "desc" | markdownify }}</div>
+</a>
