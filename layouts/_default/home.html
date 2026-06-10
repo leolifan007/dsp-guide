@@ -15,15 +15,23 @@
   <main class="home-main">
     {{/* ===== By Topic Section ===== */}}
     <section class="topic-section">
-      <h2 class="section-title">By Topic</h2>
+      <h2 class="section-title">Game Areas</h2>
       <div class="topic-grid">
         {{ range $i, $cat := site.Params.nav_categories }}
         {{ $slug := $cat | lower | replaceRE "\\s*&\\s*" "--" | replaceRE "\\s+" "-" }}
         {{ $catArticles := where (where site.RegularPages "Params.hidden" "!=" true) "Params.categories" "intersect" (slice $cat) }}
         {{ $count := len $catArticles }}
+        {{ $hasNew := false }}
+        {{ range $catArticles }}
+          {{ if .Lastmod }}
+            {{ $daysOld := div (sub now.Unix .Lastmod.Unix) 86400 }}
+            {{ if lt $daysOld 10 }}{{ $hasNew = true }}{{ end }}
+          {{ end }}
+        {{ end }}
         <a href="/categories/{{ $slug }}/" class="topic-card">
+          {{ if $hasNew }}<span class="new-badge">NEW</span>{{ end }}
           <div class="topic-banner topic-banner-{{ $i }}">
-            <img src="{{ `images/categories/` | relURL }}{{ $slug }}.svg" alt="{{ $cat }}" class="topic-img" loading="lazy">
+            <img src="{{ `images/categories/` | relURL }}{{ $slug }}.png" alt="{{ $cat }}" class="topic-img" loading="lazy">
           </div>
           <div class="topic-card-body">
             <h3>{{ $cat }}</h3>
@@ -40,7 +48,7 @@
       <div class="hot-grid-new">
         {{ $pages := where .Site.RegularPages "Params.hidden" "!=" true }}
         {{ $sorted := $pages.ByDate.Reverse }}
-        {{ range $i, $p := first 20 $sorted }}
+        {{ range $i, $p := first 9 $sorted }}
         <a href="{{ $p.RelPermalink }}" class="guide-card{{ if $p.Params.new }} new{{ end }}">
           {{ if $p.Params.new }}<span class="new-badge">NEW</span>{{ end }}
           <div class="hot-card-inner">

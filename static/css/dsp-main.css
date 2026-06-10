@@ -1443,6 +1443,7 @@ blockquote.insight-box strong { color: var(--accent-amber); }
   text-decoration: none;
   color: inherit;
   transition: all .2s ease;
+  position: relative;
 }
 .topic-card:hover {
   border-color: var(--accent-amber);
