@@ -6,8 +6,15 @@
     <description>Recent content in Purple-Science on Dyson Sphere Program Guide</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 21:18:52 +0800</lastBuildDate>
     <atom:link href="https://dsp-guide.com/tags/purple-science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSP Purple Science Guide (v0.10) - Build a Complete Structure Matrix Production Line</title>
+      <link>https://dsp-guide.com/purple-science-production-guide/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/purple-science-production-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Purple Science (Structure Matrix) needs Frame Material + Diamond + Titanium Glass. The bottleneck is always Titanium Crystal and Deuterium. Build dedicated production for these two first, then chain Frame Material + Diamond + Glass into the matrix assemblers.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Purple Science is the fourth science tier in DSP, unlocking Mk.III assemblers, Plane Smelters, advanced logistics, and endgame buildings. The jump from Yellow to Purple is the biggest difficulty spike in the research tree because it introduces three new production chains simultaneously.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Set Up DSP Gravity Matrix Production With Mk.III Proliferator</title>
       <link>https://dsp-guide.com/gravity-matrix-proliferator/</link>

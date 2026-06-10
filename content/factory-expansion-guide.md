@@ -13,7 +13,7 @@ slug: factory-expansion-guide
 
 {{< callout "info" >}}
 **Short answer:** Do not build everything on one planet. Designate each planet for one purpose: smelting, component production, or science. Run Mk.III belts between clustered assembler groups. Use ILS for cross-planet transport of intermediate products. The bottleneck is always either Iron Ore throughput or Hydrogen supply - build 3x more of both than you think you need.
-{{< /callover >}}
+{{< /callout >}}
 
 Scaling from 30 SPM to 300 SPM is not about building bigger factories. It is about building different factories. The single-planet approach breaks down around 60 SPM. Beyond that, you need a distributed multi-planet production network.
 
@@ -70,7 +70,7 @@ Build the bus 2 tiles wide between lanes for power poles and sorters. Leave 10 t
 
 {{< callout "tip" >}}
 **Bus bottleneck warning:** At 300 SPM, the iron ore bus lane needs 720 items/min. A single Mk.III belt carries 1080/min - enough margin. But if you add more modules later, upgrade to a 2-belt iron lane. Smarter is to build a second smelting planet and pipe iron from both sides.
-{{< /callover >}}
+{{< /callout >}}
 
 ## Blueprint Library for Rapid Expansion
 
