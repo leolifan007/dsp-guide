@@ -1,0 +1,8 @@
+﻿{{- /* Content Box Wrapper
+  Wraps any content in a styled card-like container.
+  Supports Markdown inside.
+  Usage: {{< box >}}
+  Your content here — paragraphs, lists, images, etc.
+  {{< /box >}}
+*/ -}}
+<div class="content-box">{{ .Inner | markdownify }}</div>
