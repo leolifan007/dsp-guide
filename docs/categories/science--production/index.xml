@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Science &amp; Production on Dyson Sphere Program Guide</title>
-    <link>http://localhost:1313/categories/science--production/</link>
+    <link>https://dsp-guide.com/categories/science--production/</link>
     <description>Recent content in Science &amp; Production on Dyson Sphere Program Guide</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 19 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/science--production/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dsp-guide.com/categories/science--production/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</title>
-      <link>http://localhost:1313/blue-science-hydrogen-refining/</link>
+      <link>https://dsp-guide.com/blue-science-hydrogen-refining/</link>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blue-science-hydrogen-refining/</guid>
-      <description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Blue Science is the first wall in DSP that is not just &#34;build more miners.&#34; It introduces Refined Oil, Hydrogen byproducts, and the frustrating &#34;one output backed up, whole chain dead&#34; problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;&#xD;&#xA;  2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;&#xD;&#xA;  3. Titanium Ingots are required for Blue Matrix; set that up first&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description>
+      <guid>https://dsp-guide.com/blue-science-hydrogen-refining/</guid>
+      <description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Blue Science is the first wall in DSP that is not just &#34;build more miners.&#34; It introduces Refined Oil, Hydrogen byproducts, and the frustrating &#34;one output backed up, whole chain dead&#34; problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;&#xD;&#xA;  2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;&#xD;&#xA;  3. Titanium Ingots are required for Blue Matrix; set that up first&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title>
-      <link>http://localhost:1313/quantum-chips-proliferator/</link>
+      <link>https://dsp-guide.com/quantum-chips-proliferator/</link>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/quantum-chips-proliferator/</guid>
+      <guid>https://dsp-guide.com/quantum-chips-proliferator/</guid>
       <description>&lt;p&gt;Every factory has a ceiling. At some point you&#39;re running 40 assemblers on your Circuit Board chain and wondering if there&#39;s a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&#39;s a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Green Science and Warpers: Stop Being Scared of Green Matrix (DSP Guide)</title>
-      <link>http://localhost:1313/green-science-warper-guide/</link>
+      <link>https://dsp-guide.com/green-science-warper-guide/</link>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/green-science-warper-guide/</guid>
-      <description>&lt;p&gt;You&#39;ve got Yellow Science running. Titanium flowing. Everything is… fine. Then you look at Green Matrix. Three ingredients. Processors. Casimir Crystals. Electromagnetic Turbines.&lt;/p&gt;&#xA;&lt;p&gt;And you think: &lt;strong&gt;&amp;quot;Yeah no. I&#39;ll do it later.&amp;quot;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I get it. Every DSP player hits this wall. But here&#39;s the thing — Green Matrix unlocks Space Warpers. And Warpers turn your factory from a solar-system-only operation into a galactic empire. You want that.&lt;/p&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Green Matrix needs 3 things: &lt;strong&gt;Processors + Casimir Crystals + EM Turbines.&lt;/strong&gt; Scale your existing Processor line. Build a Casimir plant. That&#39;s most of the work done.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;The Three Things You Need&lt;/h2&gt;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Green Matrix = Processors + Casimir Crystals + EM Turbines&lt;/strong&gt;&lt;/p&gt;</description>
+      <guid>https://dsp-guide.com/green-science-warper-guide/</guid>
+      <description>&lt;p&gt;You&#39;ve got Yellow Science running. Titanium flowing. Everything is… fine. Then you look at Green Matrix. Three ingredients. Processors. Casimir Crystals. Electromagnetic Turbines.&lt;/p&gt;&#xA;&lt;p&gt;And you think: &lt;strong&gt;&amp;quot;Yeah no. I&#39;ll do it later.&amp;quot;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I get it. Every DSP player hits this wall. But here&#39;s the thing — Green Matrix unlocks Space Warpers. And Warpers turn your factory from a solar-system-only operation into a galactic empire. You want that.&lt;/p&gt;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; — Green Matrix needs 3 things: &lt;strong&gt;Processors + Casimir Crystals + EM Turbines.&lt;/strong&gt; Scale your existing Processor line. Build a Casimir plant. That&#39;s most of the work done.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;hr&gt;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;The Three Things You Need&lt;/h2&gt;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;Green Matrix = Processors + Casimir Crystals + EM Turbines&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

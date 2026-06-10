@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>1 Artificial Sun Replaces 125 Wind Turbines - DSP Endgame Power Loop Guide | Dyson Sphere Program Guide</title>
+  <base href="https://dsp-guide.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Orbitron:wght@500;700;900&family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/dsp-main.css?v=3">
+
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+
+gtag('consent', 'default', {
+  'ad_storage': 'denied',
+  'ad_user_data': 'denied',
+  'ad_personalization': 'denied',
+  'analytics_storage': 'denied',
+  'wait_for_update': 500
+});
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RDJSH9J2M9"></script>
+<script>
+  gtag('js', new Date());
+  gtag('config', 'G-RDJSH9J2M9', {
+    'allow_google_signals': false,
+    'allow_ad_personalization_signals': false
+  });
+</script>
+
+
+
+</head>
+<body>
+<div class="site-header">
+  <a href="/" class="site-title">DSP Guide</a>
+<nav class="main-nav" id="mainNav">
+  <a href="/" class="nav-link">Home</a>
+  
+  
+  
+  
+  <a href="/categories/power--energy/" class="nav-link">Power &amp; Energy</a>
+  
+  
+  
+  <a href="/categories/resources--mining/" class="nav-link">Resources &amp; Mining</a>
+  
+  
+  
+  <a href="/categories/science--production/" class="nav-link">Science &amp; Production</a>
+  
+  
+  
+  <a href="/categories/logistics--transport/" class="nav-link">Logistics &amp; Transport</a>
+  
+  
+  <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">☰</button>
+</nav>
+</div>
+
+  <div class="page-wrap">
+    
+<div class="single-page">
+
+  
+  <div class="article-category-bar">
+    <div class="category-bar-bg" style="background-image:url('/images/hero-bg.jpg');"></div>
+    <div class="category-bar-inner">
+      
+      
+      <span class="category-badge">Endgame Production</span>
+      <h1 class="category-title">Endgame Production Guides</h1>
+      <p class="category-desc">
+        Practical guides for Dyson Sphere Program.
+      </p>
+      
+    </div>
+  </div>
+
+  <div class="article-layout-new">
+    
+    <aside class="article-sidebar">
+      
+      
+      <div class="sidebar-panel">
+        <div class="sidebar-panel-header">In This Category</div>
+        <ul class="sidebar-panel-list">
+          
+          <li class="active">
+            <a href="/dsp-antimatter-power-guide/">
+              <span class="sp-list-title">1 Artificial Sun Replaces 125 Wind …</span>
+            </a>
+          </li>
+          
+          <li>
+            <a href="/energy-matrix-production-guide/">
+              <span class="sp-list-title">DSP Energy Matrix Guide (v0.10) - Fuel …</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </aside>
+
+    
+    <main class="article-body-wrap">
+      <div class="article-title-area">
+        <div class="title-accent-line"></div>
+        <h1 class="article-main-title">1 Artificial Sun Replaces 125 Wind Turbines - DSP Endgame Power Loop Guide</h1>
+        <div class="article-meta-bar">
+          <span class="meta-date">Jun 4, 2026</span>
+          
+        </div>
+      </div>
+
+      <div class="article-content-sections" id="articleContent">
+        <p class="article-lead">Complete guide to critical photon, antimatter, and artificial sun power. Set up the endgame energy loop in DSP without confusion.</p>
+        <p>Critical photons and antimatter are the gateway to endgame power in DSP. The loop is confusing at first: photons come from the sphere, make antimatter, make fuel rods, power your planet. Here is exactly how the chain works, step by step.</p>
+<img src="/images/antimatter-power-loop.svg" alt="Antimatter power self-sustaining loop" class="schema-diagram" loading="lazy" width="680">
+
+<h2 id="tldr-the-endgame-power-loop">TL;DR: The Endgame Power Loop</h2>
+<p>Ray Receivers capture Dyson Sphere power and output Critical Photons. Particle Colliders turn photons into Antimatter + Hydrogen. Assemblers combine Antimatter with other materials to make Deuterium Fuel Rods or Antimatter Fuel Rods. Artificial Suns burn these rods for massive power. The loop produces more power than it consumes - but only if designed correctly.</p>
+<h2>Step 1: Capture Critical Photons</h2>
+<p>Ray Receivers have two modes (press Tab to toggle): Direct Power mode and Photon Generation mode. For the endgame loop, set them to Photon Generation. Each receiver in this mode produces roughly 5-10 Critical Photons per minute, depending on sphere output.</p>
+<p>You need about 20-40 receivers for a starter antimatter loop. Place them on the planet side facing the sphere. Use the receiver auto-orient feature (the green circle shows coverage).</p>
+<p>Route the photon output to a Logistics Station. Critical Photons stack to 500 and can be transported via ILS. Build the particle collider setup on a different planet if needed.</p>
+<h2>Step 2: Convert Photons to Antimatter</h2>
+<p>Particle Colliders consume 1 Critical Photon + 2 Hydrogen to produce 2 Antimatter. Each collider runs at about 1 cycle every 2 seconds, producing roughly 60 Antimatter per minute.</p>
+<p>The hydrogen input is critical: each collider needs a steady 60 hydrogen per minute. One Orbital Collector on a gas giant produces 15-30 hydrogen per second - enough to feed 15-30 colliders.</p>
+<p>Route the Antimatter output to storage. Antimatter stacks to 500. Build buffer storage because collider output fluctuates with sphere power availability.</p>
+<h2>Step 3: Make Fuel Rods</h2>
+<p>Two types of fuel rods use antimatter. Build whichever your factory can support:</p>
+<table>
+<tr><td><strong>Fuel Rod</strong></td><td><strong>Inputs</strong></td><td><strong>Energy per Rod</strong></td><td><strong>Burn Time in Artificial Sun</strong></td></tr>
+<tr><td>Deuterium Fuel Rod</td><td>Deuterium + Titanium Alloy + Super-Magnetic Ring</td><td>750 MJ</td><td>20 seconds</td></tr>
+<tr><td>Antimatter Fuel Rod</td><td>Antimatter + Hydrogen + Titanium Alloy + Processor</td><td>7500 MJ</td><td>200 seconds</td></tr>
+</table>
+<p>Antimatter Fuel Rods store 10x the energy of Deuterium rods. This is your goal. Each assembler produces about 10 rods per minute. Ten assemblers running antimatter rods power an entire planet.</p>
+<h2>Step 4: Burn in Artificial Suns</h2>
+<p>Artificial Suns burn Antimatter Fuel Rods at 1 rod every 200 seconds, outputting 37.5 MW each. That is nearly 40 million watts from a single building.</p>
+<p>Compare with other power sources:</p>
+<ul>
+<li>Wind Turbine: 0.3 MW each - need 125 for same output</li>
+<li>Thermal Power Plant (coal): 2.1 MW - need 18</li>
+<li>Fusion Power Plant: 9 MW - need 4</li>
+<li>Artificial Sun (antimatter): 37.5 MW - 1 building</li>
+</ul>
+<p>One belt of Antimatter Fuel Rods (at 60 rods/min) feeds about 600 Artificial Suns. That is 22.5 GW of power from one belt. The endgame power solution is to build 10-20 Artificial Suns and never worry about power again.</p>
+<h2>The Self-Sustaining Loop</h2>
+<p>The critical photon to antimatter loop produces a hydrogen surplus. Here is how:</p>
+<ul>
+<li>1 Critical Photon + 2 Hydrogen - 2 Antimatter</li>
+<li>Orbital Collectors on gas giants produce free hydrogen</li>
+<li>Particle Colliders running on antimatter production also generate heat - this is free</li>
+<li>The Artificial Sun burning antimatter rods generates 37.5 MW, more than enough to run the colliders processing the photons</li>
+</ul>
+<p>In practice, 10 Ray Receivers generating photons will power 3-4 Particle Colliders making antimatter, which feeds 1 Assembler making fuel rods. This loop is slightly power-positive even before accounting for the sphere output.</p>
+<h2>Common Antimatter Loop Mistakes</h2>
+<ul>
+<li><strong>Hydrogen starvation:</strong> Colliders consume hydrogen faster than expected. Have 4-6 Orbital Collectors on a gas giant before scaling up.</li>
+<li><strong>No buffer storage:</strong> Photon production fluctuates with sphere visibility. Store 2000-5000 photons and 2000-5000 antimatter before starting fuel rod production.</li>
+<li><strong>Skipping deuterium:</strong> Antimatter Fuel Rods need titanium alloy (which needs titanium + coal + oil). Build this production line before the fuel rod assembler, not after.</li>
+<li><strong>Too few receivers:</strong> Each receiver produces 5-10 photons per minute. You need at least 20 receivers for consistent fuel rod production.</li>
+</ul>
+<h2>Community Verification and Resources</h2>
+<ul>
+<li><a href="https://wiki.gg/dyson_sphere_program/Critical_Photon" target="_blank" rel="noopener noreferrer">DSP Wiki: Critical Photon</a></li>
+<li><a href="https://wiki.gg/dyson_sphere_program/Antimatter_Fuel_Rod" target="_blank" rel="noopener noreferrer">DSP Wiki: Antimatter Fuel Rod</a></li>
+</ul>
+
+      </div>
+    </main>
+  </div>
+</div>
+
+<script>
+(function() {
+  var content = document.getElementById('articleContent');
+  if (!content) return;
+
+  
+  var heads = [];
+  var headNodes = content.querySelectorAll('.section-head.collapsible, h2');
+  headNodes.forEach(function(node) {
+    if (node.tagName === 'H2') {
+      
+      if (!node.closest('.section-head')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'section-head collapsible';
+        node.parentNode.insertBefore(wrapper, node);
+        wrapper.appendChild(node);
+        heads.push(wrapper);
+      }
+      
+    } else if (node.classList.contains('section-head')) {
+      heads.push(node);
+    }
+  });
+
+  if (heads.length === 0) return;
+
+  
+  var sections = [];
+  for (var i = 0; i < heads.length; i++) {
+    var sectionContent = [heads[i]];
+    var sib = heads[i].nextElementSibling;
+    while (sib && !sib.classList.contains('section-head') && sib.tagName !== 'H2') {
+      sectionContent.push(sib);
+      sib = sib.nextElementSibling;
+    }
+    sections.push(sectionContent);
+  }
+
+  
+  sections.forEach(function(elems) {
+    var block = document.createElement('div');
+    block.className = 'section-content-block';
+    var parent = elems[0].parentNode;
+    parent.insertBefore(block, elems[0]);
+    elems.forEach(function(el) {
+      block.appendChild(el);
+    });
+  });
+
+  
+  var allBlocks = content.querySelectorAll('.section-content-block');
+  allBlocks.forEach(function(block) {
+    var head = block.querySelector('.section-head');
+    if (!head) return;
+    head.addEventListener('click', function() {
+      block.classList.toggle('collapsed');
+      var toggles = block.querySelectorAll(':scope > *:not(.section-head)');
+      toggles.forEach(function(el) {
+        el.style.display = el.style.display === 'none' ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="/">Guides</a>
+      <a href="/tags/">Topics</a>
+      <a href="/privacy/">Privacy</a>
+    </div>
+    <p><strong>DSP Guide</strong> - Unofficial community guides for Dyson Sphere Program.</p>
+    <p>(C) 2026 DSP Guide - Game assets belong to Youthcat Studio / Gamera Games</p>
+  </footer>
+
+  
+  <div id="cookieBanner" class="cookie-banner" style="display:none;">
+    <p class="cookie-banner-text">
+      This site uses cookies from Google for analytics and advertising.
+      <a href="/privacy/">Learn more</a>
+    </p>
+    <div class="cookie-banner-actions">
+      <button id="cookieReject" class="cookie-btn cookie-btn-reject">Reject</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn-accept">Accept All</button>
+    </div>
+  </div>
+
+<script src="/js/main.js"></script>
+<script src="/js/cookie-consent.js"></script>
+</body>
+</html>

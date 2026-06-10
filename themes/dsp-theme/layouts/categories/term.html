@@ -1,0 +1,11 @@
+{{ define "main" }}
+{{- $pages := where .Pages "Params.hidden" "!=" true -}}
+{{- $latest := index $pages.ByDate.Reverse 0 -}}
+{{- with $latest -}}
+<meta http-equiv="refresh" content="0; url={{ .RelPermalink }}">
+<script>window.location.replace('{{ .RelPermalink }}');</script>
+<div class="redirect-message">
+  <p>Redirecting to latest guide: <a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
+</div>
+{{- end -}}
+{{ end }}

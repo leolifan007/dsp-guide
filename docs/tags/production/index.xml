@@ -2,24 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Production on Dyson Sphere Program Guide</title>
-    <link>http://localhost:1313/tags/production/</link>
+    <link>https://dsp-guide.com/tags/production/</link>
     <description>Recent content in Production on Dyson Sphere Program Guide</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/production/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jun 2026 21:53:29 +0800</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/tags/production/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Dyson Sphere Program Smelting Arrays: Complete Setup Guide</title>
-      <link>http://localhost:1313/smelting-array-blueprint-guide/</link>
+      <title>Build a Mall in 30 Minutes - Never Hand-Craft a Building Again (DSP Guide)</title>
+      <link>https://dsp-guide.com/dsp-mall-guide/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/dsp-mall-guide/</guid>
+      <description>&lt;p&gt;Hand-crafting buildings is the #1 time waste in DSP. You spend 20 minutes crafting assemblers, belts, and sorters when you should be designing production lines.&lt;/p&gt;&#xA;&lt;p&gt;Here is how to build a mall - a factory that produces every building automatically, so you never craft by hand again.&lt;/p&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/mall-layout-belt-bus.svg&#34; alt=&#34;Mall belt bus layout&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;650&#34;&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;tldr-the-mall-concept&#34;&gt;TL;DR: The Mall Concept&lt;/h2&gt;&#xA;&lt;p&gt;A mall is a production line where raw materials go in one end and every building type comes out the other. Each building type (belts, sorters, assemblers, furnaces, etc.) has one dedicated assembler with its own storage box. You walk by and grab a full stack of whatever you need.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Automation Guide (v0.10) - Build Your First Automated Factory in 10 Minutes</title>
+      <link>https://dsp-guide.com/dsp-starter-automation-guide/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/dsp-starter-automation-guide/</guid>
+      <description>&lt;p&gt;Dyson Sphere Program does not hold your hand. Your first hour can feel overwhelming. Dozens of buildings, multiple resources, and no clear starting point.&lt;/p&gt;&#xA;&lt;p&gt;Here is the exact 5-step path to get your first automated factory running.&lt;/p&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/starter-factory-pipeline.svg&#34; alt=&#34;Starter factory 5-step pipeline&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;720&#34;&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;your-first-factory-5-step-setup&#34;&gt;Your First Factory: 5-Step Setup&lt;/h2&gt;&#xA;&lt;h3&gt;Step 1: Place Your First Miner&lt;/h3&gt;&#xA;&lt;p&gt;Find iron ore on your starting planet. Open the build menu, select the Mining Machine. Place it directly on an iron ore patch. Connect it to power with a Wind Turbine.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Blueprint Guide (v0.10) - Copy and Paste Entire Factories in Seconds</title>
+      <link>https://dsp-guide.com/dsp-blueprint-guide/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/dsp-blueprint-guide/</guid>
+      <description>&lt;p&gt;DSP v0.10 added a proper blueprint system. No more hand-placing every smelter. Here is everything you need to know about blueprints - from basic copy-paste to advanced mirroring and sharing.&lt;/p&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/blueprint-workflow.svg&#34; alt=&#34;Blueprint copy mirror paste workflow&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;600&#34;&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;tldr-how-blueprints-work-in-dsp-v010&#34;&gt;TL;DR: How Blueprints Work in DSP v0.10&lt;/h2&gt;&#xA;&lt;p&gt;Press B to open the Blueprint Library. Select buildings (hold shift to multi-select), press CTRL+C to copy, then CTRL+V to paste. That is the basic flow. This guide covers the details that are not in the game.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Smelting Array Blueprint Guide (v0.10) - 3 Smelters Feed a Mk.III Belt Perfectly</title>
+      <link>https://dsp-guide.com/smelting-array-blueprint-guide/</link>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/smelting-array-blueprint-guide/</guid>
+      <guid>https://dsp-guide.com/smelting-array-blueprint-guide/</guid>
       <description>&lt;p&gt;Smelting is where every DSP run starts, and where most players first feel the pain of scaling up. One smelter looks fine. Ten smelters look decent. Fifty smelters feeding a sprawling factory reveal every bottleneck you buried under &amp;quot;it should work.&amp;quot;&lt;/p&gt;&#xA;&lt;p&gt;This guide covers smelting from the first furnace on a new planet through to full production columns — the correct ratios, the belt speeds that matter, and the layouts that scale cleanly without requiring you to redesign everything at every tier.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title>
-      <link>http://localhost:1313/quantum-chips-proliferator/</link>
+      <link>https://dsp-guide.com/quantum-chips-proliferator/</link>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/quantum-chips-proliferator/</guid>
+      <guid>https://dsp-guide.com/quantum-chips-proliferator/</guid>
       <description>&lt;p&gt;Every factory has a ceiling. At some point you&#39;re running 40 assemblers on your Circuit Board chain and wondering if there&#39;s a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&#39;s a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description>
     </item>
   </channel>

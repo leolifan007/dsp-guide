@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Power on Dyson Sphere Program Guide</title>
-    <link>http://localhost:1313/tags/power/</link>
+    <link>https://dsp-guide.com/tags/power/</link>
     <description>Recent content in Power on Dyson Sphere Program Guide</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 23:12:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/power/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 Jun 2026 21:29:49 +0800</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/tags/power/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1 Artificial Sun Replaces 125 Wind Turbines - DSP Endgame Power Loop Guide</title>
+      <link>https://dsp-guide.com/dsp-antimatter-power-guide/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/dsp-antimatter-power-guide/</guid>
+      <description>&lt;p&gt;Critical photons and antimatter are the gateway to endgame power in DSP. The loop is confusing at first: photons come from the sphere, make antimatter, make fuel rods, power your planet. Here is exactly how the chain works, step by step.&lt;/p&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/antimatter-power-loop.svg&#34; alt=&#34;Antimatter power self-sustaining loop&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;680&#34;&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;tldr-the-endgame-power-loop&#34;&gt;TL;DR: The Endgame Power Loop&lt;/h2&gt;&#xA;&lt;p&gt;Ray Receivers capture Dyson Sphere power and output Critical Photons. Particle Colliders turn photons into Antimatter + Hydrogen. Assemblers combine Antimatter with other materials to make Deuterium Fuel Rods or Antimatter Fuel Rods. Artificial Suns burn these rods for massive power. The loop produces more power than it consumes - but only if designed correctly.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Clear Hydrogen Backup in DSP Without Stopping Power Grid</title>
-      <link>http://localhost:1313/hydrogen-backup-fix/</link>
+      <link>https://dsp-guide.com/hydrogen-backup-fix/</link>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hydrogen-backup-fix/</guid>
-      <description>&lt;p&gt;Your thermal plants flicker. Refineries stall. Power drops to 20%. You check the grid and find hydrogen backed up all the way to your refineries. Every DSP player hits this wall around Yellow Science.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;Build a thermal power plant, connect it to your hydrogen line, and split off your excess hydrogen to burn for power.&lt;br&gt;&#xD;&#xA;&lt;strong&gt;Key insight:&lt;/strong&gt; You do NOT need to stop your factory. You need to &lt;em&gt;consume&lt;/em&gt; the excess hydrogen before it blocks your refineries. One thermal plant burning hydrogen at 100% upkeep can sink your entire hydrogen overflow.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;img src=&#34;http://localhost:1313/images/hydrogen-backup-fix.svg&#34; alt=&#34;Hydrogen backup fix diagram showing how to split off excess hydrogen to thermal plants while keeping your main hydrogen line flowing&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;800&#34; height=&#34;450&#34;&gt;&#xD;&#xA;&lt;h2 id=&#34;why-hydrogen-backup-happens&#34;&gt;The Core Problem: Why Hydrogen Traps Your Grid&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hydrogen backup is a design paradox: your refineries &lt;strong&gt;need&lt;/strong&gt; to output hydrogen to keep running, but when your hydrogen buffers are full, the refineries stall. When refineries stall, you stop producing oil products (refined oil, graphite, and the red science flowing through them). Your entire early-to-mid game chain collapses.&lt;/p&gt;</description>
+      <guid>https://dsp-guide.com/hydrogen-backup-fix/</guid>
+      <description>&lt;p&gt;Your thermal plants flicker. Refineries stall. Power drops to 20%. You check the grid and find hydrogen backed up all the way to your refineries. Every DSP player hits this wall around Yellow Science.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;&lt;strong&gt;TL;DR — The Fix:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;Build a thermal power plant, connect it to your hydrogen line, and split off your excess hydrogen to burn for power.&lt;br&gt;&#xD;&#xA;&lt;strong&gt;Key insight:&lt;/strong&gt; You do NOT need to stop your factory. You need to &lt;em&gt;consume&lt;/em&gt; the excess hydrogen before it blocks your refineries. One thermal plant burning hydrogen at 100% upkeep can sink your entire hydrogen overflow.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/hydrogen-backup-fix.svg&#34; alt=&#34;Hydrogen backup fix diagram showing how to split off excess hydrogen to thermal plants while keeping your main hydrogen line flowing&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;800&#34; height=&#34;450&#34;&gt;&#xD;&#xA;&lt;h2 id=&#34;why-hydrogen-backup-happens&#34;&gt;The Core Problem: Why Hydrogen Traps Your Grid&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;Hydrogen backup is a design paradox: your refineries &lt;strong&gt;need&lt;/strong&gt; to output hydrogen to keep running, but when your hydrogen buffers are full, the refineries stall. When refineries stall, you stop producing oil products (refined oil, graphite, and the red science flowing through them). Your entire early-to-mid game chain collapses.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DSP Solar Sails &amp; Ray Receivers: Complete Endgame Power Guide</title>
-      <link>http://localhost:1313/solar-sails-ray-receivers/</link>
+      <link>https://dsp-guide.com/solar-sails-ray-receivers/</link>
       <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/solar-sails-ray-receivers/</guid>
+      <guid>https://dsp-guide.com/solar-sails-ray-receivers/</guid>
       <description>&lt;p&gt;You&#39;ve got a handful of coal power plants. Maybe you&#39;ve built a wind farm or twelve. You&#39;re researching toward the stars — literally — and then it hits you: the Dyson sphere isn&#39;t just the goal, it&#39;s the power solution. To get there, you need Solar Sails and Ray Receivers working in tandem.&lt;/p&gt;&#xA;&lt;p&gt;One launches into orbit and reflects stellar radiation. The other catches that energy and converts it into usable power for your planet.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why Your DSP Power Grid Keeps Crashing (And How to Fix It)</title>
-      <link>http://localhost:1313/power-fix-guide/</link>
+      <link>https://dsp-guide.com/power-fix-guide/</link>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/power-fix-guide/</guid>
-      <description>&lt;p&gt;Everything is running. Then: darkness. Sorters moving like they&#39;re underwater. Your thermal plants flickering on and off. The death spiral.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Here&#39;s what happened and how to fix it.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR — The cascade:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  Factory drains power → sorters slow down → thermal plants don&#39;t get fuel → production drops → more power loss → everything dies.&lt;br&gt;&#xD;&#xA;  &lt;strong&gt;The fix:&lt;/strong&gt; Disconnect non-essential buildings. Feed thermal plants manually. Then build more solar.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head&#34;&gt;&lt;h2&gt;⚡ What Just Happened (The Cascade)&lt;/h2&gt;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;DSP has a nasty feedback loop that first-timers always run into:&lt;/p&gt;</description>
+      <guid>https://dsp-guide.com/power-fix-guide/</guid>
+      <description>&lt;p&gt;Everything is running. Then: darkness. Sorters moving like they&#39;re underwater. Your thermal plants flickering on and off. The death spiral.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Here&#39;s what happened and how to fix it.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR — The cascade:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  Factory drains power → sorters slow down → thermal plants don&#39;t get fuel → production drops → more power loss → everything dies.&lt;br&gt;&#xD;&#xA;  &lt;strong&gt;The fix:&lt;/strong&gt; Disconnect non-essential buildings. Feed thermal plants manually. Then build more solar.&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;⚡ What Just Happened (The Cascade)&lt;/h2&gt;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;DSP has a nasty feedback loop that first-timers always run into:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

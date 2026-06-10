@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on Dyson Sphere Program Guide</title>
+    <link>https://dsp-guide.com/tags/automation/</link>
+    <description>Recent content in Automation on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 05 Jun 2026 21:40:11 +0800</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Build a Mall in 30 Minutes - Never Hand-Craft a Building Again (DSP Guide)</title>
+      <link>https://dsp-guide.com/dsp-mall-guide/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/dsp-mall-guide/</guid>
+      <description>&lt;p&gt;Hand-crafting buildings is the #1 time waste in DSP. You spend 20 minutes crafting assemblers, belts, and sorters when you should be designing production lines.&lt;/p&gt;&#xA;&lt;p&gt;Here is how to build a mall - a factory that produces every building automatically, so you never craft by hand again.&lt;/p&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/mall-layout-belt-bus.svg&#34; alt=&#34;Mall belt bus layout&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;650&#34;&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;tldr-the-mall-concept&#34;&gt;TL;DR: The Mall Concept&lt;/h2&gt;&#xA;&lt;p&gt;A mall is a production line where raw materials go in one end and every building type comes out the other. Each building type (belts, sorters, assemblers, furnaces, etc.) has one dedicated assembler with its own storage box. You walk by and grab a full stack of whatever you need.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Blueprint Guide (v0.10) - Copy and Paste Entire Factories in Seconds</title>
+      <link>https://dsp-guide.com/dsp-blueprint-guide/</link>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/dsp-blueprint-guide/</guid>
+      <description>&lt;p&gt;DSP v0.10 added a proper blueprint system. No more hand-placing every smelter. Here is everything you need to know about blueprints - from basic copy-paste to advanced mirroring and sharing.&lt;/p&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/blueprint-workflow.svg&#34; alt=&#34;Blueprint copy mirror paste workflow&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;600&#34;&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;tldr-how-blueprints-work-in-dsp-v010&#34;&gt;TL;DR: How Blueprints Work in DSP v0.10&lt;/h2&gt;&#xA;&lt;p&gt;Press B to open the Blueprint Library. Select buildings (hold shift to multi-select), press CTRL+C to copy, then CTRL+V to paste. That is the basic flow. This guide covers the details that are not in the game.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

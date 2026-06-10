@@ -1,10 +1,12 @@
 <a href="/" class="site-title">DSP Guide</a>
 <nav class="main-nav" id="mainNav">
-  <a href="/" class="nav-link">Home</a>
+  <a href="/" class="nav-link{{ if .IsHome }} active{{ end }}">Home</a>
+  {{ $currentPage := . }}
   {{ range site.Params.nav_categories }}
   {{ $slug := . | lower | replaceRE "\\s*&\\s*" "--" | replaceRE "\\s+" "-" }}
-  <a href="/categories/{{ $slug }}/" class="nav-link">{{ . }}</a>
+  {{ $isActive := or (and (not $currentPage.IsHome) (eq $currentPage.Type "categories") (eq $currentPage.Title .)) (in $currentPage.Params.categories .) }}
+  <a href="/categories/{{ $slug }}/" class="nav-link{{ if $isActive }} active{{ end }}">{{ . }}</a>
   {{ end }}
-  <a href="/tags/" class="nav-link">Topics</a>
+  
   <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">☰</button>
 </nav>

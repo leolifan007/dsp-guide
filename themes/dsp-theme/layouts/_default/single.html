@@ -1,55 +1,125 @@
 {{ define "main" }}
 <div class="single-page">
-  <!-- Hero -->
-  <div class="article-hero-full">
-    <div class="article-hero-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}')"></div>
-    <div class="article-hero-fade"></div>
-    <div class="article-hero-text">
-      <h1>{{ .Title }}</h1>
-      <div class="article-meta">
-        <span class="meta-date">Updated: {{ .Date.Format "Jan 2, 2006" }}</span>
-        {{ with .Params.categories }}<span class="meta-category"> · {{ index . 0 }}</span>{{ end }}
-      </div>
+
+  <!-- Category Hero Bar - 33% taller, no overlay -->
+  <div class="article-category-bar">
+    <div class="category-bar-bg" style="background-image:url('{{ `images/hero-bg.jpg` | relURL }}');"></div>
+    <div class="category-bar-inner">
+      {{ with .Params.categories }}
+      {{ $cat := index . 0 }}
+      <span class="category-badge">{{ $cat }}</span>
+      <h1 class="category-title">{{ $cat }} Guides</h1>
+      <p class="category-desc">
+        {{ if eq $cat "Power & Energy" }}Master your DSP power grid: cascade recovery, hydrogen management, solar sails, and endgame power solutions.
+        {{ else if eq $cat "Resources & Mining" }}From titanium transport to fire ice refining: resource guides for every stage of your factory.
+        {{ else if eq $cat "Science & Production" }}Production chains, matrix assembly, proliferator optimization, and science progression guides.
+        {{ else if eq $cat "Logistics & Transport" }}ILS setup, supply/demand, warpers, drones, and interstellar transport made simple.
+        {{ else }}Practical guides for Dyson Sphere Program.{{ end }}
+      </p>
+      {{ end }}
     </div>
   </div>
 
-  <!-- Main Layout -->
   <div class="article-layout-new">
-    <!-- Left Sidebar: Category Articles -->
+    <!-- Left Sidebar: Control Panel (no dates) -->
     <aside class="article-sidebar">
       {{ $currentCategories := .Params.categories }}
       {{ $related := where .Site.RegularPages "Params.categories" "intersect" $currentCategories }}
-      <div class="sidebar-section">
-        <h4 class="sidebar-title">More in {{ index $currentCategories 0 }}</h4>
-        <ul class="sidebar-list">
+      <div class="sidebar-panel">
+        <div class="sidebar-panel-header">In This Category</div>
+        <ul class="sidebar-panel-list">
           {{ range $related.ByDate.Reverse }}
           <li{{ if eq .RelPermalink $.RelPermalink }} class="active"{{ end }}>
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <a href="{{ .RelPermalink }}">
+              <span class="sp-list-title">{{ .Title | truncate 42 }}</span>
+            </a>
           </li>
           {{ end }}
         </ul>
       </div>
-      
-      <!-- Adsterra Native Banner in sidebar -->
-      {{ partial "ads/adsterra-native.html" . }}
-      
-      <div class="sidebar-back">
-        <a href="/">← Back to Home</a>
-      </div>
     </aside>
 
-    <!-- Right Content -->
-    <main class="article-body">
-      {{ with .Description }}<p class="article-lead">{{ . }}</p>{{ end }}
-      
-      <!-- Adsterra Native Banner - before content -->
-      {{ partial "ads/adsterra-native.html" . }}
-      
-      {{ .Content | safeHTML }}
-      
-      <!-- Adsterra Banner after article content -->
-      {{ partial "ads/adsterra-banner.html" . }}
+    <!-- Right Content Area -->
+    <main class="article-body-wrap">
+      <div class="article-title-area">
+        <div class="title-accent-line"></div>
+        <h1 class="article-main-title">{{ .Title }}</h1>
+        <div class="article-meta-bar">
+          <span class="meta-date">{{ .Date.Format "Jan 2, 2006" }}</span>
+          {{ with .Params.version }}<span class="meta-version">Game v{{ . }}</span>{{ end }}
+        </div>
+      </div>
+
+      <div class="article-content-sections" id="articleContent">
+        {{ with .Description }}<p class="article-lead">{{ . }}</p>{{ end }}
+        {{ .Content | safeHTML }}
+      </div>
     </main>
   </div>
 </div>
+
+<script>
+(function() {
+  var content = document.getElementById('articleContent');
+  if (!content) return;
+
+  // Step 1: Collect all section headings (both .section-head.collapsible and plain h2)
+  var heads = [];
+  var headNodes = content.querySelectorAll('.section-head.collapsible, h2');
+  headNodes.forEach(function(node) {
+    if (node.tagName === 'H2') {
+      // Plain h2 (not inside .section-head) → wrap it
+      if (!node.closest('.section-head')) {
+        var wrapper = document.createElement('div');
+        wrapper.className = 'section-head collapsible';
+        node.parentNode.insertBefore(wrapper, node);
+        wrapper.appendChild(node);
+        heads.push(wrapper);
+      }
+      // h2 already inside .section-head → skip (avoid double-processing)
+    } else if (node.classList.contains('section-head')) {
+      heads.push(node);
+    }
+  });
+
+  if (heads.length === 0) return;
+
+  // Step 2: Group into sections
+  var sections = [];
+  for (var i = 0; i < heads.length; i++) {
+    var sectionContent = [heads[i]];
+    var sib = heads[i].nextElementSibling;
+    while (sib && !sib.classList.contains('section-head') && sib.tagName !== 'H2') {
+      sectionContent.push(sib);
+      sib = sib.nextElementSibling;
+    }
+    sections.push(sectionContent);
+  }
+
+  // Step 3: Wrap each section in a container div
+  sections.forEach(function(elems) {
+    var block = document.createElement('div');
+    block.className = 'section-content-block';
+    var parent = elems[0].parentNode;
+    parent.insertBefore(block, elems[0]);
+    elems.forEach(function(el) {
+      block.appendChild(el);
+    });
+  });
+
+  // Step 4: Collapse functionality
+  var allBlocks = content.querySelectorAll('.section-content-block');
+  allBlocks.forEach(function(block) {
+    var head = block.querySelector('.section-head');
+    if (!head) return;
+    head.addEventListener('click', function() {
+      block.classList.toggle('collapsed');
+      var toggles = block.querySelectorAll(':scope > *:not(.section-head)');
+      toggles.forEach(function(el) {
+        el.style.display = el.style.display === 'none' ? '' : 'none';
+      });
+    });
+  });
+})();
+</script>
 {{ end }}
