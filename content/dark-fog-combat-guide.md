@@ -2,9 +2,7 @@
 title: "DSP Dark Fog Combat Guide (v0.10) - Destroy Enemy Bases Without Losing a Single Building"
 description: "Complete Dark Fog combat guide for Dyson Sphere Program. Signal towers, battlefield analysis bases, energy turret placement, and how to clear Dark Fog bases at every stage of the game."
 date: 2026-06-09
-publishDate: 2026-06-10T09:23:00+08:00
-lastmod: 2026-06-09T22:05:00+08:00
-hidden: true
+lastmod: '2026-06-10T21:09:22+08:00'
 type: post
 tags: [dark-fog, combat, defense, signal-tower, battlefield, mid-game, endgame]
 categories: [Combat & Defense]

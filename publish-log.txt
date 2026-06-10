@@ -1,15 +1,18 @@
-=== Auto-Publish Script ===
-Current time: 2026-06-02 06:02:06 UTC
-Current epoch: 1780380126
-    DEBUG: Parsing ISO date: 2026-06-02T14:00:00+08:00 → 2026-06-02 14:00:00 +0800
-  PUBLISH: yellow-matrix-slowdown.md - "How to Fix DSP Yellow Matrix Research Slowdown After Tech Unlock"
-    publishDate: 2026-06-02T14:00:00+08:00 (epoch: 1780380000, now: 1780380126)
+=== Auto-Publish Script (Python3) ===
+Current time (UTC): 2026-06-10 13:28:07
+Current time (CST): 2026-06-10 21:28:07
+  WAIT: advanced-oil-processing-guide.md - due in 43h 14m (2026-06-12T16:43:00+08:00)
+  PUBLISH: dark-fog-combat-guide.md — DSP Dark Fog Combat Guide (v0.10) - Destroy Enemy Bases Without Losing a Single Building
+    publishDate: 2026-06-10T09:23:00+08:00 → lastmod: 2026-06-10T21:09:22+08:00
+  WAIT: dyson-sphere-layer-design-guide.md - due in 68h 2m (2026-06-13T17:31:00+08:00)
+  WAIT: factory-expansion-guide.md - due in 88h 49m (2026-06-14T14:18:00+08:00)
+  WAIT: green-science-deep-dive-guide.md - due in 11h 15m (2026-06-11T08:44:00+08:00)
+  WAIT: interplanetary-logistics-guide.md - due in 60h 53m (2026-06-13T10:22:00+08:00)
+  WAIT: power-transition-guide.md - due in 18h 23m (2026-06-11T15:52:00+08:00)
+  PUBLISH: purple-science-production-guide.md — DSP Purple Science Guide (v0.10) - Build a Complete Structure Matrix Production Line
+    publishDate: 2026-06-10T17:14:00+08:00 → lastmod: 2026-06-10T21:18:52+08:00
+  WAIT: science-60-spm-blueprint-guide.md - due in 35h 38m (2026-06-12T09:07:00+08:00)
+  WAIT: vein-utilization-mining-guide.md - due in 83h 26m (2026-06-14T08:55:00+08:00)
 
-=== Articles published this run - will merge to main ===
-  gravity-matrix-proliferator.md
-  hydrogen-backup-fix.md
-  ils-drone-congestion.md
-  ils-not-picking-items.md
-  yellow-matrix-slowdown.md
-
+=== Articles published this run ===
 === Auto-Publish Script Complete ===
