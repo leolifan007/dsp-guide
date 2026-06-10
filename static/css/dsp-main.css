@@ -237,6 +237,15 @@ blockquote.insight-box {
 blockquote.insight-box strong { color: var(--accent-amber); }
 
 
+/* ===== RESOURCE GRID */
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.resource-grid > * { display: block; }
+
 /* ===== STEP GROUP / STEP */
 .step-group { margin: 16px 0; }
 .step {
