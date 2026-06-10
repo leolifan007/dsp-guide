@@ -1,4 +1,4 @@
----
+﻿---
 title: "DSP Late-Game Factory Expansion Guide (v0.10) - Scale From 30 to 300 Science Per Minute"
 description: "Scale your Dyson Sphere Program factory from mid-game to endgame. Complete guide to transitioning from a single-planet base to a multi-planet production empire, with blueprint strategies, bus design, and logistics optimization for 300 SPM."
 date: 2026-06-09

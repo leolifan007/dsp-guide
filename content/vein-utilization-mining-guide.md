@@ -1,4 +1,4 @@
----
+﻿---
 title: "DSP Vein Utilization Guide (v0.10) - Optimal Miner Placement and Proliferation for Maximum Output"
 description: "Master mining optimization in Dyson Sphere Program. Complete guide to mining machine placement, vein coverage patterns, proliferator application, and vein utilization upgrade priorities. Extract more ore per vein with fewer miners."
 date: 2026-06-09
