@@ -31,7 +31,7 @@
         <a href="/categories/{{ $slug }}/" class="topic-card">
           {{ if $hasNew }}<span class="new-badge">NEW</span>{{ end }}
           <div class="topic-banner topic-banner-{{ $i }}">
-            <img src="{{ `images/categories/` | relURL }}{{ $slug }}.png" alt="{{ $cat }}" class="topic-img" loading="lazy">
+            <img src="{{ `images/categories/` | relURL }}{{ $slug }}.svg" alt="{{ $cat }}" class="topic-img" loading="lazy">
           </div>
           <div class="topic-card-body">
             <h3>{{ $cat }}</h3>
