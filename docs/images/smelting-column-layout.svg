@@ -38,11 +38,11 @@
   <rect width="800" height="360" fill="#0d1117" rx="8"/>
 
   <!-- Title -->
-  <text x="400" y="28" text-anchor="middle" fill="#ECEFF1" font-size="16" font-family="monospace" font-weight="bold">SMELTING COLUMN LAYOUT — 3 SMELTERS / MK.III BELT</text>
+  <text x="400" y="28" text-anchor="middle" fill="#ECEFF1" font-size="16" font-family="monospace" font-weight="bold">SMELTING COLUMN LAYOUT - 3 SMELTERS / MK.III BELT</text>
 
   <!-- MINERS (Left) -->
   <rect x="30" y="50" width="100" height="50" rx="6" fill="url(#minerGrad)" stroke="#90A4AE" stroke-width="1.5" filter="url(#shadow)"/>
-  <text x="80" y="68" text-anchor="middle" fill="#ECEFF1" font-size="11" font-family="monospace" font-weight="bold">MINER ×3</text>
+  <text x="80" y="68" text-anchor="middle" fill="#ECEFF1" font-size="11" font-family="monospace" font-weight="bold">MINER x3</text>
   <text x="80" y="82" text-anchor="middle" fill="#B0BEC5" font-size="9" font-family="monospace">Iron Ore Veins</text>
   <text x="80" y="95" text-anchor="middle" fill="#FFD54F" font-size="9" font-family="monospace">1 ore/s each</text>
 
@@ -62,9 +62,9 @@
 
   <!-- SMELTERS (Middle) -->
   <rect x="200" y="45" width="120" height="60" rx="6" fill="url(#smelterGrad)" stroke="#66BB6A" stroke-width="1.5" filter="url(#shadow)"/>
-  <text x="260" y="66" text-anchor="middle" fill="#C8E6C9" font-size="12" font-family="monospace" font-weight="bold">SMELTER ×3</text>
+  <text x="260" y="66" text-anchor="middle" fill="#C8E6C9" font-size="12" font-family="monospace" font-weight="bold">SMELTER x3</text>
   <text x="260" y="81" text-anchor="middle" fill="#A5D6A7" font-size="9.5" font-family="monospace">1 ore/s each</text>
-  <text x="260" y="95" text-anchor="middle" fill="#81C784" font-size="9" font-family="monospace">→ 1 ingot/s each</text>
+  <text x="260" y="95" text-anchor="middle" fill="#81C784" font-size="9" font-family="monospace">-> 1 ingot/s each</text>
 
   <!-- Smelter detail icons -->
   <rect x="210" y="105" width="24" height="18" rx="3" fill="#33691E" stroke="#66BB6A" stroke-width="0.8"/>
@@ -87,8 +87,8 @@
   <!-- INGOT DESTINATION -->
   <rect x="410" y="50" width="110" height="50" rx="6" fill="url(#ingotGrad)" stroke="#8D6E63" stroke-width="1.5" filter="url(#shadow)"/>
   <text x="465" y="68" text-anchor="middle" fill="#D7CCC8" font-size="11" font-family="monospace" font-weight="bold">IRON INGOTS</text>
-  <text x="465" y="82" text-anchor="middle" fill="#BCAAA4" font-size="9" font-family="monospace">→ Factory Bus</text>
-  <text x="465" y="95" text-anchor="middle" fill="#FFD54F" font-size="9" font-family="monospace">Or → ILS Export</text>
+  <text x="465" y="82" text-anchor="middle" fill="#BCAAA4" font-size="9" font-family="monospace">-> Factory Bus</text>
+  <text x="465" y="95" text-anchor="middle" fill="#FFD54F" font-size="9" font-family="monospace">Or -> ILS Export</text>
 
   <!-- BUS ARROW -->
   <line x1="520" y1="75" x2="600" y2="75" stroke="#29B6F6" stroke-width="2.5" marker-end="url(#arrBelt)" stroke-dasharray="6,3"/>
@@ -154,11 +154,11 @@
   <text x="490" y="320" text-anchor="middle" fill="#FFF8E1" font-size="11" font-family="monospace">3 miners</text>
 
   <rect x="560" y="305" width="200" height="28" rx="4" fill="#1B5E20" stroke="#66BB6A" stroke-width="1"/>
-  <text x="660" y="320" text-anchor="middle" fill="#C8E6C9" font-size="10" font-family="monospace" font-weight="bold">✓ Recommended</text>
+  <text x="660" y="320" text-anchor="middle" fill="#C8E6C9" font-size="10" font-family="monospace" font-weight="bold">OK Recommended</text>
 
   <!-- Pro Tip -->
   <rect x="30" y="305" width="740" height="1" fill="#30363d"/>
-  <text x="50" y="340" fill="#FFD54F" font-size="10" font-family="monospace">⚠ TIP:  Always build smelting columns with Mk.III ratios (3:3:3) even if you only need 1 smelter now — adding more later is expensive. Undersmelt and your refinery backs up.</text>
+  <text x="50" y="340" fill="#FFD54F" font-size="10" font-family="monospace"> TIP:  Always build smelting columns with Mk.III ratios (3:3:3) even if you only need 1 smelter now - adding more later is expensive. Undersmelt and your refinery backs up.</text>
 
   <!-- Color Legend (top right) -->
   <rect x="620" y="8" width="170" height="18" rx="4" fill="rgba(13,17,23,0.85)" stroke="#455A64" stroke-width="0.8"/>

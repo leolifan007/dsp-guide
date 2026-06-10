@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chemical on Dyson Sphere Program Guide</title>
+    <link>https://dsp-guide.com/tags/chemical/</link>
+    <description>Recent content in Chemical on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Jun 2026 22:20:00 +0800</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/tags/chemical/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSP Advanced Oil Processing Guide (v0.10) - Never Waste Refined Oil or Backup Your Factory Again</title>
+      <link>https://dsp-guide.com/advanced-oil-processing-guide/</link>
+      <pubDate>Fri, 12 Jun 2026 16:43:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/advanced-oil-processing-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; The key to oil processing is balancing Hydrogen output with consumption. Build a thermal power station burning excess Hydrogen as a buffer. Store Refined Oil in tanks (not towers - tanks are free). When Hydrogen backs up, your entire oil chain stops, which stops plastic, which stops yellow science. Burn the excess.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Oil processing is the most mis-understood production chain in DSP. Unlike mining, which produces exactly what you ask for, oil refining produces multiple outputs simultaneously. When one output backs up, the entire refinery stops. This guide covers every aspect of oil management.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

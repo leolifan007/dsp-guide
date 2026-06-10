@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+
+<defs>
+  <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#1a1a2e"/>
+    <stop offset="100%" style="stop-color:#16213e"/>
+  </linearGradient>
+  <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#c0392b"/>
+    <stop offset="100%" style="stop-color:#e74c3c"/>
+  </linearGradient>
+  <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#27ae60"/>
+    <stop offset="100%" style="stop-color:#2ecc71"/>
+  </linearGradient>
+  <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#2980b9"/>
+    <stop offset="100%" style="stop-color:#3498db"/>
+  </linearGradient>
+  <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" style="stop-color:#d4a020"/>
+    <stop offset="100%" style="stop-color:#f0c040"/>
+  </linearGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
+    <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.4"/>
+  </filter>
+  <marker id="arrowRed" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#e74c3c"/>
+  </marker>
+  <marker id="arrowGreen" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#2ecc71"/>
+  </marker>
+  <marker id="arrowGray" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+    <polygon points="0 0, 10 3.5, 0 7" fill="#888"/>
+  </marker>
+</defs>
+
+<rect width="800" height="450" fill="url(#bg)" rx="8"/>
+
+<!-- Title -->
+<text x="400" y="28" font-family="Arial,sans-serif" font-size="18" fill="#aac" text-anchor="middle" font-weight="bold">DRONE CONGESTION - THE PROBLEM vs THE FIX</text>
+<line x1="50" y1="38" x2="750" y2="38" stroke="#334" stroke-width="1"/>
+
+<!-- LEFT PANEL - BAD -->
+<rect x="20" y="52" width="350" height="378" rx="6" fill="#1e1a1a" stroke="#e74c3c" stroke-width="2" filter="url(#shadow)"/>
+<rect x="20" y="52" width="350" height="28" rx="6" fill="#e74c3c" opacity="0.3"/>
+<text x="195" y="70" font-family="Arial,sans-serif" font-size="14" fill="#e74c3c" text-anchor="middle" font-weight="bold">BAD: 50 DRONES STACKED AT ONE STATION</text>
+
+<!-- Station A - BAD (overloaded) -->
+<rect x="50" y="100" width="110" height="130" rx="6" fill="#2a1a1a" stroke="#e74c3c" stroke-width="2"/>
+<text x="105" y="120" font-family="Arial,sans-serif" font-size="12" fill="#e74c3c" text-anchor="middle" font-weight="bold">ILS Station A</text>
+<text x="105" y="134" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">50 drones assigned</text>
+<text x="105" y="148" font-family="Arial,sans-serif" font-size="10" fill="#e74c3c" text-anchor="middle">demand full</text>
+<text x="105" y="162" font-family="Arial,sans-serif" font-size="10" fill="#e74c3c" text-anchor="middle">48 idle!</text>
+<text x="105" y="220" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">all drones</text>
+<text x="105" y="233" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">clustered here</text>
+
+<!-- 50 drone icons at Station A - crowded in tight cluster -->
+<!-- Row 1 -->
+<circle cx="72" cy="175" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="88" cy="175" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="104" cy="175" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="120" cy="175" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="136" cy="175" r="5" fill="#e74c3c" opacity="0.9"/>
+<!-- Row 2 -->
+<circle cx="72" cy="189" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="88" cy="189" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="104" cy="189" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="120" cy="189" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="136" cy="189" r="5" fill="#e74c3c" opacity="0.9"/>
+<!-- Row 3 -->
+<circle cx="72" cy="203" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="88" cy="203" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="104" cy="203" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="120" cy="203" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="136" cy="203" r="5" fill="#e74c3c" opacity="0.9"/>
+<!-- Row 4 -->
+<circle cx="72" cy="217" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="88" cy="217" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="104" cy="217" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="120" cy="217" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="136" cy="217" r="5" fill="#e74c3c" opacity="0.9"/>
+<!-- Row 5 -->
+<circle cx="72" cy="231" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="88" cy="231" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="104" cy="231" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="120" cy="231" r="5" fill="#e74c3c" opacity="0.9"/>
+<circle cx="136" cy="231" r="5" fill="#e74c3c" opacity="0.9"/>
+<!-- Row 6 - overflow -->
+<circle cx="72" cy="245" r="5" fill="#e74c3c" opacity="0.7"/>
+<circle cx="88" cy="245" r="5" fill="#e74c3c" opacity="0.7"/>
+<circle cx="104" cy="245" r="5" fill="#e74c3c" opacity="0.7"/>
+<circle cx="120" cy="245" r="5" fill="#e74c3c" opacity="0.7"/>
+<circle cx="136" cy="245" r="5" fill="#e74c3c" opacity="0.7"/>
+<!-- Row 7 - overflow -->
+<circle cx="72" cy="259" r="5" fill="#e74c3c" opacity="0.5"/>
+<circle cx="88" cy="259" r="5" fill="#e74c3c" opacity="0.5"/>
+<circle cx="104" cy="259" r="5" fill="#e74c3c" opacity="0.5"/>
+<circle cx="120" cy="259" r="5" fill="#e74c3c" opacity="0.5"/>
+<circle cx="136" cy="259" r="5" fill="#e74c3c" opacity="0.5"/>
+<!-- Row 8 - overflow -->
+<circle cx="72" cy="273" r="5" fill="#e74c3c" opacity="0.4"/>
+<circle cx="88" cy="273" r="5" fill="#e74c3c" opacity="0.4"/>
+<circle cx="104" cy="273" r="5" fill="#e74c3c" opacity="0.4"/>
+<circle cx="120" cy="273" r="5" fill="#e74c3c" opacity="0.4"/>
+<circle cx="136" cy="273" r="5" fill="#e74c3c" opacity="0.4"/>
+<!-- Row 9 - overflow -->
+<circle cx="72" cy="287" r="5" fill="#e74c3c" opacity="0.3"/>
+<circle cx="88" cy="287" r="5" fill="#e74c3c" opacity="0.3"/>
+<circle cx="104" cy="287" r="5" fill="#e74c3c" opacity="0.3"/>
+<circle cx="120" cy="287" r="5" fill="#e74c3c" opacity="0.3"/>
+<circle cx="136" cy="287" r="5" fill="#e74c3c" opacity="0.3"/>
+<!-- Row 10 - overflow -->
+<circle cx="72" cy="301" r="5" fill="#e74c3c" opacity="0.3"/>
+<circle cx="88" cy="301" r="5" fill="#e74c3c" opacity="0.3"/>
+<circle cx="104" cy="301" r="5" fill="#e74c3c" opacity="0.3"/>
+<circle cx="120" cy="301" r="5" fill="#e74c3c" opacity="0.3"/>
+<circle cx="136" cy="301" r="5" fill="#e74c3c" opacity="0.3"/>
+
+<!-- Arrow from Station A to nothing -->
+<text x="105" y="340" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">0% utilization</text>
+<text x="105" y="354" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">factory stalled</text>
+
+<!-- Station B - BAD (starving) -->
+<rect x="230" y="100" width="120" height="130" rx="6" fill="#2a1a2a" stroke="#9b59b6" stroke-width="2"/>
+<text x="290" y="120" font-family="Arial,sans-serif" font-size="12" fill="#9b59b6" text-anchor="middle" font-weight="bold">ILS Station B</text>
+<text x="290" y="134" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">2 drones assigned</text>
+<text x="290" y="148" font-family="Arial,sans-serif" font-size="10" fill="#9b59b6" text-anchor="middle">demand empty</text>
+<text x="290" y="162" font-family="Arial,sans-serif" font-size="10" fill="#9b59b6" text-anchor="middle">2 drones = slow!</text>
+<!-- 2 drones far from station -->
+<circle cx="290" cy="210" r="6" fill="#9b59b6"/>
+<circle cx="290" cy="235" r="6" fill="#9b59b6" opacity="0.6"/>
+<!-- Dotted path showing long trip -->
+<line x1="290" y1="216" x2="290" y2="350" stroke="#9b59b6" stroke-width="1.5" stroke-dasharray="4,3" marker-end="url(#arrowGray)"/>
+<text x="290" y="340" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">long trip</text>
+<text x="290" y="354" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">low throughput</text>
+
+<!-- Result box BAD -->
+<rect x="50" y="365" width="300" height="50" rx="6" fill="#3a1515" stroke="#e74c3c" stroke-width="1.5"/>
+<text x="200" y="388" font-family="Arial,sans-serif" font-size="14" fill="#e74c3c" text-anchor="middle" font-weight="bold">RESULT: Factory runs at 30%</text>
+<text x="200" y="404" font-family="Arial,sans-serif" font-size="11" fill="#ccc" text-anchor="middle">items that should take 10s take 5 minutes</text>
+
+<!-- CENTER DIVIDER -->
+<line x1="395" y1="60" x2="395" y2="425" stroke="#555" stroke-width="1.5" stroke-dasharray="6,4"/>
+<polygon points="395,100 388,90 402,90" fill="#555"/>
+<polygon points="395,360 388,370 402,370" fill="#555"/>
+
+<!-- RIGHT PANEL - GOOD -->
+<rect x="415" y="52" width="365" height="378" rx="6" fill="#1a1e1a" stroke="#2ecc71" stroke-width="2" filter="url(#shadow)"/>
+<rect x="415" y="52" width="365" height="28" rx="6" fill="#2ecc71" opacity="0.3"/>
+<text x="598" y="70" font-family="Arial,sans-serif" font-size="14" fill="#2ecc71" text-anchor="middle" font-weight="bold">GOOD: 8 DRONES PER STATION - ALL MOVING</text>
+
+<!-- Station A - GOOD -->
+<rect x="445" y="100" width="110" height="120" rx="6" fill="#1a2a1a" stroke="#2ecc71" stroke-width="2"/>
+<text x="500" y="120" font-family="Arial,sans-serif" font-size="12" fill="#2ecc71" text-anchor="middle" font-weight="bold">ILS Station A</text>
+<text x="500" y="134" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">8 drones cap</text>
+<text x="500" y="148" font-family="Arial,sans-serif" font-size="10" fill="#2ecc71" text-anchor="middle">8 busy moving</text>
+
+<!-- 8 drones spread out -->
+<circle cx="470" cy="175" r="6" fill="#2ecc71"/>
+<circle cx="500" cy="175" r="6" fill="#2ecc71"/>
+<circle cx="530" cy="175" r="6" fill="#2ecc71"/>
+<circle cx="485" cy="200" r="6" fill="#2ecc71"/>
+<circle cx="515" cy="200" r="6" fill="#2ecc71"/>
+<circle cx="470" cy="225" r="6" fill="#2ecc71"/>
+<circle cx="500" cy="225" r="6" fill="#2ecc71"/>
+<circle cx="530" cy="225" r="6" fill="#2ecc71"/>
+<!-- Drone paths -->
+<line x1="470" y1="181" x2="470" y2="330" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="500" y1="181" x2="500" y2="330" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="530" y1="181" x2="530" y2="330" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="485" y1="206" x2="485" y2="330" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="515" y1="206" x2="515" y2="330" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="470" y1="231" x2="470" y2="330" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="500" y1="231" x2="500" y2="330" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="530" y1="231" x2="530" y2="330" stroke="#2ecc71" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+
+<!-- Station B - GOOD -->
+<rect x="630" y="100" width="130" height="120" rx="6" fill="#1a2a1a" stroke="#3498db" stroke-width="2"/>
+<text x="695" y="120" font-family="Arial,sans-serif" font-size="12" fill="#3498db" text-anchor="middle" font-weight="bold">ILS Station B</text>
+<text x="695" y="134" font-family="Arial,sans-serif" font-size="10" fill="#888" text-anchor="middle">8 drones cap</text>
+<text x="695" y="148" font-family="Arial,sans-serif" font-size="10" fill="#3498db" text-anchor="middle">8 busy moving</text>
+
+<!-- 8 drones spread out at Station B -->
+<circle cx="660" cy="175" r="6" fill="#3498db"/>
+<circle cx="695" cy="175" r="6" fill="#3498db"/>
+<circle cx="730" cy="175" r="6" fill="#3498db"/>
+<circle cx="675" cy="200" r="6" fill="#3498db"/>
+<circle cx="710" cy="200" r="6" fill="#3498db"/>
+<circle cx="660" cy="225" r="6" fill="#3498db"/>
+<circle cx="695" cy="225" r="6" fill="#3498db"/>
+<circle cx="730" cy="225" r="6" fill="#3498db"/>
+<!-- Drone paths -->
+<line x1="660" y1="181" x2="660" y2="330" stroke="#3498db" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="695" y1="181" x2="695" y2="330" stroke="#3498db" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="730" y1="181" x2="730" y2="330" stroke="#3498db" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="675" y1="206" x2="675" y2="330" stroke="#3498db" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="710" y1="206" x2="710" y2="330" stroke="#3498db" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="660" y1="231" x2="660" y2="330" stroke="#3498db" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="695" y1="231" x2="695" y2="330" stroke="#3498db" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+<line x1="730" y1="231" x2="730" y2="330" stroke="#3498db" stroke-width="1" stroke-dasharray="3,2" marker-end="url(#arrowGreen)"/>
+
+<!-- Result box GOOD -->
+<rect x="445" y="345" width="315" height="50" rx="6" fill="#1a2a1a" stroke="#2ecc71" stroke-width="1.5"/>
+<text x="603" y="368" font-family="Arial,sans-serif" font-size="14" fill="#2ecc71" text-anchor="middle" font-weight="bold">RESULT: Factory runs at 100%</text>
+<text x="603" y="384" font-family="Arial,sans-serif" font-size="11" fill="#ccc" text-anchor="middle">all 16 drones constantly moving</text>
+
+<!-- Bottom key takeaway -->
+<rect x="100" y="420" width="600" height="26" rx="5" fill="#1e2a3e" stroke="#d4a020" stroke-width="1"/>
+<text x="400" y="438" font-family="Arial,sans-serif" font-size="12" fill="#f0c040" text-anchor="middle" font-weight="bold">The Magic Number: 8 drones per ILS station = optimal throughput for 95% of setups</text>
+</svg>

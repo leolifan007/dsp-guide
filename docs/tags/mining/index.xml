@@ -6,8 +6,15 @@
     <description>Recent content in Mining on Dyson Sphere Program Guide</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 22:29:00 +0800</lastBuildDate>
     <atom:link href="https://dsp-guide.com/tags/mining/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSP Vein Utilization Guide (v0.10) - Optimal Miner Placement and Proliferation for Maximum Output</title>
+      <link>https://dsp-guide.com/vein-utilization-mining-guide/</link>
+      <pubDate>Sun, 14 Jun 2026 08:55:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/vein-utilization-mining-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Each Mining Machine covers a 3x3 grid of ore tiles. Place them edge-to-edge over the densest part of the vein. One Mk.III proliferator sprayed on the ore output increases effective output by 25% at the cost of proliferator materials. The Vein Utilization research (up to level 10) doubles your effective ore per node.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Ore veins are finite. Every iron ore, copper ore, and coal vein on your starting planet will eventually deplete. Mining optimization determines whether you run out of resources in 20 hours or 200 hours. This guide covers every mining optimization technique.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>DSP Mining Outpost Guide (v0.10) - Set Up Off-World Bases That Run Forever</title>
       <link>https://dsp-guide.com/coal-fire-ice-mining-outpost-guide/</link>

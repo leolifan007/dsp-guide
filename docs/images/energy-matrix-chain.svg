@@ -41,7 +41,7 @@
   <rect width="800" height="460" fill="#0d1117" rx="8"/>
 
   <!-- Title -->
-  <text x="400" y="28" text-anchor="middle" fill="#ECEFF1" font-size="16" font-family="monospace" font-weight="bold">ENERGY MATRIX PRODUCTION CHAIN — H2 + REFINED OIL → EM → DYSON SPHERE</text>
+  <text x="400" y="28" text-anchor="middle" fill="#ECEFF1" font-size="16" font-family="monospace" font-weight="bold">ENERGY MATRIX PRODUCTION CHAIN - H2 + REFINED OIL -> EM -> DYSON SPHERE</text>
 
   <!-- LEFT: H2 &amp; Refined Oil Inputs -->
 
@@ -49,32 +49,32 @@
   <rect x="20" y="50" width="150" height="55" rx="6" fill="url(#h2Grad2)" stroke="#29B6F6" stroke-width="1.5" filter="url(#shadow4)"/>
   <text x="95" y="70" text-anchor="middle" fill="#E1F5FE" font-size="11" font-family="monospace" font-weight="bold">H2 PRODUCTION</text>
   <text x="95" y="84" text-anchor="middle" fill="#B3E5FC" font-size="9.5" font-family="monospace">Refinery: Crude Oil</text>
-  <text x="95" y="96" text-anchor="middle" fill="#81D4FA" font-size="8.5" font-family="monospace">→ H2 0.5–1 /s</text>
+  <text x="95" y="96" text-anchor="middle" fill="#81D4FA" font-size="8.5" font-family="monospace">-> H2 0.5-1 /s</text>
 
   <!-- H2 Arrow to Fuel Refinery -->
   <line x1="170" y1="77" x2="270" y2="120" stroke="#29B6F6" stroke-width="2.5" marker-end="url(#arrH2)"/>
-  <text x="220" y="105" fill="#29B6F6" font-size="8.5" font-family="monospace">H2 ×2/s</text>
+  <text x="220" y="105" fill="#29B6F6" font-size="8.5" font-family="monospace">H2 x2/s</text>
 
   <!-- Refined Oil Source -->
   <rect x="20" y="135" width="150" height="55" rx="6" fill="url(#oilGrad2)" stroke="#8D6E63" stroke-width="1.5" filter="url(#shadow4)"/>
   <text x="95" y="155" text-anchor="middle" fill="#FFCCBC" font-size="11" font-family="monospace" font-weight="bold">REFINED OIL</text>
   <text x="95" y="169" text-anchor="middle" fill="#D7CCC8" font-size="9.5" font-family="monospace">Refinery output</text>
-  <text x="95" y="181" text-anchor="middle" fill="#BCAAA4" font-size="8.5" font-family="monospace">→ 1 Oil /s</text>
+  <text x="95" y="181" text-anchor="middle" fill="#BCAAA4" font-size="8.5" font-family="monospace">-> 1 Oil /s</text>
 
   <!-- Oil Arrow to Fuel Refinery -->
   <line x1="170" y1="162" x2="270" y2="155" stroke="#8D6E63" stroke-width="2.5" marker-end="url(#arrOil)"/>
-  <text x="220" y="148" fill="#8D6E63" font-size="8.5" font-family="monospace">Oil ×1/s</text>
+  <text x="220" y="148" fill="#8D6E63" font-size="8.5" font-family="monospace">Oil x1/s</text>
 
   <!-- MIDDLE: Fuel Refinery (Energy Matrix) -->
   <rect x="270" y="108" width="180" height="75" rx="8" fill="url(#refineryGrad2)" stroke="#FF7043" stroke-width="2" filter="url(#shadow4)"/>
   <text x="360" y="130" text-anchor="middle" fill="#FFCCBC" font-size="13" font-family="monospace" font-weight="bold">FUEL REFINERY</text>
   <text x="360" y="146" text-anchor="middle" fill="#FFAB91" font-size="9.5" font-family="monospace">Recipe: Energy Matrix</text>
-  <text x="360" y="160" text-anchor="middle" fill="#FF8A65" font-size="9" font-family="monospace">Input: H2 ×2/s + Oil ×1/s</text>
-  <text x="360" y="173" text-anchor="middle" fill="#FFCCBC" font-size="9" font-family="monospace" font-weight="bold">Output: Energy Matrix ×1/s</text>
+  <text x="360" y="160" text-anchor="middle" fill="#FF8A65" font-size="9" font-family="monospace">Input: H2 x2/s + Oil x1/s</text>
+  <text x="360" y="173" text-anchor="middle" fill="#FFCCBC" font-size="9" font-family="monospace" font-weight="bold">Output: Energy Matrix x1/s</text>
 
   <!-- Proliferation bonus -->
   <rect x="285" y="185" width="150" height="22" rx="4" fill="#F57F17" stroke="#FFD54F" stroke-width="0.8"/>
-  <text x="360" y="200" text-anchor="middle" fill="#FFF8E1" font-size="8.5" font-family="monospace">⚡ Proliferator = +output</text>
+  <text x="360" y="200" text-anchor="middle" fill="#FFF8E1" font-size="8.5" font-family="monospace">PWR Proliferator = +output</text>
 
   <!-- EM Arrow to Uses -->
   <line x1="450" y1="145" x2="540" y2="100" stroke="#F9A825" stroke-width="3" marker-end="url(#arrEM)"/>
@@ -86,9 +86,9 @@
   <!-- Use 1: Ray Receivers -->
   <rect x="540" y="55" width="220" height="80" rx="8" fill="url(#rayGrad)" stroke="#AB47BC" stroke-width="1.5" filter="url(#shadow4)"/>
   <text x="650" y="78" text-anchor="middle" fill="#F3E5F5" font-size="12" font-family="monospace" font-weight="bold">RAY RECEIVERS</text>
-  <text x="650" y="94" text-anchor="middle" fill="#CE93D8" font-size="9.5" font-family="monospace">Consumes EM → Power</text>
+  <text x="650" y="94" text-anchor="middle" fill="#CE93D8" font-size="9.5" font-family="monospace">Consumes EM -> Power</text>
   <text x="650" y="106" text-anchor="middle" fill="#BA68C8" font-size="8.5" font-family="monospace">Place on high-elevation tiles</text>
-  <text x="650" y="118" text-anchor="middle" fill="#FFD54F" font-size="8.5" font-family="monospace" font-weight="bold">→ Planet power grid</text>
+  <text x="650" y="118" text-anchor="middle" fill="#FFD54F" font-size="8.5" font-family="monospace" font-weight="bold">-> Planet power grid</text>
 
   <!-- Power Grid connection -->
   <line x1="760" y1="95" x2="790" y2="95" stroke="#FFD54F" stroke-width="2"/>
@@ -98,8 +98,8 @@
   <rect x="540" y="175" width="220" height="80" rx="8" fill="url(#sailGrad)" stroke="#42A5F5" stroke-width="1.5" filter="url(#shadow4)"/>
   <text x="650" y="198" text-anchor="middle" fill="#E1F5FE" font-size="12" font-family="monospace" font-weight="bold">SOLAR SAIL LAUNCHER</text>
   <text x="650" y="214" text-anchor="middle" fill="#B3E5FC" font-size="9.5" font-family="monospace">Consumes EM per launch</text>
-  <text x="650" y="226" text-anchor="middle" fill="#81D4FA" font-size="8.5" font-family="monospace">Sails orbit → Dyson Sphere</text>
-  <text x="650" y="238" text-anchor="middle" fill="#FFD54F" font-size="8.5" font-family="monospace" font-weight="bold">→ Sphere construction</text>
+  <text x="650" y="226" text-anchor="middle" fill="#81D4FA" font-size="8.5" font-family="monospace">Sails orbit -> Dyson Sphere</text>
+  <text x="650" y="238" text-anchor="middle" fill="#FFD54F" font-size="8.5" font-family="monospace" font-weight="bold">-> Sphere construction</text>
 
   <!-- Sail orbit icon -->
   <circle cx="765" cy="215" r="12" fill="none" stroke="#42A5F5" stroke-width="1.2"/>
@@ -110,15 +110,15 @@
   <text x="650" y="318" text-anchor="middle" fill="#E8F5E9" font-size="12" font-family="monospace" font-weight="bold">DYSON SPHERE</text>
   <text x="650" y="334" text-anchor="middle" fill="#A5D6A7" font-size="9.5" font-family="monospace">Sails + EM required</text>
   <text x="650" y="346" text-anchor="middle" fill="#81C784" font-size="8.5" font-family="monospace">Full sphere = massive EM</text>
-  <text x="650" y="358" text-anchor="middle" fill="#FFD54F" font-size="8.5" font-family="monospace" font-weight="bold">→ Endgame goal</text>
+  <text x="650" y="358" text-anchor="middle" fill="#FFD54F" font-size="8.5" font-family="monospace" font-weight="bold">-> Endgame goal</text>
 
   <!-- BOTTOM: Hydrogen Bottleneck Warning -->
   <rect x="20" y="380" width="740" height="65" rx="8" fill="#161b22" stroke="#F9A825" stroke-width="1.5"/>
-  <text x="400" y="402" text-anchor="middle" fill="#F9A825" font-size="12" font-family="monospace" font-weight="bold">⚠ HYDROGEN BOTTLENECK — SCALING TIPS</text>
+  <text x="400" y="402" text-anchor="middle" fill="#F9A825" font-size="12" font-family="monospace" font-weight="bold"> HYDROGEN BOTTLENECK - SCALING TIPS</text>
 
-  <text x="50" y="422" fill="#ECEFF1" font-size="9.5" font-family="monospace">1. Each Fuel Refinery needs 2 H2/s — scale oil extractors + refineries first</text>
+  <text x="50" y="422" fill="#ECEFF1" font-size="9.5" font-family="monospace">1. Each Fuel Refinery needs 2 H2/s - scale oil extractors + refineries first</text>
   <text x="50" y="437" fill="#ECEFF1" font-size="9.5" font-family="monospace">2. Use Hydrogen Fuel Plants to consume excess H2 and stabilize refinery backup</text>
-  <text x="50" y="452" fill="#ECEFF1" font-size="9.5" font-family="monospace">3. Proliferate Fuel Refineries — output bonus compounds at scale → faster Sphere</text>
+  <text x="50" y="452" fill="#ECEFF1" font-size="9.5" font-family="monospace">3. Proliferate Fuel Refineries - output bonus compounds at scale -> faster Sphere</text>
 
   <!-- Legend (top right) -->
   <rect x="600" y="8" width="190" height="38" rx="4" fill="rgba(13,17,23,0.9)" stroke="#455A64" stroke-width="0.8"/>

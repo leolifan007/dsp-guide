@@ -89,7 +89,7 @@ When your home planet veins run low, expand to off-world outposts:
 
 {{< callout "warning" >}}
 **Outpost trap:** Do not over-build miners on off-world outposts. Export capacity is limited by ILS vessel throughput. 20 miners on a single ILS is usually enough. More miners without more ILS towers just clog the belts.
-{{< /callover >}}
+{{< /callout >}}
 
 ## Mining Priority for Starting Planet
 

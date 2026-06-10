@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wind-Turbine on Dyson Sphere Program Guide</title>
+    <link>https://dsp-guide.com/tags/wind-turbine/</link>
+    <description>Recent content in Wind-Turbine on Dyson Sphere Program Guide</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Jun 2026 22:14:00 +0800</lastBuildDate>
+    <atom:link href="https://dsp-guide.com/tags/wind-turbine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSP Power Transition Guide (v0.10) - From Wind Turbines to Antimatter Without Blackouts</title>
+      <link>https://dsp-guide.com/power-transition-guide/</link>
+      <pubDate>Thu, 11 Jun 2026 15:52:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/power-transition-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Never skip power tiers. Wind turbines handle early game (build 20-30). Thermal generators power mid game with refined oil or coal (one refinery feeds 3 generators). Fusion plants carry late game (deuterium rods last 4+ hours per plant). Antimatter is endgame only - skip it until you have a stable Dyson Sphere producing critical photons.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Power is the single most common reason DSP factories stop. A blackout cascades - miners stop, belts stop, power generators starve, more things stop. Understanding each power tier and when to transition prevents hours of troubleshooting.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

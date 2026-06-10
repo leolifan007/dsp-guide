@@ -6,8 +6,78 @@
     <description>Recent content in DSP Guide – No Fluff, Just Fixes on Dyson Sphere Program Guide</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 21:54:02 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 21:18:52 +0800</lastBuildDate>
     <atom:link href="https://dsp-guide.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSP 60 Science Per Minute Blueprint (v0.10) - Full Production Ratios From Raw Materials to All Science</title>
+      <link>https://dsp-guide.com/science-60-spm-blueprint-guide/</link>
+      <pubDate>Fri, 12 Jun 2026 09:07:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/science-60-spm-blueprint-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;p&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; 60 SPM (all six science types) requires: 120 Iron Ore/min, 60 Copper Ore/min, 30 Coal/min, 30 Crude Oil/min, plus off-world Titanium and Silicon. &lt;div class=&#34;game-slot&#34;&gt;&lt;img src=&#34;https://dsp-guide.com/images/dsp-icons/iron-ore.png&#34; alt=&#34;iron-ore&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;&gt;&#xA;&lt;span class=&#34;game-name&#34;&gt;Iron ore&lt;/span&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xD;&#xA; &lt;div class=&#34;game-slot&#34;&gt;&lt;img src=&#34;https://dsp-guide.com/images/dsp-icons/copper-ore.png&#34; alt=&#34;copper-ore&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;&gt;&#xD;&#xA;   &lt;span class=&#34;game-name&#34;&gt;Copper ore&lt;/span&gt;&#xD;&#xA; &lt;/div&gt;&#xD;&#xA; Total about 30 assemblers, 40 smelters, and 15 chemical plants. The single most important ratio is 3 Blue : 3 Red : 6 Yellow : 8 Purple : 12 Green : 15 White assemblers.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Science production is measured in science per minute (SPM). 60 SPM is the standard mid-game target - achievable on a single planet, enough to research most technologies at a reasonable pace. This guide covers every production chain from raw materials to completed science matrices.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Advanced Oil Processing Guide (v0.10) - Never Waste Refined Oil or Backup Your Factory Again</title>
+      <link>https://dsp-guide.com/advanced-oil-processing-guide/</link>
+      <pubDate>Fri, 12 Jun 2026 16:43:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/advanced-oil-processing-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; The key to oil processing is balancing Hydrogen output with consumption. Build a thermal power station burning excess Hydrogen as a buffer. Store Refined Oil in tanks (not towers - tanks are free). When Hydrogen backs up, your entire oil chain stops, which stops plastic, which stops yellow science. Burn the excess.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Oil processing is the most mis-understood production chain in DSP. Unlike mining, which produces exactly what you ask for, oil refining produces multiple outputs simultaneously. When one output backs up, the entire refinery stops. This guide covers every aspect of oil management.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Dark Fog Combat Guide (v0.10) - Destroy Enemy Bases Without Losing a Single Building</title>
+      <link>https://dsp-guide.com/dark-fog-combat-guide/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/dark-fog-combat-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Place a Battlefield Analysis Base (BAB) near your factory, surround it with 8-12 Energy Turrets in a circle, and chain Signal Towers outward to claim territory. For clearing Dark Fog bases, rush Grenades and Missile Turrets - hit the core (the glowing center) first.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Dark Fog is the combat system introduced in the Rise of the Dark Fog update. Enemy AI builds bases on planets, sends attack waves, and evolves over time. Ignore them and your factory gets destroyed. Fight smart and you get rare drops that make endgame faster.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Dyson Sphere Layer Design (v0.10) - Permanent Frame Strategy for Maximum Power Per Solar Sail</title>
+      <link>https://dsp-guide.com/dyson-sphere-layer-design-guide/</link>
+      <pubDate>Sat, 13 Jun 2026 17:31:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/dyson-sphere-layer-design-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Build the Dyson Sphere frame first, then fill with sails. One complete frame layer with ~200 nodes produces enough Critical Photons for 100+ MW of antimatter power. Use the closest orbit to the star (0.5 AU or less) for maximum energy output per sail. Each inner orbit layer produces ~40% more power than the next ring outward.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;The Dyson Sphere is the ultimate goal of DSP, but most players build it inefficiently. They launch sails into random orbits where they expire after 2 hours, wasting resources. The correct approach is frame-first: build the permanent structural frame, then let sails fill it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Green Science Deep Dive (v0.10) - Casimir Crystals, Quantum Chips and Full Production Chain</title>
+      <link>https://dsp-guide.com/green-science-deep-dive-guide/</link>
+      <pubDate>Thu, 11 Jun 2026 08:44:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/green-science-deep-dive-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Green Science (Gravity Matrix) needs Casimir Crystals, Quantum Chips, and Graviton Lenses. The Casimir Crystal chain is the hardest - it consumes massive Hydrogen and Graphene. Build dedicated Hydrogen processing before scaling green science, or hydrogen backup will halt your entire factory.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Gravity Matrix is the fifth science tier. It unlocks Warpers (interstellar travel), Plane Smelters, Artificial Stars, and the endgame research tree. Green science is where factory design separates casual players from experts - the chain complexity rivals everything before it combined.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Interplanetary Logistics Guide (v0.10) - Warper Economics and Vessel Management for Endgame</title>
+      <link>https://dsp-guide.com/interplanetary-logistics-guide/</link>
+      <pubDate>Sat, 13 Jun 2026 10:22:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/interplanetary-logistics-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; One ILS with 3 Logistics Vessels handles ~60 items/min over 5 light years. Each trip uses 1 Warper per vessel per jump. For 60 SPM factories, allocate 1 Warper chemical plant per 5 ILS towers. Set demand on the home planet&#39;s ILS, supply on remote outposts. Never set both on the same tower.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Interplanetary logistics is the backbone of every mid-to-late game DSP factory. Moving materials between planets efficiently determines whether your factory scales cleanly or becomes a congested mess. This guide covers the economics, the routing, and the common mistakes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Late-Game Factory Expansion Guide (v0.10) - Scale From 30 to 300 Science Per Minute</title>
+      <link>https://dsp-guide.com/factory-expansion-guide/</link>
+      <pubDate>Sun, 14 Jun 2026 14:18:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/factory-expansion-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Do not build everything on one planet. Designate each planet for one purpose: smelting, component production, or science. Run Mk.III belts between clustered assembler groups. Use ILS for cross-planet transport of intermediate products. The bottleneck is always either Iron Ore throughput or Hydrogen supply - build 3x more of both than you think you need.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Scaling from 30 SPM to 300 SPM is not about building bigger factories. It is about building different factories. The single-planet approach breaks down around 60 SPM. Beyond that, you need a distributed multi-planet production network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Power Transition Guide (v0.10) - From Wind Turbines to Antimatter Without Blackouts</title>
+      <link>https://dsp-guide.com/power-transition-guide/</link>
+      <pubDate>Thu, 11 Jun 2026 15:52:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/power-transition-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Never skip power tiers. Wind turbines handle early game (build 20-30). Thermal generators power mid game with refined oil or coal (one refinery feeds 3 generators). Fusion plants carry late game (deuterium rods last 4+ hours per plant). Antimatter is endgame only - skip it until you have a stable Dyson Sphere producing critical photons.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Power is the single most common reason DSP factories stop. A blackout cascades - miners stop, belts stop, power generators starve, more things stop. Understanding each power tier and when to transition prevents hours of troubleshooting.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Purple Science Guide (v0.10) - Build a Complete Structure Matrix Production Line</title>
+      <link>https://dsp-guide.com/purple-science-production-guide/</link>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://dsp-guide.com/purple-science-production-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Purple Science (Structure Matrix) needs Frame Material + Diamond + Titanium Glass. The bottleneck is always Titanium Crystal and Deuterium. Build dedicated production for these two first, then chain Frame Material + Diamond + Glass into the matrix assemblers.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Purple Science is the fourth science tier in DSP, unlocking Mk.III assemblers, Plane Smelters, advanced logistics, and endgame buildings. The jump from Yellow to Purple is the biggest difficulty spike in the research tree because it introduces three new production chains simultaneously.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DSP Vein Utilization Guide (v0.10) - Optimal Miner Placement and Proliferation for Maximum Output</title>
+      <link>https://dsp-guide.com/vein-utilization-mining-guide/</link>
+      <pubDate>Sun, 14 Jun 2026 08:55:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/vein-utilization-mining-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Each Mining Machine covers a 3x3 grid of ore tiles. Place them edge-to-edge over the densest part of the vein. One Mk.III proliferator sprayed on the ore output increases effective output by 25% at the cost of proliferator materials. The Vein Utilization research (up to level 10) doubles your effective ore per node.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Ore veins are finite. Every iron ore, copper ore, and coal vein on your starting planet will eventually deplete. Mining optimization determines whether you run out of resources in 20 hours or 200 hours. This guide covers every mining optimization technique.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>1 Artificial Sun Replaces 125 Wind Turbines - DSP Endgame Power Loop Guide</title>
       <link>https://dsp-guide.com/dsp-antimatter-power-guide/</link>

@@ -6,8 +6,15 @@
     <description>Recent content in Science on Dyson Sphere Program Guide</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 May 2026 23:57:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 22:17:00 +0800</lastBuildDate>
     <atom:link href="https://dsp-guide.com/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DSP 60 Science Per Minute Blueprint (v0.10) - Full Production Ratios From Raw Materials to All Science</title>
+      <link>https://dsp-guide.com/science-60-spm-blueprint-guide/</link>
+      <pubDate>Fri, 12 Jun 2026 09:07:00 +0800</pubDate>
+      <guid>https://dsp-guide.com/science-60-spm-blueprint-guide/</guid>
+      <description>&lt;div class=&#34;callout&#34;&gt;&lt;p&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; 60 SPM (all six science types) requires: 120 Iron Ore/min, 60 Copper Ore/min, 30 Coal/min, 30 Crude Oil/min, plus off-world Titanium and Silicon. &lt;div class=&#34;game-slot&#34;&gt;&lt;img src=&#34;https://dsp-guide.com/images/dsp-icons/iron-ore.png&#34; alt=&#34;iron-ore&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;&gt;&#xA;&lt;span class=&#34;game-name&#34;&gt;Iron ore&lt;/span&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xD;&#xA; &lt;div class=&#34;game-slot&#34;&gt;&lt;img src=&#34;https://dsp-guide.com/images/dsp-icons/copper-ore.png&#34; alt=&#34;copper-ore&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;&gt;&#xD;&#xA;   &lt;span class=&#34;game-name&#34;&gt;Copper ore&lt;/span&gt;&#xD;&#xA; &lt;/div&gt;&#xD;&#xA; Total about 30 assemblers, 40 smelters, and 15 chemical plants. The single most important ratio is 3 Blue : 3 Red : 6 Yellow : 8 Purple : 12 Green : 15 White assemblers.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Science production is measured in science per minute (SPM). 60 SPM is the standard mid-game target - achievable on a single planet, enough to research most technologies at a reasonable pace. This guide covers every production chain from raw materials to completed science matrices.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to Fix DSP Yellow Matrix Research Slowdown After Tech Unlock</title>
       <link>https://dsp-guide.com/yellow-matrix-slowdown/</link>
