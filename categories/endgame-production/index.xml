@@ -1,26 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Endgame Production on Dyson Sphere Program Guide</title>
-    <link>https://dsp-guide.com/categories/endgame-production/</link>
-    <description>Recent content in Endgame Production on Dyson Sphere Program Guide</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 21:29:49 +0800</lastBuildDate>
-    <atom:link href="https://dsp-guide.com/categories/endgame-production/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>1 Artificial Sun Replaces 125 Wind Turbines - DSP Endgame Power Loop Guide</title>
-      <link>https://dsp-guide.com/dsp-antimatter-power-guide/</link>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/dsp-antimatter-power-guide/</guid>
-      <description>&lt;p&gt;Critical photons and antimatter are the gateway to endgame power in DSP. The loop is confusing at first: photons come from the sphere, make antimatter, make fuel rods, power your planet. Here is exactly how the chain works, step by step.&lt;/p&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/antimatter-power-loop.svg&#34; alt=&#34;Antimatter power self-sustaining loop&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;680&#34;&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;tldr-the-endgame-power-loop&#34;&gt;TL;DR: The Endgame Power Loop&lt;/h2&gt;&#xA;&lt;p&gt;Ray Receivers capture Dyson Sphere power and output Critical Photons. Particle Colliders turn photons into Antimatter + Hydrogen. Assemblers combine Antimatter with other materials to make Deuterium Fuel Rods or Antimatter Fuel Rods. Artificial Suns burn these rods for massive power. The loop produces more power than it consumes - but only if designed correctly.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Energy Matrix Guide (v0.10) - Fuel Your Dyson Sphere Without Hydrogen Bottlenecks</title>
-      <link>https://dsp-guide.com/energy-matrix-production-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/energy-matrix-production-guide/</guid>
-      <description>&lt;p&gt;Energy Matrix is the energy currency that powers Dyson Sphere construction. Every Solar Sail launched, every Ray Receiver powered, every component of the Dyson Sphere itself — all of it requires Energy Matrix. It&#39;s the fuel of the endgame, and getting a reliable Energy Matrix supply running is one of the most satisfying milestones in DSP.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete Energy Matrix production chain, the recipes that matter, how to scale it, and how proliferation affects your output.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Endgame Production on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/categories/endgame-production/</link><description>Recent content in Endgame Production on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 05 Jun 2026 21:29:49 +0800</lastBuildDate><atom:link href="https://dsp-guide.com/categories/endgame-production/index.xml" rel="self" type="application/rss+xml"/><item><title>1 Artificial Sun Replaces 125 Wind Turbines - DSP Endgame Power Loop Guide</title><link>https://dsp-guide.com/dsp-antimatter-power-guide/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/dsp-antimatter-power-guide/</guid><description>&lt;p&gt;Critical photons and antimatter are the gateway to endgame power in DSP. The loop is confusing at first: photons come from the sphere, make antimatter, make fuel rods, power your planet. Here is exactly how the chain works, step by step.&lt;/p&gt;
+&lt;img src="https://dsp-guide.com/images/antimatter-power-loop.svg" alt="Antimatter power self-sustaining loop" class="schema-diagram" loading="lazy" width="680"&gt;
+
+&lt;h2 id="tldr-the-endgame-power-loop"&gt;TL;DR: The Endgame Power Loop&lt;/h2&gt;
+&lt;p&gt;Ray Receivers capture Dyson Sphere power and output Critical Photons. Particle Colliders turn photons into Antimatter + Hydrogen. Assemblers combine Antimatter with other materials to make Deuterium Fuel Rods or Antimatter Fuel Rods. Artificial Suns burn these rods for massive power. The loop produces more power than it consumes - but only if designed correctly.&lt;/p&gt;</description></item><item><title>DSP Energy Matrix Guide (v0.10) - Fuel Your Dyson Sphere Without Hydrogen Bottlenecks</title><link>https://dsp-guide.com/energy-matrix-production-guide/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/energy-matrix-production-guide/</guid><description>&lt;p&gt;Energy Matrix is the energy currency that powers Dyson Sphere construction. Every Solar Sail launched, every Ray Receiver powered, every component of the Dyson Sphere itself — all of it requires Energy Matrix. It's the fuel of the endgame, and getting a reliable Energy Matrix supply running is one of the most satisfying milestones in DSP.&lt;/p&gt;
+&lt;p&gt;This guide covers the complete Energy Matrix production chain, the recipes that matter, how to scale it, and how proliferation affects your output.&lt;/p&gt;</description></item></channel></rss>

@@ -1,68 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Endgame on Dyson Sphere Program Guide</title>
-    <link>https://dsp-guide.com/tags/endgame/</link>
-    <description>Recent content in Endgame on Dyson Sphere Program Guide</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 10 Jun 2026 21:09:22 +0800</lastBuildDate>
-    <atom:link href="https://dsp-guide.com/tags/endgame/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>DSP 60 Science Per Minute Blueprint (v0.10) - Full Production Ratios From Raw Materials to All Science</title>
-      <link>https://dsp-guide.com/science-60-spm-blueprint-guide/</link>
-      <pubDate>Fri, 12 Jun 2026 09:07:00 +0800</pubDate>
-      <guid>https://dsp-guide.com/science-60-spm-blueprint-guide/</guid>
-      <description>&lt;div class=&#34;callout&#34;&gt;&lt;p&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; 60 SPM (all six science types) requires: 120 Iron Ore/min, 60 Copper Ore/min, 30 Coal/min, 30 Crude Oil/min, plus off-world Titanium and Silicon. &lt;div class=&#34;game-slot&#34;&gt;&lt;img src=&#34;https://dsp-guide.com/images/dsp-icons/iron-ore.png&#34; alt=&#34;iron-ore&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;&gt;&#xA;&lt;span class=&#34;game-name&#34;&gt;Iron ore&lt;/span&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xD;&#xA; &lt;div class=&#34;game-slot&#34;&gt;&lt;img src=&#34;https://dsp-guide.com/images/dsp-icons/copper-ore.png&#34; alt=&#34;copper-ore&#34; class=&#34;game-img&#34; loading=&#34;lazy&#34;&gt;&#xD;&#xA;   &lt;span class=&#34;game-name&#34;&gt;Copper ore&lt;/span&gt;&#xD;&#xA; &lt;/div&gt;&#xD;&#xA; Total about 30 assemblers, 40 smelters, and 15 chemical plants. The single most important ratio is 3 Blue : 3 Red : 6 Yellow : 8 Purple : 12 Green : 15 White assemblers.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Science production is measured in science per minute (SPM). 60 SPM is the standard mid-game target - achievable on a single planet, enough to research most technologies at a reasonable pace. This guide covers every production chain from raw materials to completed science matrices.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Dark Fog Combat Guide (v0.10) - Destroy Enemy Bases Without Losing a Single Building</title>
-      <link>https://dsp-guide.com/dark-fog-combat-guide/</link>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/dark-fog-combat-guide/</guid>
-      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Place a Battlefield Analysis Base (BAB) near your factory, surround it with 8-12 Energy Turrets in a circle, and chain Signal Towers outward to claim territory. For clearing Dark Fog bases, rush Grenades and Missile Turrets - hit the core (the glowing center) first.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Dark Fog is the combat system introduced in the Rise of the Dark Fog update. Enemy AI builds bases on planets, sends attack waves, and evolves over time. Ignore them and your factory gets destroyed. Fight smart and you get rare drops that make endgame faster.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Dyson Sphere Layer Design (v0.10) - Permanent Frame Strategy for Maximum Power Per Solar Sail</title>
-      <link>https://dsp-guide.com/dyson-sphere-layer-design-guide/</link>
-      <pubDate>Sat, 13 Jun 2026 17:31:00 +0800</pubDate>
-      <guid>https://dsp-guide.com/dyson-sphere-layer-design-guide/</guid>
-      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Build the Dyson Sphere frame first, then fill with sails. One complete frame layer with ~200 nodes produces enough Critical Photons for 100+ MW of antimatter power. Use the closest orbit to the star (0.5 AU or less) for maximum energy output per sail. Each inner orbit layer produces ~40% more power than the next ring outward.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;The Dyson Sphere is the ultimate goal of DSP, but most players build it inefficiently. They launch sails into random orbits where they expire after 2 hours, wasting resources. The correct approach is frame-first: build the permanent structural frame, then let sails fill it.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>1 Artificial Sun Replaces 125 Wind Turbines - DSP Endgame Power Loop Guide</title>
-      <link>https://dsp-guide.com/dsp-antimatter-power-guide/</link>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/dsp-antimatter-power-guide/</guid>
-      <description>&lt;p&gt;Critical photons and antimatter are the gateway to endgame power in DSP. The loop is confusing at first: photons come from the sphere, make antimatter, make fuel rods, power your planet. Here is exactly how the chain works, step by step.&lt;/p&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/antimatter-power-loop.svg&#34; alt=&#34;Antimatter power self-sustaining loop&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;680&#34;&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;tldr-the-endgame-power-loop&#34;&gt;TL;DR: The Endgame Power Loop&lt;/h2&gt;&#xA;&lt;p&gt;Ray Receivers capture Dyson Sphere power and output Critical Photons. Particle Colliders turn photons into Antimatter + Hydrogen. Assemblers combine Antimatter with other materials to make Deuterium Fuel Rods or Antimatter Fuel Rods. Artificial Suns burn these rods for massive power. The loop produces more power than it consumes - but only if designed correctly.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Dyson Sphere Guide - Permanent First Layer Frame Strategy</title>
-      <link>https://dsp-guide.com/dsp-dyson-sphere-guide/</link>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/dsp-dyson-sphere-guide/</guid>
-      <description>&lt;p&gt;Building a Dyson Sphere is the endgame milestone in DSP. But the first attempt often fails: you launch sails, they expire, and you get zero power.&lt;/p&gt;&#xA;&lt;p&gt;Here is the exact sequence to build a permanent, self-sustaining first layer.&lt;/p&gt;&#xA;&lt;img src=&#34;https://dsp-guide.com/images/dyson-frame-strategy.svg&#34; alt=&#34;Dyson Sphere frame-first strategy&#34; class=&#34;schema-diagram&#34; loading=&#34;lazy&#34; width=&#34;600&#34;&gt;&#xD;&#xA;&#xA;&lt;h2 id=&#34;tldr-the-4-step-sequence&#34;&gt;TL;DR: The 4-Step Sequence&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Build rockets first, not sails.&lt;/strong&gt; A common trap: players launch thousands of solar sails and watch them expire (they last 1800 seconds - 30 minutes). Permanent sphere requires frame nodes, which require rockets. Build a rocket factory BEFORE scaling your sail launcher.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Energy Matrix Guide (v0.10) - Fuel Your Dyson Sphere Without Hydrogen Bottlenecks</title>
-      <link>https://dsp-guide.com/energy-matrix-production-guide/</link>
-      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/energy-matrix-production-guide/</guid>
-      <description>&lt;p&gt;Energy Matrix is the energy currency that powers Dyson Sphere construction. Every Solar Sail launched, every Ray Receiver powered, every component of the Dyson Sphere itself — all of it requires Energy Matrix. It&#39;s the fuel of the endgame, and getting a reliable Energy Matrix supply running is one of the most satisfying milestones in DSP.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete Energy Matrix production chain, the recipes that matter, how to scale it, and how proliferation affects your output.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title>
-      <link>https://dsp-guide.com/quantum-chips-proliferator/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/quantum-chips-proliferator/</guid>
-      <description>&lt;p&gt;Every factory has a ceiling. At some point you&#39;re running 40 assemblers on your Circuit Board chain and wondering if there&#39;s a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;It&#39;s a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Solar Sails &amp; Ray Receivers: Complete Endgame Power Guide</title>
-      <link>https://dsp-guide.com/solar-sails-ray-receivers/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/solar-sails-ray-receivers/</guid>
-      <description>&lt;p&gt;You&#39;ve got a handful of coal power plants. Maybe you&#39;ve built a wind farm or twelve. You&#39;re researching toward the stars — literally — and then it hits you: the Dyson sphere isn&#39;t just the goal, it&#39;s the power solution. To get there, you need Solar Sails and Ray Receivers working in tandem.&lt;/p&gt;&#xA;&lt;p&gt;One launches into orbit and reflects stellar radiation. The other catches that energy and converts it into usable power for your planet.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Endgame on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/endgame/</link><description>Recent content in Endgame on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 10 Jun 2026 21:09:22 +0800</lastBuildDate><atom:link href="https://dsp-guide.com/tags/endgame/index.xml" rel="self" type="application/rss+xml"/><item><title>DSP 60 Science Per Minute Blueprint (v0.10) - Full Production Ratios From Raw Materials to All Science</title><link>https://dsp-guide.com/science-60-spm-blueprint-guide/</link><pubDate>Fri, 12 Jun 2026 09:07:00 +0800</pubDate><guid>https://dsp-guide.com/science-60-spm-blueprint-guide/</guid><description>&lt;div class="callout"&gt;&lt;p&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; 60 SPM (all six science types) requires: 120 Iron Ore/min, 60 Copper Ore/min, 30 Coal/min, 30 Crude Oil/min, plus off-world Titanium and Silicon. &lt;div class="game-slot"&gt;&lt;img src="https://dsp-guide.com/images/dsp-icons/iron-ore.png" alt="iron-ore" class="game-img" loading="lazy"&gt;
+&lt;span class="game-name"&gt;Iron ore&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+ &lt;div class="game-slot"&gt;&lt;img src="https://dsp-guide.com/images/dsp-icons/copper-ore.png" alt="copper-ore" class="game-img" loading="lazy"&gt;
+ &lt;span class="game-name"&gt;Copper ore&lt;/span&gt;
+ &lt;/div&gt;
+ Total about 30 assemblers, 40 smelters, and 15 chemical plants. The single most important ratio is 3 Blue : 3 Red : 6 Yellow : 8 Purple : 12 Green : 15 White assemblers.&lt;/div&gt;
+
+&lt;p&gt;Science production is measured in science per minute (SPM). 60 SPM is the standard mid-game target - achievable on a single planet, enough to research most technologies at a reasonable pace. This guide covers every production chain from raw materials to completed science matrices.&lt;/p&gt;</description></item><item><title>DSP Dark Fog Combat Guide (v0.10) - Destroy Enemy Bases Without Losing a Single Building</title><link>https://dsp-guide.com/dark-fog-combat-guide/</link><pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/dark-fog-combat-guide/</guid><description>&lt;div class="callout"&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Place a Battlefield Analysis Base (BAB) near your factory, surround it with 8-12 Energy Turrets in a circle, and chain Signal Towers outward to claim territory. For clearing Dark Fog bases, rush Grenades and Missile Turrets - hit the core (the glowing center) first.&lt;/div&gt;
+
+&lt;p&gt;Dark Fog is the combat system introduced in the Rise of the Dark Fog update. Enemy AI builds bases on planets, sends attack waves, and evolves over time. Ignore them and your factory gets destroyed. Fight smart and you get rare drops that make endgame faster.&lt;/p&gt;</description></item><item><title>DSP Dyson Sphere Layer Design (v0.10) - Permanent Frame Strategy for Maximum Power Per Solar Sail</title><link>https://dsp-guide.com/dyson-sphere-layer-design-guide/</link><pubDate>Sat, 13 Jun 2026 17:31:00 +0800</pubDate><guid>https://dsp-guide.com/dyson-sphere-layer-design-guide/</guid><description>&lt;div class="callout"&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; Build the Dyson Sphere frame first, then fill with sails. One complete frame layer with ~200 nodes produces enough Critical Photons for 100+ MW of antimatter power. Use the closest orbit to the star (0.5 AU or less) for maximum energy output per sail. Each inner orbit layer produces ~40% more power than the next ring outward.&lt;/div&gt;
+
+&lt;p&gt;The Dyson Sphere is the ultimate goal of DSP, but most players build it inefficiently. They launch sails into random orbits where they expire after 2 hours, wasting resources. The correct approach is frame-first: build the permanent structural frame, then let sails fill it.&lt;/p&gt;</description></item><item><title>1 Artificial Sun Replaces 125 Wind Turbines - DSP Endgame Power Loop Guide</title><link>https://dsp-guide.com/dsp-antimatter-power-guide/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/dsp-antimatter-power-guide/</guid><description>&lt;p&gt;Critical photons and antimatter are the gateway to endgame power in DSP. The loop is confusing at first: photons come from the sphere, make antimatter, make fuel rods, power your planet. Here is exactly how the chain works, step by step.&lt;/p&gt;
+&lt;img src="https://dsp-guide.com/images/antimatter-power-loop.svg" alt="Antimatter power self-sustaining loop" class="schema-diagram" loading="lazy" width="680"&gt;
+
+&lt;h2 id="tldr-the-endgame-power-loop"&gt;TL;DR: The Endgame Power Loop&lt;/h2&gt;
+&lt;p&gt;Ray Receivers capture Dyson Sphere power and output Critical Photons. Particle Colliders turn photons into Antimatter + Hydrogen. Assemblers combine Antimatter with other materials to make Deuterium Fuel Rods or Antimatter Fuel Rods. Artificial Suns burn these rods for massive power. The loop produces more power than it consumes - but only if designed correctly.&lt;/p&gt;</description></item><item><title>DSP Dyson Sphere Guide - Permanent First Layer Frame Strategy</title><link>https://dsp-guide.com/dsp-dyson-sphere-guide/</link><pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/dsp-dyson-sphere-guide/</guid><description>&lt;p&gt;Building a Dyson Sphere is the endgame milestone in DSP. But the first attempt often fails: you launch sails, they expire, and you get zero power.&lt;/p&gt;
+&lt;p&gt;Here is the exact sequence to build a permanent, self-sustaining first layer.&lt;/p&gt;
+&lt;img src="https://dsp-guide.com/images/dyson-frame-strategy.svg" alt="Dyson Sphere frame-first strategy" class="schema-diagram" loading="lazy" width="600"&gt;
+
+&lt;h2 id="tldr-the-4-step-sequence"&gt;TL;DR: The 4-Step Sequence&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Build rockets first, not sails.&lt;/strong&gt; A common trap: players launch thousands of solar sails and watch them expire (they last 1800 seconds - 30 minutes). Permanent sphere requires frame nodes, which require rockets. Build a rocket factory BEFORE scaling your sail launcher.&lt;/p&gt;</description></item><item><title>DSP Energy Matrix Guide (v0.10) - Fuel Your Dyson Sphere Without Hydrogen Bottlenecks</title><link>https://dsp-guide.com/energy-matrix-production-guide/</link><pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/energy-matrix-production-guide/</guid><description>&lt;p&gt;Energy Matrix is the energy currency that powers Dyson Sphere construction. Every Solar Sail launched, every Ray Receiver powered, every component of the Dyson Sphere itself — all of it requires Energy Matrix. It's the fuel of the endgame, and getting a reliable Energy Matrix supply running is one of the most satisfying milestones in DSP.&lt;/p&gt;
+&lt;p&gt;This guide covers the complete Energy Matrix production chain, the recipes that matter, how to scale it, and how proliferation affects your output.&lt;/p&gt;</description></item><item><title>DSP Quantum Chips &amp; Proliferator: Advanced Production Guide</title><link>https://dsp-guide.com/quantum-chips-proliferator/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/quantum-chips-proliferator/</guid><description>&lt;p&gt;Every factory has a ceiling. At some point you're running 40 assemblers on your Circuit Board chain and wondering if there's a better way. In DSP v0.10, there is: &lt;strong&gt;Proliferator&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;It's a resource you produce, spray onto your production lines, and watch your output climb without adding a single new assembler.&lt;/p&gt;
+&lt;p&gt;This guide covers the Quantum Chip production chain and explains the Proliferator system — what it is, how to produce it, what it does, and how to use it without turning your factory into a confusing mess of spray towers.&lt;/p&gt;</description></item><item><title>DSP Solar Sails &amp; Ray Receivers: Complete Endgame Power Guide</title><link>https://dsp-guide.com/solar-sails-ray-receivers/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/solar-sails-ray-receivers/</guid><description>&lt;p&gt;You've got a handful of coal power plants. Maybe you've built a wind farm or twelve. You're researching toward the stars — literally — and then it hits you: the Dyson sphere isn't just the goal, it's the power solution. To get there, you need Solar Sails and Ray Receivers working in tandem.&lt;/p&gt;
+&lt;p&gt;One launches into orbit and reflects stellar radiation. The other catches that energy and converts it into usable power for your planet.&lt;/p&gt;</description></item></channel></rss>

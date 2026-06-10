@@ -1,33 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Refining on Dyson Sphere Program Guide</title>
-    <link>https://dsp-guide.com/tags/refining/</link>
-    <description>Recent content in Refining on Dyson Sphere Program Guide</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 09 Jun 2026 22:20:00 +0800</lastBuildDate>
-    <atom:link href="https://dsp-guide.com/tags/refining/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>DSP Advanced Oil Processing Guide (v0.10) - Never Waste Refined Oil or Backup Your Factory Again</title>
-      <link>https://dsp-guide.com/advanced-oil-processing-guide/</link>
-      <pubDate>Fri, 12 Jun 2026 16:43:00 +0800</pubDate>
-      <guid>https://dsp-guide.com/advanced-oil-processing-guide/</guid>
-      <description>&lt;div class=&#34;callout&#34;&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; The key to oil processing is balancing Hydrogen output with consumption. Build a thermal power station burning excess Hydrogen as a buffer. Store Refined Oil in tanks (not towers - tanks are free). When Hydrogen backs up, your entire oil chain stops, which stops plastic, which stops yellow science. Burn the excess.&lt;/div&gt;&#xD;&#xA;&#xA;&lt;p&gt;Oil processing is the most mis-understood production chain in DSP. Unlike mining, which produces exactly what you ask for, oil refining produces multiple outputs simultaneously. When one output backs up, the entire refinery stops. This guide covers every aspect of oil management.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</title>
-      <link>https://dsp-guide.com/blue-science-hydrogen-refining/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/blue-science-hydrogen-refining/</guid>
-      <description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;&#xD;&#xA;&lt;p&gt;Blue Science is the first wall in DSP that is not just &#34;build more miners.&#34; It introduces Refined Oil, Hydrogen byproducts, and the frustrating &#34;one output backed up, whole chain dead&#34; problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;&#xD;&#xA;&lt;div class=&#34;pro-tip&#34;&gt;&#xD;&#xA;  &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;&#xD;&#xA;  1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;&#xD;&#xA;  2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;&#xD;&#xA;  3. Titanium Ingots are required for Blue Matrix; set that up first&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&lt;div class=&#34;section-head collapsible&#34;&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;&#xA;&#xA;&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DSP Oil &amp; Plastics: Full Refining Chain Guide</title>
-      <link>https://dsp-guide.com/oil-plastics-refining/</link>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://dsp-guide.com/oil-plastics-refining/</guid>
-      <description>&lt;p&gt;Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up — is a system that catches almost everyone off guard.&lt;/p&gt;&#xA;&lt;p&gt;This guide covers the complete Oil Refining chain from extraction to end products, with working production ratios, the critical &lt;strong&gt;hydrogen byproduct problem&lt;/strong&gt;, and how to automate it without tearing your hair out.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Refining on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/tags/refining/</link><description>Recent content in Refining on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Tue, 09 Jun 2026 22:20:00 +0800</lastBuildDate><atom:link href="https://dsp-guide.com/tags/refining/index.xml" rel="self" type="application/rss+xml"/><item><title>DSP Advanced Oil Processing Guide (v0.10) - Never Waste Refined Oil or Backup Your Factory Again</title><link>https://dsp-guide.com/advanced-oil-processing-guide/</link><pubDate>Fri, 12 Jun 2026 16:43:00 +0800</pubDate><guid>https://dsp-guide.com/advanced-oil-processing-guide/</guid><description>&lt;div class="callout"&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; The key to oil processing is balancing Hydrogen output with consumption. Build a thermal power station burning excess Hydrogen as a buffer. Store Refined Oil in tanks (not towers - tanks are free). When Hydrogen backs up, your entire oil chain stops, which stops plastic, which stops yellow science. Burn the excess.&lt;/div&gt;
+
+&lt;p&gt;Oil processing is the most mis-understood production chain in DSP. Unlike mining, which produces exactly what you ask for, oil refining produces multiple outputs simultaneously. When one output backs up, the entire refinery stops. This guide covers every aspect of oil management.&lt;/p&gt;</description></item><item><title>Blue Science Stuck? Fix Refinery Stalls and Hydrogen Backups (DSP Guide)</title><link>https://dsp-guide.com/blue-science-hydrogen-refining/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/blue-science-hydrogen-refining/</guid><description>&lt;p&gt;You have got Red Science humming. Yellow Matrix is on the horizon. Then you build your first Refinery and everything stops.&lt;/p&gt;
+&lt;p&gt;Blue Science is the first wall in DSP that is not just "build more miners." It introduces Refined Oil, Hydrogen byproducts, and the frustrating "one output backed up, whole chain dead" problem. This guide walks through the exact setup so your Blue Matrix runs without constant babysitting.&lt;/p&gt;
+&lt;div class="pro-tip"&gt;
+ &lt;strong&gt;TL;DR Three things to get right:&lt;/strong&gt;&lt;br&gt;
+ 1. Hydrogen is a byproduct, not waste; give it somewhere to go or refineries stall&lt;br&gt;
+ 2. X-Ray Cracking is your release valve when Refined Oil backs up&lt;br&gt;
+ 3. Titanium Ingots are required for Blue Matrix; set that up first
+&lt;/div&gt;
+&lt;div class="section-head collapsible"&gt;&lt;h2&gt;Why Blue Science Is Different&lt;/h2&gt;&lt;/div&gt;
+
+&lt;p&gt;Every science tier before Blue is straightforward. Magnetic coils go into Red. Gears and circuits, fine. Then Blue arrives and the game hands you a Refinery that takes one input and produces two outputs. Two outputs means two belts. If either belt fills up, the machine stops.&lt;/p&gt;</description></item><item><title>DSP Oil &amp; Plastics: Full Refining Chain Guide</title><link>https://dsp-guide.com/oil-plastics-refining/</link><pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate><guid>https://dsp-guide.com/oil-plastics-refining/</guid><description>&lt;p&gt;Somewhere between your first smelter array and your first interplanetary logistics network, every DSP player hits the same wall: oil. Crude oil is everywhere once you find a sea on another planet, but turning it into something useful — Plastics, Rocket Fuel, or even just keeping your refineries from backing up — is a system that catches almost everyone off guard.&lt;/p&gt;
+&lt;p&gt;This guide covers the complete Oil Refining chain from extraction to end products, with working production ratios, the critical &lt;strong&gt;hydrogen byproduct problem&lt;/strong&gt;, and how to automate it without tearing your hair out.&lt;/p&gt;</description></item></channel></rss>
