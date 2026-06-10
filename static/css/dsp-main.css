@@ -236,6 +236,21 @@ blockquote.insight-box {
 }
 blockquote.insight-box strong { color: var(--accent-amber); }
 
+
+/* ===== STEP GROUP / STEP */
+.step-group { margin: 16px 0; }
+.step {
+  display: flex; gap: 12px; padding: 10px 0;
+  border-bottom: 1px solid rgba(138,155,181,.1);
+}
+.step:last-child { border-bottom: none; }
+.step-title {
+  font-weight: 700; color: var(--accent-cyan);
+  min-width: 140px; max-width: 140px;
+  font-size: .82rem; line-height: 1.4;
+}
+.step-body { color: var(--text-primary); font-size: .88rem; line-height: 1.5; }
+
 /* ===== BOX-WRAP (Checklist) ===== */
 .box-wrap {
   border: 1px solid var(--border-dim);

@@ -1,0 +1,7 @@
+{{- /* Step Item
+  Usage: {{< step "Title" >}}Content{{< /step >}}
+*/ -}}
+<div class="step">
+  <div class="step-title">{{ .Get 0 | markdownify }}</div>
+  <div class="step-body">{{ .Inner | markdownify }}</div>
+</div>
