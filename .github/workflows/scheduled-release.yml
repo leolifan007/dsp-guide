@@ -12,7 +12,6 @@ on:
 
 permissions:
   contents: write
-  workflows: write
 
 jobs:
   publish:
@@ -41,18 +40,12 @@ jobs:
         run: |
           chmod +x .github/scripts/auto-publish.py
           python3 .github/scripts/auto-publish.py 2>&1 | tee publish-log.txt
-          if git diff --name-only | grep -q "^content/"; then
+          # has_changes: true if ANY file was modified (content or static assets)
+          if git diff --name-only | grep -q .; then
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           else
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           fi
-
-      - name: Commit auto-publish changes to content-polishing
-        if: steps.publish.outputs.has_changes == 'true'
-        run: |
-          git add -A
-          git diff --staged --quiet || git commit -m "Auto-publish: $(date +'%Y-%m-%d %H:%M') [skip ci]"
-          git push origin content-polishing
 
       - name: Build site with Hugo
         if: steps.publish.outputs.has_changes == 'true'
