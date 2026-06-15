@@ -11,6 +11,8 @@ categories: [Science & Production]
 featured_image: ""
 slug: quantum-chips-proliferator
 draft: false
+aliases:
+  - /proliferator-tiers/
 ---
 
 Every factory has a ceiling. At some point you're running 40 assemblers on your Circuit Board chain and wondering if there's a better way. In DSP v0.10, there is: **Proliferator**.

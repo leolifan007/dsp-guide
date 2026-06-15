@@ -10,6 +10,8 @@ topics: [smelting, production]
 categories: [Production & Automation]
 featured_image: ""
 slug: smelting-array-blueprint-guide
+aliases:
+  - /smelting/
 ---
 
 Smelting is where every DSP run starts, and where most players first feel the pain of scaling up. One smelter looks fine. Ten smelters look decent. Fifty smelters feeding a sprawling factory reveal every bottleneck you buried under "it should work."
