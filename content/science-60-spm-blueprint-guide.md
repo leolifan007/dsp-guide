@@ -90,7 +90,7 @@ The purple science jump is the hardest. The secondary resource chains (Sulfuric 
 | Assembler Mk.II | 4 | Graviton Lenses |
 | Assembler Mk.III | 6 | Green Science |
 
-Green science is the hydrogen test. Build orbital collectors on at least 2 gas giants before attempting 60 SPM green science. Hydrogen shortage is the #1 bottleneck.
+Green science is the hydrogen test. Build orbital collectors on at least 2 gas giants before attempting 60 SPM green science. Hydrogen shortage is the #1 bottleneck. Our <a href="/green-science-deep-dive-guide/">Green Science Guide</a> breaks down the full Casimir Crystal chain and proliferation strategy for endgame throughput.
 
 {{< section "White Science (Universe Matrix)" >}}
 

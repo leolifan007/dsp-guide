@@ -8,7 +8,7 @@ tags: [starter, early-game, production]
 ---
 
 <p>Dyson Sphere Program does not hold your hand. Your first hour can feel overwhelming. Dozens of buildings, multiple resources, and no clear starting point.</p>
-<p>Here is the exact 5-step path to get your first automated factory running.</p>
+<p>Here is the exact 5-step path to get your first automated factory running. Once you master the basics here, you can scale up with proper smelting columns in our <a href="/smelting-array-blueprint-guide/">Smelting Array Blueprint Guide</a>.</p>
 
 {{< diagram "starter-factory-pipeline.svg" "Starter factory 5-step pipeline" "720" >}}
 
@@ -42,6 +42,7 @@ tags: [starter, early-game, production]
 <p>The biggest mistake beginners make: trying to build too much at once. A single mining machine feeding a single smelter feeding a single assembler is already automation. You do not need 20 buildings in the first hour.</p>
 
 <p><strong>The 3-building rule:</strong> Before placing anything, ask what feeds this. If the answer is I don't know, you are building too fast. Each line should be: Raw Material, Processor, Output. Nothing more.</p>
+<p>Power is the silent killer of starter factories. If your belts stop moving and nothing makes sense, check your grid first - our <a href="/power-fix-guide/">Power Fix Guide</a> covers the common early-game power traps.</p>
 
 ## Scaling Your First Factory
 
@@ -66,6 +67,7 @@ tags: [starter, early-game, production]
 </table>
 
 <p>Once all five are running, you have a self-sustaining starter base.</p>
+<p>Once you have a steady supply of gears, coils, and circuits, the next step is automating buildings themselves. A <a href="/dsp-mall-guide/">mall setup</a> produces every building type automatically so you never hand-craft belts or furnaces again.</p>
 
 <h2>Community Verification and Resources</h2>
 <ul>

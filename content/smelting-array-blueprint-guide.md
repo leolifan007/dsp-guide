@@ -16,6 +16,8 @@ aliases:
 
 Smelting is where every DSP run starts, and where most players first feel the pain of scaling up. One smelter looks fine. Ten smelters look decent. Fifty smelters feeding a sprawling factory reveal every bottleneck you buried under "it should work."
 
+If you are completely new to DSP, start with our <a href="/dsp-starter-automation-guide/">Starter Automation Guide</a> for the basic 5-step factory setup before jumping into optimized smelting arrays.
+
 This guide covers smelting from the first furnace on a new planet through to full production columns — the correct ratios, the belt speeds that matter, and the layouts that scale cleanly without requiring you to redesign everything at every tier.
 
 ---
@@ -133,6 +135,8 @@ If smelters produce faster than your factory consumes, route the overflow to an 
 Smelters consume power continuously. Each smelter draws a base amount — enough to matter when you're running 50+ smelters.
 
 **Power tip:** Place **Thermal Power Plants** near your smelting area. Coal Power Plants are cheap to build and produce enough electricity to run large smelter arrays. In mid-game, switch to Fuel Power or Solar to reduce coal logistics overhead.
+
+If your power grid can't keep up, see our <a href="/power-fix-guide/">Power Fix Guide</a> for diagnosing why your grid is tripping.
 
 If your smelters are stuttering, check your power grid first — a smelter with no power produces zero ingots, and you won't see the problem until your factory backs up.
 

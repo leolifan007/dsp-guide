@@ -9,7 +9,7 @@ categories: [Logistics & Transport]
 tags: [ils, logistics, drones, mid-game]
 ---
 
-<p>You have 2,000 iron ingots sitting inside the ILS storage. The drones are idle. Nothing is moving. Your factory downstream is starving. This is the most common ILS troubleshooting issue in DSP.</p>
+<p>You have 2,000 iron ingots sitting inside the ILS storage. The drones are idle. Nothing is moving. Your factory downstream is starving. This is the most common ILS troubleshooting issue in DSP. For a complete walkthrough of ILS settings including remote/local supply and demand, check our <a href="/ils-setup-guide/">ILS Setup Guide</a>.</p>
 
 <div class="pro-tip">
 <strong>TL;DR — The Fix:</strong><br>
@@ -75,7 +75,7 @@ Open the ILS panel. Set the slot to <strong>Supply</strong> (not Storage). Remot
 <li>Vessels will auto-transport from Supply planet to Demand planet</li>
 </ol>
 
-<p>This is the standard "two-ILS blueprint" that powers <em>every</em> interplanetary factory in late game.</p>
+<p>This is the standard "two-ILS blueprint" that powers <em>every</em> interplanetary factory in late game. If you are building a distributed factory with multiple planets, our <a href="/factory-expansion-guide/">Factory Expansion Guide</a> covers planet specialization and ILS-based scaling strategies up to 300 SPM.</p>
 
 <h2 id="power-check">One More Thing: Power Your ILS</h2>
 

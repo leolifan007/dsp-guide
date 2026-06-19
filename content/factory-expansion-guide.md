@@ -15,7 +15,7 @@ slug: factory-expansion-guide
 **Short answer:** Do not build everything on one planet. Designate each planet for one purpose: smelting, component production, or science. Run Mk.III belts between clustered assembler groups. Use ILS for cross-planet transport of intermediate products. The bottleneck is always either Iron Ore throughput or Hydrogen supply - build 3x more of both than you think you need.
 {{< /callout >}}
 
-Scaling from 30 SPM to 300 SPM is not about building bigger factories. It is about building different factories. The single-planet approach breaks down around 60 SPM. Beyond that, you need a distributed multi-planet production network.
+Scaling from 30 SPM to 300 SPM is not about building bigger factories. It is about building different factories. The single-planet approach breaks down around 60 SPM. Beyond that, you need a distributed multi-planet production network. Before scaling, make sure your <a href="/smelting-array-blueprint-guide/">smelting arrays</a> are optimized — a single Mk.III smelting column handles 3 smelters per belt, and you will need dozens of them at scale.
 
 ## The Multi-Planet Architecture
 
@@ -95,6 +95,8 @@ At 150+ SPM, Hydrogen consumption exceeds 1000/min. No single gas giant supplies
 - A fleet of 20+ Logistics Vessels dedicated to Hydrogen transport
 - Thermal power plants burning excess Hydrogen as buffer
 
+Hydrogen backup is the most common scaling killer. When your Casimir Crystal line stalls, hydrogen backs up through oil refineries and halts everything. Our <a href="/hydrogen-backup-fix/">Hydrogen Backup Fix Guide</a> covers how to build pressure relief valves into your hydrogen network before it becomes a problem.
+
 {{< section "The Mineral Depletion Cliff" >}}
 
 At 200+ SPM, your starting planet veins deplete fast:
@@ -121,7 +123,9 @@ Build off-world mining outposts on 3+ planets before hitting the depletion cliff
 {{< step "Monitor hydrogen" >}}Watch hydrogen supply - it is always the first bottleneck to hit{{< /step >}}
 {{< /stepgroup >}}
 
-Before scaling, make sure your [DSP Research Lab Guide](/research-lab-automation-guide/) covers your science foundation.
+At scale, logistics congestion becomes as important as production throughput. The <a href="/ils-drone-congestion/">Drone Congestion Guide</a> explains how to cap drones per station and use priority splitters so your ILS network doesn't gridlock at 120+ SPM.
+
+Before scaling, make sure your <a href="/research-lab-automation-guide/">DSP Research Lab Guide</a> covers your science foundation.
 
 {{< resourcegrid >}}
 {{< resourcecard name="DSP Calculator" url="https://www.dsp-calc.com/" desc="Online calculator for production ratios" >}}
