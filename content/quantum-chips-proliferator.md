@@ -189,6 +189,8 @@ Proliferator is the answer to "How do I get more without building more?" The ans
 
 Start with Mk.I — it's cheap, effective, and the ROI is immediate. By the time you're running Mk.III in your endgame chains, your Quantum Chip output will be 60% higher than a non-Proliferated factory of the same size.
 
+Proliferator amplifies what your factory already produces, but it won't fix a weak foundation. If your <a href="/smelting-array-blueprint-guide/">smelting arrays</a> aren't delivering full belt throughput, the proliferator bonus only makes the bottleneck more obvious.
+
 For production calculators covering Quantum Chips and all intermediate ratios, visit [dyson-calculator.com](https://dyson-calculator.com/).
 
 ### External Resources

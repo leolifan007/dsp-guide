@@ -8,7 +8,7 @@ tags: [mall, automation, production, logistics]
 ---
 
 <p>Hand-crafting buildings is the #1 time waste in DSP. You spend 20 minutes crafting assemblers, belts, and sorters when you should be designing production lines.</p>
-<p>Here is how to build a mall - a factory that produces every building automatically, so you never craft by hand again.</p>
+<p>Here is how to build a mall - a factory that produces every building automatically, so you never craft by hand again. Before starting a mall, make sure your <a href="/dsp-starter-automation-guide/">starter automation</a> is producing gears, coils, and circuits reliably - a mall needs a steady supply of these components to function.</p>
 
 {{< diagram "mall-layout-belt-bus.svg" "Mall belt bus layout" "650" >}}
 
@@ -64,6 +64,7 @@ tags: [mall, automation, production, logistics]
 <li><strong>Stack limiters:</strong> Set storage box stack limiters to 1 stack for low-volume items (assemblers, furnaces) and 2-3 stacks for high-volume items (belts, sorters).</li>
 <li><strong>Proliferator:</strong> Once you have Mk.II proliferator, add it to the mall input. All buildings are produced with fewer materials.</li>
 </ul>
+<p>Your mall is only as fast as your material supply. A well-optimized <a href="/smelting-array-blueprint-guide/">smelting array</a> ensures the iron and copper ingots reach your mall belts at full throughput - no starved assemblers for basic buildings.</p>
 
 <h2>What NOT to Include in Your Mall</h2>
 <ul>
@@ -71,6 +72,8 @@ tags: [mall, automation, production, logistics]
 <li><strong>Combat buildings (if playing with mods):</strong> These are situational and expensive.</li>
 <li><strong>Research items:</strong> Matrices are produced in dedicated labs, not the mall.</li>
 </ul>
+
+<p>Phase 3 of the mall uses Interstellar Logistics Stations. If you are not familiar with ILS configuration, our <a href="/ils-setup-guide/">ILS Setup Guide</a> covers the Supply/Demand logic and vessel routing you will need for the logistics-based mall design.</p>
 
 <h2>Community Verification and Resources</h2>
 <ul>

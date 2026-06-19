@@ -96,3 +96,7 @@ tags: [ILS, logistics, warpers, mid-game]
 {{< section "Why DSP Makes This Confusing" >}}
 <p>The game unlocks the ILS and gives you a tooltip with power specs, slot counts, and vessel capacity. Useful info. What it doesn't tell you: the logistics logic. How Supply vs Demand works. That vessels need fuel.</p>
 <p>One fix and you'll never get stuck again. Every new planet, same setup. Supply, Demand, Warpers. Done.</p>
+
+<p>Once your ILS network grows beyond 5-10 stations, drone congestion becomes the next limiting factor. Multiple stations requesting the same material can paralyze your supply lines. Our <a href="/ils-drone-congestion/">Drone Congestion Guide</a> explains how priority splitters and drone caps keep your logistics flowing at scale.</p>
+
+<p>If you are scaling to endgame, you will need an ILS on every production planet. The <a href="/factory-expansion-guide/">Factory Expansion Guide</a> shows how to design planet-specific ILS networks for smelting worlds, component worlds, and science hubs that all intercommunicate through a single logistics backbone.</p>

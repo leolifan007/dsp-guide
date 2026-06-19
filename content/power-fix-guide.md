@@ -29,7 +29,7 @@ tags: [power, power-grid, mid-game]
 <li>Less power = even slower sorters</li>
 <li>Everything spirals to zero</li>
 </ol>
-<p>This is called <strong>the cascade</strong>. It's the #1 reason your DSP factory dies in the first 10 hours.</p>
+<p>This is called <strong>the cascade</strong>. It's the #1 reason your DSP factory dies in the first 10 hours. If you are still hand-crafting buildings instead of automating, the cascade hits even harder - a <a href="/dsp-mall-guide/">mall setup</a> ensures you always have spare miners and power poles when the grid goes down.</p>
 <p><img src="/images/power-cascade.svg" alt="The DSP power cascade diagram: how full power leads to slow sorters, dead generators, and total blackout" class="schema-diagram" loading="lazy" width="800" height="400"> It's the #1 reason your DSP factory dies in the first 10 hours.</p>
 
 <div class="callout callout-warning">
@@ -66,6 +66,7 @@ tags: [power, power-grid, mid-game]
 {{< section "The Mid-Game Answer: Fusion" >}}
 <p>By the time you hit Yellow Science, you'll need more power than solar can provide. Switch to <strong>Deuterium Fuel Rods</strong> and fusion plants. One fusion power plant = ~40 MW with a steady fuel line.</p>
 <p>Don't wait until you're drowning to make this switch. The moment you research Fusion, build one plant + a production line for fuel rods. Your solar belt will still help, but fusion becomes your backbone.</p>
+<p>Large smelting arrays are the biggest power consumers in early and mid-game. Our <a href="/smelting-array-blueprint-guide/">Smelting Array Guide</a> covers how to match your power budget to your smelting throughput so you can anticipate when the next cascade will hit.</p>
 {{< section "Quick Reference" >}}
 <table>
   <thead>

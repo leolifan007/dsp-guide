@@ -59,6 +59,8 @@ tags: [titanium, transport, resources, early-game]
   You need Green Science unlocked first. If you're not there yet, keep doing manual flights until you can research warpers. Each manual trip buys you a little more time.
 </div>
 
+<p>Titanium pairs naturally with silicon on the same planet. Both are needed for advanced production chains - our <a href="/smelting-array-blueprint-guide/">Smelting Array Guide</a> covers the optimal smelter ratios for titanium and silicon columns so you can process both ores efficiently on the mining planet.</p>
+
 <p><strong>Once you have Green Science, automate the loop:</strong></p>
 
 <img src="/images/ils-dual-planet.svg" alt="Dual-planet ILS automation showing titanium ore flowing from mining outpost to home factory smelters via logistics vessels" class="schema-diagram" loading="lazy" width="600" height="380">
@@ -113,3 +115,4 @@ tags: [titanium, transport, resources, early-game]
 {{< section "The Truth About Titanium" >}}
 <p>DSP doesn't want you sitting on one planet forever. The game's whole point is expansion — building factories on multiple worlds and connecting them. Titanium is the game's way of teaching you that.</p>
 <p>One manual trip is all it takes. After that, logistics handles everything.</p>
+<p>Once you have a steady titanium supply, the next material bottleneck players hit is typically <a href="/yellow-matrix-slowdown/">Yellow Science slowdown</a> from oil processing inefficiency. Our Yellow Science guide explains the refined oil and hydrogen balance needed to keep production running.</p>

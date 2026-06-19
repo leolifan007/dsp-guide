@@ -9,7 +9,7 @@ categories: [Logistics & Transport]
 tags: [ils, drones, logistics, congestion, late-game]
 ---
 
-<p>You have 200 drones orbiting a single ILS while three other stations sit empty. Items that should take 10 seconds to move take 5 minutes. Your factory is running at 30% because of logistics gridlock. Drone congestion is the hidden throughput killer of DSP.</p>
+<p>You have 200 drones orbiting a single ILS while three other stations sit empty. Items that should take 10 seconds to move take 5 minutes. Your factory is running at 30% because of logistics gridlock. Drone congestion is the hidden throughput killer of DSP. If your ILS vessels are not even taking off yet, start with our <a href="/ils-setup-guide/">ILS Setup Guide</a> to make sure your Supply/Demand configuration and warper slots are correct before troubleshooting drone distribution.</p>
 
 <div class="pro-tip">
 <strong>TL;DR — The Fix:</strong><br>
@@ -80,6 +80,8 @@ Cap your drones per ILS station (5-10 max), use priority splitters to balance ma
 <div class="cta-box">
 <strong>Going interplanetary?</strong> Scale your logistics further: <a href="/ils-setup-guide/">ILS Setup Guide →</a>
 </div>
+
+<p>When expanding to a multi-planet logistics network, drone congestion compounds across planetary systems. The <a href="/factory-expansion-guide/">Factory Expansion Guide</a> covers how to design planet-specific ILS configurations that minimize cross-planet drone traffic.</p>
 
 <h2 id="community-verification">Community Verification</h2>
 <p><em>Diagram updated 2026-06-10: SVG rebuilt to fix rendering on GitHub Pages.</em></p>

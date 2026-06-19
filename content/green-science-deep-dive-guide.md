@@ -15,7 +15,7 @@ slug: green-science-deep-dive-guide
 **Short answer:** Green Science (Gravity Matrix) needs Casimir Crystals, Quantum Chips, and Graviton Lenses. The Casimir Crystal chain is the hardest - it consumes massive Hydrogen and Graphene. Build dedicated Hydrogen processing before scaling green science, or hydrogen backup will halt your entire factory.
 {{< /callout >}}
 
-Gravity Matrix is the fifth science tier. It unlocks Warpers (interstellar travel), Plane Smelters, Artificial Stars, and the endgame research tree. Green science is where factory design separates casual players from experts - the chain complexity rivals everything before it combined.
+Gravity Matrix is the fifth science tier. It unlocks Warpers (interstellar travel), Plane Smelters, Artificial Stars, and the endgame research tree. Green science is where factory design separates casual players from experts - the chain complexity rivals everything before it combined. Understanding the full <a href="/quantum-chips-proliferator/">Quantum Chip production chain and Proliferator mechanics</a> is essential before tackling green science, since Quantum Chips are one of its three core ingredients.
 
 ## The Three Pillars of Green Science
 
@@ -68,6 +68,8 @@ Proliferation (Spray Coater) significantly reduces input costs for green science
 | Casimir Crystal input | 2 Graphene + 2 H2 | ~1.4 Graphene + 1.4 H2 | ~30% |
 | Quantum Chip input | 1 Processor + 1 Casimir | ~0.7 Processor + 0.7 Casimir | ~30% |
 | Gravity Matrix input | 1 Casimir + 1 Quantum + 1 Lens | ~0.7 of each | ~30% |
+
+Scaling green science beyond 60 SPM requires a multi-planet approach. Our <a href="/factory-expansion-guide/">Factory Expansion Guide</a> covers planet specialization and how to design a distributed production network that can support endgame science throughput.
 
 {{< callout "tip" >}}
 **Pro tip:** Spray all input belts to Casimir Crystal assemblers with Mk.III proliferator first. The Casimir chain is the longest, so reducing its input cost has the highest multiplicative effect down the production line.

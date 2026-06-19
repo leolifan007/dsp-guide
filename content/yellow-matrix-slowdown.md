@@ -9,7 +9,7 @@ categories: [Production & Science]
 tags: [yellow-matrix, science, production-line, mid-game]
 ---
 
-<p>You researched Titanium Alloy Smelting. Yellow matrices stopped. You researched Interstellar Logistics. Yellow matrices stopped again. Your research lab is consuming matrices but production is stalled. This isn't a bug — it's a buffer collapse, and it is fixable in 5 minutes.</p>
+<p>You researched Titanium Alloy Smelting. Yellow matrices stopped. You researched Interstellar Logistics. Yellow matrices stopped again. Your research lab is consuming matrices but production is stalled. This isn't a bug — it's a buffer collapse, and it is fixable in 5 minutes. If you are still bringing titanium in by hand, our <a href="/titanium-transport-guide/">Titanium Transport Guide</a> covers setting up an automated ore supply before scaling yellow science.</p>
 
 <div class="pro-tip">
 <strong>TL;DR — The Fix:</strong><br>
@@ -54,7 +54,7 @@ Yellow matrix slowdown after tech unlock is caused by your production buffers ru
 
 <p>Here is the buffer placement:</p>
 <ul>
-<li>After titanium smelting → storage box (200 ingots minimum)</li>
+<li>After titanium smelting → storage box (200 ingots minimum) - our <a href="/smelting-array-blueprint-guide/">Smelting Array Guide</a> covers the correct smelter ratios for steady titanium output</li>
 <li>After processor assembly → storage box (100 processors)</li>
 <li>After organic crystal production → storage box (200 crystals)</li>
 <li>After yellow matrix lab → storage box (50 matrices)</li>
