@@ -1,10 +1,10 @@
-﻿---
+---
 title: "DSP Late-Game Factory Expansion Guide (v0.10) - Scale From 30 to 300 Science Per Minute"
 description: "Scale your Dyson Sphere Program factory from mid-game to endgame. Complete guide to transitioning from a single-planet base to a multi-planet production empire, with blueprint strategies, bus design, and logistics optimization for 300 SPM."
 date: 2026-06-09
 publishDate: 2026-06-14T14:18:00+08:00
 lastmod: 2026-06-09T22:32:00+08:00
-hidden: true
+
 type: post
 tags: [expansion, scaling, late-game, blueprint, factory, production, optimization]
 categories: [Production & Automation]
@@ -15,7 +15,7 @@ slug: factory-expansion-guide
 **Short answer:** Do not build everything on one planet. Designate each planet for one purpose: smelting, component production, or science. Run Mk.III belts between clustered assembler groups. Use ILS for cross-planet transport of intermediate products. The bottleneck is always either Iron Ore throughput or Hydrogen supply - build 3x more of both than you think you need.
 {{< /callout >}}
 
-Scaling from 30 SPM to 300 SPM is not about building bigger factories. It is about building different factories. The single-planet approach breaks down around 60 SPM. Beyond that, you need a distributed multi-planet production network. Before scaling, make sure your <a href="/smelting-array-blueprint-guide/">smelting arrays</a> are optimized — a single Mk.III smelting column handles 3 smelters per belt, and you will need dozens of them at scale.
+Scaling from 30 SPM to 300 SPM is not about building bigger factories. It is about building different factories. The single-planet approach breaks down around 60 SPM. Beyond that, you need a distributed multi-planet production network. Before scaling, make sure your <a href="/smelting-array-blueprint-guide/">smelting arrays</a> are optimized - a single Mk.III smelting column handles 3 smelters per belt, and you will need dozens of them at scale.
 
 ## The Multi-Planet Architecture
 
@@ -126,6 +126,8 @@ Build off-world mining outposts on 3+ planets before hitting the depletion cliff
 At scale, logistics congestion becomes as important as production throughput. The <a href="/ils-drone-congestion/">Drone Congestion Guide</a> explains how to cap drones per station and use priority splitters so your ILS network doesn't gridlock at 120+ SPM.
 
 Before scaling, make sure your <a href="/research-lab-automation-guide/">DSP Research Lab Guide</a> covers your science foundation.
+
+{{< diagram "diagrams/factory-expansion-guide.svg" >}}
 
 {{< resourcegrid >}}
 {{< resourcecard name="DSP Calculator" url="https://www.dsp-calc.com/" desc="Online calculator for production ratios" >}}

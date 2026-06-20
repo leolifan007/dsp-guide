@@ -4,7 +4,7 @@ description: "Master Gravity Matrix (green science) production in Dyson Sphere P
 date: 2026-06-09
 publishDate: 2026-06-11T08:44:00+08:00
 lastmod: 2026-06-09T22:11:00+08:00
-hidden: true
+
 type: post
 tags: [green-science, gravity-matrix, casimir-crystals, quantum-chips, late-game, proliferation]
 categories: [Science & Research]
@@ -103,6 +103,8 @@ Before doubling your green science output, check these:
 {{< /callout >}}
 
 Struggling with hydrogen backup? Read our [DSP Hydrogen Backup Fix Guide](/hydrogen-backup-fix/) before scaling green science.
+
+{{< diagram "diagrams/green-science-deep-dive-guide.svg" >}}
 
 {{< resourcegrid >}}
 {{< resourcecard name="DSP Wiki - Gravity Matrix" url="https://dsp-wiki.com/Gravity_Matrix" desc="Official recipe and production chain" >}}

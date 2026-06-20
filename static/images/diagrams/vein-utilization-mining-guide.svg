@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+
+  <text x="400" y="32" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="17" font-weight="bold" filter="url(#glow)">Mining Machine Coverage Pattern - 3x3 Grid</text>
+  <line x1="140" y1="42" x2="660" y2="42" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <!-- Grid heading -->
+  <text x="400" y="65" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Each miner covers a 3x3 tile area. Place edge-to-edge for maximum vein coverage.</text>
+
+  <!-- Mining grid 1: Scattered -->
+  <rect x="20" y="85" width="230" height="200" rx="6" fill="#16213e" stroke="#ff6b35" stroke-width="1.5"/>
+  <rect x="20" y="85" width="230" height="24" rx="6" fill="url(#accent2)"/>
+  <rect x="20" y="99" width="230" height="10" fill="url(#accent2)"/>
+  <text x="135" y="103" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="11" font-weight="bold">Scattered: ~60%</text>
+
+  <!-- Grid tiles -->
+  <rect x="35" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="55" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="75" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="95" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="115" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="135" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="155" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="175" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="195" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="215" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="35" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="55" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="75" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="95" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="115" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="135" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="155" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="175" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="195" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="215" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Mining machine icons - scattered -->
+  <rect x="42" y="120" width="36" height="36" rx="4" fill="#1a1a2e" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="60" y="143" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <rect x="105" y="120" width="36" height="36" rx="4" fill="#1a1a2e" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="123" y="143" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <rect x="60" y="175" width="36" height="36" rx="4" fill="#1a1a2e" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="78" y="198" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <rect x="155" y="160" width="36" height="36" rx="4" fill="#1a1a2e" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="173" y="183" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <text x="135" y="252" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">50-70% coverage - ~20/min output</text>
+
+  <!-- Mining grid 2: Edge-to-edge -->
+  <rect x="265" y="85" width="230" height="200" rx="6" fill="#16213e" stroke="#00d4ff" stroke-width="1.5"/>
+  <rect x="265" y="85" width="230" height="24" rx="6" fill="url(#accent1)"/>
+  <rect x="265" y="99" width="230" height="10" fill="url(#accent1)"/>
+  <text x="380" y="103" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="11" font-weight="bold">Edge-to-Edge: ~90%</text>
+
+  <rect x="280" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="300" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="320" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="340" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="360" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="380" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="400" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="420" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="440" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="460" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="280" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="300" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="320" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="340" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="360" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="380" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="400" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="420" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="440" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="460" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Mining machines - 2x2 grid -->
+  <rect x="282" y="120" width="36" height="36" rx="4" fill="#1a1a2e" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="300" y="143" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <rect x="340" y="120" width="36" height="36" rx="4" fill="#1a1a2e" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="358" y="143" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <rect x="282" y="175" width="36" height="36" rx="4" fill="#1a1a2e" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="300" y="198" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <rect x="340" y="175" width="36" height="36" rx="4" fill="#1a1a2e" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="358" y="198" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <text x="380" y="252" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">90-95% coverage - ~30/min output</text>
+
+  <!-- Mining grid 3: Dense center -->
+  <rect x="510" y="85" width="230" height="200" rx="6" fill="#16213e" stroke="#2ecc71" stroke-width="1.5"/>
+  <rect x="510" y="85" width="230" height="24" rx="6" fill="url(#accent3)"/>
+  <rect x="510" y="99" width="230" height="10" fill="url(#accent3)"/>
+  <text x="625" y="103" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="11" font-weight="bold">Dense Center: ~95%</text>
+
+  <rect x="525" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="545" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="565" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="585" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="605" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="625" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="645" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="665" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="685" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="705" y="118" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+
+  <rect x="525" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="545" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="565" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="585" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="605" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="625" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="645" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="665" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="685" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+  <rect x="705" y="138" width="18" height="18" rx="1" fill="#0f3460" stroke="#00d4ff" stroke-width="0.5" opacity="0.3"/>
+
+  <!-- Mining machines - 2x3 dense -->
+  <rect x="527" y="120" width="54" height="54" rx="4" fill="#1a1a2e" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="554" y="157" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <rect x="603" y="120" width="54" height="54" rx="4" fill="#1a1a2e" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="630" y="157" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <rect x="665" y="120" width="54" height="54" rx="4" fill="#1a1a2e" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="692" y="157" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <rect x="527" y="175" width="54" height="54" rx="4" fill="#1a1a2e" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="554" y="212" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">MINER</text>
+
+  <text x="625" y="252" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">95-100% coverage - ~36/min output</text>
+
+  <!-- Vein Utilization tech tree box -->
+  <rect x="20" y="300" width="760" height="140" rx="6" fill="#16213e" stroke="#0f3460" stroke-width="1"/>
+
+  <rect x="20" y="300" width="760" height="26" rx="6" fill="#0f3460"/>
+  <rect x="20" y="316" width="760" height="10" fill="#0f3460"/>
+  <text x="400" y="318" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="13" font-weight="bold">Vein Utilization Research - Ore Consumption Reduction</text>
+
+  <!-- Table header -->
+  <rect x="35" y="332" width="150" height="22" rx="3" fill="#0f3460"/>
+  <text x="110" y="348" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11" font-weight="bold">Level</text>
+  <rect x="185" y="332" width="150" height="22" rx="3" fill="#0f3460"/>
+  <text x="260" y="348" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11" font-weight="bold">Reduction</text>
+  <rect x="335" y="332" width="150" height="22" rx="3" fill="#0f3460"/>
+  <text x="410" y="348" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11" font-weight="bold">Eff. Multiplier</text>
+  <rect x="485" y="332" width="275" height="22" rx="3" fill="#0f3460"/>
+  <text x="622" y="348" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11" font-weight="bold">Note</text>
+
+  <!-- Level 1 -->
+  <rect x="35" y="358" width="150" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="110" y="375" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">1</text>
+  <rect x="185" y="358" width="150" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="260" y="375" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">10%</text>
+  <rect x="335" y="358" width="150" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="410" y="375" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">1.11x</text>
+  <rect x="485" y="358" width="275" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="622" y="375" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Start here</text>
+
+  <!-- Level 5 -->
+  <rect x="35" y="386" width="150" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="110" y="403" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">5</text>
+  <rect x="185" y="386" width="150" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="260" y="403" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">50%</text>
+  <rect x="335" y="386" width="150" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="410" y="403" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">2.0x</text>
+  <rect x="485" y="386" width="275" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="622" y="403" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Rush to level 4-6 before depletion</text>
+
+  <!-- Level 10 -->
+  <rect x="35" y="414" width="150" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="110" y="431" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">10</text>
+  <rect x="185" y="414" width="150" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="260" y="431" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">100%</text>
+  <rect x="335" y="414" width="150" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="410" y="431" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">Free mining!</text>
+  <rect x="485" y="414" width="275" height="24" rx="3" fill="#1a1a2e"/>
+  <text x="622" y="431" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">Endgame target - infinite ore</text>
+
+  <!-- Proliferation and off-world mining -->
+  <rect x="20" y="455" width="370" height="110" rx="6" fill="#16213e" stroke="#0f3460" stroke-width="1"/>
+  <rect x="20" y="455" width="370" height="24" rx="6" fill="#0f3460"/>
+  <rect x="20" y="469" width="370" height="10" fill="#0f3460"/>
+  <text x="205" y="472" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11" font-weight="bold">Proliferation for Mining</text>
+
+  <text x="35" y="494" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Mk.I: +12.5% output (1 Coal/12 ore) - Skip early</text>
+  <text x="35" y="512" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Mk.II: +20% output (1 Diamond/10 ore) - Mid</text>
+  <text x="35" y="530" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Mk.III: +25% output (1 Nanotube/8 ore) - Late</text>
+  <text x="35" y="548" fill="#ff6b35" font-family="Consolas, monospace" font-size="10">Best for late-game Iron, Copper, Titanium</text>
+
+  <rect x="410" y="455" width="370" height="110" rx="6" fill="#16213e" stroke="#0f3460" stroke-width="1"/>
+  <rect x="410" y="455" width="370" height="24" rx="6" fill="#0f3460"/>
+  <rect x="410" y="469" width="370" height="10" fill="#0f3460"/>
+  <text x="595" y="472" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11" font-weight="bold">Off-World Mining Setup</text>
+
+  <text x="425" y="494" fill="#8892b0" font-family="Consolas, monospace" font-size="11">1. Scout nearby planets for high ore conc.</text>
+  <text x="425" y="512" fill="#8892b0" font-family="Consolas, monospace" font-size="11">2. Grid-place 20-30 miners on best patches</text>
+  <text x="425" y="530" fill="#8892b0" font-family="Consolas, monospace" font-size="11">3. Power: 10-15 wind + 4-6 thermal</text>
+  <text x="425" y="548" fill="#8892b0" font-family="Consolas, monospace" font-size="11">4. ILS Supply + 3-4 vessels + Warpers</text>
+</svg>

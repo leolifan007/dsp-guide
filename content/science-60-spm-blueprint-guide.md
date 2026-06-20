@@ -4,7 +4,7 @@ description: "Complete 60 science per minute (60 SPM) factory plan for Dyson Sph
 date: 2026-06-09
 publishDate: 2026-06-12T09:07:00+08:00
 lastmod: 2026-06-09T22:17:00+08:00
-hidden: true
+
 type: post
 tags: [science, ratios, 60-spm, blueprint, production, optimization, endgame]
 categories: [Science & Research]
@@ -127,6 +127,8 @@ At 60 SPM, iron ore demand is 120/min - easily handled by a single Mk.I belt. Bu
 {{< /stepgroup >}}
 
 Need a blueprint for individual science modules? See our [DSP Blueprint Guide](/dsp-blueprint-guide/) for copy-paste factory designs.
+
+{{< diagram "diagrams/science-60-spm-blueprint-guide.svg" >}}
 
 {{< resourcegrid >}}
 {{< resourcecard name="DSP Calculator" url="https://www.dsp-calc.com/" desc="Online production ratio calculator for Dyson Sphere Program" >}}

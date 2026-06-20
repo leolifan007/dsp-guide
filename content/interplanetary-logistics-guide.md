@@ -4,7 +4,7 @@ description: "Master interplanetary logistics in Dyson Sphere Program. Complete 
 date: 2026-06-09
 publishDate: 2026-06-13T10:22:00+08:00
 lastmod: 2026-06-09T22:23:00+08:00
-hidden: true
+
 type: post
 tags: [logistics, ils, vessels, warper, interplanetary, drones, transportation, late-game]
 categories: [Logistics & Transportation]
@@ -90,10 +90,10 @@ For most resources, the default 2-3 vessels per ILS are sufficient. Over-allocat
 
 ## Common Mistakes
 
-1. **Oversized logistics stations** - Use the Planetary Logistics Station (PLS) for intra-planet transport. ILS is over-kill and wastes power
+1. **Oversized logistics stations** - Use the Planetary Logistics Station (PLS) for intra-planet transport. ILS is over-kill and wastes power. Choosing between <a href="/logistics-drones-vs-belts-guide/">logistics drones and conveyor belts</a> for planet-side transport depends on your factory layout and throughput needs.
 2. **No Warper slot configured** - ILS without Warpers in the special slot cannot make interstellar trips, causing mysterious supply failures
 3. **Identical station names** - Name each ILS by what it does ("Titanium Mining Outpost - North") for debugging
-4. **All vessels on one planet** - Vessel travel time increases exponentially with distance. Distribute ILS towers across planets
+4. **All vessels on one planet** - Vessel travel time increases exponentially with distance. Distribute ILS towers across planets. Overloaded vessel routes cause significant throughput issues - learn how to diagnose and resolve them in our <a href="/ils-drone-congestion/">ILS drone congestion guide</a>.
 
 {{< stepgroup >}}
 {{< step "Build Warper line" >}}One chemical plant making Warpers, fed by processor + gravity lens{{< /step >}}
@@ -103,6 +103,8 @@ For most resources, the default 2-3 vessels per ILS are sufficient. Over-allocat
 {{< /stepgroup >}}
 
 For ILS basics and setup, check our [DSP ILS Setup Guide](/ils-setup-guide/).
+
+{{< diagram "diagrams/interplanetary-logistics-guide.svg" >}}
 
 {{< resourcegrid >}}
 {{< resourcecard name="DSP Wiki - Logistics" url="https://dsp-wiki.com/Interstellar_Logistics_Station" desc="ILS mechanics and vessel behavior" >}}

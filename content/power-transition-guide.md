@@ -4,7 +4,7 @@ description: "Master every power stage in Dyson Sphere Program. Complete guide t
 date: 2026-06-09
 publishDate: 2026-06-11T15:52:00+08:00
 lastmod: 2026-06-09T22:14:00+08:00
-hidden: true
+
 type: post
 tags: [power, wind-turbine, thermal, fusion, antimatter, transition, early-game, mid-game]
 categories: [Power & Energy]
@@ -34,7 +34,7 @@ Wind Turbines are your first power source. Each generates 300 kW continuously re
 
 ## Tier 2: Thermal Power (Early to Mid Game)
 
-Thermal generators burn anything. The smartest fuel is refined oil byproducts or coal.
+Thermal generators burn anything. The smartest fuel is refined oil byproducts or <a href="/coal-fire-ice-mining-guide/">coal from well-placed miners</a>.
 
 ### Fuel Efficiency Comparison
 
@@ -44,6 +44,8 @@ Thermal generators burn anything. The smartest fuel is refined oil byproducts or
 | Energetic Graphite | 6.3 MJ | 15.75s | ~3.8 |
 | Refined Oil | 4.0 MJ | 10s | ~6.0 |
 | Hydrogen | 7.5 MJ | 18.75s | ~3.2 |
+
+Hydrogen is an efficient thermal fuel, but be aware that it can cause a <a href="/hydrogen-backup-fix/">hydrogen backup cascade</a> that stalls your entire oil processing chain if not properly managed.
 
 {{< material "energetic-graphite" >}} {{< material "coal" >}}
 
@@ -110,6 +112,8 @@ One Artificial Sun with Antimatter Fuel Rods produces 75 MW. A single rod burns 
 Skip no tier. Each transition is a stepping stone. The fastest path to stable power is: Wind -> Thermal (coal/graphite) -> Fusion -> Antimatter.
 
 For a complete endgame power setup, see our [DSP Antimatter Power Guide](/dsp-antimatter-power-guide/).
+
+{{< diagram "diagrams/power-transition-guide.svg" >}}
 
 {{< resourcegrid >}}
 {{< resourcecard name="DSP Wiki - Power" url="https://dsp-wiki.com/Power" desc="Complete power system mechanics" >}}
