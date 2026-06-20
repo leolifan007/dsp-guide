@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="box1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#1a1a4e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8892b0"/>
+    </marker>
+    <marker id="arrow1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00d4ff"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b35"/>
+    </marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2ecc71"/>
+    </marker>
+  </defs>
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+  <text x="400" y="36" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="18" font-weight="bold" filter="url(#glow)">Proliferator ROI Priority - Top 5 Items</text>
+  <line x1="180" y1="46" x2="620" y2="46" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <rect x="20" y="65" width="760" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="84" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="13" font-weight="bold">Ranked by Return on Proliferator Investment</text>
+
+  <!-- #1 Quantum Chips -->
+  <rect x="40" y="105" width="720" height="50" rx="6" fill="url(#box1)" stroke="#2ecc71" stroke-width="2"/>
+  <text x="70" y="130" fill="#2ecc71" font-family="Consolas, monospace" font-size="14" font-weight="bold">#1</text>
+  <rect x="100" y="113" width="160" height="30" rx="4" fill="#1a1a2e" stroke="#2ecc71" stroke-width="1"/>
+  <text x="180" y="134" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="13" font-weight="bold">Quantum Chips</text>
+  <text x="290" y="134" fill="#8892b0" font-family="Consolas, monospace" font-size="11">11+ items in chain - proliferator compounds</text>
+  <text x="680" y="134" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="12">Highest ROI</text>
+
+  <!-- #2 Frame Material -->
+  <rect x="40" y="165" width="720" height="50" rx="6" fill="url(#box1)" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="70" y="190" fill="#00d4ff" font-family="Consolas, monospace" font-size="14" font-weight="bold">#2</text>
+  <rect x="100" y="173" width="160" height="30" rx="4" fill="#1a1a2e" stroke="#00d4ff" stroke-width="1"/>
+  <text x="180" y="194" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="13" font-weight="bold">Frame Material</text>
+  <text x="290" y="194" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Ti Alloy + C Nanotube + Proc - 2x per spray</text>
+
+  <!-- #3 Processor -->
+  <rect x="40" y="225" width="720" height="50" rx="6" fill="url(#box1)" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="70" y="250" fill="#ff6b35" font-family="Consolas, monospace" font-size="14" font-weight="bold">#3</text>
+  <rect x="100" y="233" width="160" height="30" rx="4" fill="#1a1a2e" stroke="#ff6b35" stroke-width="1"/>
+  <text x="180" y="254" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="13" font-weight="bold">Processors</text>
+  <text x="290" y="254" fill="#8892b0" font-family="Consolas, monospace" font-size="11">50% fewer assemblers with speed spray</text>
+
+  <!-- #4 Antimatter Fuel Rod -->
+  <rect x="40" y="285" width="720" height="50" rx="6" fill="url(#box1)" stroke="#8892b0" stroke-width="1"/>
+  <text x="70" y="310" fill="#8892b0" font-family="Consolas, monospace" font-size="14" font-weight="bold">#4</text>
+  <rect x="100" y="293" width="160" height="30" rx="4" fill="#1a1a2e" stroke="#8892b0" stroke-width="1"/>
+  <text x="180" y="314" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="13" font-weight="bold">Antimatter Fuel</text>
+  <text x="290" y="314" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Saves 6+ Particle Collider runs per spray</text>
+
+  <!-- #5 Deuterium -->
+  <rect x="40" y="345" width="720" height="50" rx="6" fill="url(#box1)" stroke="#8892b0" stroke-width="1"/>
+  <text x="70" y="370" fill="#8892b0" font-family="Consolas, monospace" font-size="14" font-weight="bold">#5</text>
+  <rect x="100" y="353" width="160" height="30" rx="4" fill="#1a1a2e" stroke="#8892b0" stroke-width="1"/>
+  <text x="180" y="374" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="13" font-weight="bold">Deuterium</text>
+  <text x="290" y="374" fill="#8892b0" font-family="Consolas, monospace" font-size="11">25% fewer Fractionators for same output</text>
+
+  <!-- Avoid column -->
+  <rect x="20" y="420" width="760" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="439" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="13" font-weight="bold">Low ROI Items (Avoid Spraying)</text>
+
+  <rect x="40" y="460" width="170" height="36" rx="4" fill="#1a1a2e" stroke="#ff6b35" stroke-width="0.8" opacity="0.6"/>
+  <text x="125" y="483" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">Iron Ingots</text>
+  <rect x="225" y="460" width="170" height="36" rx="4" fill="#1a1a2e" stroke="#ff6b35" stroke-width="0.8" opacity="0.6"/>
+  <text x="310" y="483" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">Conveyor Belts</text>
+  <rect x="410" y="460" width="170" height="36" rx="4" fill="#1a1a2e" stroke="#ff6b35" stroke-width="0.8" opacity="0.6"/>
+  <text x="495" y="483" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">Wind Turbines</text>
+  <rect x="595" y="460" width="170" height="36" rx="4" fill="#1a1a2e" stroke="#ff6b35" stroke-width="0.8" opacity="0.6"/>
+  <text x="680" y="483" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">Raw Ores</text>
+
+  <rect x="40" y="510" width="720" height="50" rx="4" fill="rgba(255,107,53,0.08)" stroke="#ff6b35" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <text x="60" y="535" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">Rule: Spray items that sit deep in the production chain (more intermediate steps = more ROI).</text>
+  <text x="60" y="552" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Skip items that are cheap or have short production chains.</text>
+</svg>

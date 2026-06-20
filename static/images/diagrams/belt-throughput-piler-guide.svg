@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="box1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#1a1a4e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8892b0"/>
+    </marker>
+    <marker id="arrow1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00d4ff"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b35"/>
+    </marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2ecc71"/>
+    </marker>
+  </defs>
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+  <text x="400" y="36" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="18" font-weight="bold" filter="url(#glow)">Belt Throughput Comparison - Stacking vs Upgrading</text>
+  <line x1="160" y1="46" x2="640" y2="46" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <rect x="80" y="70" width="760" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="89" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="13" font-weight="bold">Base Throughput (items/second)</text>
+
+  <rect x="80" y="110" width="200" height="40" rx="4" fill="url(#box1)" stroke="#8892b0" stroke-width="1"/>
+  <text x="100" y="135" fill="#8892b0" font-family="Consolas, monospace" font-size="13">Mk.I 6/s</text>
+  <rect x="80" y="160" width="400" height="40" rx="4" fill="url(#box1)" stroke="#00d4ff" stroke-width="1"/>
+  <text x="100" y="185" fill="#00d4ff" font-family="Consolas, monospace" font-size="13">Mk.II 12/s</text>
+  <rect x="80" y="210" width="600" height="40" rx="4" fill="url(#box1)" stroke="#ff6b35" stroke-width="1"/>
+  <text x="100" y="235" fill="#ff6b35" font-family="Consolas, monospace" font-size="13">Mk.III 30/s</text>
+
+  <line x1="80" y1="255" x2="720" y2="255" stroke="#8892b0" stroke-width="0.5" opacity="0.3"/>
+  <text x="80" y="270" fill="#8892b0" font-family="Consolas, monospace" font-size="8">0</text>
+  <text x="260" y="270" fill="#8892b0" font-family="Consolas, monospace" font-size="8">10</text>
+  <text x="440" y="270" fill="#8892b0" font-family="Consolas, monospace" font-size="8">20</text>
+  <text x="620" y="270" fill="#8892b0" font-family="Consolas, monospace" font-size="8">30</text>
+
+  <rect x="80" y="285" width="760" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="304" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="13" font-weight="bold">With 4x Piler Stacking (items/second)</text>
+
+  <rect x="80" y="325" width="400" height="40" rx="4" fill="#1a1a4e" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="100" y="350" fill="#2ecc71" font-family="Consolas, monospace" font-size="13">Mk.I 24/s (4x)</text>
+  <rect x="80" y="375" width="460" height="40" rx="4" fill="#1a1a4e" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="100" y="400" fill="#00d4ff" font-family="Consolas, monospace" font-size="13">Mk.II 48/s (4x)</text>
+  <rect x="80" y="425" width="600" height="40" rx="4" fill="#1a1a4e" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="100" y="450" fill="#ff6b35" font-family="Consolas, monospace" font-size="13">Mk.III 120/s (4x)</text>
+
+  <rect x="80" y="490" width="640" height="70" rx="6" fill="rgba(0,212,255,0.08)" stroke="#00d4ff" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="100" y="512" fill="#00d4ff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Key Insight:</text>
+  <text x="100" y="532" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Stacked Mk.I belt (24/s) nearly matches base Mk.III (30/s) at much lower cost.</text>
+  <text x="100" y="552" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Build a 4-Piler chain before upgrading belts. Max belt throughput: 120 items/s.</text>
+</svg>
