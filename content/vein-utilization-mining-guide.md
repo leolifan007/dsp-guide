@@ -1,10 +1,10 @@
-﻿---
+---
 title: "DSP Vein Utilization Guide (v0.10) - Optimal Miner Placement and Proliferation for Maximum Output"
 description: "Master mining optimization in Dyson Sphere Program. Complete guide to mining machine placement, vein coverage patterns, proliferator application, and vein utilization upgrade priorities. Extract more ore per vein with fewer miners."
 date: 2026-06-09
 publishDate: 2026-06-14T08:55:00+08:00
 lastmod: 2026-06-09T22:29:00+08:00
-hidden: true
+
 type: post
 tags: [mining, vein-utilization, proliferation, miner, optimization, early-game, mid-game]
 categories: [Resources & Mining]
@@ -49,7 +49,7 @@ Vein Utilization is the single most important infinite research in DSP. Each lev
 | 15 | 150% | 2.5x reduction per craft | 47Mx |
 
 {{< callout "tip" >}}
-**Research priority:** Rush Vein Utilization to level 4 before you exhaust your starting iron vein. Each level costs progressively more science, but the savings compound. At level 4, your starting iron vein lasts 66% longer. At level 6, it lasts 150% longer.
+**Research priority:** Rush Vein Utilization to level 4 before you exhaust your starting iron vein. Each level costs progressively more science, but the savings compound. At level 4, your starting iron vein lasts 66% longer. At level 6, it lasts 150% longer. Automating your <a href="/research-lab-automation-guide/">research lab setup</a> keeps the VU upgrades running continuously without manual intervention.
 {{< /callout >}}
 
 ## Proliferation for Mining
@@ -88,7 +88,7 @@ When your home planet veins run low, expand to off-world outposts:
 {{< /stepgroup >}}
 
 {{< callout "warning" >}}
-**Outpost trap:** Do not over-build miners on off-world outposts. Export capacity is limited by ILS vessel throughput. 20 miners on a single ILS is usually enough. More miners without more ILS towers just clog the belts.
+**Outpost trap:** Do not over-build miners on off-world outposts. Export capacity is limited by ILS vessel throughput. 20 miners on a single ILS is usually enough. More miners without more ILS towers just clog the belts. Once ore reaches your home planet, choosing between <a href="/logistics-drones-vs-belts-guide/">logistics drones and conveyor belts</a> for distribution determines how efficiently that throughput reaches your smelters.
 {{< /callout >}}
 
 ## Mining Priority for Starting Planet
@@ -104,6 +104,8 @@ Set mining priority based on depletion speed:
 | Oil Seeps | 2-4/s | Infinite | Oil never depletes, just slows |
 
 Pair mining optimization with our [DSP Smelting Array Blueprint Guide](/smelting-array-blueprint-guide/) for a complete raw-to-ingot pipeline.
+
+{{< diagram "diagrams/vein-utilization-mining-guide.svg" >}}
 
 {{< resourcegrid >}}
 {{< resourcecard name="DSP Wiki - Mining" url="https://dsp-wiki.com/Mining_Machine" desc="Mining machine mechanics and coverage" >}}

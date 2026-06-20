@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <linearGradient id="accent4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9b59b6"/>
+      <stop offset="100%" stop-color="#8e44ad"/>
+    </linearGradient>
+    <linearGradient id="accent5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f1c40f"/>
+      <stop offset="100%" stop-color="#d4a509"/>
+    </linearGradient>
+    <linearGradient id="accent6" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+
+  <text x="400" y="32" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="17" font-weight="bold" filter="url(#glow)">60 SPM Science Production Ratios</text>
+  <line x1="160" y1="42" x2="640" y2="42" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <text x="400" y="60" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Raw inputs: 120 Iron/min | 60 Copper/min | 30 Coal/min | 30 Crude Oil/min + off-world Ti/Si</text>
+
+  <!-- Blue Science bar -->
+  <rect x="40" y="80" width="720" height="50" rx="4" fill="#16213e" stroke="#00d4ff" stroke-width="1"/>
+  <rect x="40" y="80" width="120" height="50" rx="4" fill="url(#accent1)"/>
+  <text x="100" y="105" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Blue</text>
+  <text x="100" y="120" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">3 assemblers</text>
+
+  <rect x="170" y="88" width="60" height="34" rx="3" fill="#1a1a2e" stroke="#00d4ff" stroke-width="0.8"/>
+  <text x="200" y="108" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">60 SPM</text>
+
+  <text x="250" y="100" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">-</text>
+  <text x="270" y="100" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">60 Fe Ore + 30 Cu Ore + 30 Si Ore / min</text>
+  <text x="270" y="115" fill="#8892b0" font-family="Consolas, monospace" font-size="10">3 Magnetic Coil smelters + 3 Circuit Board smelters + 3 Mk.II assemblers</text>
+
+  <!-- Red Science bar -->
+  <rect x="40" y="138" width="720" height="50" rx="4" fill="#16213e" stroke="#ff6b35" stroke-width="1"/>
+  <rect x="40" y="138" width="120" height="50" rx="4" fill="url(#accent2)"/>
+  <text x="100" y="163" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Red</text>
+  <text x="100" y="178" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">3 assemblers</text>
+
+  <rect x="170" y="146" width="60" height="34" rx="3" fill="#1a1a2e" stroke="#ff6b35" stroke-width="0.8"/>
+  <text x="200" y="166" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">60 SPM</text>
+
+  <text x="250" y="158" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">-</text>
+  <text x="270" y="158" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">Coal -> Energetic Graphite only</text>
+  <text x="270" y="173" fill="#8892b0" font-family="Consolas, monospace" font-size="10">3 refineries + 3 Mk.II assemblers. Simplest tier.</text>
+
+  <!-- Yellow Science bar -->
+  <rect x="40" y="196" width="720" height="50" rx="4" fill="#16213e" stroke="#2ecc71" stroke-width="1"/>
+  <rect x="40" y="196" width="120" height="50" rx="4" fill="url(#accent3)"/>
+  <text x="100" y="221" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Yellow</text>
+  <text x="100" y="236" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">6 assemblers</text>
+
+  <rect x="170" y="204" width="60" height="34" rx="3" fill="#1a1a2e" stroke="#2ecc71" stroke-width="0.8"/>
+  <text x="200" y="224" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">60 SPM</text>
+
+  <text x="250" y="216" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">-</text>
+  <text x="270" y="216" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">Processor + Board + Plastic chain</text>
+  <text x="270" y="231" fill="#8892b0" font-family="Consolas, monospace" font-size="10">4 refineries + 3 chem plants + 2 smelters + 6 Mk.II assemblers</text>
+
+  <!-- Purple Science bar -->
+  <rect x="40" y="254" width="720" height="50" rx="4" fill="#16213e" stroke="#e74c3c" stroke-width="1"/>
+  <rect x="40" y="254" width="120" height="50" rx="4" fill="url(#accent6)"/>
+  <text x="100" y="279" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Purple</text>
+  <text x="100" y="294" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">8 assemblers</text>
+
+  <rect x="170" y="262" width="60" height="34" rx="3" fill="#1a1a2e" stroke="#e74c3c" stroke-width="0.8"/>
+  <text x="200" y="282" text-anchor="middle" fill="#e74c3c" font-family="Consolas, monospace" font-size="11">60 SPM</text>
+
+  <text x="250" y="274" fill="#e74c3c" font-family="Consolas, monospace" font-size="11">-</text>
+  <text x="270" y="274" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">Steel + Titanium + Sulfuric Acid chain</text>
+  <text x="270" y="289" fill="#8892b0" font-family="Consolas, monospace" font-size="10">6 steel smelters + 4 Ti smelters + 2 chem plants + 16 Mk.II assemblers</text>
+
+  <!-- Green Science bar -->
+  <rect x="40" y="312" width="720" height="50" rx="4" fill="#16213e" stroke="#9b59b6" stroke-width="1"/>
+  <rect x="40" y="312" width="120" height="50" rx="4" fill="url(#accent4)"/>
+  <text x="100" y="337" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Green</text>
+  <text x="100" y="352" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">6 assemblers</text>
+
+  <rect x="170" y="320" width="60" height="34" rx="3" fill="#1a1a2e" stroke="#9b59b6" stroke-width="0.8"/>
+  <text x="200" y="340" text-anchor="middle" fill="#9b59b6" font-family="Consolas, monospace" font-size="11">60 SPM</text>
+
+  <text x="250" y="332" fill="#9b59b6" font-family="Consolas, monospace" font-size="11">-</text>
+  <text x="270" y="332" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">Casimir + Quantum + Graviton chain</text>
+  <text x="270" y="347" fill="#8892b0" font-family="Consolas, monospace" font-size="10">4 chem plants + 6 Casimir + 6 Quantum + 4 Lens + 6 Mk.III assemblers</text>
+
+  <!-- White Science bar -->
+  <rect x="40" y="370" width="720" height="50" rx="4" fill="#16213e" stroke="#f1c40f" stroke-width="1"/>
+  <rect x="40" y="370" width="120" height="50" rx="4" fill="url(#accent5)"/>
+  <text x="100" y="395" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="12" font-weight="bold">White</text>
+  <text x="100" y="410" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">15 assemblers</text>
+
+  <rect x="170" y="378" width="60" height="34" rx="3" fill="#1a1a2e" stroke="#f1c40f" stroke-width="0.8"/>
+  <text x="200" y="398" text-anchor="middle" fill="#f1c40f" font-family="Consolas, monospace" font-size="11">60 SPM</text>
+
+  <text x="250" y="390" fill="#f1c40f" font-family="Consolas, monospace" font-size="11">-</text>
+  <text x="270" y="390" fill="#e0e0e0" font-family="Consolas, monospace" font-size="10">All 6 colored matrices + Antimatter loop</text>
+  <text x="270" y="405" fill="#8892b0" font-family="Consolas, monospace" font-size="10">2 particle colliders + 15 Mk.III assemblers. Needs Dyson Sphere.</text>
+
+  <!-- Ratio summary box -->
+  <rect x="40" y="435" width="720" height="60" rx="6" fill="#16213e" stroke="#00d4ff" stroke-width="1"/>
+  <rect x="40" y="435" width="720" height="24" rx="6" fill="#0f3460"/>
+  <rect x="40" y="449" width="720" height="10" fill="#0f3460"/>
+  <text x="400" y="452" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Key Assembler Ratio: 3 Blue : 3 Red : 6 Yellow : 8 Purple : 12 Green : 15 White</text>
+
+  <text x="55" y="478" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Total: ~30 assemblers + ~40 smelters + ~15 chemical plants | Raw: 120 Fe, 60 Cu, 30 Coal, 30 Oil, 40 Ti, 30 Si / min</text>
+  <text x="55" y="493" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">Belt tip: Use Mk.II belts everywhere even when Mk.I would work - upgrade cost is minimal</text>
+</svg>

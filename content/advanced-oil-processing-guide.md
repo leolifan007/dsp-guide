@@ -4,7 +4,7 @@ description: "Master oil processing in Dyson Sphere Program. Complete guide to r
 date: 2026-06-09
 publishDate: 2026-06-12T16:43:00+08:00
 lastmod: 2026-06-09T22:20:00+08:00
-hidden: true
+
 type: post
 tags: [oil, refining, plastic, organic-crystal, hydrogen, cracking, chemical]
 categories: [Resources & Mining]
@@ -88,6 +88,8 @@ Hydrogen backup is the fastest way to kill a DSP factory. Here is the cascade:
 **The fix:** Build a dedicated Hydrogen-burning thermal power plant with 6-8 generators. Connect it to your Hydrogen bus via a Priority Splitter set to "overflow." When hydrogen consumption drops, the excess flows to the thermal plant and burns. This single step prevents 90% of mid-game factory failures.
 {{< /callout >}}
 
+For a step-by-step walkthrough of this overflow setup with thermal plant ratios and priority splitter configurations, see our dedicated <a href="/hydrogen-backup-fix/">hydrogen backup fix guide</a>.
+
 ## Organic Crystal Production
 
 Organic Crystals can be synthesized or mined:
@@ -104,12 +106,14 @@ For 60 SPM factories, the mining route is dramatically easier. Find an organic p
 {{< stepgroup >}}
 {{< step "Early oil" >}}Build 3 refineries, pipe to tanks, burn excess hydrogen{{< /step >}}
 {{< step "Cracking setup" >}}Add 2 X-Ray crackers when hydrogen demand rises{{< /step >}}
-{{< step "Plastic line" >}}Chain refined oil + thermal cracking into plastic production{{< /step >}}
+{{< step "Plastic line" >}}Chain refined oil + thermal cracking into plastic production and <a href="/energy-matrix-production-guide/">energy matrix assembly</a>{{< /step >}}
 {{< step "Organic crystal" >}}Either build synthesis plant or find organic planet{{< /step >}}
 {{< step "Overflow buffer" >}}Always maintain hydrogen-burning thermal as pressure valve{{< /step >}}
 {{< /stepgroup >}}
 
 For the full oil-to-science chain, see our [DSP Green Science Deep Dive Guide](/green-science-deep-dive-guide/).
+
+{{< diagram "diagrams/advanced-oil-processing-guide.svg" >}}
 
 {{< resourcegrid >}}
 {{< resourcecard name="DSP Wiki - Oil Refining" url="https://dsp-wiki.com/Oil_Refinery" desc="Oil refining mechanics and ratios" >}}

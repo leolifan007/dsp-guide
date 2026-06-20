@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <linearGradient id="accent4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9b59b6"/>
+      <stop offset="100%" stop-color="#8e44ad"/>
+    </linearGradient>
+    <linearGradient id="accent5" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f1c40f"/>
+      <stop offset="100%" stop-color="#d4a509"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8892b0"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+
+  <text x="400" y="32" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="17" font-weight="bold" filter="url(#glow)">Multi-Planet Factory Architecture</text>
+  <line x1="180" y1="42" x2="620" y2="42" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <!-- Central: Home Planet -->
+  <ellipse cx="160" cy="200" rx="85" ry="65" fill="#0f3460" stroke="#00d4ff" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="160" cy="200" rx="60" ry="45" fill="#16213e" stroke="#00d4ff" stroke-width="1.5"/>
+  <circle cx="160" cy="200" r="25" fill="#1a1a2e" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="160" y="196" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11" font-weight="bold">HOME</text>
+  <text x="160" y="210" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="9">PLANET</text>
+
+  <!-- Planet: Mining Outpost -->
+  <ellipse cx="400" cy="70" rx="75" ry="50" fill="#0f3460" stroke="#2ecc71" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="400" cy="70" rx="55" ry="35" fill="#16213e" stroke="#2ecc71" stroke-width="1.5"/>
+  <circle cx="400" cy="70" r="20" fill="#1a1a2e" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="400" y="66" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11" font-weight="bold">Mining</text>
+  <text x="400" y="80" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="9">Outpost</text>
+
+  <!-- Planet: Smelting World -->
+  <ellipse cx="400" cy="340" rx="75" ry="50" fill="#0f3460" stroke="#ff6b35" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="400" cy="340" rx="55" ry="35" fill="#16213e" stroke="#ff6b35" stroke-width="1.5"/>
+  <circle cx="400" cy="340" r="20" fill="#1a1a2e" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="400" y="336" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11" font-weight="bold">Smelting</text>
+  <text x="400" y="350" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="9">World</text>
+
+  <!-- Planet: Component World -->
+  <ellipse cx="640" cy="200" rx="75" ry="50" fill="#0f3460" stroke="#9b59b6" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="640" cy="200" rx="55" ry="35" fill="#16213e" stroke="#9b59b6" stroke-width="1.5"/>
+  <circle cx="640" cy="200" r="20" fill="#1a1a2e" stroke="#9b59b6" stroke-width="1.5"/>
+  <text x="640" y="196" text-anchor="middle" fill="#9b59b6" font-family="Consolas, monospace" font-size="11" font-weight="bold">Component</text>
+  <text x="640" y="210" text-anchor="middle" fill="#9b59b6" font-family="Consolas, monospace" font-size="9">World</text>
+
+  <!-- Planet: Science World -->
+  <ellipse cx="400" cy="520" rx="75" ry="40" fill="#0f3460" stroke="#f1c40f" stroke-width="2" opacity="0.6"/>
+  <ellipse cx="400" cy="520" rx="55" ry="28" fill="#16213e" stroke="#f1c40f" stroke-width="1.5"/>
+  <circle cx="400" cy="520" r="18" fill="#1a1a2e" stroke="#f1c40f" stroke-width="1.5"/>
+  <text x="400" y="517" text-anchor="middle" fill="#f1c40f" font-family="Consolas, monospace" font-size="11" font-weight="bold">Science</text>
+  <text x="400" y="530" text-anchor="middle" fill="#f1c40f" font-family="Consolas, monospace" font-size="9">World</text>
+
+  <!-- Planet: Power World -->
+  <circle cx="80" cy="400" r="30" fill="#0f3460" stroke="#e74c3c" stroke-width="2" opacity="0.8"/>
+  <text x="80" y="396" text-anchor="middle" fill="#e74c3c" font-family="Consolas, monospace" font-size="9" font-weight="bold">Power</text>
+  <text x="80" y="408" text-anchor="middle" fill="#e74c3c" font-family="Consolas, monospace" font-size="8">World</text>
+
+  <!-- Arrows: Mining Outpost -> Home Planet -->
+  <path d="M 340 85 Q 280 130 230 170" fill="none" stroke="#2ecc71" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="275" y="120" fill="#2ecc71" font-family="Consolas, monospace" font-size="10" transform="rotate(-50,275,120)">Raw Ores</text>
+
+  <!-- Arrows: Home -> Smelting World -->
+  <path d="M 200 250 Q 260 280 330 310" fill="none" stroke="#ff6b35" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="255" y="295" fill="#ff6b35" font-family="Consolas, monospace" font-size="10" transform="rotate(35,255,295)">Raw Ores</text>
+
+  <!-- Arrows: Smelting -> Component -->
+  <path d="M 460 330 Q 530 290 585 230" fill="none" stroke="#9b59b6" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="530" y="290" fill="#9b59b6" font-family="Consolas, monospace" font-size="10" transform="rotate(-50,530,290)">Ingots</text>
+
+  <!-- Arrows: Component -> Home -->
+  <path d="M 590 175 Q 540 145 480 130 Q 420 115 260 140" fill="none" stroke="#00d4ff" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="440" y="120" fill="#00d4ff" font-family="Consolas, monospace" font-size="10">Components</text>
+
+  <!-- Arrows: Home -> Science -->
+  <path d="M 200 260 Q 280 380 350 490" fill="none" stroke="#f1c40f" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="265" y="390" fill="#f1c40f" font-family="Consolas, monospace" font-size="10" transform="rotate(60,265,390)">Components</text>
+
+  <!-- Arrows: Power -> Home -->
+  <path d="M 105 375 Q 120 320 140 270" fill="none" stroke="#e74c3c" stroke-width="1.5" stroke-dasharray="5,3" marker-end="url(#arrow)"/>
+  <text x="115" y="325" fill="#e74c3c" font-family="Consolas, monospace" font-size="9" transform="rotate(-85,115,325)">Fuel Rods</text>
+
+  <!-- Rule box -->
+  <rect x="540" y="380" width="240" height="170" rx="6" fill="#16213e" stroke="#0f3460" stroke-width="1"/>
+
+  <rect x="540" y="380" width="240" height="26" rx="6" fill="#0f3460"/>
+  <rect x="540" y="396" width="240" height="10" fill="#0f3460"/>
+  <text x="660" y="397" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="12" font-weight="bold">Planet Specialization Rules</text>
+
+  <text x="555" y="420" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">- Each planet: 1 production role</text>
+  <text x="555" y="438" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">- Max 2 imports per planet</text>
+  <text x="555" y="456" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">- Max 2 exports per planet</text>
+  <text x="555" y="474" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">- Keep logistics routes simple</text>
+  <text x="555" y="492" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">- ILS for interplanetary only</text>
+  <text x="555" y="510" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">- PLS for intra-planet transport</text>
+  <text x="555" y="528" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">- Build 5+ planets for 300 SPM</text>
+
+  <text x="555" y="544" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Rule: No planet needs >3 imports</text>
+</svg>

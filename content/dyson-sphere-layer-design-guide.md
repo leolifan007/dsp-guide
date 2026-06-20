@@ -4,7 +4,7 @@ description: "Master Dyson Sphere layer design in Dyson Sphere Program. Complete
 date: 2026-06-09
 publishDate: 2026-06-13T17:31:00+08:00
 lastmod: 2026-06-09T22:26:00+08:00
-hidden: true
+
 type: post
 tags: [dyson-sphere, frame, solar-sail, orbit, power, critical-photon, endgame]
 categories: [Power & Energy]
@@ -70,7 +70,7 @@ For maximum coverage with minimum nodes:
 | 60 | ~75% surface | Endgame power needs |
 | 100+ | ~90%+ surface | Max power output |
 
-Build 30 nodes arranged in a geodesic pattern (like a soccer ball). Connect every node to its 3-5 nearest neighbors with cell lines. Complete one full layer before starting the next.
+Each node costs 20 Frame Material, which consumes processors at a high rate. Optimizing your processor production with <a href="/quantum-chips-proliferator/">quantum chip proliferation</a> dramatically reduces the resource cost of building a full sphere. Build 30 nodes arranged in a geodesic pattern (like a soccer ball). Connect every node to its 3-5 nearest neighbors with cell lines. Complete one full layer before starting the next.
 
 {{< stepgroup >}}
 {{< step "Select orbit" >}}Choose the innermost available orbit (0.3-0.5 AU){{< /step >}}
@@ -113,9 +113,11 @@ For stable power, build 20-40 Ray Receivers on the planet closest to the Dyson S
 | Planet inside sphere orbit | 80-100% | 600-800 | 75-100 MW |
 | Tidally locked (day side) | 100% | 800-1000 | 100-125 MW |
 
-Build your antimatter factory on the planet with the best Ray Receiver uptime. Ship Antimatter Fuel Rods via ILS to your production planets.
+Build your antimatter factory on the planet with the best Ray Receiver uptime. Ship Antimatter Fuel Rods via ILS to your production planets. For the full production chain from Critical Photons to a self-sustaining antimatter loop, see our <a href="/dsp-antimatter-power-guide/">DSP antimatter power guide</a>.
 
 New to Dyson Spheres? Start with our [DSP Dyson Sphere Guide](/dsp-dyson-sphere-guide/) for the basics.
+
+{{< diagram "diagrams/dyson-sphere-layer-design-guide.svg" >}}
 
 {{< resourcegrid >}}
 {{< resourcecard name="DSP Wiki - Dyson Sphere" url="https://dsp-wiki.com/Dyson_Sphere" desc="Complete Dyson Sphere mechanics and formulas" >}}
