@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <linearGradient id="accent4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9b59b6"/>
+      <stop offset="100%" stop-color="#8e44ad"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8892b0"/>
+    </marker>
+  </defs>
+
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+
+  <text x="400" y="32" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="17" font-weight="bold" filter="url(#glow)">Green Science - Three Pillars Production Chain</text>
+  <line x1="150" y1="42" x2="650" y2="42" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <text x="400" y="60" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Gravity Matrix (Green Science) requires 3 parallel production chains feeding into final assembly</text>
+
+  <!-- PILLAR 1: Casimir Crystals -->
+  <rect x="20" y="75" width="240" height="230" rx="6" fill="#16213e" stroke="#00d4ff" stroke-width="1.5"/>
+  <rect x="20" y="75" width="240" height="26" rx="6" fill="url(#accent1)"/>
+  <rect x="20" y="91" width="240" height="10" fill="url(#accent1)"/>
+  <text x="140" y="93" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Pillar 1: Casimir Crystals</text>
+
+  <!-- Inputs -->
+  <text x="35" y="118" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Inputs (per crystal):</text>
+
+  <rect x="35" y="125" width="95" height="24" rx="3" fill="#1a1a2e" stroke="#2ecc71" stroke-width="0.8"/>
+  <text x="82" y="141" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">Graphene x2</text>
+  <rect x="140" y="125" width="100" height="24" rx="3" fill="#1a1a2e" stroke="#ff6b35" stroke-width="0.8"/>
+  <text x="190" y="141" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">Hydrogen x2</text>
+  <rect x="35" y="155" width="95" height="24" rx="3" fill="#1a1a2e" stroke="#e0e0e0" stroke-width="0.8"/>
+  <text x="82" y="171" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">Titanium x1</text>
+
+  <!-- Source info -->
+  <rect x="35" y="188" width="210" height="60" rx="3" fill="#0f3460" opacity="0.6"/>
+  <text x="45" y="204" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Sources:</text>
+  <text x="45" y="218" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Graphene -> Fire Ice / Graphite</text>
+  <text x="45" y="232" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Hydrogen -> Gas Giant Collectors</text>
+  <text x="45" y="246" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Titanium -> Off-world smelting</text>
+
+  <!-- Consumption rate -->
+  <rect x="35" y="256" width="210" height="26" rx="3" fill="rgba(255,107,53,0.1)" stroke="#ff6b35" stroke-width="0.8"/>
+  <text x="140" y="273" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="10">1 assembler consumes 4 H2/s</text>
+
+  <!-- PILLAR 2: Quantum Chips -->
+  <rect x="280" y="75" width="240" height="230" rx="6" fill="#16213e" stroke="#9b59b6" stroke-width="1.5"/>
+  <rect x="280" y="75" width="240" height="26" rx="6" fill="url(#accent4)"/>
+  <rect x="280" y="91" width="240" height="10" fill="url(#accent4)"/>
+  <text x="400" y="93" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Pillar 2: Quantum Chips</text>
+
+  <text x="295" y="118" fill="#9b59b6" font-family="Consolas, monospace" font-size="11">Inputs (per chip):</text>
+
+  <rect x="295" y="125" width="95" height="24" rx="3" fill="#1a1a2e" stroke="#00d4ff" stroke-width="0.8"/>
+  <text x="342" y="141" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Processor x1</text>
+  <rect x="400" y="125" width="100" height="24" rx="3" fill="#1a1a2e" stroke="#00d4ff" stroke-width="0.8"/>
+  <text x="450" y="141" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Casimir x1</text>
+  <rect x="295" y="155" width="100" height="24" rx="3" fill="#1a1a2e" stroke="#e0e0e0" stroke-width="0.8"/>
+  <text x="345" y="171" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">Optical Grating x2</text>
+
+  <rect x="295" y="188" width="210" height="60" rx="3" fill="#0f3460" opacity="0.6"/>
+  <text x="305" y="204" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Build Chain:</text>
+  <text x="305" y="218" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Circuit Board -> Processor</text>
+  <text x="305" y="232" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Add: Casimir + Optical Grating</text>
+  <text x="305" y="246" fill="#8892b0" font-family="Consolas, monospace" font-size="10">For 60 SPM: 10 Mk.III assemblers</text>
+
+  <!-- PILLAR 3: Graviton Lenses -->
+  <rect x="540" y="75" width="240" height="230" rx="6" fill="#16213e" stroke="#2ecc71" stroke-width="1.5"/>
+  <rect x="540" y="75" width="240" height="26" rx="6" fill="url(#accent3)"/>
+  <rect x="540" y="91" width="240" height="10" fill="url(#accent3)"/>
+  <text x="660" y="93" text-anchor="middle" fill="#fff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Pillar 3: Graviton Lenses</text>
+
+  <text x="555" y="118" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">Inputs (per lens):</text>
+
+  <rect x="555" y="125" width="95" height="24" rx="3" fill="#1a1a2e" stroke="#f1c40f" stroke-width="0.8"/>
+  <text x="602" y="141" text-anchor="middle" fill="#f1c40f" font-family="Consolas, monospace" font-size="11">Graphite x4</text>
+  <rect x="660" y="125" width="95" height="24" rx="3" fill="#1a1a2e" stroke="#f1c40f" stroke-width="0.8"/>
+  <text x="707" y="141" text-anchor="middle" fill="#f1c40f" font-family="Consolas, monospace" font-size="11">Diamond x4</text>
+  <rect x="555" y="155" width="95" height="24" rx="3" fill="#1a1a2e" stroke="#e0e0e0" stroke-width="0.8"/>
+  <text x="602" y="171" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">Strange Matter x1</text>
+
+  <rect x="555" y="188" width="210" height="60" rx="3" fill="#0f3460" opacity="0.6"/>
+  <text x="565" y="204" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Simplest pillar:</text>
+  <text x="565" y="218" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Graphite -> from coal/oil</text>
+  <text x="565" y="232" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Diamond -> from graphite</text>
+  <text x="565" y="246" fill="#8892b0" font-family="Consolas, monospace" font-size="10">For 60 SPM: 4 Mk.II assemblers</text>
+
+  <!-- Final assembly box -->
+  <rect x="100" y="325" width="600" height="45" rx="8" fill="#0f3460" stroke="#f1c40f" stroke-width="2"/>
+  <rect x="100" y="325" width="600" height="26" rx="8" fill="#1a1a4e" stroke="#f1c40f" stroke-width="1"/>
+  <rect x="100" y="341" width="600" height="10" fill="#1a1a4e"/>
+  <text x="400" y="343" text-anchor="middle" fill="#f1c40f" font-family="Consolas, monospace" font-size="12" font-weight="bold">FINAL ASSEMBLY: Gravity Matrix</text>
+  <text x="400" y="362" text-anchor="middle" fill="#e0e0e0" font-family="Consolas, monospace" font-size="11">Casimir Crystal + Quantum Chip + Graviton Lens -> 1 Gravity Matrix (for 60 SPM: 6 Mk.III assemblers)</text>
+
+  <!-- Arrows from pillars to final assembly -->
+  <line x1="140" y1="305" x2="220" y2="325" stroke="#00d4ff" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="400" y1="305" x2="400" y2="325" stroke="#9b59b6" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="660" y1="305" x2="580" y2="325" stroke="#2ecc71" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Proliferation info -->
+  <rect x="100" y="390" width="600" height="80" rx="6" fill="#16213e" stroke="#0f3460" stroke-width="1"/>
+  <rect x="100" y="390" width="600" height="24" rx="6" fill="#0f3460"/>
+  <rect x="100" y="404" width="600" height="10" fill="#0f3460"/>
+  <text x="400" y="407" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Proliferation Impact (Mk.III Spray)</text>
+
+  <text x="120" y="428" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Casimir Crystal: 2 Graphene + 2 H2 -> ~1.4 Graphene + ~1.4 H2 (30% savings)</text>
+  <text x="120" y="448" fill="#8892b0" font-family="Consolas, monospace" font-size="11">Quantum Chip: 1 Proc + 1 Casimir -> ~0.7 Proc + ~0.7 Casimir (30% savings)</text>
+  <text x="120" y="465" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">Pro tip: Spray Casimir inputs first for highest multiplicative savings</text>
+
+  <!-- Warning -->
+  <rect x="160" y="488" width="480" height="50" rx="6" fill="rgba(255,107,53,0.1)" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="400" y="506" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11" font-weight="bold">WARNING: Hydrogen Trap</text>
+  <text x="400" y="524" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Build thermal power burning excess H2 BEFORE scaling green science</text>
+
+  <!-- Legend -->
+  <rect x="280" y="548" width="240" height="22" rx="4" fill="#0f3460"/>
+  <text x="400" y="563" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">For 60 SPM: 20+ orbital collectors needed</text>
+</svg>
