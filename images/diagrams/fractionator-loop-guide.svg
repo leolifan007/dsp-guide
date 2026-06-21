@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="box1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#1a1a4e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8892b0"/>
+    </marker>
+    <marker id="arrow1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00d4ff"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b35"/>
+    </marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2ecc71"/>
+    </marker>
+  </defs>
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+  <text x="400" y="36" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="18" font-weight="bold" filter="url(#glow)">Fractionator Loop - 4-Piler Stacking Layout</text>
+  <line x1="180" y1="46" x2="620" y2="46" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <!-- ILS input -->
+  <rect x="40" y="80" width="120" height="60" rx="6" fill="url(#box1)" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="100" y="105" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="12" font-weight="bold">ILS</text>
+  <text x="100" y="122" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">H2 Input</text>
+  <text x="100" y="135" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">D Output</text>
+
+  <!-- Arrow from ILS -->
+  <line x1="160" y1="110" x2="200" y2="110" stroke="#00d4ff" stroke-width="1.5" marker-end="url(#arrow1)"/>
+
+  <!-- Priority splitter -->
+  <rect x="200" y="85" width="100" height="50" rx="6" fill="#0f3460" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="250" y="108" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11" font-weight="bold">Priority</text>
+  <text x="250" y="123" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11" font-weight="bold">Splitter</text>
+
+  <!-- Piler chain -->
+  <rect x="330" y="85" width="45" height="50" rx="4" fill="#1a1a4e" stroke="#2ecc71" stroke-width="1"/>
+  <text x="352" y="108" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">Piler</text>
+  <text x="352" y="120" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">1</text>
+
+  <rect x="385" y="85" width="45" height="50" rx="4" fill="#1a1a4e" stroke="#2ecc71" stroke-width="1"/>
+  <text x="407" y="108" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">Piler</text>
+  <text x="407" y="120" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">2</text>
+
+  <rect x="440" y="85" width="45" height="50" rx="4" fill="#1a1a4e" stroke="#2ecc71" stroke-width="1"/>
+  <text x="462" y="108" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">Piler</text>
+  <text x="462" y="120" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">3</text>
+
+  <rect x="495" y="85" width="45" height="50" rx="4" fill="#1a1a4e" stroke="#2ecc71" stroke-width="1"/>
+  <text x="517" y="108" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">Piler</text>
+  <text x="517" y="120" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="7">4</text>
+
+  <!-- Belt between components -->
+  <line x1="300" y1="110" x2="330" y2="110" stroke="#8892b0" stroke-width="1.5"/>
+  <line x1="375" y1="110" x2="385" y2="110" stroke="#8892b0" stroke-width="1.5"/>
+  <line x1="430" y1="110" x2="440" y2="110" stroke="#8892b0" stroke-width="1.5"/>
+  <line x1="485" y1="110" x2="495" y2="110" stroke="#8892b0" stroke-width="1.5"/>
+
+  <!-- Arrow to fractionator row -->
+  <line x1="540" y1="110" x2="590" y2="110" stroke="#00d4ff" stroke-width="1.5" marker-end="url(#arrow1)"/>
+
+  <text x="565" y="132" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">4-stack H2</text>
+
+  <!-- Fractionator row -->
+  <rect x="590" y="60" width="180" height="100" rx="6" fill="url(#box1)" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="680" y="80" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11" font-weight="bold">Fractionator Row</text>
+  <text x="680" y="98" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">8-12 Fractionators</text>
+  <text x="680" y="115" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">1% conv. per pass</text>
+  <text x="680" y="132" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">4-stack = 4x output</text>
+  <text x="680" y="149" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="10">~30 D/min total</text>
+
+  <!-- Deuterium output -->
+  <line x1="680" y1="160" x2="680" y2="195" stroke="#2ecc71" stroke-width="1.5" marker-end="url(#arrow3)"/>
+  <rect x="630" y="195" width="100" height="30" rx="4" fill="#1a1a2e" stroke="#2ecc71" stroke-width="1"/>
+  <text x="680" y="215" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">Deuterium ILS</text>
+
+  <!-- Loop back arrow -->
+  <path d="M 680 60 Q 680 20 250 20 Q 200 20 200 80" fill="none" stroke="#ff6b35" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrow2)"/>
+  <text x="300" y="16" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="10">Loop Back H2 (Priority Input)</text>
+
+  <!-- Thermal excess -->
+  <rect x="630" y="280" width="140" height="30" rx="4" fill="#0f3460" stroke="#ff6b35" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <text x="700" y="300" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="10">Excess H2 -> Burn</text>
+  <path d="M 680 225 L 680 280" fill="none" stroke="#ff6b35" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrow2)"/>
+
+  <!-- Output comparison table -->
+  <rect x="20" y="340" width="760" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="359" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="13" font-weight="bold">Output Comparison - Single Loop, 10 Fractionators, Mk.III Belt</text>
+
+  <rect x="30" y="380" width="180" height="22" rx="3" fill="#0f3460"/>
+  <text x="120" y="396" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Stack Level</text>
+  <rect x="220" y="380" width="180" height="22" rx="3" fill="#0f3460"/>
+  <text x="310" y="396" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Throughput</text>
+  <rect x="410" y="380" width="180" height="22" rx="3" fill="#0f3460"/>
+  <text x="500" y="396" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">D/min Out</text>
+
+  <rect x="30" y="408" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="120" y="428" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">No stacking (1x)</text>
+  <rect x="220" y="408" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="310" y="428" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">30 H2/s</text>
+  <rect x="410" y="408" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="500" y="428" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">~180/min</text>
+
+  <rect x="30" y="444" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="120" y="464" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">2-stack</text>
+  <rect x="220" y="444" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="310" y="464" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">60 H2/s</text>
+  <rect x="410" y="444" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="500" y="464" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">~360/min</text>
+
+  <rect x="30" y="480" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="120" y="500" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">3-stack</text>
+  <rect x="220" y="480" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="310" y="500" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">90 H2/s</text>
+  <rect x="410" y="480" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="500" y="500" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">~540/min</text>
+
+  <rect x="30" y="516" width="180" height="30" rx="3" fill="#1a1a2e" stroke="#2ecc71" stroke-width="1"/>
+  <text x="120" y="536" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">4-stack (max)</text>
+  <rect x="220" y="516" width="180" height="30" rx="3" fill="#1a1a2e" stroke="#2ecc71" stroke-width="1"/>
+  <text x="310" y="536" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">120 H2/s</text>
+  <rect x="410" y="516" width="180" height="30" rx="3" fill="#1a1a2e" stroke="#2ecc71" stroke-width="1"/>
+  <text x="500" y="536" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">~720/min</text>
+</svg>

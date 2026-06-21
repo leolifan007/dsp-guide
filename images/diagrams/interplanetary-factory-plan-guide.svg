@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="box1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#1a1a4e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8892b0"/>
+    </marker>
+    <marker id="arrow1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00d4ff"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b35"/>
+    </marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2ecc71"/>
+    </marker>
+  </defs>
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+  <text x="400" y="36" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="18" font-weight="bold" filter="url(#glow)">Interplanetary Factory - 5-Planet Division of Labor</text>
+  <line x1="150" y1="46" x2="650" y2="46" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <!-- Planet 1: Mall -->
+  <circle cx="140" cy="140" r="50" fill="url(#box1)" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="140" y="133" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Mall</text>
+  <text x="140" y="150" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Belts, Sorters</text>
+  <text x="140" y="163" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Assemblers</text>
+
+  <!-- Planet 2: Smelting -->
+  <circle cx="400" cy="100" r="50" fill="url(#box1)" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="400" y="93" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="12" font-weight="bold">Smelting</text>
+  <text x="400" y="110" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">All Ores</text>
+  <text x="400" y="123" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">-> Ingots</text>
+
+  <!-- Planet 3: Processor -->
+  <circle cx="660" cy="140" r="50" fill="url(#box1)" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="660" y="133" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="12" font-weight="bold">Processor</text>
+  <text x="660" y="150" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">CB, CS</text>
+  <text x="660" y="163" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Processors</text>
+
+  <!-- Planet 4: Science -->
+  <circle cx="140" cy="350" r="50" fill="url(#box1)" stroke="#00d4ff" stroke-width="1.5"/>
+  <text x="140" y="343" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Science</text>
+  <text x="140" y="360" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">All 6 Colors</text>
+  <text x="140" y="373" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">White</text>
+
+  <!-- Planet 5: Rocket -->
+  <circle cx="400" cy="430" r="50" fill="url(#box1)" stroke="#ff6b35" stroke-width="1.5"/>
+  <text x="400" y="423" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="12" font-weight="bold">Rocket</text>
+  <text x="400" y="440" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Frame Mat</text>
+  <text x="400" y="453" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Rockets</text>
+
+  <!-- Planet 6: Power -->
+  <circle cx="660" cy="350" r="50" fill="url(#box1)" stroke="#2ecc71" stroke-width="1.5"/>
+  <text x="660" y="343" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="12" font-weight="bold">Power</text>
+  <text x="660" y="360" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Solar/Ray</text>
+  <text x="660" y="373" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Reactors</text>
+
+  <!-- ILS Arrows between planets -->
+  <path d="M 170 115 Q 250 90 350 100" fill="none" stroke="#00d4ff" stroke-width="1.5" marker-end="url(#arrow1)"/>
+  <text x="260" y="88" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="8">Ore -> Ingots</text>
+
+  <path d="M 450 100 Q 550 110 610 130" fill="none" stroke="#ff6b35" stroke-width="1.5" marker-end="url(#arrow2)"/>
+  <text x="530" y="105" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="8">Ingots -> CB</text>
+
+  <path d="M 190 165 Q 300 320 140 310" fill="none" stroke="#00d4ff" stroke-width="1" stroke-dasharray="5,3" marker-end="url(#arrow1)"/>
+  <text x="230" y="250" fill="#8892b0" font-family="Consolas, monospace" font-size="8">Proc. -> Science</text>
+
+  <path d="M 140 280 Q 250 400 300 410" fill="none" stroke="#ff6b35" stroke-width="1" stroke-dasharray="5,3" marker-end="url(#arrow2)"/>
+  <text x="200" y="430" fill="#8892b0" font-family="Consolas, monospace" font-size="8">Proc/Fuel -> Rocket</text>
+
+  <path d="M 610 160 Q 550 320 600 330" fill="none" stroke="#2ecc71" stroke-width="1" stroke-dasharray="5,3" marker-end="url(#arrow3)"/>
+  <text x="590" y="250" fill="#8892b0" font-family="Consolas, monospace" font-size="8">Processor -> Rocket</text>
+
+  <!-- Center: ILS Hub text -->
+  <text x="400" y="255" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="14" font-weight="bold" filter="url(#glow)">ILS Logistics Hub</text>
+  <text x="400" y="275" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Vessels shuttle between all 5 planets</text>
+
+  <!-- Expansion order -->
+  <rect x="30" y="490" width="740" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="509" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="13" font-weight="bold">Expansion Order: Starter -> Smelting -> Processor -> Science -> Rocket -> Power</text>
+</svg>

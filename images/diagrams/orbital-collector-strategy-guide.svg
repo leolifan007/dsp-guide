@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="box1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#1a1a4e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8892b0"/>
+    </marker>
+    <marker id="arrow1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00d4ff"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b35"/>
+    </marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2ecc71"/>
+    </marker>
+  </defs>
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+  <text x="400" y="36" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="18" font-weight="bold" filter="url(#glow)">Orbital Collector - 40-Collector Equatorial Ring</text>
+  <line x1="180" y1="46" x2="620" y2="46" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <!-- Gas Giant -->
+  <circle cx="400" cy="250" r="120" fill="url(#box1)" stroke="#00d4ff" stroke-width="2"/>
+  <text x="400" y="240" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="16" font-weight="bold">Gas Giant</text>
+  <text x="400" y="260" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">40 Orbital Collectors</text>
+  <text x="400" y="280" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">on equatorial ring</text>
+
+  <!-- Collector ring (ellipse) -->
+  <ellipse cx="400" cy="250" rx="200" ry="60" fill="none" stroke="#2ecc71" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.6"/>
+
+  <!-- Individual collectors around ring -->
+  <rect x="220" y="215" width="30" height="20" rx="3" fill="#0f3460" stroke="#2ecc71" stroke-width="0.8"/>
+  <rect x="550" y="215" width="30" height="20" rx="3" fill="#0f3460" stroke="#2ecc71" stroke-width="0.8"/>
+  <rect x="320" y="195" width="30" height="20" rx="3" fill="#0f3460" stroke="#2ecc71" stroke-width="0.8"/>
+  <rect x="450" y="195" width="30" height="20" rx="3" fill="#0f3460" stroke="#2ecc71" stroke-width="0.8"/>
+  <rect x="390" y="190" width="30" height="20" rx="3" fill="#0f3460" stroke="#2ecc71" stroke-width="0.8"/>
+
+  <rect x="240" y="270" width="30" height="20" rx="3" fill="#0f3460" stroke="#00d4ff" stroke-width="0.8"/>
+  <rect x="530" y="270" width="30" height="20" rx="3" fill="#0f3460" stroke="#00d4ff" stroke-width="0.8"/>
+  <rect x="290" y="288" width="30" height="20" rx="3" fill="#0f3460" stroke="#00d4ff" stroke-width="0.8"/>
+  <rect x="480" y="288" width="30" height="20" rx="3" fill="#0f3460" stroke="#00d4ff" stroke-width="0.8"/>
+  <rect x="380" y="298" width="30" height="20" rx="3" fill="#0f3460" stroke="#00d4ff" stroke-width="0.8"/>
+
+  <!-- Resource table -->
+  <rect x="20" y="370" width="760" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="389" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="13" font-weight="bold">Resource Output - 40 Collectors on Dense (4x) Gas Giant</text>
+
+  <rect x="30" y="405" width="180" height="22" rx="3" fill="#0f3460"/>
+  <text x="120" y="421" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Resource</text>
+  <rect x="220" y="405" width="180" height="22" rx="3" fill="#0f3460"/>
+  <text x="310" y="421" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Output/sec (total)</text>
+  <rect x="410" y="405" width="180" height="22" rx="3" fill="#0f3460"/>
+  <text x="500" y="421" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Output/min</text>
+
+  <rect x="30" y="433" width="180" height="30" rx="3" fill="#1a1a2e" stroke="#00d4ff" stroke-width="0.8"/>
+  <text x="120" y="453" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Hydrogen</text>
+  <rect x="220" y="433" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="310" y="453" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">~5/s</text>
+  <rect x="410" y="433" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="500" y="453" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">~300/min</text>
+
+  <rect x="30" y="469" width="180" height="30" rx="3" fill="#1a1a2e" stroke="#2ecc71" stroke-width="0.8"/>
+  <text x="120" y="489" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11">Deuterium</text>
+  <rect x="220" y="469" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="310" y="489" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">~1/s</text>
+  <rect x="410" y="469" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="500" y="489" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">~60/min</text>
+
+  <rect x="30" y="505" width="180" height="30" rx="3" fill="#1a1a2e" stroke="#ff6b35" stroke-width="0.8"/>
+  <text x="120" y="525" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11">Fire Ice</text>
+  <rect x="220" y="505" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="310" y="525" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">~3/s</text>
+  <rect x="410" y="505" width="180" height="30" rx="3" fill="#1a1a2e"/>
+  <text x="500" y="525" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="11">~180/min</text>
+</svg>

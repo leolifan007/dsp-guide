@@ -1,4 +1,84 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DSP Guide – No Fluff, Just Fixes on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/</link><description>Recent content in DSP Guide – No Fluff, Just Fixes on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 10 Jun 2026 21:18:52 +0800</lastBuildDate><atom:link href="https://dsp-guide.com/index.xml" rel="self" type="application/rss+xml"/><item><title>DSP 60 Science Per Minute Blueprint (v0.10) - Full Production Ratios From Raw Materials to All Science</title><link>https://dsp-guide.com/science-60-spm-blueprint-guide/</link><pubDate>Fri, 12 Jun 2026 09:07:00 +0800</pubDate><guid>https://dsp-guide.com/science-60-spm-blueprint-guide/</guid><description>&lt;div class="callout"&gt;&lt;p&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; 60 SPM (all six science types) requires: 120 Iron Ore/min, 60 Copper Ore/min, 30 Coal/min, 30 Crude Oil/min, plus off-world Titanium and Silicon. &lt;div class="game-slot"&gt;&lt;img src="https://dsp-guide.com/images/dsp-icons/iron-ore.png" alt="iron-ore" class="game-img" loading="lazy"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DSP Guide – No Fluff, Just Fixes on Dyson Sphere Program Guide</title><link>https://dsp-guide.com/</link><description>Recent content in DSP Guide – No Fluff, Just Fixes on Dyson Sphere Program Guide</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 20 Jun 2026 13:28:00 +0800</lastBuildDate><atom:link href="https://dsp-guide.com/index.xml" rel="self" type="application/rss+xml"/><item><title>DSP Dark Fog Farming Guide (v0.10) - Keep One Base Alive for Infinite High-Tier Drops</title><link>https://dsp-guide.com/dark-fog-farming-guide/</link><pubDate>Sat, 20 Jun 2026 13:28:00 +0800</pubDate><guid>https://dsp-guide.com/dark-fog-farming-guide/</guid><description>&lt;p&gt;&lt;img src="https://dsp-guide.com/images/diagrams/dark-fog-farming-guide.svg" alt="Top-down dark fog farming layout showing perimeter wall, turrets, and storage" class="schema-diagram" loading="lazy" width="780"&gt;
+
+Destroying every Dark Fog base on a planet feels satisfying. It is also a mistake. A single surviving base at level 5+ drops components that cost hours of conventional production: Processors, Quantum Chips, Titanium Alloy, even Frame Material parts. Leave one base alive and design a kill zone around it.&lt;/p&gt;
+&lt;p&gt;Here is the farming layout: Surround the Dark Fog base with a perimeter wall and signal towers. Place 6-8 missile turrets behind the wall with ammunition belts feeding them. Use 2-3 laser turrets for point defense against flyers. The Dark Fog sends waves that attack the turrets, and the turrets kill them. Drops accumulate on nearby belts or in storage chests.&lt;/p&gt;</description></item><item><title>DSP Interplanetary Factory Plan Guide (v0.10) - 5 Planets, 5 Jobs: The Ultimate Division of Labor</title><link>https://dsp-guide.com/interplanetary-factory-plan-guide/</link><pubDate>Sat, 20 Jun 2026 13:26:00 +0800</pubDate><guid>https://dsp-guide.com/interplanetary-factory-plan-guide/</guid><description>&lt;p&gt;&lt;img src="https://dsp-guide.com/images/diagrams/interplanetary-factory-plan-guide.svg" alt="Interplanetary factory map showing 5 planets with ILS supply routes" class="schema-diagram" loading="lazy" width="780"&gt;
+
+A single-planet factory in Dyson Sphere Program runs out of space around the time you unlock Purple Science. Expanding past that point requires dedicated planets: one for smelting, one for processors, one for science, one for rockets, and one for power. Spreading production across planets is not optional -- it is the only way to reach endgame scale.&lt;/p&gt;
+&lt;p&gt;Here is the no-regret planetary assignment: Home planet (or starter planet) ?Mall + initial research. Smelting planet ?All raw ore processing. Processor planet ?Circuit Boards, Crystal Silicon, Processors, Quantum Chips. Science planet ?All 6 colors + White Science. Rocket planet ?Frame Material, Deuteron Fuel Rods, Small Carrier Rockets. Power planet ?Solar panel array + Ray Receiver + Artificial Sun array.&lt;/p&gt;</description></item><item><title>DSP Processor Factory Guide (v0.10) - 200 Processors/min With Proliferator and Fractal Silicon</title><link>https://dsp-guide.com/processor-factory-guide/</link><pubDate>Sat, 20 Jun 2026 13:24:00 +0800</pubDate><guid>https://dsp-guide.com/processor-factory-guide/</guid><description>&lt;p&gt;&lt;img src="https://dsp-guide.com/images/diagrams/processor-factory-guide.svg" alt="Processor production chain from raw ores through circuit boards to final assembly" class="schema-diagram" loading="lazy" width="780"&gt;
+
+Processors (the Mk.I version, not Quantum Chips) are the backbone of mid-to-late-game production. Every Purple Science lab, every Quantum Chip assembler, every logistics station, and every Frame Material craft needs Processors. A shortage of Processors causes a cascade effect across your entire factory.&lt;/p&gt;
+&lt;p&gt;Here is the production math: Each Mk.III assembler with Mk.III proliferator produces roughly 1.5 Processors per second. Each Processor needs 2 Circuit Boards and 2 Crystal Silicon. Circuit Boards need 2 Iron Ingots and 1 Copper Ingot each. Crystal Silicon needs 2 Silicon Ingots each (or 1 Fractal Silicon with the rare recipe).&lt;/p&gt;</description></item><item><title>DSP Belt Throughput &amp; Piler Guide (v0.10) - 4x Your Belt Capacity Without Upgrading Belts</title><link>https://dsp-guide.com/belt-throughput-piler-guide/</link><pubDate>Sat, 20 Jun 2026 13:22:00 +0800</pubDate><guid>https://dsp-guide.com/belt-throughput-piler-guide/</guid><description>&lt;img src="https://dsp-guide.com/images/diagrams/belt-throughput-piler-guide.svg" alt="Belt throughput comparison chart showing base vs stacked throughput for Mk.I, Mk.II, Mk.III belts" class="schema-diagram" loading="lazy" width="780"&gt;
+
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Belt Tier&lt;/th&gt;
+ &lt;th&gt;Base Throughput&lt;/th&gt;
+ &lt;th&gt;4-Stack Throughput&lt;/th&gt;
+ &lt;th&gt;Upgrade to Same&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mk.I&lt;/td&gt;
+ &lt;td&gt;6 items/s&lt;/td&gt;
+ &lt;td&gt;24 items/s&lt;/td&gt;
+ &lt;td&gt;Mk.III base&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mk.II&lt;/td&gt;
+ &lt;td&gt;12 items/s&lt;/td&gt;
+ &lt;td&gt;48 items/s&lt;/td&gt;
+ &lt;td&gt;4x Mk.III base&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Mk.III&lt;/td&gt;
+ &lt;td&gt;30 items/s&lt;/td&gt;
+ &lt;td&gt;120 items/s&lt;/td&gt;
+ &lt;td&gt;-&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;A Mk.III belt moves 30 items per second. That sounds like a lot until your smelter array needs to push 120 ingots per second through a single line. Upgrading belts to Mk.III only gets you to 30. The solution is not a faster belt -- it is a tighter belt. Piler stacking quadruples throughput without replacing a single belt segment.&lt;/p&gt;</description></item><item><title>DSP Orbital Collector Guide (v0.10) - 20 Collectors Per Gas Giant for Passive Resource Spam</title><link>https://dsp-guide.com/orbital-collector-strategy-guide/</link><pubDate>Sat, 20 Jun 2026 13:20:00 +0800</pubDate><guid>https://dsp-guide.com/orbital-collector-strategy-guide/</guid><description>&lt;p&gt;&lt;img src="https://dsp-guide.com/images/diagrams/orbital-collector-strategy-guide.svg" alt="Orbital collector equatorial ring deployment on gas giant" class="schema-diagram" loading="lazy" width="780"&gt;
+
+An Orbital Collector costs a bit of Titanium and 20 minutes of building time. Once deployed on a gas giant, it produces resources continuously with zero power, zero maintenance, and zero player attention. A fully saturated gas giant with 40 collectors produces more hydrogen and deuterium than any on-planet refinery complex.&lt;/p&gt;
+&lt;p&gt;Here is the layout: Gas giants support up to 40 Orbital Collectors in a single equatorial ring. Each collector taps up to 3 resource types (typically Hydrogen, Deuterium, and Fire Ice for gas giants; Deuterium and Fire Ice for ice giants). The output ships directly to your logistics network via the collector's built-in logistics storage.&lt;/p&gt;</description></item><item><title>DSP Rare Resources Guide (v0.10) - Where to Find Every Vein in Your Star Cluster</title><link>https://dsp-guide.com/rare-resources-location-guide/</link><pubDate>Sat, 20 Jun 2026 13:18:00 +0800</pubDate><guid>https://dsp-guide.com/rare-resources-location-guide/</guid><description>&lt;p&gt;&lt;img src="https://dsp-guide.com/images/diagrams/rare-resources-location-guide.svg" alt="Star cluster heatmap showing which star types yield which rare resources" class="schema-diagram" loading="lazy" width="780"&gt;
+
+Rare resources in Dyson Sphere Program are not random. Each spawn follows a pattern tied to star type, planet type, and distance from the starting system. Knowing these rules lets you skip the hours of blind exploration and go straight to the right systems.&lt;/p&gt;
+&lt;p&gt;Here is the cheat sheet: Gas giants in O-type and B-type stars always have Fire Ice. Ice giants in any system have Deuterium and Fire Ice. Organic Crystal veins only appear on &amp;quot;Prairie&amp;quot; or &amp;quot;Eden&amp;quot; type planets within 20 light-years of the starting system. Spiniform stalagmite on &amp;quot;Lava&amp;quot; planets. Fractal Silicon on &amp;quot;Ash&amp;quot; or &amp;quot;Desert&amp;quot; planets. Kimberlite Ore and Optical Grinding Crystal on &amp;quot;Gobi&amp;quot; and &amp;quot;Scorched&amp;quot; planets.&lt;/p&gt;</description></item><item><title>DSP Proliferator Guide (v0.10) - Spray These 5 Items First for the Highest ROI</title><link>https://dsp-guide.com/proliferator-priority-roi-guide/</link><pubDate>Sat, 20 Jun 2026 13:16:00 +0800</pubDate><guid>https://dsp-guide.com/proliferator-priority-roi-guide/</guid><description>&lt;p&gt;&lt;img src="https://dsp-guide.com/images/diagrams/proliferator-priority-roi-guide.svg" alt="Proliferator ROI priority chart with 5 top items ranked by return" class="schema-diagram" loading="lazy" width="780"&gt;
+
+The definitive ROI tier list:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Quantum Chips&lt;/strong&gt; - Supply 11+ items deeper in chain, proliferator compounds at every level&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Frame Material&lt;/strong&gt; - Titanium Alloy + Carbon Nanotubes + Processor, 2x output per spray&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Processors&lt;/strong&gt; - 50% fewer assemblers for the same output with speed spray&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Antimatter Fuel Rods&lt;/strong&gt; - Each spray saves 6+ Particle Collider runs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deuterium (Fractionator)&lt;/strong&gt; - 25% fewer Fractionators for the same deuterium output&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Proliferator is not a &amp;quot;spray everything&amp;quot; tool. Mk.III proliferator takes Coal, Kimberlite Ore, or Organic Crystals to produce -- three resources that could be going elsewhere. Spraying the wrong recipes wastes proliferator and strains your resource supply. Spraying the right ones doubles factory output for the same raw material cost.&lt;/p&gt;</description></item><item><title>DSP Frame Material &amp; Rocket Factory Guide (v0.10) - 10 Rockets/min From a Single Planet</title><link>https://dsp-guide.com/frame-material-rocket-factory-guide/</link><pubDate>Sat, 20 Jun 2026 13:14:00 +0800</pubDate><guid>https://dsp-guide.com/frame-material-rocket-factory-guide/</guid><description>&lt;p&gt;&lt;img src="https://dsp-guide.com/images/diagrams/frame-material-rocket-factory-guide.svg" alt="Full production chain from raw ores to small carrier rockets" class="schema-diagram" loading="lazy" width="780"&gt;
+
+A Dyson Sphere consumes thousands of Small Carrier Rockets. Each rocket needs Frame Material, which needs Titanium Alloy, Carbon Nanotubes, and Deuteron Fuel Rods. Building them at scale requires a dedicated factory planet with a carefully balanced supply chain.&lt;/p&gt;
+&lt;p&gt;Here is the production chain: Titanium Ore ?Smelt into Titanium Ingot ?Combine with Steel for Titanium Alloy. Coal + Graphene ?Carbon Nanotube. Hydrogen ?Fractionator Loop ?Deuterium ?Deuteron Fuel Rod. Both intermediate parts plus Processor and Quantum Chip ?Frame Material ?Small Carrier Rocket.&lt;/p&gt;</description></item><item><title>DSP White Science Guide (v0.10) - Feed All 6 Matrices Into One Lab Stack for 1000/min</title><link>https://dsp-guide.com/white-science-universe-matrix-guide/</link><pubDate>Sat, 20 Jun 2026 13:12:00 +0800</pubDate><guid>https://dsp-guide.com/white-science-universe-matrix-guide/</guid><description>&lt;p&gt;&lt;img src="https://dsp-guide.com/images/diagrams/white-science-universe-matrix-guide.svg" alt="White science lab stack configuration with ILS hub feeding all 6 matrices" class="schema-diagram" loading="lazy" width="780"&gt;
+
+Color matrix production rates for a balanced 1000 white/min factory:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Blue Matrix&lt;/strong&gt;: 1000/min - 1.0 Chemical Plant per refinery, simple oil math&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Red Matrix&lt;/strong&gt;: 1000/min - 1.7 Fuel Refinery Mk.II with proliferator&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Yellow Matrix&lt;/strong&gt;: 1000/min - Processors and belts, watch the diamond demand&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Purple Matrix&lt;/strong&gt;: 1000/min - Largest footprint, 4+ full smelter columns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Green Matrix&lt;/strong&gt;: 1000/min - Hydrogen bottleneck, need 3+ orbital collectors&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Antimatter&lt;/strong&gt;: 600/min - 80+ Ray Receivers on a max-power Dyson Sphere&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Reaching White Science means every previous bottleneck needs to be solved at once. Universe Matrix (white) consumes 1 of each colored matrix plus 1 Antimatter per craft. If any single color backs up, white science stalls. If the Antimatter supply drops, white science stalls. The entire factory must be balanced.&lt;/p&gt;</description></item><item><title>DSP Fractionator Guide (v0.10) - Stack Pilers to Get 10x Deuterium in the Same Space</title><link>https://dsp-guide.com/fractionator-loop-guide/</link><pubDate>Sat, 20 Jun 2026 13:09:00 +0800</pubDate><guid>https://dsp-guide.com/fractionator-loop-guide/</guid><description>&lt;p&gt;&lt;img src="https://dsp-guide.com/images/diagrams/fractionator-loop-guide.svg" alt="Fractionator loop with priority splitter, piler chain, and deuterium output" class="schema-diagram" loading="lazy" width="780"&gt;
+
+Key output rates at each stack level:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No stacking: 0.3 D/s per Fractionator (30 H2/s input, 1% conversion)&lt;/li&gt;
+&lt;li&gt;2-stack: 0.6 D/s per Fractionator (double belt throughput)&lt;/li&gt;
+&lt;li&gt;3-stack: 0.9 D/s per Fractionator (triple throughput, needs 2 Pilers)&lt;/li&gt;
+&lt;li&gt;4-stack: 1.2 D/s per Fractionator (4x throughput, needs 4 Pilers)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A single Fractionator loop without Pilers churns out less than 1 Deuterium per second even on a full Mk.III belt. Stack four Pilers in series, and that same loop pushes 30 Deuterium per minute -- 10x the output from the same footprint. No Particle Collider power bill, no ice giant orbiters, just a smarter loop.&lt;/p&gt;</description></item><item><title>DSP 60 Science Per Minute Blueprint (v0.10) - Full Production Ratios From Raw Materials to All Science</title><link>https://dsp-guide.com/science-60-spm-blueprint-guide/</link><pubDate>Fri, 12 Jun 2026 09:07:00 +0800</pubDate><guid>https://dsp-guide.com/science-60-spm-blueprint-guide/</guid><description>&lt;div class="callout"&gt;&lt;p&gt;&lt;strong&gt;Short answer:&lt;/strong&gt; 60 SPM (all six science types) requires: 120 Iron Ore/min, 60 Copper Ore/min, 30 Coal/min, 30 Crude Oil/min, plus off-world Titanium and Silicon. &lt;div class="game-slot"&gt;&lt;img src="https://dsp-guide.com/images/dsp-icons/iron-ore.png" alt="iron-ore" class="game-img" loading="lazy"&gt;
 &lt;span class="game-name"&gt;Iron ore&lt;/span&gt;&lt;/p&gt;
 &lt;/div&gt;
  &lt;div class="game-slot"&gt;&lt;img src="https://dsp-guide.com/images/dsp-icons/copper-ore.png" alt="copper-ore" class="game-img" loading="lazy"&gt;

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="box1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#1a1a4e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8892b0"/>
+    </marker>
+    <marker id="arrow1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00d4ff"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b35"/>
+    </marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2ecc71"/>
+    </marker>
+  </defs>
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+  <text x="400" y="36" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="18" font-weight="bold" filter="url(#glow)">White Science (Universe Matrix) - Lab Stack Layout</text>
+  <line x1="140" y1="46" x2="660" y2="46" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <!-- ILS Hub -->
+  <rect x="320" y="65" width="160" height="55" rx="6" fill="url(#box1)" stroke="#00d4ff" stroke-width="2"/>
+  <text x="400" y="88" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="14" font-weight="bold">ILS</text>
+  <text x="400" y="108" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">All 6 Colors + AM</text>
+
+  <!-- Supply arrows from ILS -->
+  <line x1="320" y1="95" x2="180" y2="95" stroke="#8892b0" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="480" y1="95" x2="620" y2="95" stroke="#8892b0" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Left lab ring (top-down) -->
+  <rect x="50" y="130" width="240" height="220" rx="8" fill="url(#box1)" stroke="#00d4ff" stroke-width="1" opacity="0.3"/>
+  <text x="170" y="150" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Lab Stack A (3-high)</text>
+
+  <rect x="80" y="165" width="60" height="50" rx="4" fill="#0f3460" stroke="#2ecc71" stroke-width="1"/>
+  <text x="110" y="185" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="8">Blue</text>
+  <text x="110" y="200" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="7">+ Red</text>
+  <rect x="160" y="165" width="60" height="50" rx="4" fill="#0f3460" stroke="#ff6b35" stroke-width="1"/>
+  <text x="190" y="185" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="8">Yellow</text>
+  <text x="190" y="200" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="7">+ Purple</text>
+
+  <rect x="120" y="230" width="60" height="50" rx="4" fill="#0f3460" stroke="#00d4ff" stroke-width="1"/>
+  <text x="150" y="250" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="8">Green</text>
+  <text x="150" y="265" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="7">+ Anti</text>
+
+  <!-- Right lab ring (top-down) -->
+  <rect x="510" y="130" width="240" height="220" rx="8" fill="url(#box1)" stroke="#00d4ff" stroke-width="1" opacity="0.3"/>
+  <text x="630" y="150" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Lab Stack B (3-high)</text>
+
+  <rect x="540" y="165" width="60" height="50" rx="4" fill="#0f3460" stroke="#2ecc71" stroke-width="1"/>
+  <text x="570" y="185" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="8">Blue</text>
+  <text x="570" y="200" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="7">+ Red</text>
+  <rect x="620" y="165" width="60" height="50" rx="4" fill="#0f3460" stroke="#ff6b35" stroke-width="1"/>
+  <text x="650" y="185" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="8">Yellow</text>
+  <text x="650" y="200" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="7">+ Purple</text>
+
+  <rect x="580" y="230" width="60" height="50" rx="4" fill="#0f3460" stroke="#00d4ff" stroke-width="1"/>
+  <text x="610" y="250" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="8">Green</text>
+  <text x="610" y="265" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="7">+ Anti</text>
+
+  <!-- Central output -->
+  <rect x="350" y="200" width="100" height="45" rx="6" fill="#1a1a4e" stroke="#2ecc71" stroke-width="2"/>
+  <text x="400" y="221" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="13" font-weight="bold">White</text>
+  <text x="400" y="238" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="13" font-weight="bold">Science</text>
+
+  <!-- Arrows from labs to center -->
+  <path d="M 290 180 L 350 210" fill="none" stroke="#2ecc71" stroke-width="1.5" marker-end="url(#arrow3)"/>
+  <path d="M 290 250 L 350 230" fill="none" stroke="#2ecc71" stroke-width="1.5" marker-end="url(#arrow3)"/>
+  <path d="M 510 180 L 450 210" fill="none" stroke="#2ecc71" stroke-width="1.5" marker-end="url(#arrow3)"/>
+  <path d="M 510 250 L 450 230" fill="none" stroke="#2ecc71" stroke-width="1.5" marker-end="url(#arrow3)"/>
+
+  <!-- Belt output -->
+  <line x1="400" y1="245" x2="400" y2="380" stroke="#2ecc71" stroke-width="2" marker-end="url(#arrow3)"/>
+
+  <!-- Color matrix production rates -->
+  <rect x="20" y="390" width="760" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="409" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="13" font-weight="bold">Color Matrix Production Targets (1000 White/min)</text>
+
+  <rect x="25" y="425" width="180" height="22" rx="3" fill="#0f3460"/>
+  <text x="115" y="441" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Color</text>
+  <rect x="210" y="425" width="180" height="22" rx="3" fill="#0f3460"/>
+  <text x="300" y="441" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Required</text>
+  <rect x="395" y="425" width="180" height="22" rx="3" fill="#0f3460"/>
+  <text x="485" y="441" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="11">Buildings Needed</text>
+
+  <rect x="25" y="453" width="180" height="28" rx="3" fill="#1a1a2e" stroke="#00d4ff" stroke-width="0.5"/>
+  <text x="115" y="472" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="10">Blue</text>
+  <rect x="210" y="453" width="180" height="28" rx="3" fill="#1a1a2e"/>
+  <text x="300" y="472" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">1000/min</text>
+  <rect x="395" y="453" width="180" height="28" rx="3" fill="#1a1a2e"/>
+  <text x="485" y="472" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">1 Chemical Plant</text>
+
+  <rect x="25" y="487" width="180" height="28" rx="3" fill="#1a1a2e" stroke="#ff6b35" stroke-width="0.5"/>
+  <text x="115" y="506" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="10">Red</text>
+  <rect x="210" y="487" width="180" height="28" rx="3" fill="#1a1a2e"/>
+  <text x="300" y="506" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">1000/min</text>
+  <rect x="395" y="487" width="180" height="28" rx="3" fill="#1a1a2e"/>
+  <text x="485" y="506" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">1.7x Fuel Refinery Mk.II</text>
+
+  <rect x="25" y="521" width="180" height="28" rx="3" fill="#1a1a2e" stroke="#2ecc71" stroke-width="0.5"/>
+  <text x="115" y="540" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="10">Green</text>
+  <rect x="210" y="521" width="180" height="28" rx="3" fill="#1a1a2e"/>
+  <text x="300" y="540" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">1000/min</text>
+  <rect x="395" y="521" width="180" height="28" rx="3" fill="#1a1a2e"/>
+  <text x="485" y="540" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">3+ Orbital Collectors</text>
+
+  <rect x="600" y="453" width="175" height="96" rx="6" fill="rgba(46,204,113,0.06)" stroke="#2ecc71" stroke-width="0.8" stroke-dasharray="4,2"/>
+  <text x="615" y="473" fill="#2ecc71" font-family="Consolas, monospace" font-size="10">Tip: Stack 3-high to</text>
+  <text x="615" y="491" fill="#8892b0" font-family="Consolas, monospace" font-size="9">minimize building count.</text>
+  <text x="615" y="507" fill="#8892b0" font-family="Consolas, monospace" font-size="9">1 lab stack = 3x output</text>
+  <text x="615" y="523" fill="#8892b0" font-family="Consolas, monospace" font-size="9">from same footprint.</text>
+  <text x="615" y="539" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Higher = heat risk.</text>
+</svg>

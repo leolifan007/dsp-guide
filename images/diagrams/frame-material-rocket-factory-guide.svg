@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 580" width="800" height="580">
+<defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="box1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="100%" stop-color="#1a1a4e"/>
+    </linearGradient>
+    <linearGradient id="accent1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0088cc"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff6b35"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#1a9c4e"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8892b0"/>
+    </marker>
+    <marker id="arrow1" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#00d4ff"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b35"/>
+    </marker>
+    <marker id="arrow3" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2ecc71"/>
+    </marker>
+  </defs>
+  <rect width="800" height="580" fill="url(#bg)" rx="8"/>
+  <text x="400" y="36" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="18" font-weight="bold" filter="url(#glow)">Small Carrier Rocket - Full Production Chain (10/min)</text>
+  <line x1="140" y1="46" x2="660" y2="46" stroke="#00d4ff" stroke-width="1" opacity="0.4"/>
+
+  <!-- Row 1: Raw Materials -->
+  <rect x="20" y="65" width="760" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="84" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="13" font-weight="bold">Raw Materials (Mining)</text>
+
+  <rect x="30" y="100" width="80" height="36" rx="4" fill="#1a1a2e" stroke="#8892b0" stroke-width="1"/>
+  <text x="70" y="123" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Titanium</text>
+  <rect x="130" y="100" width="80" height="36" rx="4" fill="#1a1a2e" stroke="#8892b0" stroke-width="1"/>
+  <text x="170" y="123" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Iron</text>
+  <rect x="230" y="100" width="80" height="36" rx="4" fill="#1a1a2e" stroke="#8892b0" stroke-width="1"/>
+  <text x="270" y="123" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Coal</text>
+  <rect x="330" y="100" width="80" height="36" rx="4" fill="#1a1a2e" stroke="#8892b0" stroke-width="1"/>
+  <text x="370" y="123" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Copper</text>
+  <rect x="430" y="100" width="80" height="36" rx="4" fill="#1a1a2e" stroke="#8892b0" stroke-width="1"/>
+  <text x="470" y="123" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="10">Silicon</text>
+  <rect x="530" y="100" width="80" height="36" rx="4" fill="#1a1a2e" stroke="#ff6b35" stroke-width="1"/>
+  <text x="570" y="113" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="10">Fire Ice</text>
+  <text x="570" y="128" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">(or Coal)</text>
+  <rect x="630" y="100" width="80" height="36" rx="4" fill="#1a1a2e" stroke="#00d4ff" stroke-width="0.8"/>
+  <text x="670" y="123" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="10">H2</text>
+
+  <!-- Arrow down -->
+  <path d="M 200 140 Q 200 160 200 170" fill="none" stroke="#8892b0" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Row 2: Intermediate Parts -->
+  <rect x="20" y="178" width="760" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="197" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="13" font-weight="bold">Intermediate Parts</text>
+
+  <rect x="30" y="215" width="140" height="36" rx="4" fill="url(#box1)" stroke="#00d4ff" stroke-width="1"/>
+  <text x="100" y="230" text-anchor="middle" fill="#00d4ff" font-family="Consolas, monospace" font-size="10">Titanium Alloy</text>
+  <text x="100" y="245" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Ti+Steel-200/min</text>
+
+  <rect x="190" y="215" width="140" height="36" rx="4" fill="url(#box1)" stroke="#2ecc71" stroke-width="1"/>
+  <text x="260" y="230" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="10">Carbon Nanotube</text>
+  <text x="260" y="245" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Coal+Graphene</text>
+
+  <rect x="350" y="215" width="140" height="36" rx="4" fill="url(#box1)" stroke="#ff6b35" stroke-width="1"/>
+  <text x="420" y="230" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="10">Processor</text>
+  <text x="420" y="245" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">CB+CS-60/min</text>
+
+  <rect x="510" y="215" width="140" height="36" rx="4" fill="url(#box1)" stroke="#2ecc71" stroke-width="1"/>
+  <text x="580" y="230" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="10">Quantum Chip</text>
+  <text x="580" y="245" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">Proc+CC-30/min</text>
+
+  <rect x="30" y="260" width="140" height="36" rx="4" fill="url(#box1)" stroke="#2ecc71" stroke-width="1"/>
+  <text x="100" y="275" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="10">Deuteron Fuel</text>
+  <text x="100" y="290" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">D+Ti-20/min</text>
+
+  <!-- Arrow down to final -->
+  <path d="M 570 300 Q 570 320 570 335" fill="none" stroke="#8892b0" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 100 300 Q 100 320 100 335" fill="none" stroke="#8892b0" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M 260 300 Q 260 320 260 335" fill="none" stroke="#8892b0" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Final Assembly -->
+  <rect x="20" y="345" width="760" height="28" rx="6" fill="#0f3460"/>
+  <text x="400" y="364" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="13" font-weight="bold">Final Assembly</text>
+
+  <rect x="250" y="385" width="100" height="40" rx="6" fill="#1a1a4e" stroke="#2ecc71" stroke-width="2"/>
+  <text x="300" y="405" text-anchor="middle" fill="#2ecc71" font-family="Consolas, monospace" font-size="11" font-weight="bold">Frame Mat</text>
+  <text x="300" y="420" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">20/min</text>
+
+  <line x1="350" y1="405" x2="400" y2="405" stroke="#2ecc71" stroke-width="2" marker-end="url(#arrow3)"/>
+
+  <rect x="400" y="385" width="100" height="40" rx="6" fill="#1a1a4e" stroke="#ff6b35" stroke-width="2"/>
+  <text x="450" y="405" text-anchor="middle" fill="#ff6b35" font-family="Consolas, monospace" font-size="11" font-weight="bold">Rocket</text>
+  <text x="450" y="420" text-anchor="middle" fill="#8892b0" font-family="Consolas, monospace" font-size="9">10/min</text>
+
+  <!-- Arrow from Deuteron and Quantum Chip -->
+  <path d="M 520 233 L 520 385" fill="none" stroke="#8892b0" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrow)"/>
+  <path d="M 100 296 L 100 385 L 250 385" fill="none" stroke="#8892b0" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrow)"/>
+  <path d="M 260 296 L 260 385" fill="none" stroke="#8892b0" stroke-width="1" stroke-dasharray="4,2" marker-end="url(#arrow)"/>
+
+  <!-- Key ratios box -->
+  <rect x="30" y="450" width="740" height="110" rx="6" fill="rgba(0,212,255,0.06)" stroke="#00d4ff" stroke-width="1" stroke-dasharray="4,3"/>
+  <text x="50" y="475" fill="#00d4ff" font-family="Consolas, monospace" font-size="12" font-weight="bold">Key Ratios for 10 Rockets/min:</text>
+  <text x="50" y="498" fill="#8892b0" font-family="Consolas, monospace" font-size="11">- Frame Material: 4 Smelters (Ti Alloy) + 4 Smelters (C.Nanotube) + 2 Assemblers</text>
+  <text x="50" y="518" fill="#8892b0" font-family="Consolas, monospace" font-size="11">- Deuteron Fuel: 10 Fractionator loops at 4-stack, or 1 row of 8 Fractionators</text>
+  <text x="50" y="538" fill="#8892b0" font-family="Consolas, monospace" font-size="11">- Total footprint: 1/4 of a dedicated planet. Route Ti+Si+Cu+Fe via ILS.</text>
+</svg>
